@@ -45,7 +45,7 @@ established community names (existing English guides) over new coinages.
 - Stays Japanese: movies and credits only.
 - Names: wrestlers use their real names as known in English (e.g. Keiji Muto, Hiroyoshi Tenzan).
 
-## Style decisions (2026-11-06, all provisional until the owner answers private/work/tr/QUESTIONS.md)
+## Style decisions (2026-11-06; owner answered 2026-11-07: title logo stays Japanese; surnames in tight fields, terms, literal abbreviations and Liger's joke birth date approved; name readings with no source and the save message to be judged in game)
 - Names: real names, given name first, Hepburn without macrons; short forms (surname / ring name) where a field is tight.
 - Move names: the usual English fan names; a wrestler's own version is written "(Surname)".
 - Network mode terms: federation (団体), Inter-Federation Match (交流戦), Found Federation (旗揚げ), Join (入門), Transfer (移籍).
