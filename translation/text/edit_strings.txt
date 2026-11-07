@@ -1,0 +1,9677 @@
+# EDIT/STRINGS.PAC: the same menus as loaded in Edit mode, plus move and entrance names.
+# One block per table entry (id = entry number). JP lines are the original text, one per line of
+# the entry (a new line only where the Japanese has one). EN lines: plain ASCII, one per line.
+# The game draws a letter in half a Japanese character cell, so a 20-glyph Japanese line holds 40 letters.
+# Each block says its limit: `# fit W letters x N line(s)` - checked by lint.
+# Control codes: none. Do not write full-width characters.
+
+@ 0001
+# fit 40 letters x 2 line(s)
+JP シングル・タッグ・バトルロイヤル・トーナ
+JP メント戦等を行なう事が出来ます
+EN Hold Singles, Tag, Battle Royal and
+EN Tournament matches.
+
+@ 0002
+# fit 40 letters x 2 line(s)
+JP エディットレスラーを作成する事が出来ます
+EN Create an Edit Wrestler.
+
+@ 0003
+# fit 40 letters x 2 line(s)
+JP ベルト獲得やベルトの防衛する事が出来ます
+JP 保持しているベルトを参照する事が出来ます
+EN Win or defend belts.
+EN View the belts you hold.
+
+@ 0004
+# fit 40 letters x 2 line(s)
+JP ネットを介して他の人と対戦を行なったり
+JP エディットデータの交換が出来ます
+EN Play others over the network or
+EN exchange Edit data.
+
+@ 0005
+# fit 40 letters x 2 line(s)
+JP Ｇ１クライマックス、ＳＧタッグ、ベスト
+JP オブスーパーＪｒ．等を行なう事が出来ます
+EN Play G1 Climax, SG Tag, Best of the
+EN Super Juniors and more.
+
+@ 0006
+# fit 40 letters x 2 line(s)
+JP 各選手のプロフィールや技表を確認したり
+JP 選手からのメッセージを楽しめます
+EN View wrestler profiles and move lists,
+EN and enjoy messages from wrestlers.
+
+@ 0007
+# fit 40 letters x 2 line(s)
+JP シングルマッチ・タッグマッチを、勝ち抜き
+JP 形式で戦えます
+EN Fight Singles or Tag matches in
+EN winner-stays-on format.
+
+@ 0008
+# fit 40 letters x 2 line(s)
+JP 各種設定を行なう事が出来ます
+EN Change various settings.
+
+@ 0009
+# fit 40 letters x 2 line(s)
+JP １対１のシングルマッチです
+EN A one-on-one Singles match.
+
+@ 0010
+# fit 40 letters x 2 line(s)
+JP 最大１６人または１６組まで参加出来る
+JP トーナメント戦を行なう事が出来ます
+EN Hold a tournament with up to 16
+EN wrestlers or teams.
+
+@ 0011
+# fit 40 letters x 2 line(s)
+JP ２対２のタッグチーム同士で戦う
+JP タッグマッチです
+EN A Tag match between two teams
+EN of two.
+
+@ 0012
+# fit 40 letters x 2 line(s)
+JP １ブロック制か２ブロック制のリーグ戦を
+JP 行なう事が出来ます
+EN Hold a league with one block or
+EN two blocks.
+
+@ 0013
+# fit 40 letters x 2 line(s)
+JP ４人のレスラーによる戦いです。最後まで勝
+JP ち残ったプレイヤーが勝者になります
+EN A four-wrestler fight. The last player
+EN standing is the winner.
+
+@ 0014
+# fit 40 letters x 2 line(s)
+JP １～５人対１～５人の勝ち抜き戦か、３対３
+JP ５対５等の点取り戦を行なう事が出来ます
+EN 1-5 vs 1-5 elimination, or point
+EN matches such as 3 vs 3 and 5 vs 5.
+
+@ 0015
+# fit 40 letters x 2 line(s)
+JP メインメニュー画面に戻ります。
+EN Return to the main menu.
+
+@ 0016
+# fit 16 letters x 1 line(s)
+JP IDSTR_HEAVY
+
+@ 0017
+# fit 16 letters x 1 line(s)
+JP ジュニアヘビー
+EN Junior Heavy
+
+@ 0018
+# fit 16 letters x 1 line(s)
+JP IDSTR_G1CRYMAX
+
+@ 0019
+# fit 40 letters x 2 line(s)
+JP IDSTR_BESTSUPERJR
+
+@ 0020
+# fit 40 letters x 2 line(s)
+JP IDSTR_SGTAGLEAGUE
+
+@ 0021
+# fit 40 letters x 2 line(s)
+JP IDSTR_SUPERJRTAG
+
+@ 0022
+# fit 16 letters x 1 line(s)
+JP IDSTR_SINGLE2
+
+@ 0023
+# fit 16 letters x 1 line(s)
+JP IDSTR_TAG2
+
+@ 0024
+# fit 40 letters x 2 line(s)
+JP IDSTR_SHINKIMAKE
+
+@ 0025
+# fit 16 letters x 1 line(s)
+JP IDSTR_DATALOAD
+
+@ 0026
+# fit 40 letters x 2 line(s)
+JP 赤コーナー側、人間が操作
+EN Red corner, human controlled.
+
+@ 0027
+# fit 40 letters x 2 line(s)
+JP 赤コーナー側、コンピュータが操作
+EN Red corner, computer controlled.
+
+@ 0028
+# fit 40 letters x 2 line(s)
+JP 青コーナー側、人間が操作
+EN Blue corner, human controlled.
+
+@ 0029
+# fit 40 letters x 2 line(s)
+JP 青コーナー側、コンピュータが操作
+EN Blue corner, computer controlled.
+
+@ 0030
+# fit 40 letters x 2 line(s)
+JP 赤コーナー１人目、人間が操作
+EN Red corner 1st, human controlled.
+
+@ 0031
+# fit 40 letters x 2 line(s)
+JP 赤コーナー１人目、コンピュータが操作
+EN Red corner 1st, computer controlled.
+
+@ 0032
+# fit 40 letters x 2 line(s)
+JP 赤コーナー２人目、人間が操作
+EN Red corner 2nd, human controlled.
+
+@ 0033
+# fit 40 letters x 2 line(s)
+JP 赤コーナー２人目、コンピュータが操作
+EN Red corner 2nd, computer controlled.
+
+@ 0034
+# fit 40 letters x 2 line(s)
+JP 青コーナー１人目、人間が操作
+EN Blue corner 1st, human controlled.
+
+@ 0035
+# fit 40 letters x 2 line(s)
+JP 青コーナー１人目、コンピュータが操作
+EN Blue corner 1st, computer controlled.
+
+@ 0036
+# fit 40 letters x 2 line(s)
+JP 青コーナー２人目、人間が操作
+EN Blue corner 2nd, human controlled.
+
+@ 0037
+# fit 40 letters x 2 line(s)
+JP 青コーナー２人目、コンピュータが操作
+EN Blue corner 2nd, computer controlled.
+
+@ 0038
+# fit 40 letters x 2 line(s)
+JP １人目、人間が操作
+EN 1st, human controlled.
+
+@ 0039
+# fit 40 letters x 2 line(s)
+JP １人目、コンピュータが操作
+EN 1st, computer controlled.
+
+@ 0040
+# fit 40 letters x 2 line(s)
+JP ２人目、人間が操作
+EN 2nd, human controlled.
+
+@ 0041
+# fit 40 letters x 2 line(s)
+JP ２人目、コンピュータが操作
+EN 2nd, computer controlled.
+
+@ 0042
+# fit 40 letters x 2 line(s)
+JP ３人目、人間が操作
+EN 3rd, human controlled.
+
+@ 0043
+# fit 40 letters x 2 line(s)
+JP ３人目、コンピュータが操作
+EN 3rd, computer controlled.
+
+@ 0044
+# fit 40 letters x 2 line(s)
+JP ４人目、人間が操作
+EN 4th, human controlled.
+
+@ 0045
+# fit 40 letters x 2 line(s)
+JP ４人目、コンピュータが操作
+EN 4th, computer controlled.
+
+@ 0046
+# fit 40 letters x 2 line(s)
+JP 選手を選択します。所属グループを選択後、
+JP 使用する選手を選んでください
+EN Choose a wrestler. Pick a group, then
+EN choose the wrestler to use.
+
+@ 0047
+# fit 40 letters x 2 line(s)
+JP 会場を選択します
+EN Choose a venue.
+
+@ 0048
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_MAIN_NAME
+
+@ 0049
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_MAIN_NICK
+
+@ 0050
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_MAIN_CALL
+
+@ 0051
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_MAIN_BASE
+
+@ 0052
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_MAIN_THEME
+
+@ 0053
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_MAIN_SKIN
+
+@ 0054
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_MAIN_STYLE
+
+@ 0055
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_MAIN_BODY
+
+@ 0056
+# fit 40 letters x 2 line(s)
+JP IDSTR_AOK_BCANCEL
+
+@ 0057
+# fit 40 letters x 2 line(s)
+JP どのデータを変更しますか？
+EN Which data do you want to change?
+
+@ 0058
+# fit 40 letters x 2 line(s)
+JP どのデータを作成しますか？
+EN Which data do you want to create?
+
+@ 0059
+# fit 40 letters x 2 line(s)
+JP どのデータを複製しますか？
+EN Which data do you want to copy?
+
+@ 0060
+# fit 40 letters x 2 line(s)
+JP どこに複製しますか？
+EN Where do you want to copy it?
+
+@ 0061
+# fit 16 letters x 1 line(s)
+JP 東京会場Ａ
+EN Tokyo Venue A
+
+@ 0062
+# fit 16 letters x 1 line(s)
+JP 東京会場Ｂ
+EN Tokyo Venue B
+
+@ 0063
+# fit 16 letters x 1 line(s)
+JP 東京会場Ｃ
+EN Tokyo Venue C
+
+@ 0064
+# fit 16 letters x 1 line(s)
+JP 大阪会場Ａ
+EN Osaka Venue A
+
+@ 0065
+# fit 16 letters x 1 line(s)
+JP 大阪会場Ｂ
+EN Osaka Venue B
+
+@ 0066
+# fit 16 letters x 1 line(s)
+JP 福岡会場
+EN Fukuoka Venue
+
+@ 0067
+# fit 16 letters x 1 line(s)
+JP 札幌会場
+EN Sapporo Venue
+
+@ 0068
+# fit 16 letters x 1 line(s)
+JP 横浜会場
+EN Yokohama Venue
+
+@ 0069
+# fit 40 letters x 2 line(s)
+JP ６００００人規模の大会場です
+JP 年初めの１月４日の大会は定番ですね
+EN A huge venue for 60000 people.
+EN The Jan. 4 show is a tradition.
+
+@ 0070
+# fit 40 letters x 2 line(s)
+JP １１５００人規模の会場です
+JP Ｇ１クライマックスの会場としても有名です
+EN An 11,500-seat venue. Also famous as a
+EN G1 Climax venue.
+
+@ 0071
+# fit 40 letters x 2 line(s)
+JP ２０００人規模の会場です
+JP 格闘技のメッカ。聖地と呼ばれる会場です
+EN A 2,000-seat venue. The Mecca of combat
+EN sports, called a sacred ground.
+
+@ 0072
+# fit 40 letters x 2 line(s)
+JP ５００００人規模の会場です
+JP 近年定例化された大会場です
+EN A 50,000-seat venue. A big venue that
+EN has become a regular in recent years.
+
+@ 0073
+# fit 40 letters x 2 line(s)
+JP ６５００人規模の会場です
+JP 数々の名勝負が行われる関西の有名会場です
+EN A venue for 6500 people. A famous Kansai
+EN venue for many classic matches.
+
+@ 0074
+# fit 40 letters x 2 line(s)
+JP ５００００人規模の会場です
+JP 外す事の出来ない九州の大会場です
+EN A 50,000-seat venue. Kyushu's big venue,
+EN a must for any tour.
+
+@ 0075
+# fit 40 letters x 2 line(s)
+JP ５０００人規模の会場です
+JP 札幌の会場といえば、この会場です
+EN A 5,000-seat venue. When you think of
+EN Sapporo, this is the venue.
+
+@ 0076
+# fit 40 letters x 2 line(s)
+JP １４０００人規模の会場です
+JP ９月２３日の大会はもはや定番です
+EN A venue for 14000 people. The Sept. 23
+EN show is now a tradition.
+
+@ 0077
+# fit 16 letters x 1 line(s)
+JP ＯＫ
+EN OK
+
+@ 0078
+# fit 16 letters x 1 line(s)
+JP デフォルト設定
+EN Default Settings
+
+@ 0079
+# fit 16 letters x 1 line(s)
+JP 試合時間
+EN Match Time
+
+@ 0080
+# fit 16 letters x 1 line(s)
+JP 難易度
+EN Difficulty
+
+@ 0081
+# fit 16 letters x 1 line(s)
+JP リングの種類
+EN Ring Type
+
+@ 0082
+# fit 16 letters x 1 line(s)
+JP 試合ルール
+EN Match Rules
+
+@ 0083
+# fit 16 letters x 1 line(s)
+JP ＫＯ設定
+EN KO Setting
+
+@ 0084
+# fit 16 letters x 1 line(s)
+JP ロープブレイク
+EN Rope Break
+
+@ 0085
+# fit 16 letters x 1 line(s)
+JP 場外戦
+EN Outside Fights
+
+@ 0086
+# fit 16 letters x 1 line(s)
+JP 場外カウント
+EN Outside Count
+
+@ 0087
+# fit 16 letters x 1 line(s)
+JP 強制カウント
+EN Forced Count
+
+@ 0088
+# fit 16 letters x 1 line(s)
+JP 引き分け設定
+EN Draw Setting
+
+@ 0089
+# fit 16 letters x 1 line(s)
+JP シングル時視点
+EN Singles Camera
+
+@ 0090
+# fit 16 letters x 1 line(s)
+JP 無制限
+EN No Limit
+
+@ 0091
+# fit 16 letters x 1 line(s)
+JP ６０分
+EN 60 min
+
+@ 0092
+# fit 16 letters x 1 line(s)
+JP ４５分
+EN 45 min
+
+@ 0093
+# fit 16 letters x 1 line(s)
+JP ３０分
+EN 30 min
+
+@ 0094
+# fit 16 letters x 1 line(s)
+JP ２０分
+EN 20 min
+
+@ 0095
+# fit 16 letters x 1 line(s)
+JP １５分
+EN 15 min
+
+@ 0096
+# fit 16 letters x 1 line(s)
+JP １０分
+EN 10 min
+
+@ 0097
+# fit 16 letters x 1 line(s)
+JP トレーニング
+EN Training
+
+@ 0098
+# fit 16 letters x 1 line(s)
+JP スパーリング
+EN Sparring
+
+@ 0099
+# fit 16 letters x 1 line(s)
+JP ストロング
+EN Strong
+
+@ 0100
+# fit 16 letters x 1 line(s)
+JP セメント
+EN Cement
+
+@ 0101
+# fit 16 letters x 1 line(s)
+JP ＢＶＤ赤
+EN BVD Red
+
+@ 0102
+# fit 16 letters x 1 line(s)
+JP ＢＶＤ黒
+EN BVD Black
+
+@ 0103
+# fit 40 letters x 2 line(s)
+JP アリストトリスト
+EN Aristotristo
+
+@ 0104
+# fit 16 letters x 1 line(s)
+JP ライオン１
+EN Lion 1
+
+@ 0105
+# fit 16 letters x 1 line(s)
+JP ライオン２
+EN Lion 2
+
+@ 0106
+# fit 16 letters x 1 line(s)
+JP ランダム
+EN Random
+
+@ 0107
+# fit 16 letters x 1 line(s)
+JP 通常ルール
+EN Normal
+
+@ 0108
+# fit 40 letters x 2 line(s)
+JP 異種格闘技ルール
+EN MMA Rules
+
+@ 0109
+# fit 16 letters x 1 line(s)
+JP 有り
+EN On
+
+@ 0110
+# fit 16 letters x 1 line(s)
+JP 無し
+EN Off
+
+@ 0111
+# fit 16 letters x 1 line(s)
+JP ０
+EN 0
+
+@ 0112
+# fit 16 letters x 1 line(s)
+JP １
+EN 1
+
+@ 0113
+# fit 16 letters x 1 line(s)
+JP ２
+EN 2
+
+@ 0114
+# fit 16 letters x 1 line(s)
+JP ３
+EN 3
+
+@ 0115
+# fit 16 letters x 1 line(s)
+JP ４
+EN 4
+
+@ 0116
+# fit 16 letters x 1 line(s)
+JP ＴＶ
+EN TV
+
+@ 0117
+# fit 16 letters x 1 line(s)
+JP オート
+EN Auto
+
+@ 0118
+# fit 16 letters x 1 line(s)
+JP 特リン
+EN Ringside
+
+@ 0119
+# fit 40 letters x 2 line(s)
+JP 設定を確定します
+EN Confirm the settings.
+
+@ 0120
+# fit 40 letters x 2 line(s)
+JP すべての項目をデフォルトの設定にします
+EN Reset every item to its default.
+
+@ 0121
+# fit 40 letters x 2 line(s)
+JP 勝負がつくまで戦う事が出来ます
+EN Fight until there is a winner.
+
+@ 0122
+# fit 40 letters x 2 line(s)
+JP ６０分１本勝負に設定されます
+EN Set to a 60 min one-fall match.
+
+@ 0123
+# fit 40 letters x 2 line(s)
+JP ４５分１本勝負に設定されます
+EN Set to a 45 min one-fall match.
+
+@ 0124
+# fit 40 letters x 2 line(s)
+JP ３０分１本勝負に設定されます
+EN Set to a 30 min one-fall match.
+
+@ 0125
+# fit 40 letters x 2 line(s)
+JP ２０分１本勝負に設定されます
+EN Set to a 20 min one-fall match.
+
+@ 0126
+# fit 40 letters x 2 line(s)
+JP １５分１本勝負に設定されます
+EN Set to a 15 min one-fall match.
+
+@ 0127
+# fit 40 letters x 2 line(s)
+JP １０分１本勝負に設定されます
+EN Set to a 10 min one-fall match.
+
+@ 0128
+# fit 40 letters x 2 line(s)
+JP コンピュータは、あまり攻撃をしてきません
+JP このゲームの練習に適しています
+EN The computer rarely attacks.
+EN Good for learning this game.
+
+@ 0129
+# fit 40 letters x 2 line(s)
+JP コンピュータは、少し攻撃をしてきます
+JP 攻撃を覚えるのに適しています
+EN The computer attacks a little.
+EN Good for learning attacks.
+
+@ 0130
+# fit 40 letters x 2 line(s)
+JP コンピュータは、ある程度攻撃をしてきます
+EN The computer attacks to some extent.
+
+@ 0131
+# fit 40 letters x 2 line(s)
+JP コンピュータは、ふつうレベルの時よりも
+JP 攻撃的に設定してあります
+EN The computer is set to be more
+EN aggressive than on Normal.
+
+@ 0132
+# fit 40 letters x 2 line(s)
+JP 自分の好きなリングマットのデザインを選択
+JP できます
+EN Choose the ring mat design you
+EN like.
+
+@ 0133
+# fit 40 letters x 2 line(s)
+JP リングマットのデザインをランダムします
+EN Choose a random ring mat design.
+
+@ 0134
+# fit 40 letters x 2 line(s)
+JP フォール、ギブアップ、リングアウトで試合
+JP の勝敗がきまります
+EN Matches are decided by pin, submission
+EN or count-out.
+
+@ 0135
+# fit 40 letters x 2 line(s)
+JP ＫＯ・ギブアップのみの異種格闘技戦ルール
+EN MMA rules: KO and submission only.
+
+@ 0136
+# fit 40 letters x 2 line(s)
+JP ＫＯ技の設定をオン状態にします
+JP ＫＯ技を受けた時にＫＯ確率が発生します
+EN Turn KO moves on. Taking a KO move
+EN can cause a KO.
+
+@ 0137
+# fit 40 letters x 2 line(s)
+JP ＫＯ技の設定をオフ状態にします
+EN Turn KO moves off.
+
+@ 0138
+# fit 40 letters x 2 line(s)
+JP ロープブレイクの判定をオン状態にします
+JP レフェリーがロープブレイクを指示します
+EN Turn rope breaks on. The referee
+EN orders a break on the ropes.
+
+@ 0139
+# fit 40 letters x 2 line(s)
+JP ロープブレイクの判定をオフ状態にします
+JP レフェリーがロープブレイクを取りません
+EN Turn rope breaks off. The referee
+EN will not call rope breaks.
+
+@ 0140
+# fit 40 letters x 2 line(s)
+JP 場外戦の設定をオン状態にします
+JP 場外に降りて戦う事が出来ます
+EN Turn outside fights on. You can fight
+EN outside the ring.
+
+@ 0141
+# fit 40 letters x 2 line(s)
+JP 場外戦の設定をオフ状態にします
+JP 場外に降りて戦う事は出来ません
+EN Turn outside fights off. You cannot
+EN fight outside the ring.
+
+@ 0142
+# fit 40 letters x 2 line(s)
+JP 場外カウントの設定をオン状態にします
+JP カウント２０でリングアウト負けです
+EN Turn outside count on. You lose by
+EN count-out at 20.
+
+@ 0143
+# fit 40 letters x 2 line(s)
+JP 場外カウントの設定をオフ状態にします
+JP 場外カウントは数えません
+EN Turn outside count off. No outside
+EN count is made.
+
+@ 0144
+# fit 40 letters x 2 line(s)
+JP 試合権利が無いレスラーはリングの中に入れ
+JP ません。カットにも行く事も出来ません
+EN Wrestlers not in the match can't enter
+EN the ring or make a save.
+
+@ 0145
+# fit 40 letters x 2 line(s)
+JP レフェリーに１カウントを数えられた時点で
+JP 強制的にコーナーに戻されます
+EN When the referee counts 1, you are
+EN forced back to your corner.
+
+@ 0146
+# fit 40 letters x 2 line(s)
+JP レフェリーに２カウントを数えられた時点で
+JP 強制的にコーナーに戻されます
+EN When the referee counts 2, you are
+EN forced back to your corner.
+
+@ 0147
+# fit 40 letters x 2 line(s)
+JP レフェリーに３カウントを数えられた時点で
+JP 強制的にコーナーに戻されます
+EN When the referee counts 3, you are
+EN forced back to your corner.
+
+@ 0148
+# fit 40 letters x 2 line(s)
+JP レフェリーに４カウントを数えられた時点で
+JP 強制的にコーナーに戻されます
+EN When the referee counts 4, you are
+EN forced back to your corner.
+
+@ 0149
+# fit 40 letters x 2 line(s)
+JP パーソナルデータの反則カウント値が５の時
+JP 反則カウント５を取られる事があります
+EN If the Personal Data foul count is 5,
+EN you can be given a foul count of 5.
+
+@ 0150
+# fit 40 letters x 2 line(s)
+JP 本部席の裁定をオフ状態にします
+JP 時間切れの場合、試合は引き分けになります
+EN Turn the officials' ruling off. If time
+EN runs out, the match is a draw.
+
+@ 0151
+# fit 40 letters x 2 line(s)
+JP 本部席の裁定をオン状態にします。時間切れ
+JP の場合、本部席裁定で勝敗が決められます
+EN Turn the officials' ruling on. If time
+EN runs out, the officials pick a winner.
+
+@ 0152
+# fit 40 letters x 2 line(s)
+JP よりテレビ中継に近いダイナミックな
+JP アングルにカメラを切り替えます
+EN Switch the camera to dynamic angles
+EN closer to a TV broadcast.
+
+@ 0153
+# fit 40 letters x 2 line(s)
+JP カメラアングルをレスラーの位置や
+JP 距離によって適切な角度に保ちます
+EN Keep the camera at a suitable angle for
+EN wrestler position and distance.
+
+@ 0154
+# fit 40 letters x 2 line(s)
+JP カメラをリングサイドからの視点に保ちます
+EN Keep the camera at a ringside view.
+
+@ 0155
+# fit 16 letters x 1 line(s)
+JP IDSTR_ORIGINAL
+
+@ 0156
+# fit 16 letters x 1 line(s)
+JP IDSTR_ARRANGE
+
+@ 0157
+# fit 40 letters x 2 line(s)
+JP IDSTR_BELTRIREKI
+
+@ 0158
+# fit 16 letters x 1 line(s)
+JP IDSTR_NEWSTART
+
+@ 0159
+# fit 40 letters x 2 line(s)
+JP IDSTR_CONTINUESTART
+
+@ 0160
+# fit 40 letters x 2 line(s)
+JP IDSTR_TOURNAMENTBATTLE
+
+@ 0161
+# fit 40 letters x 2 line(s)
+JP IDSTR_LEAGUEBATTLE
+
+@ 0162
+# fit 16 letters x 1 line(s)
+JP IDSTR_REKIDAI
+
+@ 0163
+# fit 16 letters x 1 line(s)
+JP IDSTR_4PLAYER
+
+@ 0164
+# fit 16 letters x 1 line(s)
+JP IDSTR_5PLAYER
+
+@ 0165
+# fit 16 letters x 1 line(s)
+JP IDSTR_6PLAYER
+
+@ 0166
+# fit 16 letters x 1 line(s)
+JP IDSTR_7PLAYER
+
+@ 0167
+# fit 16 letters x 1 line(s)
+JP IDSTR_8PLAYER
+
+@ 0168
+# fit 16 letters x 1 line(s)
+JP IDSTR_10PLAYER
+
+@ 0169
+# fit 16 letters x 1 line(s)
+JP IDSTR_12PLAYER
+
+@ 0170
+# fit 16 letters x 1 line(s)
+JP IDSTR_16PLAYER
+
+@ 0171
+# fit 16 letters x 1 line(s)
+JP IDSTR_20PLAYER
+
+@ 0172
+# fit 40 letters x 2 line(s)
+JP IDSTR_ALLPLAYER
+
+@ 0173
+# fit 16 letters x 1 line(s)
+JP IDSTR_4KUMI
+
+@ 0174
+# fit 16 letters x 1 line(s)
+JP IDSTR_5KUMI
+
+@ 0175
+# fit 16 letters x 1 line(s)
+JP IDSTR_6KUMI
+
+@ 0176
+# fit 16 letters x 1 line(s)
+JP IDSTR_7KUMI
+
+@ 0177
+# fit 16 letters x 1 line(s)
+JP IDSTR_8KUMI
+
+@ 0178
+# fit 16 letters x 1 line(s)
+JP IDSTR_10KUMI
+
+@ 0179
+# fit 16 letters x 1 line(s)
+JP IDSTR_12KUMI
+
+@ 0180
+# fit 16 letters x 1 line(s)
+JP IDSTR_15KUMI
+
+@ 0181
+# fit 16 letters x 1 line(s)
+JP IDSTR_16KUMI
+
+@ 0182
+# fit 16 letters x 1 line(s)
+JP IDSTR_1PAND1P
+
+@ 0183
+# fit 16 letters x 1 line(s)
+JP IDSTR_1PANDCOM
+
+@ 0184
+# fit 16 letters x 1 line(s)
+JP IDSTR_COMAND1P
+
+@ 0185
+# fit 16 letters x 1 line(s)
+JP IDSTR_MAN
+
+@ 0186
+# fit 16 letters x 1 line(s)
+JP IDSTR_COM
+
+@ 0187
+# fit 16 letters x 1 line(s)
+JP IDSTR_1BLOCK
+
+@ 0188
+# fit 16 letters x 1 line(s)
+JP IDSTR_2BLOCK
+
+@ 0189
+# fit 40 letters x 2 line(s)
+JP IDSTR_FIRSTSTART
+
+@ 0190
+# fit 40 letters x 2 line(s)
+JP IDSTR_BASECONSIDER
+
+@ 0191
+# fit 40 letters x 2 line(s)
+JP IDSTR_CONSIDER1
+
+@ 0192
+# fit 40 letters x 2 line(s)
+JP IDSTR_CONSIDER2
+
+@ 0193
+# fit 40 letters x 2 line(s)
+JP IDSTR_CONSIDER3
+
+@ 0194
+# fit 40 letters x 2 line(s)
+JP IDSTR_CONSIDER4
+
+@ 0195
+# fit 16 letters x 1 line(s)
+JP IDSTR_LEARNING
+
+@ 0196
+# fit 40 letters x 2 line(s)
+JP IDSTR_DETAILSETTING
+
+@ 0197
+# fit 16 letters x 1 line(s)
+JP IDSTR_CEMENT
+
+@ 0198
+# fit 16 letters x 1 line(s)
+JP IDSTR_STRONG
+
+@ 0199
+# fit 16 letters x 1 line(s)
+JP IDSTR_SPARRING
+
+@ 0200
+# fit 16 letters x 1 line(s)
+JP IDSTR_TRAINING
+
+@ 0201
+# fit 16 letters x 1 line(s)
+JP 狂神ライガー
+EN Mad God Liger
+
+@ 0202
+# fit 40 letters x 2 line(s)
+JP ブラック・タイガー
+EN Black Tiger
+
+@ 0203
+# fit 40 letters x 2 line(s)
+JP ワイルド・ペガサス
+EN Wild Pegasus
+
+@ 0204
+# fit 40 letters x 2 line(s)
+JP ハートブレイク・キッド
+EN Heartbreak Kid
+
+@ 0205
+# fit 16 letters x 1 line(s)
+JP 暴走戦士
+EN Raging Warrior
+
+@ 0206
+# fit 16 letters x 1 line(s)
+JP 皇帝戦士
+EN Emperor Warrior
+
+@ 0207
+# fit 40 letters x 2 line(s)
+JP ブラックボンバー
+EN Black Bomber
+
+@ 0208
+# fit 16 letters x 1 line(s)
+JP 悪党超人
+EN Villain Hero
+
+@ 0209
+# fit 16 letters x 1 line(s)
+JP 暗黒戦士
+EN Dark Warrior
+
+@ 0210
+# fit 16 letters x 1 line(s)
+JP 赤い稲妻
+EN Red Lightning
+
+@ 0211
+# fit 16 letters x 1 line(s)
+JP 蒼い稲妻
+EN Blue Lightning
+
+@ 0212
+# fit 16 letters x 1 line(s)
+JP 豪腕野獣
+EN Mighty Beast
+
+@ 0213
+# fit 16 letters x 1 line(s)
+JP ワイルドシング
+EN Wild Thing
+
+@ 0214
+# fit 16 letters x 1 line(s)
+JP 狂人仮面
+EN Madman Mask
+
+@ 0215
+# fit 16 letters x 1 line(s)
+JP 蒼い翼
+EN Blue Wings
+
+@ 0216
+# fit 40 letters x 2 line(s)
+JP ミスターサブミッション
+EN Mr. Submission
+
+@ 0217
+# fit 16 letters x 1 line(s)
+JP ドクターデス
+EN Doctor Death
+
+@ 0218
+# fit 16 letters x 1 line(s)
+JP スーパーフライ
+EN Super Fly
+
+@ 0219
+# fit 16 letters x 1 line(s)
+JP 魔神
+EN Demon God
+
+@ 0220
+# fit 16 letters x 1 line(s)
+JP ザ・ウォリアー
+EN The Warrior
+
+@ 0221
+# fit 16 letters x 1 line(s)
+JP 高速戦士
+EN Speed Warrior
+
+@ 0222
+# fit 16 letters x 1 line(s)
+JP 黒い稲妻
+EN Black Lightning
+
+@ 0223
+# fit 16 letters x 1 line(s)
+JP がき大将
+EN Brat Boss
+
+@ 0224
+# fit 16 letters x 1 line(s)
+JP ニンジャ
+EN Ninja
+
+@ 0225
+# fit 16 letters x 1 line(s)
+JP 黒鬼小僧
+EN Black Ogre Boy
+
+@ 0226
+# fit 16 letters x 1 line(s)
+JP 精霊仮面
+EN Spirit Mask
+
+@ 0227
+# fit 16 letters x 1 line(s)
+JP 海賊王子
+EN Pirate Prince
+
+@ 0228
+# fit 16 letters x 1 line(s)
+JP ザ・バーニング
+EN The Burning
+
+@ 0229
+# fit 40 letters x 2 line(s)
+JP アンタッチャブル
+EN The Untouchable
+
+@ 0230
+# fit 16 letters x 1 line(s)
+JP 北斗の一番星
+EN Hokuto Top Star
+
+@ 0231
+# fit 16 letters x 1 line(s)
+JP ジャングル王子
+EN Jungle Prince
+
+@ 0232
+# fit 16 letters x 1 line(s)
+JP サイボーグ戦士
+EN Cyborg Warrior
+
+@ 0233
+# fit 16 letters x 1 line(s)
+JP 妖怪魔神
+EN Monster Demon
+
+@ 0234
+# fit 16 letters x 1 line(s)
+JP 無頼漢
+EN The Ruffian
+
+@ 0235
+# fit 16 letters x 1 line(s)
+JP 生傷男
+EN Man of Scars
+
+@ 0236
+# fit 16 letters x 1 line(s)
+JP 無双の狼
+EN Peerless Wolf
+
+@ 0237
+# fit 16 letters x 1 line(s)
+JP 戦慄の格闘家
+EN Dread Fighter
+
+@ 0238
+# fit 40 letters x 2 line(s)
+JP 魅惑のハードパンチャー
+EN The Alluring Hard Puncher
+
+@ 0239
+# fit 16 letters x 1 line(s)
+JP 世界の巨漢
+EN World's Giant
+
+@ 0240
+# fit 40 letters x 2 line(s)
+JP もっとも危険な男
+EN The Most Dangerous Man
+
+@ 0241
+# fit 16 letters x 1 line(s)
+JP 狂獣
+EN Mad Beast
+
+@ 0242
+# fit 16 letters x 1 line(s)
+JP 核弾頭
+EN Nuclear Warhead
+
+@ 0243
+# fit 16 letters x 1 line(s)
+JP 弾丸児
+EN Bullet Kid
+
+@ 0244
+# fit 16 letters x 1 line(s)
+JP 筋肉獣
+EN Muscle Beast
+
+@ 0245
+# fit 16 letters x 1 line(s)
+JP 炎の怨霊
+EN Fiery Wraith
+
+@ 0246
+# fit 16 letters x 1 line(s)
+JP 蒼き狼
+EN Blue Wolf
+
+@ 0247
+# fit 16 letters x 1 line(s)
+JP 海賊野郎
+EN Pirate Rogue
+
+@ 0248
+# fit 16 letters x 1 line(s)
+JP 強力頭突き野郎
+EN Headbutt Fiend
+
+@ 0249
+# fit 16 letters x 1 line(s)
+JP ブタ小屋の番人
+EN Pigsty Keeper
+
+@ 0250
+# fit 16 letters x 1 line(s)
+JP 超人
+EN Superhuman
+
+@ 0251
+# fit 16 letters x 1 line(s)
+JP 狂乱の貴公子
+EN Frenzied Prince
+
+@ 0252
+# fit 16 letters x 1 line(s)
+JP 大巨人
+EN The Colossus
+
+@ 0253
+# fit 16 letters x 1 line(s)
+JP ヒットマン
+EN The Hitman
+
+@ 0254
+# fit 40 letters x 2 line(s)
+JP ミスターパーフェクト
+EN Mr. Perfect
+
+@ 0255
+# fit 16 letters x 1 line(s)
+JP うわさの男
+EN Man of the Hour
+
+@ 0256
+# fit 16 letters x 1 line(s)
+JP 伊達男
+EN Dandy
+
+@ 0257
+# fit 16 letters x 1 line(s)
+JP 用心棒
+EN Bodyguard
+
+@ 0258
+# fit 16 letters x 1 line(s)
+JP 黄金の殺人銃
+EN Golden Death Gun
+
+@ 0259
+# fit 16 letters x 1 line(s)
+JP 爆弾小僧
+EN Bomber Kid
+
+@ 0260
+# fit 16 letters x 1 line(s)
+JP いぶし銀
+EN Burnished Silver
+
+@ 0261
+# fit 16 letters x 1 line(s)
+JP 苦労人
+EN Hard Knocks Vet
+
+@ 0262
+# fit 16 letters x 1 line(s)
+JP 仕事師
+EN Workhorse
+
+@ 0263
+# fit 16 letters x 1 line(s)
+JP 職人
+EN Craftsman
+
+@ 0264
+# fit 16 letters x 1 line(s)
+JP 軽業師
+EN Acrobat
+
+@ 0265
+# fit 40 letters x 2 line(s)
+JP 二つの顔を持つ男
+EN The Man with Two Faces
+
+@ 0266
+# fit 16 letters x 1 line(s)
+JP 空とぶダンサー
+EN Flying Dancer
+
+@ 0267
+# fit 16 letters x 1 line(s)
+JP 褐色の悪魔
+EN Bronze Devil
+
+@ 0268
+# fit 16 letters x 1 line(s)
+JP 空とぶ外道
+EN Flying Villain
+
+@ 0269
+# fit 16 letters x 1 line(s)
+JP 悪魔の使い手
+EN Devil's Disciple
+
+@ 0270
+# fit 16 letters x 1 line(s)
+JP 呪術士
+EN Curse Caster
+
+@ 0271
+# fit 16 letters x 1 line(s)
+JP 魔術師
+EN Sorcerer
+
+@ 0272
+# fit 16 letters x 1 line(s)
+JP 空とぶ魔術師
+EN Flying Sorcerer
+
+@ 0273
+# fit 16 letters x 1 line(s)
+JP 剣闘士
+EN Gladiator
+
+@ 0274
+# fit 16 letters x 1 line(s)
+JP 恐怖の入墨獣
+EN Tattooed Terror
+
+@ 0275
+# fit 16 letters x 1 line(s)
+JP 技巧師
+EN Technician
+
+@ 0276
+# fit 16 letters x 1 line(s)
+JP 狙撃手
+EN Sniper
+
+@ 0277
+# fit 16 letters x 1 line(s)
+JP 鋼鉄の暴れ牛
+EN Steel Bull
+
+@ 0278
+# fit 16 letters x 1 line(s)
+JP 世界一弱い男
+EN World's Weakest
+
+@ 0279
+# fit 16 letters x 1 line(s)
+JP 眠れる獅子
+EN Sleeping Lion
+
+@ 0280
+# fit 16 letters x 1 line(s)
+JP 怒れる虎
+EN Angry Tiger
+
+@ 0281
+# fit 16 letters x 1 line(s)
+JP 不沈艦
+EN Unsinkable Ship
+
+@ 0282
+# fit 16 letters x 1 line(s)
+JP 殺人風車
+EN Killer Windmill
+
+@ 0283
+# fit 16 letters x 1 line(s)
+JP 暴走狼
+EN Runaway Wolf
+
+@ 0284
+# fit 16 letters x 1 line(s)
+JP 暗黒の未開獣
+EN Dark Savage
+
+@ 0285
+# fit 16 letters x 1 line(s)
+JP 人間魚雷
+EN Human Torpedo
+
+@ 0286
+# fit 16 letters x 1 line(s)
+JP リングの独裁者
+EN Ring Dictator
+
+@ 0287
+# fit 16 letters x 1 line(s)
+JP 破壊戦士
+EN Wrecking Warrior
+
+@ 0288
+# fit 16 letters x 1 line(s)
+JP 空飛ぶ巨象
+EN Flying Elephant
+
+@ 0289
+# fit 16 letters x 1 line(s)
+JP 黒い呪術師
+EN Black Sorcerer
+
+@ 0290
+# fit 16 letters x 1 line(s)
+JP 伝説の豪腕
+EN Arm of Legend
+
+@ 0291
+# fit 16 letters x 1 line(s)
+JP 守護神
+EN Guardian Deity
+
+@ 0292
+# fit 16 letters x 1 line(s)
+JP 覇王
+EN Overlord
+
+@ 0293
+# fit 16 letters x 1 line(s)
+JP 天帝
+EN Heavenly Emperor
+
+@ 0294
+# fit 16 letters x 1 line(s)
+JP 地獄の怪物
+EN Hell Monster
+
+@ 0295
+# fit 16 letters x 1 line(s)
+JP 魔界の王
+EN King of Demons
+
+@ 0296
+# fit 16 letters x 1 line(s)
+JP 破壊神
+EN Destruction God
+
+@ 0297
+# fit 16 letters x 1 line(s)
+JP 墓場からの使者
+EN Grave Messenger
+
+@ 0298
+# fit 16 letters x 1 line(s)
+JP 黒い帝王
+EN Black Emperor
+
+@ 0299
+# fit 16 letters x 1 line(s)
+JP アウトロー戦士
+EN Outlaw Warrior
+
+@ 0300
+# fit 16 letters x 1 line(s)
+JP 新星
+EN Rising Star
+
+@ 0301
+# fit 16 letters x 1 line(s)
+JP 危険な野獣
+EN Dangerous Beast
+
+@ 0302
+# fit 16 letters x 1 line(s)
+JP 番犬
+EN Watchdog
+
+@ 0303
+# fit 16 letters x 1 line(s)
+JP 堕天使
+EN Fallen Angel
+
+@ 0304
+# fit 16 letters x 1 line(s)
+JP 暗殺者
+EN Assassin
+
+@ 0305
+# fit 16 letters x 1 line(s)
+JP 不良番長
+EN Punk Boss
+
+@ 0306
+# fit 16 letters x 1 line(s)
+JP 流血狼
+EN Bloody Wolf
+
+@ 0307
+# fit 16 letters x 1 line(s)
+JP 野良犬野郎
+EN Stray Dog
+
+@ 0308
+# fit 16 letters x 1 line(s)
+JP 悪魔の道化師
+EN Devil Clown
+
+@ 0309
+# fit 16 letters x 1 line(s)
+JP 天才野獣
+EN Genius Beast
+
+@ 0310
+# fit 16 letters x 1 line(s)
+JP 天空の閃光
+EN Sky Flash
+
+@ 0311
+# fit 16 letters x 1 line(s)
+JP 仮面の蜃気楼
+EN Masked Mirage
+
+@ 0312
+# fit 16 letters x 1 line(s)
+JP 仮面の魔術師
+EN Masked Sorcerer
+
+@ 0313
+# fit 16 letters x 1 line(s)
+JP 宇宙超人
+EN Cosmic Superman
+
+@ 0314
+# fit 16 letters x 1 line(s)
+JP 赤い悪魔
+EN Red Devil
+
+@ 0315
+# fit 16 letters x 1 line(s)
+JP 聖者
+EN The Saint
+
+@ 0316
+# fit 16 letters x 1 line(s)
+JP 百の顔を持つ男
+EN Man of 100 Faces
+
+@ 0317
+# fit 16 letters x 1 line(s)
+JP 殺人万能マシン
+EN Killer Machine
+
+@ 0318
+# fit 16 letters x 1 line(s)
+JP 黒い魔手
+EN Evil Black Hand
+
+@ 0319
+# fit 16 letters x 1 line(s)
+JP 狂った指揮官
+EN Mad Commander
+
+@ 0320
+# fit 16 letters x 1 line(s)
+JP 地獄の弁護士
+EN Hell's Lawyer
+
+@ 0321
+# fit 16 letters x 1 line(s)
+JP 超新星
+EN Supernova
+
+@ 0322
+# fit 16 letters x 1 line(s)
+JP 小さな黄金
+EN Little Gold
+
+@ 0323
+# fit 16 letters x 1 line(s)
+JP 悪魔童子
+EN Devil Child
+
+@ 0324
+# fit 16 letters x 1 line(s)
+JP ザ・ビースト
+EN The Beast
+
+@ 0325
+# fit 16 letters x 1 line(s)
+JP 野人
+EN Wild Man
+
+@ 0326
+# fit 16 letters x 1 line(s)
+JP 冷血サイボーグ
+EN Cold Cyborg
+
+@ 0327
+# fit 16 letters x 1 line(s)
+JP 殺人医師
+EN Killer Doctor
+
+@ 0328
+# fit 16 letters x 1 line(s)
+JP ミナミの帝王
+EN Minami Emperor
+
+@ 0329
+# fit 16 letters x 1 line(s)
+JP 親方
+EN The Boss
+
+@ 0330
+# fit 16 letters x 1 line(s)
+JP 口だけ番長
+EN Big Talk Boss
+
+@ 0331
+# fit 16 letters x 1 line(s)
+JP 総長
+EN Gang Leader
+
+@ 0332
+# fit 16 letters x 1 line(s)
+JP 組長
+EN Mob Boss
+
+@ 0333
+# fit 16 letters x 1 line(s)
+JP やりこみ大将
+EN Master Grinder
+
+@ 0334
+# fit 16 letters x 1 line(s)
+JP ハンサムボーイ
+EN Handsome Boy
+
+@ 0335
+# fit 16 letters x 1 line(s)
+JP マットのドン
+EN Don of the Mat
+
+@ 0336
+# fit 40 letters x 2 line(s)
+JP アメリカンレスラー
+EN American Wrestler
+
+@ 0337
+# fit 40 letters x 2 line(s)
+JP メキシカンレスラー
+EN Mexican Wrestler
+
+@ 0338
+# fit 16 letters x 1 line(s)
+JP 石頭
+EN Hardhead
+
+@ 0339
+# fit 16 letters x 1 line(s)
+JP 切り込み隊長
+EN Vanguard Captain
+
+@ 0340
+# fit 16 letters x 1 line(s)
+JP 悲劇のヒーロー
+EN Tragic Hero
+
+@ 0341
+# fit 16 letters x 1 line(s)
+JP 極悪レスラー
+EN Vicious Wrestler
+
+@ 0342
+# fit 16 letters x 1 line(s)
+JP ルチャ職人
+EN Lucha Artisan
+
+@ 0343
+# fit 16 letters x 1 line(s)
+JP 一番星
+EN Number One Star
+
+@ 0344
+# fit 16 letters x 1 line(s)
+JP 物知り博士
+EN Mr. Know-It-All
+
+@ 0345
+# fit 40 letters x 2 line(s)
+JP 完全懲悪ダンザイバー
+EN Pure Justice: Danzaiber
+
+@ 0346
+# fit 40 letters x 2 line(s)
+JP 唸れ豪腕、リキラリアット
+EN Roar, Mighty Arm! Riki Lariat
+
+@ 0347
+# fit 40 letters x 2 line(s)
+JP 夏の終わりのパワーホール
+EN Power Hall at the End of Summer
+
+@ 0348
+# fit 40 letters x 2 line(s)
+JP おのれの右腕に全てを掛ける
+EN I stake it all on my own right arm
+
+@ 0349
+# fit 16 letters x 1 line(s)
+JP 炎の飛龍
+EN Fiery Dragon
+
+@ 0350
+# fit 40 letters x 2 line(s)
+JP 昭和と藤波プロレスの証明
+EN Proof of Showa and Fujinami Wrestling
+
+@ 0351
+# fit 40 letters x 2 line(s)
+JP 昭和のラストチャレンジャー
+EN Showa's Last Challenger
+
+@ 0352
+# fit 40 letters x 2 line(s)
+JP 新たな時代に破壊王
+EN The King of Destruction in a new era
+
+@ 0353
+# fit 16 letters x 1 line(s)
+JP 破壊王
+EN Destruction King
+
+@ 0354
+# fit 40 letters x 2 line(s)
+JP 叩き潰すのが俺のプロレス
+EN Crushing them is my pro wrestling
+
+@ 0355
+# fit 40 letters x 2 line(s)
+JP プライドを胸に、おのれの道を突き
+EN With pride in my heart, I forge ahead
+
+@ 0356
+# fit 40 letters x 2 line(s)
+JP 新日本プロレスの本道を守る為
+EN To protect the true path of NJPW
+
+@ 0357
+# fit 40 letters x 2 line(s)
+JP 新日本プロレスのプロレスラーとし
+EN As a New Japan pro wrestler,
+
+@ 0358
+# fit 40 letters x 2 line(s)
+JP 豪快パワーファイト
+EN Spectacular Power Fight
+
+@ 0359
+# fit 40 letters x 2 line(s)
+JP 新日本プロレスのいぶし銀と言えば
+EN When it comes to NJPW's silver veteran,
+
+@ 0360
+# fit 40 letters x 2 line(s)
+JP ゴッチ流サブミッションの後継者
+EN Heir to Gotch-style submission
+
+@ 0361
+# fit 40 letters x 2 line(s)
+JP いざ、戦いの最前線へ
+EN Now, to the front lines of battle!
+
+@ 0362
+# fit 40 letters x 2 line(s)
+JP パワー全開！ベルトは俺のもの
+EN Full power! The belt is mine!
+
+@ 0363
+# fit 40 letters x 2 line(s)
+JP おのれの力無限大！
+EN My power is limitless!
+
+@ 0364
+# fit 40 letters x 2 line(s)
+JP 俺の時代がやってきた
+EN My time has come!
+
+@ 0365
+# fit 40 letters x 2 line(s)
+JP 今年の俺は違うぞ、アテンション！
+EN This year I'm different, attention!
+
+@ 0366
+# fit 40 letters x 2 line(s)
+JP チャンスは今、ベルトは実力、さぁ
+EN Chance is now, the belt is skill. Come
+
+@ 0367
+# fit 16 letters x 1 line(s)
+JP 俺が一番だ！
+EN I'm number one!
+
+@ 0368
+# fit 40 letters x 2 line(s)
+JP その全てをぶつけろ
+EN Throw everything you've got!
+
+@ 0369
+# fit 16 letters x 1 line(s)
+JP 大爆発！
+EN Explosion!
+
+@ 0370
+# fit 40 letters x 2 line(s)
+JP つかんだチャンスは逃さない！
+EN I won't let this chance slip away!
+
+@ 0371
+# fit 40 letters x 2 line(s)
+JP オーバーザトップ
+EN Over the Top
+
+@ 0372
+# fit 40 letters x 2 line(s)
+JP 力こそすべて、叩き潰すのみ！
+EN Power is everything. Just crush them!
+
+@ 0373
+# fit 40 letters x 2 line(s)
+JP 地獄葬戦士見参！
+EN The Hell Burial Warrior arrives!
+
+@ 0374
+# fit 40 letters x 2 line(s)
+JP 自他ともに認める、ザ・トップ・オ
+EN Recognized by all, The Top of
+
+@ 0375
+# fit 40 letters x 2 line(s)
+JP 新日ジュニア、世界最強の証明
+EN Proof NJPW Juniors are the world's best
+
+@ 0376
+# fit 16 letters x 1 line(s)
+JP ジュニアの巨人
+EN Junior Giant
+
+@ 0377
+# fit 40 letters x 2 line(s)
+JP ベルトはすべて俺のもの
+EN All the belts are mine
+
+@ 0378
+# fit 40 letters x 2 line(s)
+JP クールにきめてみせましょう
+EN Let me finish this in cool style
+
+@ 0379
+# fit 40 letters x 2 line(s)
+JP 異色のジュニア戦士
+EN Unique Junior Warrior
+
+@ 0380
+# fit 16 letters x 1 line(s)
+JP 不敗神話を築け
+EN Unbeaten Legend
+
+@ 0381
+# fit 40 letters x 2 line(s)
+JP 俺がナンバーワンだ！
+EN I'm number one!
+
+@ 0382
+# fit 40 letters x 2 line(s)
+JP 熱いハートをもつ男
+EN A man with a burning heart
+
+@ 0383
+# fit 40 letters x 2 line(s)
+JP 時代の風よ、俺に吹け…
+EN Winds of the age, blow for me...
+
+@ 0384
+# fit 16 letters x 1 line(s)
+JP 越えてみせろ
+EN Surpass me!
+
+@ 0385
+# fit 40 letters x 2 line(s)
+JP ここから何かが始まる
+EN Something begins here
+
+@ 0386
+# fit 40 letters x 2 line(s)
+JP 侍魂を胸に、いざ出陣
+EN With the samurai spirit, off to battle!
+
+@ 0387
+# fit 40 letters x 2 line(s)
+JP サムライファイター
+EN Samurai Fighter
+
+@ 0388
+# fit 40 letters x 2 line(s)
+JP ど演歌ファイター
+EN Pure Enka Fighter
+
+@ 0389
+# fit 40 letters x 2 line(s)
+JP リングにきらめき、稲妻一閃！
+EN Glittering in the ring, lightning flash!
+
+@ 0390
+# fit 40 letters x 2 line(s)
+JP ブロンドアウトロー
+EN Blond Outlaw
+
+@ 0391
+# fit 40 letters x 2 line(s)
+JP 火を噴け必殺バックドロップ
+EN Fire up the deadly Backdrop!
+
+@ 0392
+# fit 40 letters x 2 line(s)
+JP やるか、やられるか！
+EN Beat or be beaten!
+
+@ 0393
+# fit 40 letters x 2 line(s)
+JP 鎖を断ちきり、今！
+EN Break the chains, now!
+
+@ 0394
+# fit 40 letters x 2 line(s)
+JP 破壊と創造…これが俺のニューワー
+EN Destruction and creation... my New World
+
+@ 0395
+# fit 40 letters x 2 line(s)
+JP 夏はまかせろ、俺がＧ１男だ
+EN Leave summer to me, I'm the G1 man!
+
+@ 0396
+# fit 40 letters x 2 line(s)
+JP ベルトは俺様の物
+EN The belt is mine!
+
+@ 0397
+# fit 40 letters x 2 line(s)
+JP 全てを黒く塗りつぶせ
+EN Paint it all black!
+
+@ 0398
+# fit 40 letters x 2 line(s)
+JP おのれが信ずるまま
+EN I follow what I believe in
+
+@ 0399
+# fit 40 letters x 2 line(s)
+JP 華麗に決めてやる
+EN I'll finish it with style
+
+@ 0400
+# fit 40 letters x 2 line(s)
+JP ネオｎＷｏジャパン、ムトウワール
+EN Neo nWo Japan, Muto World
+
+@ 0401
+# fit 40 letters x 2 line(s)
+JP 武藤を越える武藤になれ
+EN Become a Muto who surpasses Muto
+
+@ 0402
+# fit 16 letters x 1 line(s)
+JP 地獄から復活
+EN Back from Hell
+
+@ 0403
+# fit 40 letters x 2 line(s)
+JP 首かっ切ってみせます
+EN I'll cut your throat
+
+@ 0404
+# fit 40 letters x 2 line(s)
+JP 地獄へおつれいたしましょう
+EN Allow me to escort you to Hell
+
+@ 0405
+# fit 40 letters x 2 line(s)
+JP 全てを押しつぶせ！必殺セントーン
+EN Crush it all! The deadly Senton!
+
+@ 0406
+# fit 40 letters x 2 line(s)
+JP 俺がトップだ！文句があるか！！
+EN I'm the top! Any complaints?!
+
+@ 0407
+# fit 40 letters x 2 line(s)
+JP 暴れ牛は手がつけられない！
+EN The raging bull can't be stopped!
+
+@ 0408
+# fit 40 letters x 2 line(s)
+JP めざせ世界最強のラリアット！
+EN Aim for the world's best Lariat!
+
+@ 0409
+# fit 40 letters x 2 line(s)
+JP ＭＡＸパワーで叩き潰す
+EN Crushing you with MAX power
+
+@ 0410
+# fit 40 letters x 2 line(s)
+JP プロレスラー生活３４年の集大成、
+EN The summit of 34 years as a wrestler,
+
+@ 0411
+# fit 40 letters x 2 line(s)
+JP はぐれ狼、完全復活！！
+EN The lone wolf is fully back!!
+
+@ 0412
+# fit 40 letters x 2 line(s)
+JP 俺がムービースターだ！
+EN I'm the movie star!
+
+@ 0413
+# fit 16 letters x 1 line(s)
+JP 情熱燃ゆ！
+EN Burning Passion!
+
+@ 0414
+# fit 16 letters x 1 line(s)
+JP 燃える闘魂
+EN Burning Spirit
+
+@ 0415
+# fit 40 letters x 2 line(s)
+JP 闘魂燃え尽きるまで
+EN Until the spirit burns out
+
+@ 0416
+# fit 40 letters x 2 line(s)
+JP 胴着を脱いだ格闘家、ＵＦＯをせお
+EN The fighter without a gi, carrying UFO
+
+@ 0417
+# fit 16 letters x 1 line(s)
+JP プロ格闘家
+EN Pro Fighter
+
+@ 0418
+# fit 40 letters x 2 line(s)
+JP 金メダルからチャンピオンベルトへ
+EN From gold medal to championship belt
+
+@ 0419
+# fit 40 letters x 2 line(s)
+JP アルティメットチャンピオン
+EN Ultimate Champion
+
+@ 0420
+# fit 40 letters x 2 line(s)
+JP アルティメットの暴れん坊！
+EN The Ultimate Brawler!
+
+@ 0421
+# fit 40 letters x 2 line(s)
+JP ルール無用のアルティメットチャン
+EN No-Holds-Barred Ultimate Champ
+
+@ 0422
+# fit 16 letters x 1 line(s)
+JP 風雲昇り龍
+EN Rising Dragon
+
+@ 0423
+# fit 40 letters x 2 line(s)
+JP レッスルあんどロマンス。俺達の時
+EN Wrestle & Romance. Our time
+
+@ 0424
+# fit 40 letters x 2 line(s)
+JP 熱き戦いを求めて、新日マットヘい
+EN Seeking fierce fights, to the NJPW mat
+
+@ 0425
+# fit 40 letters x 2 line(s)
+JP 豪腕ファイトに熱き心
+EN Mighty arm fighting, burning heart
+
+@ 0426
+# fit 40 letters x 2 line(s)
+JP この試合に全てを賭ける
+EN I stake everything on this match
+
+@ 0427
+# fit 40 letters x 2 line(s)
+JP メインディッシュは、甘いか辛いか
+EN Is the main dish sweet or spicy?
+
+@ 0428
+# fit 40 letters x 2 line(s)
+JP メキシコより、殺人医師２世参上
+EN From Mexico, Killer Doctor II arrives!
+
+@ 0429
+# fit 40 letters x 2 line(s)
+JP グラシアス、アミーゴ！
+EN Gracias, amigo!
+
+@ 0430
+# fit 40 letters x 2 line(s)
+JP 海をこえて、この男がやってきた
+EN Across the sea, this man has come
+
+@ 0431
+# fit 40 letters x 2 line(s)
+JP 東北に夢を持ちかえれ！
+EN Bring dreams back to Tohoku!
+
+@ 0432
+# fit 40 letters x 2 line(s)
+JP みちのくプロレス
+EN Michinoku Pro Wrestling
+
+@ 0433
+# fit 40 letters x 2 line(s)
+JP みちのくから、世界へはばたけ！
+EN From Michinoku, fly out to the world!
+
+@ 0434
+# fit 40 letters x 2 line(s)
+JP みちのくここにあり！
+EN Michinoku is right here!
+
+@ 0435
+# fit 40 letters x 2 line(s)
+JP 悪のＳＡＳＵＫＥはいかがでしょう
+EN How about an evil SASUKE?
+
+@ 0436
+# fit 40 letters x 2 line(s)
+JP みちのくの心、どこへ行く…
+EN Where does the Michinoku heart go...
+
+@ 0437
+# fit 40 letters x 2 line(s)
+JP 皆様の熱い御要望に応え、ここに参
+EN Answering your demands, he arrives
+
+@ 0438
+# fit 40 letters x 2 line(s)
+JP 伝説の彼方から蘇れ！
+EN Rise again from beyond legend!
+
+@ 0439
+# fit 40 letters x 2 line(s)
+JP 華麗なフットワーク…ここに復活！
+EN Graceful footwork... revived here!
+
+@ 0440
+# fit 40 letters x 2 line(s)
+JP 新たな戦場をもとめてやってきた
+EN He came seeking a new battlefield
+
+@ 0441
+# fit 40 letters x 2 line(s)
+JP 世界の荒鷲、電・撃・参・戦！！
+EN The Eagle of the World Strikes!!
+
+@ 0442
+# fit 40 letters x 2 line(s)
+JP その気持ちとやら…しっかりと見せ
+EN Show me those feelings of yours...
+
+@ 0443
+# fit 40 letters x 2 line(s)
+JP 俺には、負けられないわけがある…
+EN I have my reasons for not losing...
+
+@ 0444
+# fit 40 letters x 2 line(s)
+JP その気持ちとやら…しっかりと見せ
+EN Show me those feelings of yours...
+
+@ 0445
+# fit 40 letters x 2 line(s)
+JP 世紀末の邪道…邪道魂を胸に！
+EN Jado of the Century's End! Jado spirit!
+
+@ 0446
+# fit 16 letters x 1 line(s)
+JP 新時代の旗手！
+EN New Era Leader!
+
+@ 0447
+# fit 40 letters x 2 line(s)
+JP ドラゴンの名前を継ぐもの…新日ジ
+EN Heir to the Dragon name... NJ Ju
+
+@ 0448
+# fit 40 letters x 2 line(s)
+JP さあ、とくとご覧あれ！超四次元殺
+EN Behold! Super Fourth-Dimension Kill
+
+@ 0449
+# fit 40 letters x 2 line(s)
+JP ブルパワー炸裂！
+EN Bull Power explodes!
+
+@ 0450
+# fit 40 letters x 2 line(s)
+JP オリジナルレスラー、新日本プロレ
+EN Original wrestler, New Japan Pro-Wrest
+
+@ 0451
+# fit 16 letters x 1 line(s)
+JP 世紀末に降臨！
+EN Era-End Advent!
+
+@ 0452
+# fit 40 letters x 2 line(s)
+JP 永遠の虎ハンター
+EN The Eternal Tiger Hunter
+
+@ 0453
+# fit 40 letters x 2 line(s)
+JP 新日ジュニアのご意見番
+EN Voice of the NJPW Juniors
+
+@ 0454
+# fit 40 letters x 2 line(s)
+JP おのれの心、無我なり
+EN One's heart is Muga - selflessness
+
+@ 0455
+# fit 40 letters x 2 line(s)
+JP 新日本プロレス、最強外国人選手
+EN New Japan Pro-Wrestling Top Foreigner
+
+@ 0456
+# fit 40 letters x 2 line(s)
+JP 伝説の虎ふたたび…虎の王になって
+EN The legendary tiger returns... as King
+
+@ 0457
+# fit 40 letters x 2 line(s)
+JP 覇王の力が、罪を断つ！
+EN The Emperor's power cuts down sin!
+
+@ 0458
+# fit 40 letters x 2 line(s)
+JP 橋本真也のテーマ
+EN Shinya Hashimoto's Theme
+
+@ 0459
+# fit 40 letters x 2 line(s)
+JP 佐々木健介のテーマ
+EN Kensuke Sasaki's Theme
+
+@ 0460
+# fit 40 letters x 2 line(s)
+JP 藤波辰爾のテーマ
+EN Tatsumi Fujinami's Theme
+
+@ 0461
+# fit 40 letters x 2 line(s)
+JP 越中詩郎のテーマ
+EN Shiro Koshinaka's Theme
+
+@ 0462
+# fit 40 letters x 2 line(s)
+JP 木村健悟のテーマ
+EN Kengo Kimura's Theme
+
+@ 0463
+# fit 40 letters x 2 line(s)
+JP 平田淳嗣のテーマ
+EN Junji Hirata's Theme
+
+@ 0464
+# fit 16 letters x 1 line(s)
+JP 木戸修のテーマ
+EN Kido's Theme
+
+@ 0465
+# fit 40 letters x 2 line(s)
+JP 山崎一夫のテーマ
+EN Kazuo Yamazaki's Theme
+
+@ 0466
+# fit 40 letters x 2 line(s)
+JP 飯塚高史のテーマ
+EN Takashi Iizuka's Theme
+
+@ 0467
+# fit 16 letters x 1 line(s)
+JP 中西学のテーマ
+EN Nakanishi Theme
+
+@ 0468
+# fit 40 letters x 2 line(s)
+JP 永田裕志のテーマ
+EN Yuji Nagata's Theme
+
+@ 0469
+# fit 40 letters x 2 line(s)
+JP 安田忠夫のテーマ
+EN Tadao Yasuda's Theme
+
+@ 0470
+# fit 40 letters x 2 line(s)
+JP 後藤達俊のテーマ
+EN Tatsutoshi Goto's Theme
+
+@ 0471
+# fit 40 letters x 2 line(s)
+JP 小原道由のテーマ
+EN Michiyoshi Ohara's Theme
+
+@ 0472
+# fit 40 letters x 2 line(s)
+JP パワー・ウォリアーのテーマ
+EN Power Warrior's Theme
+
+@ 0473
+# fit 16 letters x 1 line(s)
+JP 長州力のテーマ
+EN Choshu's Theme
+
+@ 0474
+# fit 40 letters x 2 line(s)
+JP 坂口征二のテーマ
+EN Seiji Sakaguchi's Theme
+
+@ 0475
+# fit 40 letters x 2 line(s)
+JP マサ・サイトーのテーマ
+EN Masa Saito's Theme
+
+@ 0476
+# fit 40 letters x 2 line(s)
+JP 田中秀和のテーマ
+EN Hidekazu Tanaka's Theme
+
+@ 0477
+# fit 40 letters x 2 line(s)
+JP タイガー服部のテーマ
+EN Tiger Hattori's Theme
+
+@ 0478
+# fit 40 letters x 2 line(s)
+JP 蝶野正洋のテーマ
+EN Masahiro Chono's Theme
+
+@ 0479
+# fit 40 letters x 2 line(s)
+JP 武藤敬司のテーマ
+EN Keiji Muto's Theme
+
+@ 0480
+# fit 40 letters x 2 line(s)
+JP 愚零闘武多のテーマ
+EN The Great Muta's Theme
+
+@ 0481
+# fit 40 letters x 2 line(s)
+JP ヒロ斎藤のテーマ
+EN Hiro Saito's Theme
+
+@ 0482
+# fit 40 letters x 2 line(s)
+JP 天山広吉のテーマ
+EN Hiroyoshi Tenzan's Theme
+
+@ 0483
+# fit 16 letters x 1 line(s)
+JP 小島聡のテーマ
+EN Kojima's Theme
+
+@ 0484
+# fit 40 letters x 2 line(s)
+JP ＡＫＩＲＡのテーマ
+EN Akira's Theme
+
+@ 0485
+# fit 40 letters x 2 line(s)
+JP 天龍源一郎のテーマ
+EN Genichiro Tenryu's Theme
+
+@ 0486
+# fit 40 letters x 2 line(s)
+JP ドン・フライのテーマ
+EN Don Frye's Theme
+
+@ 0487
+# fit 40 letters x 2 line(s)
+JP 大仁田厚のテーマ
+EN Atsushi Onita's Theme
+
+@ 0488
+# fit 40 letters x 2 line(s)
+JP アントニオ猪木のテーマ
+EN Antonio Inoki's Theme
+
+@ 0489
+# fit 40 letters x 2 line(s)
+JP 小川直也のテーマ
+EN Naoya Ogawa's Theme
+
+@ 0490
+# fit 40 letters x 2 line(s)
+JP 獣神サンダー・ライガーのテーマ
+EN Jushin Thunder Liger's Theme
+
+@ 0491
+# fit 40 letters x 2 line(s)
+JP エル・サムライのテーマ
+EN El Samurai's Theme
+
+@ 0492
+# fit 40 letters x 2 line(s)
+JP 金本浩二のテーマ
+EN Koji Kanemoto's Theme
+
+@ 0493
+# fit 40 letters x 2 line(s)
+JP 大谷晋二郎のテーマ
+EN Shinjiro Otani's Theme
+
+@ 0494
+# fit 40 letters x 2 line(s)
+JP ケンドー・カシンのテーマ
+EN Kendo Kashin's Theme
+
+@ 0495
+# fit 40 letters x 2 line(s)
+JP 高岩竜一のテーマ
+EN Ryuichi Takaiwa's Theme
+
+@ 0496
+# fit 40 letters x 2 line(s)
+JP ドクトル・ワグナーＪｒのテーマ
+EN Dr. Wagner Jr.'s Theme
+
+@ 0497
+# fit 40 letters x 2 line(s)
+JP ザ・グレート・サスケのテーマ
+EN The Great Sasuke's Theme
+
+@ 0498
+# fit 40 letters x 2 line(s)
+JP ドラゴン・キッドのテーマ
+EN Dragon Kid's Theme
+
+@ 0499
+# fit 40 letters x 2 line(s)
+JP ＳＡＳＵＫＥのテーマ
+EN SASUKE's Theme
+
+@ 0500
+# fit 16 letters x 1 line(s)
+JP タイプＡ
+EN Type A
+
+@ 0501
+# fit 16 letters x 1 line(s)
+JP タイプＢ
+EN Type B
+
+@ 0502
+# fit 16 letters x 1 line(s)
+JP タイプＣ
+EN Type C
+
+@ 0503
+# fit 40 letters x 2 line(s)
+JP Ｊｒタイプ      170cm   85kg
+EN Jr. Type     170cm   85kg
+
+@ 0504
+# fit 40 letters x 2 line(s)
+JP Ｊｒタイプ      175cm   90kg
+EN Jr. Type     175cm   90kg
+
+@ 0505
+# fit 40 letters x 2 line(s)
+JP Ｊｒタイプ      180cm   95kg
+EN Jr. Type     180cm   95kg
+
+@ 0506
+# fit 40 letters x 2 line(s)
+JP Ｊｒタイプ      185cm  100kg
+EN Jr. Type     185cm  100kg
+
+@ 0507
+# fit 40 letters x 2 line(s)
+JP ノーマルタイプ  175cm  110kg
+EN Normal Type  175cm  110kg
+
+@ 0508
+# fit 40 letters x 2 line(s)
+JP ノーマルタイプ  180cm  115kg
+EN Normal Type  180cm  115kg
+
+@ 0509
+# fit 40 letters x 2 line(s)
+JP ノーマルタイプ  185cm  120kg
+EN Normal Type  185cm  120kg
+
+@ 0510
+# fit 40 letters x 2 line(s)
+JP ノーマルタイプ  190cm  125kg
+EN Normal Type  190cm  125kg
+
+@ 0511
+# fit 40 letters x 2 line(s)
+JP ノーマルタイプ  195cm  130kg
+EN Normal Type  195cm  130kg
+
+@ 0512
+# fit 40 letters x 2 line(s)
+JP ノーマルタイプ  200cm  135kg
+EN Normal Type  200cm  135kg
+
+@ 0513
+# fit 40 letters x 2 line(s)
+JP 大型タイプ      180cm  160kg
+EN Large Type   180cm  160kg
+
+@ 0514
+# fit 40 letters x 2 line(s)
+JP 大型タイプ      185cm  165kg
+EN Large Type   185cm  165kg
+
+@ 0515
+# fit 40 letters x 2 line(s)
+JP 大型タイプ      190cm  170kg
+EN Large Type   190cm  170kg
+
+@ 0516
+# fit 40 letters x 2 line(s)
+JP 大型タイプ      195cm  175kg
+EN Large Type   195cm  175kg
+
+@ 0517
+# fit 40 letters x 2 line(s)
+JP 大型タイプ      200cm  180kg
+EN Large Type   200cm  180kg
+
+@ 0518
+# fit 40 letters x 2 line(s)
+JP 大型タイプ      205cm  185kg
+EN Large Type   205cm  185kg
+
+@ 0519
+# fit 40 letters x 2 line(s)
+JP 大型タイプ      210cm  190kg
+EN Large Type   210cm  190kg
+
+@ 0520
+# fit 16 letters x 1 line(s)
+JP ボディー設定
+EN Body Setup
+
+@ 0521
+# fit 16 letters x 1 line(s)
+JP パラメータ設定
+EN Parameter Setup
+
+@ 0522
+# fit 16 letters x 1 line(s)
+JP 技設定
+EN Move Setup
+
+@ 0523
+# fit 16 letters x 1 line(s)
+JP ロジック設定
+EN Logic Setup
+
+@ 0524
+# fit 40 letters x 2 line(s)
+JP クリティカル設定
+EN Critical Setup
+
+@ 0525
+# fit 40 letters x 2 line(s)
+JP  パラメータ   攻撃力  防御力
+EN  Parameter    Attack  Defense
+
+@ 0526
+# fit 40 letters x 2 line(s)
+JP     合計       %3d    %3d     %3d／%3d
+EN     Total      %3d    %3d     %3d/%3d
+
+@ 0527
+# fit 16 letters x 1 line(s)
+JP      頭     
+EN Head
+
+@ 0528
+# fit 16 letters x 1 line(s)
+JP チョップ＆掌
+EN Chop & Palm
+
+@ 0529
+# fit 16 letters x 1 line(s)
+JP    拳・肘   
+EN Fist/Elbow
+
+@ 0530
+# fit 16 letters x 1 line(s)
+JP     腕力    
+EN Arm Strength
+
+@ 0531
+# fit 16 letters x 1 line(s)
+JP     馬力    
+EN Power
+
+@ 0532
+# fit 16 letters x 1 line(s)
+JP    瞬発力   
+EN Explosiveness
+
+@ 0533
+# fit 16 letters x 1 line(s)
+JP   ブリッジ  
+EN Bridge
+
+@ 0534
+# fit 16 letters x 1 line(s)
+JP     蹴り    
+EN Kicks
+
+@ 0535
+# fit 16 letters x 1 line(s)
+JP     締め    
+EN Chokes
+
+@ 0536
+# fit 16 letters x 1 line(s)
+JP     関節    
+EN Joint Locks
+
+@ 0537
+# fit 16 letters x 1 line(s)
+JP   ラフ攻撃  
+EN Rough Attacks
+
+@ 0538
+# fit 16 letters x 1 line(s)
+JP    飛び技   
+EN Aerial Moves
+
+@ 0539
+# fit 16 letters x 1 line(s)
+JP  テクニック 
+EN Technique
+
+@ 0540
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_PARAMB000
+
+@ 0541
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_PARAMB001
+
+@ 0542
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_PARAMB002
+
+@ 0543
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_PARAMB003
+
+@ 0544
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_PARAMB004
+
+@ 0545
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_PARAMB005
+
+@ 0546
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_PARAMB006
+
+@ 0547
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_PARAMB007
+
+@ 0548
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_PARAMB008
+
+@ 0549
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_PARAMB009
+
+@ 0550
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_PARAMB010
+
+@ 0551
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_PARAMB011
+
+@ 0552
+# fit 40 letters x 2 line(s)
+JP IDSTR_EDIT_PARAMB012
+
+@ 0553
+# fit 16 letters x 1 line(s)
+JP ０
+EN 0
+
+@ 0554
+# fit 16 letters x 1 line(s)
+JP １
+EN 1
+
+@ 0555
+# fit 16 letters x 1 line(s)
+JP ２
+EN 2
+
+@ 0556
+# fit 16 letters x 1 line(s)
+JP ３
+EN 3
+
+@ 0557
+# fit 16 letters x 1 line(s)
+JP ４
+EN 4
+
+@ 0558
+# fit 16 letters x 1 line(s)
+JP ５
+EN 5
+
+@ 0559
+# fit 16 letters x 1 line(s)
+JP ６
+EN 6
+
+@ 0560
+# fit 16 letters x 1 line(s)
+JP ７
+EN 7
+
+@ 0561
+# fit 16 letters x 1 line(s)
+JP ８
+EN 8
+
+@ 0562
+# fit 16 letters x 1 line(s)
+JP ９
+EN 9
+
+@ 0563
+# fit 40 letters x 2 line(s)
+JP 思考パターンの名称
+EN Thinking Pattern Name
+
+@ 0564
+# fit 16 letters x 1 line(s)
+JP 思考パターン１
+EN Thinking Pat. 1
+
+@ 0565
+# fit 16 letters x 1 line(s)
+JP 思考パターン２
+EN Thinking Pat. 2
+
+@ 0566
+# fit 16 letters x 1 line(s)
+JP 思考パターン３
+EN Thinking Pat. 3
+
+@ 0567
+# fit 16 letters x 1 line(s)
+JP 思考パターン４
+EN Thinking Pat. 4
+
+@ 0568
+# fit 16 letters x 1 line(s)
+JP 既存レスラー
+EN Preset Wrestler
+
+@ 0569
+# fit 40 letters x 2 line(s)
+JP エディットレスラー
+EN Edit Wrestler
+
+@ 0570
+# fit 40 letters x 2 line(s)
+JP 既存のモデルをそのまま使用します。
+EN Use an existing model as is.
+
+@ 0571
+# fit 40 letters x 2 line(s)
+JP 新規にモデルを作成します。
+EN Create a new model.
+
+@ 0572
+# fit 40 letters x 2 line(s)
+JP コスチュームのタイプを選択します。
+EN Select the costume type.
+
+@ 0573
+# fit 16 letters x 1 line(s)
+JP パンツタイプ
+EN Trunks Type
+
+@ 0574
+# fit 16 letters x 1 line(s)
+JP すそ絞りタイプ
+EN Tight-Cuff Type
+
+@ 0575
+# fit 40 letters x 2 line(s)
+JP パンタロンタイプ
+EN Flared Type
+
+@ 0576
+# fit 16 letters x 1 line(s)
+JP 頭  部
+EN Head
+
+@ 0577
+# fit 16 letters x 1 line(s)
+JP 胴  部
+EN Torso
+
+@ 0578
+# fit 16 letters x 1 line(s)
+JP パンツ
+EN Trunks
+
+@ 0579
+# fit 16 letters x 1 line(s)
+JP パンツ
+EN Trunks
+
+@ 0580
+# fit 16 letters x 1 line(s)
+JP パンツ
+EN Trunks
+
+@ 0581
+# fit 16 letters x 1 line(s)
+JP 左  肘
+EN Left Elbow
+
+@ 0582
+# fit 16 letters x 1 line(s)
+JP 右  肘
+EN Right Elbow
+
+@ 0583
+# fit 16 letters x 1 line(s)
+JP 左  腕
+EN Left Arm
+
+@ 0584
+# fit 16 letters x 1 line(s)
+JP 右  腕
+EN Right Arm
+
+@ 0585
+# fit 16 letters x 1 line(s)
+JP 左  手
+EN Left Hand
+
+@ 0586
+# fit 16 letters x 1 line(s)
+JP 右  手
+EN Right Hand
+
+@ 0587
+# fit 16 letters x 1 line(s)
+JP 左  膝
+EN Left Knee
+
+@ 0588
+# fit 16 letters x 1 line(s)
+JP 右  膝
+EN Right Knee
+
+@ 0589
+# fit 16 letters x 1 line(s)
+JP 左  脛
+EN Left Shin
+
+@ 0590
+# fit 16 letters x 1 line(s)
+JP 右  脛
+EN Right Shin
+
+@ 0591
+# fit 16 letters x 1 line(s)
+JP 左  足
+EN Left Foot
+
+@ 0592
+# fit 16 letters x 1 line(s)
+JP 右  足
+EN Right Foot
+
+@ 0593
+# fit 16 letters x 1 line(s)
+JP グループＡ
+EN Group A
+
+@ 0594
+# fit 16 letters x 1 line(s)
+JP グループＢ
+EN Group B
+
+@ 0595
+# fit 16 letters x 1 line(s)
+JP グループＣ
+EN Group C
+
+@ 0596
+# fit 16 letters x 1 line(s)
+JP グループＤ
+EN Group D
+
+@ 0597
+# fit 16 letters x 1 line(s)
+JP グループＥ
+EN Group E
+
+@ 0598
+# fit 40 letters x 2 line(s)
+JP IDSTR_LOGICCONSIDERPTN
+
+@ 0599
+# fit 40 letters x 2 line(s)
+JP パーソナルデータ
+EN Personal Data
+
+@ 0600
+# fit 16 letters x 1 line(s)
+JP 場外からの復帰
+EN Return to Ring
+
+@ 0601
+# fit 16 letters x 1 line(s)
+JP 反則カウント
+EN Foul Count
+
+@ 0602
+# fit 16 letters x 1 line(s)
+JP タッチ頻度
+EN Tag Frequency
+
+@ 0603
+# fit 16 letters x 1 line(s)
+JP 乱入頻度
+EN Run-In Frequency
+
+@ 0604
+# fit 16 letters x 1 line(s)
+JP お互いリング内
+EN Both in Ring
+
+@ 0605
+# fit 40 letters x 2 line(s)
+JP 相手が近い時・相手と向き合って
+EN Opponent Near, Facing Each Other
+
+@ 0606
+# fit 16 letters x 1 line(s)
+JP アピール
+EN Taunt
+
+@ 0607
+# fit 16 letters x 1 line(s)
+JP 投げ
+EN Throw
+
+@ 0608
+# fit 16 letters x 1 line(s)
+JP 打撃
+EN Strike
+
+@ 0609
+# fit 16 letters x 1 line(s)
+JP 関節
+EN Joint Locks
+
+@ 0610
+# fit 16 letters x 1 line(s)
+JP スロー
+EN Whip
+
+@ 0611
+# fit 16 letters x 1 line(s)
+JP ポスト方向
+EN To Post
+
+@ 0612
+# fit 16 letters x 1 line(s)
+JP ロープ方向
+EN To Ropes
+
+@ 0613
+# fit 16 letters x 1 line(s)
+JP 場外へ
+EN To Outside
+
+@ 0614
+# fit 16 letters x 1 line(s)
+JP 移動
+EN Move
+
+@ 0615
+# fit 16 letters x 1 line(s)
+JP コーナー移動
+EN Go to Corner
+
+@ 0616
+# fit 40 letters x 2 line(s)
+JP リング中央へ移動
+EN Move to Ring Center
+
+@ 0617
+# fit 16 letters x 1 line(s)
+JP 近づく
+EN Approach
+
+@ 0618
+# fit 16 letters x 1 line(s)
+JP 離れる
+EN Back Away
+
+@ 0619
+# fit 16 letters x 1 line(s)
+JP 回り込む
+EN Circle Around
+
+@ 0620
+# fit 40 letters x 2 line(s)
+JP 相手が近い時・相手の背後
+EN Opponent Near, Behind Opponent
+
+@ 0621
+# fit 16 letters x 1 line(s)
+JP 前向きにする
+EN Turn Opp. Around
+
+@ 0622
+# fit 16 letters x 1 line(s)
+JP 相手が遠い時
+EN Opp. Far
+
+@ 0623
+# fit 16 letters x 1 line(s)
+JP ダッシュ攻撃
+EN Dash Attack
+
+@ 0624
+# fit 16 letters x 1 line(s)
+JP 歩く
+EN Walk
+
+@ 0625
+# fit 40 letters x 2 line(s)
+JP 相手がコーナーグロッキー
+EN Opp. Groggy in Corner
+
+@ 0626
+# fit 16 letters x 1 line(s)
+JP 起こす
+EN Pick Up
+
+@ 0627
+# fit 16 letters x 1 line(s)
+JP 攻撃
+EN Attack
+
+@ 0628
+# fit 40 letters x 2 line(s)
+JP 相手がコーナーグロッキー遠
+EN Opp. Corner Groggy, Far
+
+@ 0629
+# fit 16 letters x 1 line(s)
+JP 何もしない
+EN Do Nothing
+
+@ 0630
+# fit 40 letters x 2 line(s)
+JP ダッシュカウンター
+EN Dash Counter
+
+@ 0631
+# fit 40 letters x 2 line(s)
+JP スローカウンター
+EN Whip Counter
+
+@ 0632
+# fit 16 letters x 1 line(s)
+JP 起き上がり時
+EN When Getting Up
+
+@ 0633
+# fit 40 letters x 2 line(s)
+JP 相手ダウン・仰向け
+EN Opp. Down, Face Up
+
+@ 0634
+# fit 16 letters x 1 line(s)
+JP 投げ技
+EN Throws
+
+@ 0635
+# fit 16 letters x 1 line(s)
+JP 打撃技
+EN Strikes
+
+@ 0636
+# fit 16 letters x 1 line(s)
+JP フォール
+EN Pin
+
+@ 0637
+# fit 16 letters x 1 line(s)
+JP 前起こし
+EN Front Pick-Up
+
+@ 0638
+# fit 16 letters x 1 line(s)
+JP 後ろ起こし
+EN Rear Pick-Up
+
+@ 0639
+# fit 16 letters x 1 line(s)
+JP ダイビング攻撃
+EN Diving Attack
+
+@ 0640
+# fit 40 letters x 2 line(s)
+JP 相手ダウン・うつ伏せ
+EN Opp. Down, Face Down
+
+@ 0641
+# fit 40 letters x 2 line(s)
+JP 自分がリング内、相手場外
+EN You in Ring, Opp. Outside
+
+@ 0642
+# fit 16 letters x 1 line(s)
+JP リング中央へ
+EN To Ring Center
+
+@ 0643
+# fit 16 letters x 1 line(s)
+JP お互い場外
+EN Both Outside
+
+@ 0644
+# fit 16 letters x 1 line(s)
+JP リング方向
+EN Toward Ring
+
+@ 0645
+# fit 16 letters x 1 line(s)
+JP フェンス方向
+EN Toward Fence
+
+@ 0646
+# fit 16 letters x 1 line(s)
+JP リングイン
+EN Enter Ring
+
+@ 0647
+# fit 16 letters x 1 line(s)
+JP 凶器装備
+EN Weapon Equipped
+
+@ 0648
+# fit 16 letters x 1 line(s)
+JP お互いエプロン
+EN Both on Apron
+
+@ 0649
+# fit 16 letters x 1 line(s)
+JP 相手が近い
+EN Opp. Near
+
+@ 0650
+# fit 16 letters x 1 line(s)
+JP 相手が遠い
+EN Opp. Far
+
+@ 0651
+# fit 40 letters x 2 line(s)
+JP 自分がエプロン、相手リング内
+EN You on Apron, Opp. in Ring
+
+@ 0652
+# fit 40 letters x 2 line(s)
+JP 自分がエプロン、相手場外
+EN You on Apron, Opp. Outside
+
+@ 0653
+# fit 40 letters x 2 line(s)
+JP アピールキーあり
+EN With Taunt Key
+
+@ 0654
+# fit 40 letters x 2 line(s)
+JP アピールキーなし
+EN No Taunt Key
+
+@ 0655
+# fit 16 letters x 1 line(s)
+JP 投げキーあり
+EN With Throw Key
+
+@ 0656
+# fit 16 letters x 1 line(s)
+JP 投げキーなし
+EN No Throw Key
+
+@ 0657
+# fit 16 letters x 1 line(s)
+JP 打撃キーあり
+EN With Strike Key
+
+@ 0658
+# fit 16 letters x 1 line(s)
+JP 打撃キーなし
+EN No Strike Key
+
+@ 0659
+# fit 16 letters x 1 line(s)
+JP 関節キーあり
+EN With Joint Key
+
+@ 0660
+# fit 16 letters x 1 line(s)
+JP 関節キーなし
+EN No Joint Key
+
+@ 0661
+# fit 16 letters x 1 line(s)
+JP ダッシュ投げ
+EN Dash Throw
+
+@ 0662
+# fit 16 letters x 1 line(s)
+JP ダッシュ打撃
+EN Dash Strike
+
+@ 0663
+# fit 16 letters x 1 line(s)
+JP ダッシュ関節
+EN Dash Joint Lock
+
+@ 0664
+# fit 16 letters x 1 line(s)
+JP 投げ
+EN Throw
+
+@ 0665
+# fit 16 letters x 1 line(s)
+JP 打撃
+EN Strike
+
+@ 0666
+# fit 16 letters x 1 line(s)
+JP 関節
+EN Joint Locks
+
+@ 0667
+# fit 16 letters x 1 line(s)
+JP 仰向け関節頭部
+EN FaceUp Jnt: Head
+
+@ 0668
+# fit 40 letters x 2 line(s)
+JP 仰向け関節上半身
+EN Face-Up Joint: Upper Body
+
+@ 0669
+# fit 40 letters x 2 line(s)
+JP 仰向け関節下半身
+EN Face-Up Joint: Lower Body
+
+@ 0670
+# fit 16 letters x 1 line(s)
+JP 仰向け関節脚部
+EN FaceUp Jnt: Legs
+
+@ 0671
+# fit 16 letters x 1 line(s)
+JP ダッシュ攻撃
+EN Dash Attack
+
+@ 0672
+# fit 16 letters x 1 line(s)
+JP ロープから攻撃
+EN Attack off Ropes
+
+@ 0673
+# fit 40 letters x 2 line(s)
+JP トップロープから攻撃
+EN Attack From Top Rope
+
+@ 0674
+# fit 16 letters x 1 line(s)
+JP 投げ技
+EN Throws
+
+@ 0675
+# fit 16 letters x 1 line(s)
+JP 打撃技
+EN Strikes
+
+@ 0676
+# fit 16 letters x 1 line(s)
+JP 関節技
+EN Submission Holds
+
+@ 0677
+# fit 16 letters x 1 line(s)
+JP 近距離攻撃
+EN Close Attack
+
+@ 0678
+# fit 40 letters x 2 line(s)
+JP ダッシュ攻撃・前向き
+EN Dash Attack - Facing Front
+
+@ 0679
+# fit 40 letters x 2 line(s)
+JP ダッシュ攻撃・後ろ向き
+EN Dash Attack - Facing Away
+
+@ 0680
+# fit 40 letters x 2 line(s)
+JP ダッシュカウンター攻撃
+EN Dash Counter Attack
+
+@ 0681
+# fit 40 letters x 2 line(s)
+JP スローカウンター攻撃
+EN Whip Counter Attack
+
+@ 0682
+# fit 40 letters x 2 line(s)
+JP ロープリバウンド攻撃
+EN Rope Rebound Attack
+
+@ 0683
+# fit 40 letters x 2 line(s)
+JP コーナーリバウンド攻撃
+EN Corner Rebound Attack
+
+@ 0684
+# fit 16 letters x 1 line(s)
+JP バック攻撃
+EN Rear Attack
+
+@ 0685
+# fit 40 letters x 2 line(s)
+JP バックからの返し技・体力多
+EN Back Reversal - High Stamina
+
+@ 0686
+# fit 40 letters x 2 line(s)
+JP バックからの返し技・体力少
+EN Back Reversal - Low Stamina
+
+@ 0687
+# fit 40 letters x 2 line(s)
+JP 蹴り足とっての返し技
+EN Kick Catch Reversal
+
+@ 0688
+# fit 40 letters x 2 line(s)
+JP リング内からエプロンへの攻撃
+EN Ring-to-Apron Attack
+
+@ 0689
+# fit 40 letters x 2 line(s)
+JP 場外への攻撃・ロープ際
+EN Outside Attack - At Ropes
+
+@ 0690
+# fit 40 letters x 2 line(s)
+JP 場外への攻撃・適正距離
+EN Outside Attack - Mid Range
+
+@ 0691
+# fit 40 letters x 2 line(s)
+JP エプロンでの攻撃・前向き
+EN Apron Attack - Facing Front
+
+@ 0692
+# fit 40 letters x 2 line(s)
+JP エプロンでの攻撃・後ろ向き
+EN Apron Attack - Facing Away
+
+@ 0693
+# fit 40 letters x 2 line(s)
+JP エプロンからの場内攻撃
+EN Apron-to-Ring Attack
+
+@ 0694
+# fit 40 letters x 2 line(s)
+JP エプロンからの場外攻撃
+EN Apron-to-Outside Attack
+
+@ 0695
+# fit 16 letters x 1 line(s)
+JP ダウン攻撃
+EN Down Attack
+
+@ 0696
+# fit 40 letters x 2 line(s)
+JP トップロープ上への攻撃前向き
+EN Attack on Top Rope - Front
+
+@ 0697
+# fit 40 letters x 2 line(s)
+JP トップロープ上への攻撃後ろ向き
+EN Attack on Top Rope - Back
+
+@ 0698
+# fit 40 letters x 2 line(s)
+JP トップロープからスタンディング
+EN Top Rope to Standing
+
+@ 0699
+# fit 40 letters x 2 line(s)
+JP トップロープからダウン
+EN Top Rope to Downed
+
+@ 0700
+# fit 40 letters x 2 line(s)
+JP トップロープからの場外攻撃
+EN Top Rope to Outside
+
+@ 0701
+# fit 40 letters x 2 line(s)
+JP 雪崩式攻撃・前向き
+EN Avalanche Attack - Front
+
+@ 0702
+# fit 40 letters x 2 line(s)
+JP 雪崩式攻撃・後向き
+EN Avalanche Attack - Back
+
+@ 0703
+# fit 16 letters x 1 line(s)
+JP コーナー攻撃
+EN Corner Attack
+
+@ 0704
+# fit 16 letters x 1 line(s)
+JP 串刺し攻撃
+EN Corner Charge
+
+@ 0705
+# fit 16 letters x 1 line(s)
+JP 起き上がり攻撃
+EN Get-Up Attack
+
+@ 0706
+# fit 16 letters x 1 line(s)
+JP 羽交い締め攻撃
+EN Rear Hold Attack
+
+@ 0707
+# fit 40 letters x 2 line(s)
+JP ツープラトン攻撃
+EN Double-Team Attack
+
+@ 0708
+# fit 16 letters x 1 line(s)
+JP カット攻撃
+EN Save Attack
+
+@ 0709
+# fit 16 letters x 1 line(s)
+JP アピール
+EN Taunt
+
+@ 0710
+# fit 16 letters x 1 line(s)
+JP フォール
+EN Pin
+
+@ 0711
+# fit 40 letters x 2 line(s)
+JP 入場時パフォーマンス
+EN Entrance Performance
+
+@ 0712
+# fit 40 letters x 2 line(s)
+JP コール時パフォーマンス
+EN Call Performance
+
+@ 0713
+# fit 40 letters x 2 line(s)
+JP 勝利時パフォーマンス
+EN Victory Performance
+
+@ 0714
+# fit 40 letters x 2 line(s)
+JP 引起し投・前（仰向け下半身）
+EN Lift Throw - Front (Face Up, Lower)
+
+@ 0715
+# fit 40 letters x 2 line(s)
+JP 引起し投・後（仰向け上半身）
+EN Lift Throw - Back (Face Up, Upper)
+
+@ 0716
+# fit 40 letters x 2 line(s)
+JP 引起し投・前（うつ伏せ上半身）
+EN Lift Throw - Front (Face Down, Upper)
+
+@ 0717
+# fit 40 letters x 2 line(s)
+JP 引起し投・後（うつ伏せ下半身）
+EN Lift Throw - Back (Face Down, Lower)
+
+@ 0718
+# fit 16 letters x 1 line(s)
+JP 頭部仰向け
+EN Head Face Up
+
+@ 0719
+# fit 16 letters x 1 line(s)
+JP 上半身仰向け
+EN Upper Face Up
+
+@ 0720
+# fit 16 letters x 1 line(s)
+JP 下半身仰向け
+EN Lower Face Up
+
+@ 0721
+# fit 16 letters x 1 line(s)
+JP 脚部仰向け
+EN Legs Face Up
+
+@ 0722
+# fit 16 letters x 1 line(s)
+JP 頭部うつ伏せ
+EN Head Face Down
+
+@ 0723
+# fit 16 letters x 1 line(s)
+JP 上半身うつ伏せ
+EN Upper Face Down
+
+@ 0724
+# fit 16 letters x 1 line(s)
+JP 下半身うつ伏せ
+EN Lower Face Down
+
+@ 0725
+# fit 16 letters x 1 line(s)
+JP 脚部うつ伏せ
+EN Legs Face Down
+
+@ 0726
+# fit 16 letters x 1 line(s)
+JP 登っている最中
+EN While Climbing
+
+@ 0727
+# fit 16 letters x 1 line(s)
+JP グロッキー中
+EN While Groggy
+
+@ 0728
+# fit 16 letters x 1 line(s)
+JP 仰向けロープ
+EN Face Up Ropes
+
+@ 0729
+# fit 40 letters x 2 line(s)
+JP 仰向けロープ・闘魂ラッシュ時
+EN Face Up Ropes - Toukon Rush
+
+@ 0730
+# fit 16 letters x 1 line(s)
+JP 仰向けコーナー
+EN Face Up Corner
+
+@ 0731
+# fit 16 letters x 1 line(s)
+JP うつ伏せロープ
+EN Face Down Ropes
+
+@ 0732
+# fit 40 letters x 2 line(s)
+JP うつ伏せコーナー
+EN Face Down Corner
+
+@ 0733
+# fit 16 letters x 1 line(s)
+JP コーナー
+EN Corner
+
+@ 0734
+# fit 16 letters x 1 line(s)
+JP 鉄柵
+EN Steel Barrier
+
+@ 0735
+# fit 16 letters x 1 line(s)
+JP ダッシュ攻撃
+EN Dash Attack
+
+@ 0736
+# fit 40 letters x 2 line(s)
+JP トップロープ攻撃
+EN Top Rope Attack
+
+@ 0737
+# fit 40 letters x 2 line(s)
+JP 並んで相手と向き合って
+EN Side by Side, Facing Opponent
+
+@ 0738
+# fit 40 letters x 2 line(s)
+JP 相手の背後に並んで
+EN Side by Side, Behind Opponent
+
+@ 0739
+# fit 40 letters x 2 line(s)
+JP 前後に相手を挟んで
+EN Opponent Between Us, Front and Back
+
+@ 0740
+# fit 40 letters x 2 line(s)
+JP 相手を左右から挟んで
+EN Opponent Between Us, Left and Right
+
+@ 0741
+# fit 40 letters x 2 line(s)
+JP コーナー際で相手挟んで
+EN Opponent Between Us at Corner
+
+@ 0742
+# fit 40 letters x 2 line(s)
+JP ダウン相手の上半身を挟んで
+EN Flank Downed Opp's Upper Body
+
+@ 0743
+# fit 40 letters x 2 line(s)
+JP ダウン相手の下半身を挟んで
+EN Flank Downed Opp's Lower Body
+
+@ 0744
+# fit 40 letters x 2 line(s)
+JP グラウンドの相手に
+EN Against Opponent on Ground
+
+@ 0745
+# fit 40 letters x 2 line(s)
+JP スタンディングの相手に
+EN Against Standing Opponent
+
+@ 0746
+# fit 16 letters x 1 line(s)
+JP カット１
+EN Save 1
+
+@ 0747
+# fit 16 letters x 1 line(s)
+JP カット２
+EN Save 2
+
+@ 0748
+# fit 16 letters x 1 line(s)
+JP カット３
+EN Save 3
+
+@ 0749
+# fit 16 letters x 1 line(s)
+JP カット４
+EN Save 4
+
+@ 0750
+# fit 16 letters x 1 line(s)
+JP リングイン時
+EN Entering Ring
+
+@ 0751
+# fit 16 letters x 1 line(s)
+JP コール前
+EN Before Call
+
+@ 0752
+# fit 16 letters x 1 line(s)
+JP コール時
+EN During Call
+
+@ 0753
+# fit 16 letters x 1 line(s)
+JP コール後１
+EN After Call 1
+
+@ 0754
+# fit 16 letters x 1 line(s)
+JP コール後２
+EN After Call 2
+
+@ 0755
+# fit 16 letters x 1 line(s)
+JP コール後３
+EN After Call 3
+
+@ 0756
+# fit 16 letters x 1 line(s)
+JP コール後４
+EN After Call 4
+
+@ 0757
+# fit 16 letters x 1 line(s)
+JP 技設定
+EN Move Setup
+
+@ 0758
+# fit 16 letters x 1 line(s)
+JP なし
+EN None
+
+@ 0759
+# fit 40 letters x 2 line(s)
+JP ダブルアームブリーカー
+EN Double Arm Breaker
+
+@ 0760
+# fit 40 letters x 2 line(s)
+JP ダブルニークラッシャー
+EN Double Knee Crusher
+
+@ 0761
+# fit 40 letters x 2 line(s)
+JP ツープラトンバックドロップ 
+EN Double-Team Backdrop
+
+@ 0762
+# fit 40 letters x 2 line(s)
+JP ツープラトンブレンバスター
+EN Double-Team Brainbuster
+
+@ 0763
+# fit 40 letters x 2 line(s)
+JP ツープラトンフェースクラッシャー
+EN Double-Team Face Crusher
+
+@ 0764
+# fit 40 letters x 2 line(s)
+JP ツープラトンパワーボム
+EN Double-Team Powerbomb
+
+@ 0767
+# fit 16 letters x 1 line(s)
+JP ボム予告
+EN Bomb Warning
+
+@ 0768
+# fit 16 letters x 1 line(s)
+JP 左腕まわす
+EN Rotate Left Arm
+
+@ 0769
+# fit 40 letters x 2 line(s)
+JP すばやい首かっきり１
+EN Quick Throat Slit 1
+
+@ 0770
+# fit 40 letters x 2 line(s)
+JP 腰をおとして両腕上下動
+EN Crouch, Pump Both Arms
+
+@ 0771
+# fit 16 letters x 1 line(s)
+JP 握りこぶし
+EN Clenched Fist
+
+@ 0772
+# fit 16 letters x 1 line(s)
+JP 拍手を求める
+EN Ask for Applause
+
+@ 0774
+# fit 40 letters x 2 line(s)
+JP 両腕交差してひろげる
+EN Cross Arms and Spread
+
+@ 0775
+# fit 40 letters x 2 line(s)
+JP 膝をついてポーズ
+EN Kneel and Pose
+
+@ 0776
+# fit 16 letters x 1 line(s)
+JP 気合をためる
+EN Charge Up Spirit
+
+@ 0777
+# fit 40 letters x 2 line(s)
+JP 相手を手招きして拍手求める
+EN Beckon Opp, Ask Applause
+
+@ 0778
+# fit 40 letters x 2 line(s)
+JP 両腕ひらいて相手を招く
+EN Open Arms, Invite Opp
+
+@ 0779
+# fit 40 letters x 2 line(s)
+JP タイガースープレックスいくぞ
+EN Tiger Suplex Coming!
+
+@ 0780
+# fit 40 letters x 2 line(s)
+JP 相手に向かって中指を突き立てる
+EN Raise Middle Finger at Opp
+
+@ 0781
+# fit 40 letters x 2 line(s)
+JP 両腕ひろげて、いくぞ！
+EN Spread Arms, Let's Go!
+
+@ 0782
+# fit 40 letters x 2 line(s)
+JP すばやい首かっきり２
+EN Quick Throat Slit 2
+
+@ 0783
+# fit 40 letters x 2 line(s)
+JP パワーボムいくぞ
+EN Powerbomb Coming!
+
+@ 0784
+# fit 40 letters x 2 line(s)
+JP 客席に向かって握り拳を作る
+EN Make Fist at Crowd
+
+@ 0785
+# fit 16 letters x 1 line(s)
+JP 腰クネ
+EN Hip Wiggle
+
+@ 0786
+# fit 16 letters x 1 line(s)
+JP 上空に毒霧
+EN Mist Skyward
+
+@ 0787
+# fit 40 letters x 2 line(s)
+JP スローな首かっきり
+EN Slow Throat Slit
+
+@ 0788
+# fit 40 letters x 2 line(s)
+JP 右手でひさしを作り遠望する
+EN Hand Over Eyes, Look Far
+
+@ 0789
+# fit 40 letters x 2 line(s)
+JP 腰をおとして叫ぶ
+EN Crouch and Shout
+
+@ 0790
+# fit 40 letters x 2 line(s)
+JP 小さくガッツポーズ
+EN Small Fist Pump
+
+@ 0791
+# fit 40 letters x 2 line(s)
+JP 相手を手招きして拍手求める
+EN Beckon Opp, Ask Applause
+
+@ 0792
+# fit 40 letters x 2 line(s)
+JP 両腕を大きく回す
+EN Swing Both Arms Wide
+
+@ 0793
+# fit 40 letters x 2 line(s)
+JP 両手で気合入れる
+EN Psych Up With Both Hands
+
+@ 0794
+# fit 40 letters x 2 line(s)
+JP 両手を頭上で交差
+EN Cross Hands Overhead
+
+@ 0795
+# fit 16 letters x 1 line(s)
+JP 首かっきり
+EN Throat Slit
+
+@ 0796
+# fit 40 letters x 2 line(s)
+JP 首かっきりボムいくぞ
+EN Throat Slit Bomb Coming!
+
+@ 0797
+# fit 16 letters x 1 line(s)
+JP 右腕あげる
+EN Raise Right Arm
+
+@ 0798
+# fit 40 letters x 2 line(s)
+JP ダイビングギロチンドロップいくぞ
+EN Diving Guillotine Drop Coming!
+
+@ 0799
+# fit 40 letters x 2 line(s)
+JP のけぞって左手をまわす
+EN Lean Back, Swing Left Hand
+
+@ 0800
+# fit 40 letters x 2 line(s)
+JP ひねり潰してやる
+EN I'll Crush You!
+
+@ 0801
+# fit 16 letters x 1 line(s)
+JP 相手を招く
+EN Invite Opp
+
+@ 0802
+# fit 16 letters x 1 line(s)
+JP 左腕まわす
+EN Rotate Left Arm
+
+@ 0803
+# fit 16 letters x 1 line(s)
+JP 拍手を求める
+EN Ask for Applause
+
+@ 0804
+# fit 16 letters x 1 line(s)
+JP ステップ１
+EN Step 1
+
+@ 0805
+# fit 16 letters x 1 line(s)
+JP 両腕ひろげる
+EN Spread Arms
+
+@ 0806
+# fit 16 letters x 1 line(s)
+JP 首かっきり
+EN Throat Slit
+
+@ 0807
+# fit 40 letters x 2 line(s)
+JP 両腕あげて手首を動かす
+EN Raise Arms, Wiggle Wrists
+
+@ 0808
+# fit 40 letters x 2 line(s)
+JP 両腕力強くひらく
+EN Spread Arms Powerfully
+
+@ 0809
+# fit 16 letters x 1 line(s)
+JP 右腕まわす
+EN Rotate Right Arm
+
+@ 0810
+# fit 40 letters x 2 line(s)
+JP 両手を広げてあおる
+EN Spread Hands, Taunt
+
+@ 0811
+# fit 40 letters x 2 line(s)
+JP 両手で首かっきり
+EN Throat Slit, Both Hands
+
+@ 0812
+# fit 16 letters x 1 line(s)
+JP 投げキッス
+EN Blow a Kiss
+
+@ 0813
+# fit 16 letters x 1 line(s)
+JP 「ダァー！」
+EN "Daaa!"
+
+@ 0814
+# fit 40 letters x 2 line(s)
+JP 歩いてからおじぎ
+EN Walk, Then Bow
+
+@ 0815
+# fit 40 letters x 2 line(s)
+JP 小さいガッツポーズ１
+EN Small Fist Pump 1
+
+@ 0816
+# fit 40 letters x 2 line(s)
+JP 両腕を軽く動かす
+EN Move Arms Lightly
+
+@ 0817
+# fit 40 letters x 2 line(s)
+JP 右手あげて両手あげる
+EN Right Hand Up, Both Up
+
+@ 0818
+# fit 16 letters x 1 line(s)
+JP 両腕あげる
+EN Raise Both Arms
+
+@ 0820
+# fit 16 letters x 1 line(s)
+JP 右腕あげる
+EN Raise Right Arm
+
+@ 0821
+# fit 16 letters x 1 line(s)
+JP 握りこぶし
+EN Clenched Fist
+
+@ 0822
+# fit 16 letters x 1 line(s)
+JP 相手を手招き
+EN Beckon Opp
+
+@ 0823
+# fit 16 letters x 1 line(s)
+JP 邪鬼祓
+EN Evil Exorcism
+
+@ 0824
+# fit 40 letters x 2 line(s)
+JP わんわんポーズ４
+EN Puppy Pose 4
+
+@ 0826
+# fit 40 letters x 2 line(s)
+JP 両手を交差させて開く
+EN Cross Hands and Open
+
+@ 0827
+# fit 16 letters x 1 line(s)
+JP ニタリポーズ
+EN Grin Pose
+
+@ 0831
+# fit 40 letters x 2 line(s)
+JP 左腕あげて右腕あげる
+EN Raise Left Arm, Then Right
+
+@ 0834
+# fit 16 letters x 1 line(s)
+JP 腕ぐるぐる
+EN Arm Windmill
+
+@ 0835
+# fit 40 letters x 2 line(s)
+JP ふんばってガッツポーズ
+EN Brace and Fist Pump
+
+@ 0836
+# fit 40 letters x 2 line(s)
+JP 小さいガッツポーズ２
+EN Small Fist Pump 2
+
+@ 0837
+# fit 16 letters x 1 line(s)
+JP 咆哮！
+EN Roar!
+
+@ 0838
+# fit 16 letters x 1 line(s)
+JP 拝み渡り
+EN Praying Walk
+
+@ 0839
+# fit 40 letters x 2 line(s)
+JP ぐるぐるポーズ回転
+EN Spinning Pose Turn
+
+@ 0844
+# fit 16 letters x 1 line(s)
+JP 狂神咆哮
+EN Mad God Roar
+
+@ 0845
+# fit 16 letters x 1 line(s)
+JP 合掌
+EN Praying Hands
+
+@ 0864
+# fit 40 letters x 2 line(s)
+JP タイガーコンビネーションキック
+EN Tiger Combination Kick
+
+@ 0865
+# fit 40 letters x 2 line(s)
+JP カニばさみ・ＳＴＦ連携
+EN Crab Scissors/STF Combo
+
+@ 0866
+# fit 40 letters x 2 line(s)
+JP ＳＴＦ・原型ＳＴＦ連携
+EN STF/Original STF Combo
+
+@ 0867
+# fit 40 letters x 2 line(s)
+JP Ｒインディアン・鎌固め連携
+EN Rev Indian-Sickle Hold Combo
+
+@ 0868
+# fit 40 letters x 2 line(s)
+JP 側転エルボー・ＦＣ連携
+EN Cartwheel Elbow/FC Combo
+
+@ 0869
+# fit 40 letters x 2 line(s)
+JP バックドロップ（エプロン）
+EN Backdrop (Apron)
+
+@ 0870
+# fit 40 letters x 2 line(s)
+JP エルボースマッシュ（カシン）
+EN Elbow Smash (Kashin)
+
+@ 0871
+# fit 40 letters x 2 line(s)
+JP ショルダーバスター
+EN Shoulder Buster
+
+@ 0872
+# fit 40 letters x 2 line(s)
+JP スリーパーホールド・胴絞め連携
+EN Sleeper/Body Scissors Combo
+
+@ 0873
+# fit 40 letters x 2 line(s)
+JP アルゼンチン・放り投げ連携
+EN Argentine/Toss Combo
+
+@ 0874
+# fit 40 letters x 2 line(s)
+JP ＣＷフェイス・胴絞め連携
+EN Chickenwing Face/Body Scissors
+
+@ 0875
+# fit 40 letters x 2 line(s)
+JP 放り投げ受け先（１１５）
+EN Toss Receiver (115)
+
+@ 0876
+# fit 40 letters x 2 line(s)
+JP ＳＡ・エルボー連携
+EN SA/Elbow Combo
+
+@ 0877
+# fit 40 letters x 2 line(s)
+JP 両腕あげて、よしこい
+EN Raise Arms, Come On!
+
+@ 0878
+# fit 40 letters x 2 line(s)
+JP ダブルドロップキック
+EN Double Dropkick
+
+@ 0879
+# fit 40 letters x 2 line(s)
+JP サンドイッチラリアット
+EN Sandwich Lariat
+
+@ 0880
+# fit 40 letters x 2 line(s)
+JP ハイジャックパイルドライバー
+EN Hijack Piledriver
+
+@ 0881
+# fit 40 letters x 2 line(s)
+JP ダブルアキレス腱固め
+EN Double Achilles Hold
+
+@ 0882
+# fit 40 letters x 2 line(s)
+JP ダブル腕ひしぎ逆十字固め
+EN Double Armbar
+
+@ 0883
+# fit 16 letters x 1 line(s)
+JP 超高層 DDT
+EN Super-High DDT
+
+@ 0884
+# fit 40 letters x 2 line(s)
+JP 超高層 ブルドッギングヘッドロック
+EN Super-High Bulldogging Headlock
+
+@ 0886
+# fit 40 letters x 2 line(s)
+JP 一本背負い（バック返し）
+EN Shoulder Throw (Back Reversal)
+
+@ 0892
+# fit 16 letters x 1 line(s)
+JP ＳＳＤ
+EN SSD
+
+@ 0893
+# fit 40 letters x 2 line(s)
+JP 元祖フランケンシュタイナー
+EN Original Frankensteiner
+
+@ 0894
+# fit 40 letters x 2 line(s)
+JP スタイナードライバー
+EN Steiner Driver
+
+@ 0895
+# fit 16 letters x 1 line(s)
+JP ティルトスラム
+EN Tilt Slam
+
+@ 0896
+# fit 40 letters x 2 line(s)
+JP 投げっぱなしストレッチボム
+EN Release Stretch Bomb
+
+@ 0901
+# fit 40 letters x 2 line(s)
+JP ブレーンバスター（平田）
+EN Brainbuster (Hirata)
+
+@ 0902
+# fit 16 letters x 1 line(s)
+JP ＤＤＴ（平田）
+EN DDT (Hirata)
+
+@ 0903
+# fit 40 letters x 2 line(s)
+JP フロントスープレックス（中西）
+EN Front Suplex (Nakanishi)
+
+@ 0904
+# fit 40 letters x 2 line(s)
+JP 水車落とし（カウンター）
+EN Waterwheel Drop (Counter)
+
+@ 0905
+# fit 40 letters x 2 line(s)
+JP 滞空式パワーボム
+EN Hanging Powerbomb
+
+@ 0906
+# fit 40 letters x 2 line(s)
+JP 連続ブレーンバスター
+EN Consecutive Brainbusters
+
+@ 0907
+# fit 40 letters x 2 line(s)
+JP 雪崩式垂直落下ＢバスターＢＴ
+EN Avalanche Vertical Drop B-Buster BT
+
+@ 0937
+# fit 40 letters x 2 line(s)
+JP 延髄ダイビングニードロップ
+EN Enzuigiri Diving Knee Drop
+
+@ 0941
+# fit 40 letters x 2 line(s)
+JP 正面飛びミサイルキック
+EN Front Missile Kick
+
+@ 0942
+# fit 16 letters x 1 line(s)
+JP 竜巻蹴り
+EN Tornado Kick
+
+@ 0944
+# fit 40 letters x 2 line(s)
+JP ムーンサルトいくぞ
+EN Moonsault Coming!
+
+@ 0945
+# fit 40 letters x 2 line(s)
+JP 足踏みして力ためる
+EN Stomp and Build Power
+
+@ 0946
+# fit 40 letters x 2 line(s)
+JP 粘っこいガッツポーズ
+EN Sticky Fist Pump
+
+@ 0947
+# fit 40 letters x 2 line(s)
+JP ウルフサイン両腕あげておろす
+EN Wolf Sign, Arms Up and Down
+
+@ 0948
+# fit 40 letters x 2 line(s)
+JP ガッツポーズいくぜ！
+EN Fist Pump Time!
+
+@ 0949
+# fit 40 letters x 2 line(s)
+JP 両腕をゆっくり左右に開く
+EN Slowly Open Arms
+
+@ 0950
+# fit 40 letters x 2 line(s)
+JP 急所ニードロップ
+EN Low Blow Knee Drop
+
+@ 0951
+# fit 40 letters x 2 line(s)
+JP カウンターグランドコブラツイスト
+EN Counter Ground Cobra Twist
+
+@ 0952
+# fit 40 letters x 2 line(s)
+JP ランニングケサ斬りチョップ
+EN Running Kesagiri Chop
+
+@ 0953
+# fit 40 letters x 2 line(s)
+JP カウンターケサ斬りチョップ
+EN Counter Kesagiri Chop
+
+@ 0954
+# fit 40 letters x 2 line(s)
+JP 三角絞め（うつ伏せ）
+EN Triangle Choke (Face Down)
+
+@ 0956
+# fit 40 letters x 2 line(s)
+JP タイガードライバー
+EN Tiger Driver
+
+@ 0957
+# fit 40 letters x 2 line(s)
+JP Ｊネックブリーカードロップ
+EN J Neckbreaker Drop
+
+@ 0958
+# fit 40 letters x 2 line(s)
+JP プランチャスイシーダ（ＴＰから）
+EN Plancha Suicida (From Top Rope)
+
+@ 0959
+# fit 16 letters x 1 line(s)
+JP 浴びせ蹴り
+EN Axe Kick
+
+@ 0960
+# fit 16 letters x 1 line(s)
+JP アリキック
+EN Ali Kick
+
+@ 0961
+# fit 40 letters x 2 line(s)
+JP エルボースマッシュ（背後から）
+EN Elbow Smash (From Behind)
+
+@ 0962
+# fit 40 letters x 2 line(s)
+JP ぶん殴りラリアット
+EN Slugging Lariat
+
+@ 0963
+# fit 16 letters x 1 line(s)
+JP ボディプレス
+EN Body Press
+
+@ 0964
+# fit 40 letters x 2 line(s)
+JP ボディスプラッシュ
+EN Body Splash
+
+@ 0965
+# fit 16 letters x 1 line(s)
+JP ボディブロー
+EN Body Blow
+
+@ 0966
+# fit 40 letters x 2 line(s)
+JP ドラゴンロケット
+EN Dragon Rocket
+
+@ 0967
+# fit 40 letters x 2 line(s)
+JP ダイビングボディアタック
+EN Diving Body Attack
+
+@ 0968
+# fit 40 letters x 2 line(s)
+JP ダイビングエルボードロップ
+EN Diving Elbow Drop
+
+@ 0969
+# fit 16 letters x 1 line(s)
+JP Ｄヘッドバット
+EN Diving Headbutt
+
+@ 0970
+# fit 40 letters x 2 line(s)
+JP ダイビングヒップアタック
+EN Diving Hip Attack
+
+@ 0971
+# fit 40 letters x 2 line(s)
+JP ダイビングラリアット
+EN Diving Lariat
+
+@ 0972
+# fit 40 letters x 2 line(s)
+JP ダイビングニードロップ
+EN Diving Knee Drop
+
+@ 0973
+# fit 40 letters x 2 line(s)
+JP ダイビングニールキック
+EN Diving Knee Kick
+
+@ 0974
+# fit 40 letters x 2 line(s)
+JP ダイビングショルダーアタック
+EN Diving Shoulder Attack
+
+@ 0975
+# fit 40 letters x 2 line(s)
+JP ダイビングショルダーアタック
+EN Diving Shoulder Attack
+
+@ 0976
+# fit 40 letters x 2 line(s)
+JP ダブルスレッジハンマー
+EN Double Sledgehammer
+
+@ 0977
+# fit 16 letters x 1 line(s)
+JP 毒霧（旧式）
+EN Mist (Old Style)
+
+@ 0978
+# fit 16 letters x 1 line(s)
+JP ドロップキック
+EN Dropkick
+
+@ 0979
+# fit 40 letters x 2 line(s)
+JP ダッシュドロップキック
+EN Dash Dropkick
+
+@ 0980
+# fit 40 letters x 2 line(s)
+JP ダイビングギロチンドロップ
+EN Diving Guillotine Drop
+
+@ 0981
+# fit 40 letters x 2 line(s)
+JP ダイビングモンゴリアンチョップ
+EN Diving Mongolian Chop
+
+@ 0982
+# fit 40 letters x 2 line(s)
+JP ダイビングミサイルキック
+EN Diving Missile Kick
+
+@ 0983
+# fit 40 letters x 2 line(s)
+JP ジャンピングエルボードロップ
+EN Jumping Elbow Drop
+
+@ 0984
+# fit 40 letters x 2 line(s)
+JP エルボースマッシュ（振り抜き式）
+EN Elbow Smash (Swinging)
+
+@ 0985
+# fit 40 letters x 2 line(s)
+JP エルボーバット（バック返し）
+EN Elbow Butt (Back Counter)
+
+@ 0986
+# fit 40 letters x 2 line(s)
+JP エルボースマッシュ（カチ上げ式）
+EN Elbow Smash (Upswing)
+
+@ 0987
+# fit 16 letters x 1 line(s)
+JP 延髄斬り
+EN Enzuigiri
+
+@ 0988
+# fit 40 letters x 2 line(s)
+JP フライングショルダーアタック
+EN Flying Shoulder Attack
+
+@ 0989
+# fit 40 letters x 2 line(s)
+JP フラッシングエルボー
+EN Flashing Elbow
+
+@ 0990
+# fit 40 letters x 2 line(s)
+JP フライングニールキック（橋本）
+EN Flying Knee Kick (Hashimoto)
+
+@ 0991
+# fit 16 letters x 1 line(s)
+JP フットスタンプ
+EN Foot Stomp
+
+@ 0992
+# fit 16 letters x 1 line(s)
+JP 逆水平チョップ
+EN Backhand Chop
+
+@ 0994
+# fit 40 letters x 2 line(s)
+JP ストンピング（カシン）
+EN Stomp (Kashin)
+
+@ 0996
+# fit 40 letters x 2 line(s)
+JP ギロチンドロップ
+EN Guillotine Drop
+
+@ 0997
+# fit 40 letters x 2 line(s)
+JP Ｄヘッドバット(ペガサス）
+EN Diving Headbutt (Pegasus)
+
+@ 0998
+# fit 40 letters x 2 line(s)
+JP 垂直落下式Ｄヘッドバット
+EN Vertical Drop Diving Headbutt
+
+@ 0999
+# fit 40 letters x 2 line(s)
+JP Ｄヘッドバット(天山１）
+EN Diving Headbutt (Tenzan 1)
+
+@ 1001
+# fit 40 letters x 2 line(s)
+JP 逆水平チョップ（佐々木）
+EN Backhand Chop (Sasaki)
+
+@ 1002
+# fit 40 letters x 2 line(s)
+JP ハイキック（橋本）
+EN High Kick (Hashimoto)
+
+@ 1003
+# fit 40 letters x 2 line(s)
+JP コンビネーションキック（橋本）
+EN Combination Kick (Hashimoto)
+
+@ 1004
+# fit 40 letters x 2 line(s)
+JP トラースキック(橋本）
+EN Thrust Kick (Hashimoto)
+
+@ 1005
+# fit 16 letters x 1 line(s)
+JP ヘッドバット
+EN Headbutt
+
+@ 1006
+# fit 16 letters x 1 line(s)
+JP ヘッドドロップ
+EN Head Drop
+
+@ 1007
+# fit 40 letters x 2 line(s)
+JP セントーン（橋本）
+EN Senton (Hashimoto)
+
+@ 1008
+# fit 16 letters x 1 line(s)
+JP ハンマーパンチ
+EN Hammer Punch
+
+@ 1009
+# fit 16 letters x 1 line(s)
+JP 張り手（猪木）
+EN Slap (Inoki)
+
+@ 1010
+# fit 40 letters x 2 line(s)
+JP 延髄斬り（猪木）
+EN Enzuigiri (Inoki)
+
+@ 1011
+# fit 40 letters x 2 line(s)
+JP ジャンピングヒップアタック
+EN Jumping Hip Attack
+
+@ 1012
+# fit 40 letters x 2 line(s)
+JP ジャンピングエルボー
+EN Jumping Elbow
+
+@ 1013
+# fit 40 letters x 2 line(s)
+JP ジャンピングニーアタック
+EN Jumping Knee Attack
+
+@ 1014
+# fit 40 letters x 2 line(s)
+JP 逆水平チョップ(金本）
+EN Backhand Chop (Kanemoto)
+
+@ 1015
+# fit 40 letters x 2 line(s)
+JP ミドルキック（金本）
+EN Middle Kick (Kanemoto)
+
+@ 1016
+# fit 40 letters x 2 line(s)
+JP ローリングセントーン（金本）
+EN Rolling Senton (Kanemoto)
+
+@ 1017
+# fit 40 letters x 2 line(s)
+JP トラースキック(金本）
+EN Thrust Kick (Kanemoto)
+
+@ 1018
+# fit 40 letters x 2 line(s)
+JP カンガルーキック（バック返し）
+EN Kangaroo Kick (Back Counter)
+
+@ 1019
+# fit 16 letters x 1 line(s)
+JP ケンカキック
+EN Yakuza Kick
+
+@ 1020
+# fit 40 letters x 2 line(s)
+JP ケンスケラリアット
+EN Kensuke Lariat
+
+@ 1021
+# fit 40 letters x 2 line(s)
+JP ミドルキック（佐々木）
+EN Middle Kick (Sasaki)
+
+@ 1022
+# fit 40 letters x 2 line(s)
+JP ヒップバット（越中）
+EN Hip Butt (Koshinaka)
+
+@ 1023
+# fit 16 letters x 1 line(s)
+JP キチンシンク
+EN Kitchen Sink
+
+@ 1024
+# fit 40 letters x 2 line(s)
+JP 胴絞めスリーパー
+EN Body Scissors Sleeper
+
+@ 1025
+# fit 40 letters x 2 line(s)
+JP ローキック（小川）
+EN Low Kick (Ogawa)
+
+@ 1026
+# fit 40 letters x 2 line(s)
+JP 巴投げ（引き落とし）
+EN Tomoe Nage (Pull Down)
+
+@ 1027
+# fit 40 letters x 2 line(s)
+JP ダイビングダブルニードロップ
+EN Diving Double Knee Drop
+
+@ 1028
+# fit 16 letters x 1 line(s)
+JP ニードロップ
+EN Knee Drop
+
+@ 1029
+# fit 40 letters x 2 line(s)
+JP フライングニールキック(金本）
+EN Flying Knee Kick (Kanemoto)
+
+@ 1030
+# fit 40 letters x 2 line(s)
+JP ムーンサルトプレス（小島）
+EN Moonsault Press (Kojima)
+
+@ 1031
+# fit 40 letters x 2 line(s)
+JP サンセットフリップ（小島）
+EN Sunset Flip (Kojima)
+
+@ 1032
+# fit 40 letters x 2 line(s)
+JP ケサ斬りチョップ
+EN Kesagiri Chop
+
+@ 1033
+# fit 40 letters x 2 line(s)
+JP 串刺しラリアット
+EN Corner Lariat
+
+@ 1034
+# fit 40 letters x 2 line(s)
+JP 急所蹴り（バック返し）
+EN Low Blow (Back Counter)
+
+@ 1035
+# fit 16 letters x 1 line(s)
+JP ラケブラーダ
+EN La Quebrada
+
+@ 1036
+# fit 40 letters x 2 line(s)
+JP ラウンディングボディプレス
+EN Rounding Body Press
+
+@ 1037
+# fit 16 letters x 1 line(s)
+JP ラリアット
+EN Lariat
+
+@ 1038
+# fit 40 letters x 2 line(s)
+JP Ｄヘッドバット(ライガー）
+EN Diving Headbutt (Liger)
+
+@ 1039
+# fit 40 letters x 2 line(s)
+JP 低空ドロップキック
+EN Low Dropkick
+
+@ 1040
+# fit 40 letters x 2 line(s)
+JP ローキック（藤波）
+EN Low Kick (Fujinami)
+
+@ 1041
+# fit 40 letters x 2 line(s)
+JP ミドルキック（橋本）
+EN Middle Kick (Hashimoto)
+
+@ 1042
+# fit 16 letters x 1 line(s)
+JP ミサイルキック
+EN Missile Kick
+
+@ 1043
+# fit 40 letters x 2 line(s)
+JP モンゴリアンチョップ
+EN Mongolian Chop
+
+@ 1044
+# fit 40 letters x 2 line(s)
+JP ムーンサルトキック
+EN Moonsault Kick
+
+@ 1045
+# fit 40 letters x 2 line(s)
+JP ムーンサルトプレス（金本）
+EN Moonsault Press (Kanemoto)
+
+@ 1046
+# fit 40 letters x 2 line(s)
+JP ムーンサルトプレス（汎用）
+EN Moonsault Press (Generic)
+
+@ 1047
+# fit 40 letters x 2 line(s)
+JP ミサイルキック（武藤）
+EN Missile Kick (Muto)
+
+@ 1048
+# fit 16 letters x 1 line(s)
+JP 新天山チョップ
+EN New Tenzan Chop
+
+@ 1049
+# fit 40 letters x 2 line(s)
+JP ナックルパンチ（ＴＰ迎撃）
+EN Knuckle Punch (TP Intercept)
+
+@ 1050
+# fit 40 letters x 2 line(s)
+JP フライングニールキック(大谷）
+EN Flying Knee Kick (Otani)
+
+@ 1051
+# fit 16 letters x 1 line(s)
+JP 張り手（大谷）
+EN Slap (Otani)
+
+@ 1052
+# fit 40 letters x 2 line(s)
+JP プランチャスイシーダ
+EN Plancha Suicida
+
+@ 1053
+# fit 16 letters x 1 line(s)
+JP リキラリアット
+EN Riki Lariat
+
+@ 1054
+# fit 40 letters x 2 line(s)
+JP ローリングソバット（武藤）
+EN Rolling Sobat (Muto)
+
+@ 1055
+# fit 40 letters x 2 line(s)
+JP ローリングソバット（金本）
+EN Rolling Sobat (Kanemoto)
+
+@ 1056
+# fit 40 letters x 2 line(s)
+JP トペコンヒーロ（サムライ）
+EN Tope Con Hilo (Samurai)
+
+@ 1057
+# fit 40 letters x 2 line(s)
+JP Ｄヘッドバット(サムライ）
+EN Diving Headbutt (Samurai)
+
+@ 1058
+# fit 16 letters x 1 line(s)
+JP セントーン
+EN Senton
+
+@ 1059
+# fit 16 letters x 1 line(s)
+JP 掌打（連射）
+EN Palm Flurry
+
+@ 1060
+# fit 40 letters x 2 line(s)
+JP スライディングキック
+EN Sliding Kick
+
+@ 1061
+# fit 40 letters x 2 line(s)
+JP ショートレンジラリアット
+EN Short-Range Lariat
+
+@ 1062
+# fit 40 letters x 2 line(s)
+JP 正面飛びＭキック＆ニップアップ
+EN Front Missile Kick & Nip-Up
+
+@ 1063
+# fit 40 letters x 2 line(s)
+JP 側転ボディアタック
+EN Cartwheel Body Attack
+
+@ 1065
+# fit 40 letters x 2 line(s)
+JP ＳＦタイガードロップ
+EN SF Tiger Drop
+
+@ 1066
+# fit 40 letters x 2 line(s)
+JP サマーソルトダブルニードロップ
+EN Somersault Double Knee Drop
+
+@ 1067
+# fit 40 letters x 2 line(s)
+JP スターダストプレス
+EN Stardust Press
+
+@ 1068
+# fit 40 letters x 2 line(s)
+JP フェニックススプラッシュ
+EN Phoenix Splash
+
+@ 1069
+# fit 40 letters x 2 line(s)
+JP シューティングスタープレス
+EN Shooting Star Press
+
+@ 1070
+# fit 16 letters x 1 line(s)
+JP ストンピング
+EN Stomp
+
+@ 1071
+# fit 40 letters x 2 line(s)
+JP サマーソルトキック
+EN Somersault Kick
+
+@ 1072
+# fit 40 letters x 2 line(s)
+JP サンセットフリップ
+EN Sunset Flip
+
+@ 1073
+# fit 40 letters x 2 line(s)
+JP スワンダイブ式ミサイルキック
+EN Swan Dive Missile Kick
+
+@ 1074
+# fit 40 letters x 2 line(s)
+JP スワンダイブ式ニールキック
+EN Swan Dive Knee Kick
+
+@ 1075
+# fit 40 letters x 2 line(s)
+JP スワンダイブ式プランチャ
+EN Swan Dive Plancha
+
+@ 1076
+# fit 40 letters x 2 line(s)
+JP ショルダータックル（リバウンド）
+EN Shoulder Tackle (Rebound)
+
+@ 1077
+# fit 16 letters x 1 line(s)
+JP 竜巻蹴り
+EN Tornado Kick
+
+@ 1078
+# fit 40 letters x 2 line(s)
+JP フライングニールキック（天山）
+EN Flying Knee Kick (Tenzan)
+
+@ 1079
+# fit 40 letters x 2 line(s)
+JP ドロップキック（タイガー）
+EN Dropkick (Tiger)
+
+@ 1080
+# fit 40 letters x 2 line(s)
+JP カウンター地獄突き
+EN Counter Hell Thrust
+
+@ 1081
+# fit 40 letters x 2 line(s)
+JP Ｄヘッドバット(タイガー）
+EN Diving Headbutt (Tiger)
+
+@ 1082
+# fit 40 letters x 2 line(s)
+JP ハイキック（タイガー）
+EN High Kick (Tiger)
+
+@ 1083
+# fit 40 letters x 2 line(s)
+JP ニールキック（金本）
+EN Knee Kick (Kanemoto)
+
+@ 1084
+# fit 40 letters x 2 line(s)
+JP ダイビングフラッシングエルボー
+EN Diving Flashing Elbow
+
+@ 1085
+# fit 16 letters x 1 line(s)
+JP 天山プレス
+EN Tenzan Press
+
+@ 1086
+# fit 16 letters x 1 line(s)
+JP トーキック１
+EN Toe Kick 1
+
+@ 1087
+# fit 16 letters x 1 line(s)
+JP トーキック２
+EN Toe Kick 2
+
+@ 1088
+# fit 40 letters x 2 line(s)
+JP トペ・デ・レベルサ
+EN Tope de Reversa
+
+@ 1089
+# fit 40 letters x 2 line(s)
+JP トペコン・ヒーロ（ＴＰから）
+EN Tope Con Hilo (from TP)
+
+@ 1090
+# fit 40 letters x 2 line(s)
+JP エルボースマッシュ（打ちつけ式）
+EN Elbow Smash (Downward)
+
+@ 1091
+# fit 16 letters x 1 line(s)
+JP アッパー掌打
+EN Palm Uppercut
+
+@ 1092
+# fit 40 letters x 2 line(s)
+JP 弓引きナックルパート
+EN Bow-Draw Knuckle Part
+
+@ 1093
+# fit 16 letters x 1 line(s)
+JP 串刺しエルボー
+EN Corner Elbow
+
+@ 1094
+# fit 16 letters x 1 line(s)
+JP スピンキック
+EN Spin Kick
+
+@ 1095
+# fit 40 letters x 2 line(s)
+JP ベアナックルパンチ
+EN Bare Knuckle Punch
+
+@ 1096
+# fit 16 letters x 1 line(s)
+JP トペスイシーダ
+EN Tope Suicida
+
+@ 1097
+# fit 16 letters x 1 line(s)
+JP またぎ張り手
+EN Straddle Slap
+
+@ 1098
+# fit 40 letters x 2 line(s)
+JP 急所ヘッドバット
+EN Low Blow Headbutt
+
+@ 1099
+# fit 40 letters x 2 line(s)
+JP ローリングソバット（タイガー）
+EN Rolling Sobat (Tiger)
+
+@ 1100
+# fit 16 letters x 1 line(s)
+JP 水面蹴り
+EN Sweep Kick
+
+@ 1101
+# fit 40 letters x 2 line(s)
+JP フライングクロスチョップ
+EN Flying Cross Chop
+
+@ 1102
+# fit 40 letters x 2 line(s)
+JP 側転エルボー（場外）
+EN Cartwheel Elbow (Outside)
+
+@ 1103
+# fit 40 letters x 2 line(s)
+JP 高角度前方回転エビ固め
+EN High-Angle Forward Roll-Up
+
+@ 1112
+# fit 40 letters x 2 line(s)
+JP 脇固め（後ダッシュ）
+EN Side Armbar (Back Dash)
+
+@ 1113
+# fit 40 letters x 2 line(s)
+JP ブルドッギングヘッドロック
+EN Bulldogging Headlock
+
+@ 1114
+# fit 40 letters x 2 line(s)
+JP フェイスクラッシャー
+EN Face Crusher
+
+@ 1115
+# fit 42 letters x 2 line(s)
+JP ＦＭ／首４の字／ストンピング（バック返し）
+EN FM/Neck Figure-4/Stomp (Back Counter)
+
+@ 1116
+# fit 40 letters x 2 line(s)
+JP フランケンシュタイナー
+EN Frankensteiner
+
+@ 1118
+# fit 40 letters x 2 line(s)
+JP 雪崩式フロントスープレックス
+EN Avalanche Front Suplex
+
+@ 1119
+# fit 40 letters x 2 line(s)
+JP 雪崩式バックドロップ
+EN Avalanche Backdrop
+
+@ 1120
+# fit 40 letters x 2 line(s)
+JP 雪崩式バックドロップ　
+EN Avalanche Backdrop
+
+@ 1121
+# fit 40 letters x 2 line(s)
+JP 雪崩式ブレーンバスター　
+EN Avalanche Brainbuster
+
+@ 1122
+# fit 40 letters x 2 line(s)
+JP 雪崩式ダブルアーム
+EN Avalanche Double Arm Suplex
+
+@ 1123
+# fit 16 letters x 1 line(s)
+JP 雪崩式ＤＤＴ
+EN Avalanche DDT
+
+@ 1124
+# fit 40 letters x 2 line(s)
+JP 雪崩式フィッシャーマンバスター
+EN Avalanche Fisherman Buster
+
+@ 1125
+# fit 40 letters x 2 line(s)
+JP 雪崩式フランケンシュタイナー
+EN Avalanche Frankensteiner
+
+@ 1126
+# fit 40 letters x 2 line(s)
+JP 雪崩式マウンテンボム
+EN Avalanche Mountain Bomb
+
+@ 1127
+# fit 40 letters x 2 line(s)
+JP 雪崩式パワースラム
+EN Avalanche Powerslam
+
+@ 1128
+# fit 40 letters x 2 line(s)
+JP 雪崩式ツームストンパイルＤ
+EN Avalanche Tombstone Piledriver
+
+@ 1129
+# fit 40 letters x 2 line(s)
+JP 雪崩式ブレーンバスター　
+EN Avalanche Brainbuster
+
+@ 1130
+# fit 16 letters x 1 line(s)
+JP 雪崩式裏投げ
+EN Aval. Ura-Nage
+
+@ 1131
+# fit 40 letters x 2 line(s)
+JP 雪崩式ドラゴンスクリュー
+EN Avalanche Dragon Screw
+
+@ 1132
+# fit 40 letters x 2 line(s)
+JP フェイスクラッシャー
+EN Face Crusher
+
+@ 1133
+# fit 40 letters x 2 line(s)
+JP フロントスープレックス
+EN Front Suplex
+
+@ 1138
+# fit 40 letters x 2 line(s)
+JP ウラカンラナインベルティダ
+EN Huracanrana Invertida
+
+@ 1141
+# fit 40 letters x 2 line(s)
+JP フランケンシュタイナー
+EN Frankensteiner
+
+@ 1142
+# fit 40 letters x 2 line(s)
+JP 歩きながらタイツをなおす
+EN Fix Trunks While Walking
+
+@ 1144
+# fit 40 letters x 2 line(s)
+JP 交差した手をゆっくりおろす
+EN Slowly Lower Crossed Arms
+
+@ 1145
+# fit 16 letters x 1 line(s)
+JP 軽くバンザイ
+EN Light Banzai
+
+@ 1146
+# fit 40 letters x 2 line(s)
+JP バンザイしてうなずく
+EN Banzai and Nod
+
+@ 1147
+# fit 40 letters x 2 line(s)
+JP 勢いよくバンザイ
+EN Forceful Banzai
+
+@ 1156
+# fit 40 letters x 2 line(s)
+JP バックを取り返す（バック返し）
+EN Retake Back (Back Counter)
+
+@ 1157
+# fit 40 letters x 2 line(s)
+JP ＦＭ／スリーパー／ストンピング
+EN FM/Sleeper/Stomping
+
+@ 1173
+# fit 16 letters x 1 line(s)
+JP 雪崩式水車落し
+EN Aval. Waterwheel
+
+@ 1191
+# fit 16 letters x 1 line(s)
+JP バンザイ
+EN Banzai
+
+@ 1192
+# fit 40 letters x 2 line(s)
+JP 両腕あげて力強くおろす
+EN Raise Arms, Lower Strongly
+
+@ 1194
+# fit 40 letters x 2 line(s)
+JP 左にガッツポーズ右にガッツポーズ
+EN Fist Pump Left, Fist Pump Right
+
+@ 1196
+# fit 16 letters x 1 line(s)
+JP 倒れファイター
+EN Fallen Fighter
+
+@ 1197
+# fit 40 letters x 2 line(s)
+JP バック転からポーズ
+EN Back Handspring, Pose
+
+@ 1198
+# fit 16 letters x 1 line(s)
+JP ＳＴＯ改
+EN Revised STO
+
+@ 1199
+# fit 16 letters x 1 line(s)
+JP 払い腰
+EN Harai Goshi
+
+@ 1200
+# fit 16 letters x 1 line(s)
+JP すくい投げ
+EN Scoop Throw
+
+@ 1201
+# fit 40 letters x 2 line(s)
+JP 腕ひしぎ逆十字固め（うつ伏せ）
+EN Armbar (Face Down)
+
+@ 1204
+# fit 40 letters x 2 line(s)
+JP 飛び跳ねながらバンザイ
+EN Hopping Banzai
+
+@ 1205
+# fit 16 letters x 1 line(s)
+JP 大きなバンザイ
+EN Big Banzai
+
+@ 1209
+# fit 40 letters x 2 line(s)
+JP 粘っこくガッツポーズ
+EN Lingering Fist Pump
+
+@ 1212
+# fit 40 letters x 2 line(s)
+JP 右手あげて両手あげる
+EN Right Hand Up, Both Up
+
+@ 1214
+# fit 46 letters x 2 line(s)
+JP ＦＭ／スリーパー／サッカーキック（バック返し）
+EN FM/Sleeper/Soccer Kick (Back Counter)
+
+@ 1215
+# fit 40 letters x 2 line(s)
+JP ＦＭ／首４の字／サッカーキック
+EN FM/Neck Figure-4/Soccer Kick
+
+@ 1216
+# fit 40 letters x 2 line(s)
+JP ＦＭ／スリーパー／エルボー
+EN FM/Sleeper/Elbow
+
+@ 1217
+# fit 40 letters x 2 line(s)
+JP ＦＭ／首４の字／ストンピング
+EN FM/Neck Figure-4/Stomp
+
+@ 1220
+# fit 40 letters x 2 line(s)
+JP ＦＭ／スリーパー／エルボー（バック返し）
+EN FM/Sleeper/Elbow (Back Counter)
+
+@ 1221
+# fit 44 letters x 2 line(s)
+JP ＦＭ／スリーパー／ストンピング（バック返し）
+EN FM/Sleeper/Stomp (Back Counter)
+
+@ 1222
+# fit 44 letters x 2 line(s)
+JP ＦＭ／首４の字／サッカーキック（バック返し）
+EN FM/Neck Figure-4/Soccer Kick (Back Counter)
+
+@ 1223
+# fit 46 letters x 2 line(s)
+JP ＦＭ／スリーパー／サッカーキック（バック返し）
+EN FM/Sleeper/Soccer Kick (Back Counter)
+
+@ 1224
+# fit 40 letters x 2 line(s)
+JP 妖しく周囲を見渡す
+EN Look Around Eerily
+
+@ 1227
+# fit 16 letters x 1 line(s)
+JP 合掌
+EN Praying Hands
+
+@ 1228
+# fit 40 letters x 2 line(s)
+JP 右手を上げてから、おじぎする
+EN Raise Right Hand, Then Bow
+
+@ 1230
+# fit 40 letters x 2 line(s)
+JP 右腕あげて自分を指差す
+EN Raise Right Arm, Point at Self
+
+@ 1241
+# fit 40 letters x 2 line(s)
+JP フェンタデレギレテ
+EN Fentaderegirete
+
+@ 1244
+# fit 40 letters x 2 line(s)
+JP コーナーポストからのバク宙
+EN Backflip off Corner Post
+
+@ 1246
+# fit 40 letters x 2 line(s)
+JP コーナーで両腕交差
+EN Cross Arms in Corner
+
+@ 1249
+# fit 40 letters x 2 line(s)
+JP コーナーポストで観客をあおる
+EN Taunt Crowd from Corner Post
+
+@ 1250
+# fit 40 letters x 2 line(s)
+JP 腕を上げたり下げたりする
+EN Raise and Lower Arms
+
+@ 1254
+# fit 40 letters x 2 line(s)
+JP 片腕を上げてクルッと一回転
+EN Raise One Arm, Spin Around
+
+@ 1255
+# fit 16 letters x 1 line(s)
+JP フルネルソン
+EN Full Nelson
+
+@ 1257
+# fit 40 letters x 2 line(s)
+JP 手を上げてから、相手を指差す
+EN Raise Hand, Point at Opponent
+
+@ 1270
+# fit 40 letters x 2 line(s)
+JP コンビネーションキック（金本）
+EN Combination Kick (Kanemoto)
+
+@ 1271
+# fit 16 letters x 1 line(s)
+JP マウント掌底
+EN Mounted Palm
+
+@ 1274
+# fit 40 letters x 2 line(s)
+JP ランニングカット
+EN Running Cut
+
+@ 1303
+# fit 40 letters x 2 line(s)
+JP モンゴリアンチョップ（エプロン）
+EN Mongolian Chop (Apron)
+
+@ 1307
+# fit 16 letters x 1 line(s)
+JP 輪廻
+EN Rinne
+
+@ 1308
+# fit 16 letters x 1 line(s)
+JP アキレス腱固め
+EN Achilles Hold
+
+@ 1309
+# fit 40 letters x 2 line(s)
+JP アルゼンチンバックブリーカー
+EN Argentine Backbreaker
+
+@ 1310
+# fit 40 letters x 2 line(s)
+JP 足四の字固め（ライガー）
+EN Figure-Four Leglock (Liger)
+
+@ 1311
+# fit 40 letters x 2 line(s)
+JP ボーアンドアロー
+EN Bow and Arrow
+
+@ 1312
+# fit 16 letters x 1 line(s)
+JP ベアハッグ
+EN Bear Hug
+
+@ 1313
+# fit 40 letters x 2 line(s)
+JP チキンウィングアームロック
+EN Chicken Wing Armlock
+
+@ 1315
+# fit 16 letters x 1 line(s)
+JP カベルナリア
+EN Cavernaria
+
+@ 1316
+# fit 40 letters x 2 line(s)
+JP カナディアンバックブリーカー
+EN Canadian Backbreaker
+
+@ 1317
+# fit 40 letters x 2 line(s)
+JP チョークスリーパーホールド
+EN Choke Sleeper Hold
+
+@ 1318
+# fit 16 letters x 1 line(s)
+JP コブラツイスト
+EN Cobra Twist
+
+@ 1319
+# fit 40 letters x 2 line(s)
+JP ドラゴンスリーパー
+EN Dragon Sleeper
+
+@ 1320
+# fit 16 letters x 1 line(s)
+JP アイクロー
+EN Eye Claw
+
+@ 1321
+# fit 40 letters x 2 line(s)
+JP フライング・ヘッドシザース
+EN Flying Headscissors
+
+@ 1322
+# fit 16 letters x 1 line(s)
+JP フェイスロック
+EN Facelock
+
+@ 1323
+# fit 40 letters x 2 line(s)
+JP 踏みつけ式片逆エビ固め
+EN Stomping Half Crab
+
+@ 1324
+# fit 40 letters x 2 line(s)
+JP グランドコブラツイスト
+EN Ground Cobra Twist
+
+@ 1325
+# fit 16 letters x 1 line(s)
+JP グリグリ
+EN Grinding
+
+@ 1326
+# fit 40 letters x 2 line(s)
+JP Ｊアームブリーカー（橋本）
+EN Japanese Armbreaker (Hashimoto)
+
+@ 1327
+# fit 16 letters x 1 line(s)
+JP ハンマーロック
+EN Hammerlock
+
+@ 1328
+# fit 40 letters x 2 line(s)
+JP 羽折り固め （正面）
+EN Wing Lock (Front)
+
+@ 1329
+# fit 16 letters x 1 line(s)
+JP 腹固め
+EN Belly Hold
+
+@ 1330
+# fit 16 letters x 1 line(s)
+JP ヘッドロック
+EN Headlock
+
+@ 1331
+# fit 40 letters x 2 line(s)
+JP リバースハーフボストンクラブ
+EN Reverse Half Boston Crab
+
+@ 1332
+# fit 40 letters x 2 line(s)
+JP 元祖卍固め（Ｋ猪木）
+EN Original Octopus Hold (K. Inoki)
+
+@ 1333
+# fit 40 letters x 2 line(s)
+JP ジャイアントスイング
+EN Giant Swing
+
+@ 1334
+# fit 40 letters x 2 line(s)
+JP ジャパニーズＬロールクラッチＨ
+EN Japanese Leg Roll Clutch Hold
+
+@ 1335
+# fit 40 letters x 2 line(s)
+JP 高角度前方回転エビ固め
+EN High-Angle Forward Roll-Up
+
+@ 1336
+# fit 16 letters x 1 line(s)
+JP 鎌固め 
+EN Sickle Hold
+
+@ 1337
+# fit 16 letters x 1 line(s)
+JP 噛みつき
+EN Biting
+
+@ 1338
+# fit 16 letters x 1 line(s)
+JP キーロック
+EN Key Lock
+
+@ 1339
+# fit 40 letters x 2 line(s)
+JP Ｊアームブリーカー（越中）
+EN Japanese Armbreaker (Koshinaka)
+
+@ 1340
+# fit 40 letters x 2 line(s)
+JP 河津落としからのグランド卍固め
+EN Kawazu Drop to Ground Octopus Hold
+
+@ 1341
+# fit 40 letters x 2 line(s)
+JP キャメルクラッチ
+EN Camel Clutch
+
+@ 1342
+# fit 16 letters x 1 line(s)
+JP 卍固め（汎用）
+EN Octopus (Gen.)
+
+@ 1343
+# fit 40 letters x 2 line(s)
+JP ドラゴンスクリュー（武藤）
+EN Dragon Screw (Muto)
+
+@ 1344
+# fit 40 letters x 2 line(s)
+JP メキシカンストレッチ
+EN Mexican Stretch
+
+@ 1345
+# fit 40 letters x 2 line(s)
+JP ネックブリーカードロップ
+EN Neckbreaker Drop
+
+@ 1346
+# fit 40 letters x 2 line(s)
+JP ショルダーネックブリーカー
+EN Shoulder Neckbreaker
+
+@ 1347
+# fit 40 letters x 2 line(s)
+JP ネックハンギングツリー(ダウン）
+EN Neck Hanging Tree (Down)
+
+@ 1348
+# fit 40 letters x 2 line(s)
+JP ネックハンギングツリー
+EN Neck Hanging Tree
+
+@ 1349
+# fit 40 letters x 2 line(s)
+JP リバースボストンクラブ（うつ伏せ）
+EN Reverse Boston Crab (Face Down)
+
+@ 1350
+# fit 40 letters x 2 line(s)
+JP リバースボストンクラブ
+EN Reverse Boston Crab
+
+@ 1351
+# fit 40 letters x 2 line(s)
+JP リバースハーフボストンクラブ
+EN Reverse Half Boston Crab
+
+@ 1352
+# fit 40 letters x 2 line(s)
+JP リバースインディアンデスロック（猪木）
+EN Reverse Indian Deathlock (Inoki)
+
+@ 1353
+# fit 40 letters x 2 line(s)
+JP リバースインディアンデスロック
+EN Reverse Indian Deathlock
+
+@ 1354
+# fit 16 letters x 1 line(s)
+JP STF
+EN STF
+
+@ 1355
+# fit 40 letters x 2 line(s)
+JP ラ マヒストラル
+EN La Magistral
+
+@ 1356
+# fit 40 letters x 2 line(s)
+JP ロメロスペシャル
+EN Romero Special
+
+@ 1357
+# fit 40 letters x 2 line(s)
+JP ＳＡ・エルボー連携
+EN SA/Elbow Combo
+
+@ 1358
+# fit 16 letters x 1 line(s)
+JP 逆さ押さえ込み
+EN Inverted Cradle
+
+@ 1359
+# fit 16 letters x 1 line(s)
+JP 三角絞め
+EN Triangle Choke
+
+@ 1360
+# fit 16 letters x 1 line(s)
+JP サソリ固め
+EN Scorpion Lock
+
+@ 1361
+# fit 40 letters x 2 line(s)
+JP スリーパーホールド(カウンター)
+EN Sleeper Hold (Counter)
+
+@ 1362
+# fit 40 letters x 2 line(s)
+JP スリーパードラゴンスリーパー連携
+EN Sleeper/Dragon Sleeper Combo
+
+@ 1363
+# fit 40 letters x 2 line(s)
+JP スピニング レッグロック 
+EN Spinning Leg Lock
+
+@ 1364
+# fit 40 letters x 2 line(s)
+JP ストラングルホールドα
+EN Strangle Hold Alpha
+
+@ 1365
+# fit 40 letters x 2 line(s)
+JP ストラングルホールドγ（うつ伏せ）
+EN Strangle Hold Gamma (Face Down)
+
+@ 1366
+# fit 16 letters x 1 line(s)
+JP STF(うつ伏せ)
+EN STF (Face Down)
+
+@ 1367
+# fit 40 letters x 2 line(s)
+JP スモールパッケージホールド
+EN Small Package Hold
+
+@ 1368
+# fit 16 letters x 1 line(s)
+JP タイガースピン
+EN Tiger Spin
+
+@ 1369
+# fit 40 letters x 2 line(s)
+JP テキサスクローバーホールド
+EN Texas Cloverleaf Hold
+
+@ 1370
+# fit 16 letters x 1 line(s)
+JP 裏STF
+EN Reverse STF
+
+@ 1371
+# fit 40 letters x 2 line(s)
+JP 腕ひしぎ逆十字固め
+EN Armbar
+
+@ 1372
+# fit 16 letters x 1 line(s)
+JP 腕固め
+EN Arm Lock
+
+@ 1373
+# fit 40 letters x 2 line(s)
+JP 裏アキレス腱固め
+EN Reverse Achilles Hold
+
+@ 1374
+# fit 16 letters x 1 line(s)
+JP 顔面ウォッシュ
+EN Face Wash
+
+@ 1375
+# fit 16 letters x 1 line(s)
+JP 脇固め
+EN Wakigatame
+
+@ 1376
+# fit 40 letters x 2 line(s)
+JP 脇固め　(バック)
+EN Wakigatame (Back)
+
+@ 1377
+# fit 16 letters x 1 line(s)
+JP 羽折り脇固め 
+EN Wing Lock Armbar
+
+@ 1378
+# fit 40 letters x 2 line(s)
+JP 抱え込み式 リバースボストンクラブ
+EN Cradled Reverse Boston Crab
+
+@ 1379
+# fit 40 letters x 2 line(s)
+JP 飛びつき式回転エビ固め
+EN Jumping Rolling Cradle
+
+@ 1380
+# fit 40 letters x 2 line(s)
+JP チョークスリーパーホールド
+EN Choke Sleeper Hold
+
+@ 1381
+# fit 40 letters x 2 line(s)
+JP ダイビングケサ斬りチョップ
+EN Diving Kesagiri Chop
+
+@ 1382
+# fit 40 letters x 2 line(s)
+JP ローリングケサ斬りチョップ
+EN Rolling Kesagiri Chop
+
+@ 1383
+# fit 16 letters x 1 line(s)
+JP 急所パンチ
+EN Low Blow Punch
+
+@ 1384
+# fit 40 letters x 2 line(s)
+JP ダイビングショルダーアタック
+EN Diving Shoulder Attack
+
+@ 1385
+# fit 40 letters x 2 line(s)
+JP スワンダイブ式ニードロップ
+EN Swan Dive Knee Drop
+
+@ 1386
+# fit 16 letters x 1 line(s)
+JP トペコンヒーロ
+EN Tope Con Hilo
+
+@ 1387
+# fit 16 letters x 1 line(s)
+JP ランニング掌打
+EN Running Palm
+
+@ 1388
+# fit 16 letters x 1 line(s)
+JP 掌打
+EN Palm Strike
+
+@ 1389
+# fit 16 letters x 1 line(s)
+JP 回転延髄斬り
+EN Spin Enzuigiri
+
+@ 1390
+# fit 40 letters x 2 line(s)
+JP 飛び後ろ回し蹴り
+EN Jumping Spin Kick
+
+@ 1391
+# fit 40 letters x 2 line(s)
+JP ムササビボディプレス
+EN Flying Squirrel Body Press
+
+@ 1392
+# fit 16 letters x 1 line(s)
+JP 突っ張り
+EN Palm Thrusts
+
+@ 1393
+# fit 40 letters x 2 line(s)
+JP カウンターキック
+EN Counter Kick
+
+@ 1394
+# fit 40 letters x 2 line(s)
+JP ダイビングセントーン
+EN Diving Senton
+
+@ 1395
+# fit 40 letters x 2 line(s)
+JP 稲妻レッグラリアット
+EN Lightning Leg Lariat
+
+@ 1396
+# fit 40 letters x 2 line(s)
+JP ダイビングボディプレス
+EN Diving Body Press
+
+@ 1397
+# fit 16 letters x 1 line(s)
+JP トペアトミコ
+EN Tope Atomico
+
+@ 1398
+# fit 40 letters x 2 line(s)
+JP コンビネーションキック（山崎）
+EN Combination Kick (Yamazaki)
+
+@ 1399
+# fit 40 letters x 2 line(s)
+JP フライングニールキック（山崎）
+EN Flying Knee Kick (Yamazaki)
+
+@ 1400
+# fit 40 letters x 2 line(s)
+JP ヘッドバット（藤原）
+EN Headbutt (Fujiwara)
+
+@ 1401
+# fit 40 letters x 2 line(s)
+JP ラケブラーダ（サスケ）
+EN La Quebrada (Sasuke)
+
+@ 1402
+# fit 40 letters x 2 line(s)
+JP ラケブラーダ（サスケエプロン）
+EN La Quebrada (Sasuke Apron)
+
+@ 1403
+# fit 16 letters x 1 line(s)
+JP ブファドゥーラ
+EN Bufadora
+
+@ 1404
+# fit 40 letters x 2 line(s)
+JP ライダーキック（サスケ）
+EN Rider Kick (Sasuke)
+
+@ 1405
+# fit 40 letters x 2 line(s)
+JP サスケスペシャル１号
+EN Sasuke Special No. 1
+
+@ 1406
+# fit 40 letters x 2 line(s)
+JP サスケスペシャル２号
+EN Sasuke Special No. 2
+
+@ 1407
+# fit 40 letters x 2 line(s)
+JP トペコンヒーロ（サスケ場外）
+EN Tope Con Hilo (Sasuke Outside)
+
+@ 1408
+# fit 40 letters x 2 line(s)
+JP トペコンヒーロ（サスケ）
+EN Tope Con Hilo (Sasuke)
+
+@ 1409
+# fit 40 letters x 2 line(s)
+JP ジャンピング側転エルボー
+EN Jumping Cartwheel Elbow
+
+@ 1410
+# fit 40 letters x 2 line(s)
+JP ダイビングエルボードロップ
+EN Diving Elbow Drop
+
+@ 1411
+# fit 40 letters x 2 line(s)
+JP ニタリフェイント
+EN Nitari Feint
+
+@ 1412
+# fit 40 letters x 2 line(s)
+JP Ｄヘッドバット（拝み）
+EN Diving Headbutt (Ogami)
+
+@ 1413
+# fit 40 letters x 2 line(s)
+JP ケブラーダ（拝み）
+EN Quebrada (Ogami)
+
+@ 1414
+# fit 40 letters x 2 line(s)
+JP ケブラーダ(拝みエプロン）
+EN Quebrada (Ogami Apron)
+
+@ 1415
+# fit 40 letters x 2 line(s)
+JP ケブラーダ(拝みダッシュ場外）
+EN Quebrada (Ogami Dash Outside)
+
+@ 1416
+# fit 16 letters x 1 line(s)
+JP 拝み渡り
+EN Praying Walk
+
+@ 1417
+# fit 40 letters x 2 line(s)
+JP Ｄショルダーアタック（拝み）
+EN Diving Shoulder Attack (Ogami)
+
+@ 1418
+# fit 40 letters x 2 line(s)
+JP リバーススプラッシュ
+EN Reverse Splash
+
+@ 1419
+# fit 40 letters x 2 line(s)
+JP コーナーに叩き付ける
+EN Slam Into Corner
+
+@ 1420
+# fit 40 letters x 2 line(s)
+JP ラリアット（リック）
+EN Lariat (Rick)
+
+@ 1421
+# fit 16 letters x 1 line(s)
+JP 地獄突き
+EN Hell Thrust
+
+@ 1422
+# fit 40 letters x 2 line(s)
+JP バックエルボー（長州）
+EN Back Elbow (Choshu)
+
+@ 1423
+# fit 40 letters x 2 line(s)
+JP ラリアット（平田）
+EN Lariat (Hirata)
+
+@ 1424
+# fit 40 letters x 2 line(s)
+JP バックエルボー（平田）
+EN Back Elbow (Hirata)
+
+@ 1425
+# fit 40 letters x 2 line(s)
+JP ハンマーパンチ（エプロン）
+EN Hammer Punch (Apron)
+
+@ 1426
+# fit 40 letters x 2 line(s)
+JP ストンピング（エプロン）
+EN Stomp (Apron)
+
+@ 1427
+# fit 40 letters x 2 line(s)
+JP ダブルスレッジハンマー
+EN Double Sledgehammer
+
+@ 1428
+# fit 40 letters x 2 line(s)
+JP エルボースマッシュ（エプロン）
+EN Elbow Smash (Apron)
+
+@ 1430
+# fit 40 letters x 2 line(s)
+JP リターンラリアット
+EN Return Lariat
+
+@ 1432
+# fit 16 letters x 1 line(s)
+JP ヘッドステップ
+EN Head Step
+
+@ 1442
+# fit 40 letters x 2 line(s)
+JP Ｄヘッドバット(天山２）
+EN Diving Headbutt (Tenzan 2)
+
+@ 1443
+# fit 40 letters x 2 line(s)
+JP Ｄヘッドバット(平田）
+EN Diving Headbutt (Hirata)
+
+@ 1444
+# fit 40 letters x 2 line(s)
+JP ケンカキックショート
+EN Yakuza Kick (Short)
+
+@ 1445
+# fit 40 letters x 2 line(s)
+JP ジャンピングニードロップ
+EN Jumping Knee Drop
+
+@ 1446
+# fit 40 letters x 2 line(s)
+JP ラリアット（中西）
+EN Lariat (Nakanishi)
+
+@ 1447
+# fit 16 letters x 1 line(s)
+JP カウンター掌打
+EN Counter Palm
+
+@ 1448
+# fit 16 letters x 1 line(s)
+JP 串刺し掌打
+EN Corner Palm
+
+@ 1449
+# fit 16 letters x 1 line(s)
+JP 毒霧（バック）
+EN Mist (Back)
+
+@ 1450
+# fit 40 letters x 2 line(s)
+JP ミドルキック（小川）
+EN Middle Kick (Ogawa)
+
+@ 1451
+# fit 40 letters x 2 line(s)
+JP チキンウイングアームロック
+EN Chicken Wing Armlock
+
+@ 1453
+# fit 16 letters x 1 line(s)
+JP 巴投げ
+EN Tomoe Nage
+
+@ 1454
+# fit 40 letters x 2 line(s)
+JP スリーパードラゴンスリーパー連携
+EN Sleeper/Dragon Sleeper Combo
+
+@ 1455
+# fit 40 letters x 2 line(s)
+JP ダッシュエルボー
+EN Dash Elbow
+
+@ 1456
+# fit 40 letters x 2 line(s)
+JP エルボードロップ
+EN Elbow Drop
+
+@ 1457
+# fit 40 letters x 2 line(s)
+JP 大阪臨海アッパー
+EN Osaka Rinkai Upper
+
+@ 1458
+# fit 40 letters x 2 line(s)
+JP アントニオドライバー
+EN Antonio Driver
+
+@ 1459
+# fit 16 letters x 1 line(s)
+JP アームホイップ
+EN Arm Whip
+
+@ 1460
+# fit 40 letters x 2 line(s)
+JP 足浮きジャーマンスープレックス
+EN Floating German Suplex
+
+@ 1461
+# fit 40 letters x 2 line(s)
+JP アトミックドロップ
+EN Atomic Drop
+
+@ 1462
+# fit 40 letters x 2 line(s)
+JP デッドリードライブ（バック）
+EN Deadly Drive (Back)
+
+@ 1463
+# fit 40 letters x 2 line(s)
+JP 捻り式バックドロップ
+EN Twisting Backdrop
+
+@ 1464
+# fit 16 letters x 1 line(s)
+JP バックドロップ
+EN Backdrop
+
+@ 1465
+# fit 16 letters x 1 line(s)
+JP バックフリップ
+EN Back Flip
+
+@ 1466
+# fit 40 letters x 2 line(s)
+JP 両足タックル（後ダッシュ）
+EN Double Leg Shot (Rear Dash)
+
+@ 1467
+# fit 16 letters x 1 line(s)
+JP ボディスラム
+EN Body Slam
+
+@ 1468
+# fit 40 letters x 2 line(s)
+JP ブレーンバスター
+EN Brainbuster
+
+@ 1469
+# fit 40 letters x 2 line(s)
+JP ブルドッキングヘッドロック
+EN Bulldog Headlock
+
+@ 1470
+# fit 40 letters x 2 line(s)
+JP ダブルアームプランチャ
+EN Double Arm Plancha
+
+@ 1471
+# fit 40 letters x 2 line(s)
+JP ダブルアームスープレックスＨ
+EN Double Arm Suplex Hold
+
+@ 1472
+# fit 40 letters x 2 line(s)
+JP ダブルアームスープレックス
+EN Double Arm Suplex
+
+@ 1473
+# fit 16 letters x 1 line(s)
+JP ＤＤＴ
+EN DDT
+
+@ 1474
+# fit 40 letters x 2 line(s)
+JP デッドリードライブ
+EN Deadly Drive
+
+@ 1475
+# fit 40 letters x 2 line(s)
+JP ドラゴンバックブリーカー
+EN Dragon Back Breaker
+
+@ 1476
+# fit 40 letters x 2 line(s)
+JP ドラゴンスクリュー（藤波）
+EN Dragon Screw (Fujinami)
+
+@ 1477
+# fit 40 letters x 2 line(s)
+JP ドラゴンスープレックスホールド
+EN Dragon Suplex Hold
+
+@ 1478
+# fit 40 letters x 2 line(s)
+JP フィッシャーマンＤＤＴ
+EN Fisherman DDT
+
+@ 1479
+# fit 40 letters x 2 line(s)
+JP フェイスクラッシャー
+EN Face Crusher
+
+@ 1480
+# fit 40 letters x 2 line(s)
+JP 高速ブレーンバスター
+EN High-Speed Brainbuster
+
+@ 1481
+# fit 40 letters x 2 line(s)
+JP ＦＭ／首４の字／Ｆエルボー
+EN FM/Neck Figure-Four/F Elbow
+
+@ 1482
+# fit 40 letters x 2 line(s)
+JP フランケンシュタイナーＦ
+EN Frankensteiner (Front)
+
+@ 1483
+# fit 40 letters x 2 line(s)
+JP フロントスープレックス
+EN Front Suplex
+
+@ 1484
+# fit 40 letters x 2 line(s)
+JP フィッシャーマンスープレックス
+EN Fisherman Suplex
+
+@ 1485
+# fit 40 letters x 2 line(s)
+JP ジャーマンスープレックスホールド
+EN German Suplex Hold
+
+@ 1486
+# fit 40 letters x 2 line(s)
+JP ジャーマン式パイルドライバー
+EN German-Style Piledriver
+
+@ 1487
+# fit 40 letters x 2 line(s)
+JP ハイアングルボディスラム
+EN High Angle Body Slam
+
+@ 1488
+# fit 40 letters x 2 line(s)
+JP ハイアングルパワーボム
+EN High Angle Powerbomb
+
+@ 1489
+# fit 40 letters x 2 line(s)
+JP 高角度ジャーマンスープレックス
+EN High Angle German Suplex
+
+@ 1490
+# fit 40 letters x 2 line(s)
+JP ハーフハッチスープレックス
+EN Half Hatch Suplex
+
+@ 1491
+# fit 16 letters x 1 line(s)
+JP 逆一本背負い
+EN Rev. Seoi Nage
+
+@ 1492
+# fit 40 letters x 2 line(s)
+JP ジャンピングバックドロップ
+EN Jumping Backdrop
+
+@ 1493
+# fit 40 letters x 2 line(s)
+JP ジャンピングＤＤＴ
+EN Jumping DDT
+
+@ 1494
+# fit 16 letters x 1 line(s)
+JP カニばさみ
+EN Leg Scissors
+
+@ 1495
+# fit 40 letters x 2 line(s)
+JP ケブラドーラコンヒーロ
+EN Quebradora Con Hilo
+
+@ 1496
+# fit 40 letters x 2 line(s)
+JP フェイスクラッシャー（佐々木）
+EN Face Crusher (Sasaki)
+
+@ 1497
+# fit 40 letters x 2 line(s)
+JP 変形バックドロップ（小島）
+EN Modified Backdrop (Kojima)
+
+@ 1498
+# fit 40 letters x 2 line(s)
+JP 越中式パワーボム
+EN Koshinaka-Style Powerbomb
+
+@ 1499
+# fit 16 letters x 1 line(s)
+JP 腰投げ
+EN Hip Toss
+
+@ 1500
+# fit 40 letters x 2 line(s)
+JP リフトアップスラム
+EN Lift-Up Slam
+
+@ 1501
+# fit 16 letters x 1 line(s)
+JP ライガーボム
+EN Liger Bomb
+
+@ 1502
+# fit 40 letters x 2 line(s)
+JP ライガースープレックスホールド
+EN Liger Suplex Hold
+
+@ 1503
+# fit 40 letters x 2 line(s)
+JP 低空ジャーマンスープレックス
+EN Low-Angle German Suplex
+
+@ 1504
+# fit 40 letters x 2 line(s)
+JP ライディーンバスター
+EN Raiden Buster
+
+@ 1505
+# fit 40 letters x 2 line(s)
+JP マンハッタンドロップ
+EN Manhattan Drop
+
+@ 1506
+# fit 16 letters x 1 line(s)
+JP マウンテンボム
+EN Mountain Bomb
+
+@ 1507
+# fit 40 letters x 2 line(s)
+JP 投げっぱなしパワーボム
+EN Release Powerbomb
+
+@ 1508
+# fit 40 letters x 2 line(s)
+JP 投げっぱなしジャーマンＳ
+EN Release German Suplex
+
+@ 1509
+# fit 40 letters x 2 line(s)
+JP 投げっぱなしタイガーＳ
+EN Release Tiger Suplex
+
+@ 1510
+# fit 40 letters x 2 line(s)
+JP タイガースープレックスホールド２
+EN Tiger Suplex Hold 2
+
+@ 1511
+# fit 40 letters x 2 line(s)
+JP ノーザンライトスープレックス
+EN Northern Lights Suplex
+
+@ 1512
+# fit 40 letters x 2 line(s)
+JP ノーザンライトボム（旧式）
+EN Northern Lights Bomb (Old)
+
+@ 1513
+# fit 40 letters x 2 line(s)
+JP パワースラム（橋本）
+EN Powerslam (Hashimoto)
+
+@ 1514
+# fit 40 letters x 2 line(s)
+JP オクラホマスタンピート
+EN Oklahoma Stampede
+
+@ 1515
+# fit 40 letters x 2 line(s)
+JP ペンデュラムバックブリーカー
+EN Pendulum Backbreaker
+
+@ 1516
+# fit 40 letters x 2 line(s)
+JP パイルドライバー
+EN Piledriver
+
+@ 1517
+# fit 16 letters x 1 line(s)
+JP パワーボム
+EN Powerbomb
+
+@ 1518
+# fit 40 letters x 2 line(s)
+JP パワースラム（佐々木）
+EN Powerslam (Sasaki)
+
+@ 1519
+# fit 16 letters x 1 line(s)
+JP リバースＤＤＴ
+EN Reverse DDT
+
+@ 1520
+# fit 40 letters x 2 line(s)
+JP ローリングジャーマンＳ
+EN Rolling German Suplex
+
+@ 1521
+# fit 40 letters x 2 line(s)
+JP 垂直落下リバースブレーンバスター
+EN Vertical Drop Reverse Brainbuster
+
+@ 1522
+# fit 40 letters x 2 line(s)
+JP リバースブレーンバスター
+EN Reverse Brainbuster
+
+@ 1523
+# fit 16 letters x 1 line(s)
+JP 両足タックル
+EN Double Leg Shot
+
+@ 1524
+# fit 40 letters x 2 line(s)
+JP 変形パイルドライバー
+EN Modified Piledriver
+
+@ 1525
+# fit 16 letters x 1 line(s)
+JP サムライボム
+EN Samurai Bomb
+
+@ 1526
+# fit 40 letters x 2 line(s)
+JP シュミット式バックブリーカー
+EN Schmidt-Style Backbreaker
+
+@ 1527
+# fit 16 letters x 1 line(s)
+JP ストレッチボム
+EN Stretch Bomb
+
+@ 1528
+# fit 16 letters x 1 line(s)
+JP スロイダー
+EN Sloider
+
+@ 1529
+# fit 40 letters x 2 line(s)
+JP 低空バックドロップ
+EN Low Backdrop
+
+@ 1530
+# fit 40 letters x 2 line(s)
+JP フロントネックチャンスリー
+EN Front Neck Chancery
+
+@ 1531
+# fit 40 letters x 2 line(s)
+JP 裏投げ（タイガー）
+EN Ura-Nage (Tiger)
+
+@ 1532
+# fit 40 letters x 2 line(s)
+JP タイガースープレックスホールド
+EN Tiger Suplex Hold
+
+@ 1533
+# fit 40 letters x 2 line(s)
+JP ツームストンパイルドライバー
+EN Tombstone Piledriver
+
+@ 1534
+# fit 16 letters x 1 line(s)
+JP ＴＴＤ
+EN TTD
+
+@ 1535
+# fit 16 letters x 1 line(s)
+JP 裏投げ
+EN Ura-Nage
+
+@ 1536
+# fit 40 letters x 2 line(s)
+JP 垂直落下ブレーンバスター
+EN Vertical Drop Brainbuster
+
+@ 1537
+# fit 16 letters x 1 line(s)
+JP 垂直落下ＤＤＴ
+EN Vert. Drop DDT
+
+@ 1538
+# fit 16 letters x 1 line(s)
+JP ワイルドボム
+EN Wild Bomb
+
+@ 1539
+# fit 40 letters x 2 line(s)
+JP ジャーマンスープレックスホイップ
+EN German Suplex Whip
+
+@ 1540
+# fit 40 letters x 2 line(s)
+JP 長滞空垂直落下式ブレーンバスター
+EN Long-Hang Vertical Drop Brainbuster
+
+@ 1541
+# fit 40 letters x 2 line(s)
+JP ショルダースルー
+EN Shoulder Throw
+
+@ 1542
+# fit 40 letters x 2 line(s)
+JP 抱え式バックドロップ
+EN Clutch Backdrop
+
+@ 1544
+# fit 40 letters x 2 line(s)
+JP 投げっぱなしドラゴンＳ
+EN Release Dragon Suplex
+
+@ 1545
+# fit 40 letters x 2 line(s)
+JP 一本背負い（坂口）
+EN Seoi Nage (Sakaguchi)
+
+@ 1546
+# fit 40 letters x 2 line(s)
+JP サンダーライガーボム
+EN Thunder Liger Bomb
+
+@ 1557
+# fit 16 letters x 1 line(s)
+JP イス攻撃
+EN Chair Attack
+
+@ 1562
+# fit 40 letters x 2 line(s)
+JP ケンスケハンマー
+EN Kensuke Hammer
+
+@ 1564
+# fit 16 letters x 1 line(s)
+JP 飛行機投げ
+EN Airplane Throw
+
+@ 1565
+# fit 40 letters x 2 line(s)
+JP 飛びつき式腕ひしぎ逆十字固め
+EN Jumping Armbar
+
+@ 1568
+# fit 16 letters x 1 line(s)
+JP スクールボーイ
+EN Schoolboy
+
+@ 1569
+# fit 40 letters x 2 line(s)
+JP ダイヤモンドカッター
+EN Diamond Cutter
+
+@ 1570
+# fit 40 letters x 2 line(s)
+JP 飛びつき式膝十字固め
+EN Jumping Knee Bar
+
+@ 1571
+# fit 40 letters x 2 line(s)
+JP ビクトル式腕十字固め
+EN Victor-Style Armbar
+
+@ 1572
+# fit 16 letters x 1 line(s)
+JP キドクラッチ
+EN Kido Clutch
+
+@ 1573
+# fit 40 letters x 2 line(s)
+JP トライアングルスコーピオン
+EN Triangle Scorpion
+
+@ 1574
+# fit 40 letters x 2 line(s)
+JP スイング式コブラクラッチ
+EN Swinging Cobra Clutch
+
+@ 1575
+# fit 40 letters x 2 line(s)
+JP フライングＮブリーカードロップ
+EN Flying N Breaker Drop
+
+@ 1576
+# fit 16 letters x 1 line(s)
+JP 膝十字固め
+EN Knee Bar
+
+@ 1577
+# fit 40 letters x 2 line(s)
+JP トライアングルサブミッション
+EN Triangle Submission
+
+@ 1578
+# fit 40 letters x 2 line(s)
+JP 高角度脇固め（正面）
+EN Steep Wakigatame (Front)
+
+@ 1579
+# fit 40 letters x 2 line(s)
+JP 高角度脇固め（バック）
+EN Steep Wakigatame (Back)
+
+@ 1580
+# fit 40 letters x 2 line(s)
+JP 高角度脇固め（カウンター）
+EN Steep Wakigatame (Counter)
+
+@ 1581
+# fit 40 letters x 2 line(s)
+JP スタンディングアキレス腱固め（正面）
+EN Standing Achilles Hold (Front)
+
+@ 1582
+# fit 40 letters x 2 line(s)
+JP スーパーウラカンラナインベルティダ
+EN Super Huracanrana Invertida
+
+@ 1583
+# fit 16 letters x 1 line(s)
+JP 変形エビ固め
+EN Modified Cradle
+
+@ 1584
+# fit 16 letters x 1 line(s)
+JP ミステリオラナ
+EN Mysterio Rana
+
+@ 1585
+# fit 40 letters x 2 line(s)
+JP 人工衛星ヘッドシザース
+EN Satellite Head Scissors
+
+@ 1586
+# fit 16 letters x 1 line(s)
+JP 極楽固め
+EN Paradise Hold
+
+@ 1587
+# fit 40 letters x 2 line(s)
+JP 脇固め（バック返し）
+EN Wakigatame (Back Reversal)
+
+@ 1588
+# fit 40 letters x 2 line(s)
+JP ロープへの腕絡め（コーナー）
+EN Arm Wrap to Ropes (Corner)
+
+@ 1589
+# fit 40 letters x 2 line(s)
+JP ロープへの腕絡め（エプロン）
+EN Arm Wrap to Ropes (Apron)
+
+@ 1590
+# fit 46 letters x 2 line(s)
+JP ローリングクラッチホールド（トップロープ越え）
+EN Rolling Clutch Hold (Over Top Rope)
+
+@ 1591
+# fit 16 letters x 1 line(s)
+JP 顔面足押え
+EN Foot on Face
+
+@ 1596
+# fit 40 letters x 2 line(s)
+JP 雪崩式ダイヤモンドカッター
+EN Avalanche Diamond Cutter
+
+@ 1597
+# fit 40 letters x 2 line(s)
+JP 貼りつけカナディアンバックブリーカー
+EN Pinned Canadian Backbreaker
+
+@ 1598
+# fit 40 letters x 2 line(s)
+JP パワーボム毒霧返し
+EN Powerbomb Green Mist Reversal
+
+@ 1599
+# fit 16 letters x 1 line(s)
+JP フランケン失敗
+EN Botched Franken
+
+@ 1600
+# fit 40 letters x 2 line(s)
+JP ローリングクラッチホールド
+EN Rolling Clutch Hold
+
+@ 1601
+# fit 40 letters x 2 line(s)
+JP ストラングルホールドγ
+EN Strangle Hold Gamma
+
+@ 1602
+# fit 16 letters x 1 line(s)
+JP 顔面かきむしり
+EN Face Rake
+
+@ 1604
+# fit 16 letters x 1 line(s)
+JP かんぬき
+EN Kannuki Hold
+
+@ 1605
+# fit 40 letters x 2 line(s)
+JP 脇固め　(うつ伏せ）
+EN Wakigatame (Face Down)
+
+@ 1606
+# fit 40 letters x 2 line(s)
+JP スリーパーホールド(ダウン）
+EN Sleeper Hold (Down)
+
+@ 1607
+# fit 40 letters x 2 line(s)
+JP ゴリースペシャル
+EN Gory Special
+
+@ 1616
+# fit 40 letters x 2 line(s)
+JP ロープへの腕絡め（エプロン）
+EN Arm Wrap to Ropes (Apron)
+
+@ 1617
+# fit 40 letters x 2 line(s)
+JP ＤＤＴ踏ん張りから膝蹴りＤＤＴ
+EN DDT Block into Kneeing DDT
+
+@ 1618
+# fit 40 letters x 2 line(s)
+JP めり込みジャンピングＤＤＴ
+EN Driving Jumping DDT
+
+@ 1619
+# fit 40 letters x 2 line(s)
+JP ブレーンバスタースラム
+EN Brainbuster Slam
+
+@ 1620
+# fit 48 letters x 2 line(s)
+JP 投げっぱなしフロントスープレックス（カウンター）
+EN Release Front Suplex (Counter)
+
+@ 1621
+# fit 40 letters x 2 line(s)
+JP 雪崩式リバース・フランケンシュタイナー
+EN Avalanche Reverse Frankensteiner
+
+@ 1622
+# fit 40 letters x 2 line(s)
+JP 雪崩式キャプチュード
+EN Avalanche Capture Suplex
+
+@ 1623
+# fit 40 letters x 2 line(s)
+JP ベアハッグドロップ（カウンター）
+EN Bear Hug Drop (Counter)
+
+@ 1624
+# fit 40 letters x 2 line(s)
+JP 引っこ抜きブレーンバスター
+EN Pull-Out Brainbuster
+
+@ 1625
+# fit 16 letters x 1 line(s)
+JP トルネードボム
+EN Tornado Bomb
+
+@ 1626
+# fit 40 letters x 2 line(s)
+JP 雪崩式パワーボム
+EN Avalanche Powerbomb
+
+@ 1627
+# fit 40 letters x 2 line(s)
+JP フィッシャーマンバスター
+EN Fisherman Buster
+
+@ 1628
+# fit 44 letters x 2 line(s)
+JP 雪崩式垂直落下式ブレーンバスター（ライガー）
+EN Avalanche Vertical Drop Brainbuster (Liger)
+
+@ 1629
+# fit 40 letters x 2 line(s)
+JP 雪崩式毒霧フランケンシュタイナー
+EN Avalanche Green Mist Frankensteiner
+
+@ 1630
+# fit 40 letters x 2 line(s)
+JP ゆっくりガッツポーズ
+EN Slow Fist Pump
+
+@ 1631
+# fit 16 letters x 1 line(s)
+JP 四股を踏む
+EN Shiko Stomp
+
+@ 1632
+# fit 16 letters x 1 line(s)
+JP ステップ２
+EN Step 2
+
+@ 1633
+# fit 40 letters x 2 line(s)
+JP 両手を上げてから、腕を交差する
+EN Raise Both Arms, Then Cross Them
+
+@ 1634
+# fit 16 letters x 1 line(s)
+JP 勝利？
+EN Victory?
+
+@ 1635
+# fit 40 letters x 2 line(s)
+JP コーナーポストで観客を指差す
+EN Point at Crowd from Corner Post
+
+@ 1636
+# fit 40 letters x 2 line(s)
+JP コーナーポストでガッツポーズ
+EN Fist Pump on Corner Post
+
+@ 1637
+# fit 40 letters x 2 line(s)
+JP ウラカンラナインベルティダ
+EN Huracanrana Invertida
+
+@ 1638
+# fit 40 letters x 2 line(s)
+JP 元祖卍固め（猪木）
+EN Original Octopus Hold (Inoki)
+
+@ 1648
+# fit 16 letters x 1 line(s)
+JP デスバレーボム
+EN Deathvalley Bomb
+
+@ 1650
+# fit 40 letters x 2 line(s)
+JP サソリ固め（長州）
+EN Scorpion Deathlock (Choshu)
+
+@ 1651
+# fit 40 letters x 2 line(s)
+JP 足四の字固め（武藤）
+EN Figure-Four Leglock (Muto)
+
+@ 1652
+# fit 16 letters x 1 line(s)
+JP 足四の字固め
+EN Figure-4 Leglock
+
+@ 1653
+# fit 40 letters x 2 line(s)
+JP コブラツイスト（カウンター）
+EN Cobra Twist (Counter)
+
+@ 1654
+# fit 40 letters x 2 line(s)
+JP 脇固め（カウンター）
+EN Wakigatame (Counter)
+
+@ 1655
+# fit 40 letters x 2 line(s)
+JP スリーパーホールド(バック)
+EN Sleeper Hold (Back)
+
+@ 1656
+# fit 40 letters x 2 line(s)
+JP 右手を勢いよく上げる
+EN Thrust Right Hand Up Fast
+
+@ 1670
+# fit 40 letters x 2 line(s)
+JP 飛びつきスイングフランケンシュタイナー
+EN Leaping Swing Frankensteiner
+
+@ 1671
+# fit 40 letters x 2 line(s)
+JP 雪崩式リバースＤＤＴ
+EN Avalanche Reverse DDT
+
+@ 1672
+# fit 40 letters x 2 line(s)
+JP 垂直落下リバースＤＤＴ
+EN Vertical Drop Reverse DDT
+
+@ 1673
+# fit 16 letters x 1 line(s)
+JP 喉輪落とし
+EN Chokeslam
+
+@ 1674
+# fit 40 letters x 2 line(s)
+JP ダブルアームスープレックス
+EN Double Arm Suplex
+
+@ 1675
+# fit 40 letters x 2 line(s)
+JP クロスアームスープレックスホールド
+EN Cross-Arm Suplex Hold
+
+@ 1676
+# fit 40 letters x 2 line(s)
+JP 餅つきパワーボム
+EN Mochitsuki Powerbomb
+
+@ 1677
+# fit 16 letters x 1 line(s)
+JP デスバレーボム
+EN Deathvalley Bomb
+
+@ 1678
+# fit 40 letters x 2 line(s)
+JP 雪崩式デスバレーボム
+EN Avalanche Deathvalley Bomb
+
+@ 1679
+# fit 16 letters x 1 line(s)
+JP ブリザード
+EN Blizzard
+
+@ 1680
+# fit 40 letters x 2 line(s)
+JP スワンダイブ式ＤＤＴ
+EN Swan Dive DDT
+
+@ 1681
+# fit 40 letters x 2 line(s)
+JP 高速ジャーマンスープレックスホールド
+EN Fast German Suplex Hold
+
+@ 1682
+# fit 16 letters x 1 line(s)
+JP 魔神風車固め
+EN Majin Windmill
+
+@ 1683
+# fit 16 letters x 1 line(s)
+JP 水車落とし
+EN Waterwheel Drop
+
+@ 1684
+# fit 40 letters x 2 line(s)
+JP ベアハッグスープレックス
+EN Bear Hug Suplex
+
+@ 1685
+# fit 16 letters x 1 line(s)
+JP 超竜ボム
+EN Choryu Bomb
+
+@ 1686
+# fit 16 letters x 1 line(s)
+JP ＢＴボム
+EN BT Bomb
+
+@ 1687
+# fit 40 letters x 2 line(s)
+JP 雪崩式ブラックタイガーボム
+EN Avalanche Black Tiger Bomb
+
+@ 1688
+# fit 16 letters x 1 line(s)
+JP ＳＴＴ
+EN STT
+
+@ 1689
+# fit 40 letters x 2 line(s)
+JP ＳＴＯ（引き込み）
+EN STO (Pull-In)
+
+@ 1690
+# fit 40 letters x 2 line(s)
+JP ヘッドシザースホイップ（ダウン）
+EN Headscissors Whip (Down)
+
+@ 1691
+# fit 40 letters x 2 line(s)
+JP サンダーファイヤーパワーボム
+EN Thunder Fire Powerbomb
+
+@ 1692
+# fit 40 letters x 2 line(s)
+JP スイング式ＤＤＴ
+EN Swinging DDT
+
+@ 1693
+# fit 40 letters x 2 line(s)
+JP マヤ式スープレックスホールド
+EN Maya-Style Suplex Hold
+
+@ 1694
+# fit 40 letters x 2 line(s)
+JP Ｄ式スペシャル２
+EN D-Style Special 2
+
+@ 1695
+# fit 40 letters x 2 line(s)
+JP バックドロップホールド
+EN Backdrop Hold
+
+@ 1696
+# fit 40 letters x 2 line(s)
+JP パワーボム（拝み）
+EN Powerbomb (Praying)
+
+@ 1697
+# fit 16 letters x 1 line(s)
+JP 高野落とし
+EN Takano Drop
+
+@ 1698
+# fit 40 letters x 2 line(s)
+JP リフトアップスラム（カウンター）
+EN Lift-Up Slam (Counter)
+
+@ 1699
+# fit 40 letters x 2 line(s)
+JP 旋回式フロントスープレックス
+EN Turning Front Suplex
+
+@ 1700
+# fit 40 letters x 2 line(s)
+JP ブレーンバスター（エプロンから場外）
+EN Brainbuster (Apron to Outside)
+
+@ 1701
+# fit 40 letters x 2 line(s)
+JP ブレーンバスター（エプロンから場内）
+EN Brainbuster (Apron to Ring)
+
+@ 1702
+# fit 40 letters x 2 line(s)
+JP ヘッドロック（エプロン）
+EN Headlock (Apron)
+
+@ 1703
+# fit 16 letters x 1 line(s)
+JP サイドバスター
+EN Side Buster
+
+@ 1704
+# fit 40 letters x 2 line(s)
+JP ジャンピングパワーボム（平田）
+EN Jumping Powerbomb (Hirata)
+
+@ 1705
+# fit 40 letters x 2 line(s)
+JP コーナーポストで観客に毒づく
+EN Taunt Crowd from Corner Post
+
+@ 1706
+# fit 40 letters x 2 line(s)
+JP 両手を上げて勢いよく振り下ろす
+EN Raise Both Hands, Swing Down Hard
+
+@ 1707
+# fit 40 letters x 2 line(s)
+JP 右手を上げてから、マスクを直す
+EN Raise Right Hand, Adjust Mask
+
+@ 1712
+# fit 40 letters x 2 line(s)
+JP ジャーマンスープレックスホールド（平田）
+EN German Suplex Hold (Hirata)
+
+@ 1713
+# fit 44 letters x 2 line(s)
+JP 投げっぱなしジャーマンスープレックス（平田）
+EN Release German Suplex (Hirata)
+
+@ 1714
+# fit 40 letters x 2 line(s)
+JP 飛びつきブルドッキングヘッドロック
+EN Leaping Bulldog Headlock
+
+@ 1715
+# fit 40 letters x 2 line(s)
+JP 大回転ジャーマンスープレックス
+EN Big Rotation German Suplex
+
+@ 1718
+# fit 40 letters x 2 line(s)
+JP ショルダータックル（ダッシュ）
+EN Shoulder Tackle (Dash)
+
+@ 1719
+# fit 40 letters x 2 line(s)
+JP ムーンサルト・プレス（武藤）
+EN Moonsault Press (Muto)
+
+@ 1720
+# fit 40 letters x 2 line(s)
+JP フランケンシュタイナー
+EN Frankensteiner
+
+@ 1722
+# fit 16 letters x 1 line(s)
+JP 張り手（藤波）
+EN Slap (Fujinami)
+
+@ 1723
+# fit 16 letters x 1 line(s)
+JP 張り手（金本）
+EN Slap (Kanemoto)
+
+@ 1725
+# fit 40 letters x 2 line(s)
+JP リバース・スープレックス
+EN Reverse Suplex
+
+@ 1726
+# fit 40 letters x 2 line(s)
+JP ライガーボム（新）
+EN Liger Bomb (New)
+
+@ 1743
+# fit 40 letters x 2 line(s)
+JP ブロックバスター
+EN Blockbuster
+
+@ 1758
+# fit 40 letters x 2 line(s)
+JP サンドイッチハイキック
+EN Sandwich High Kick
+
+@ 1759
+# fit 40 letters x 2 line(s)
+JP 肩車してのドロップキック
+EN Shoulder Ride Dropkick
+
+@ 1760
+# fit 40 letters x 2 line(s)
+JP パワーボムの体勢からドロップキック
+EN Dropkick from Powerbomb Setup
+
+@ 1761
+# fit 16 letters x 1 line(s)
+JP ダブル背中叩き
+EN Double Back Slap
+
+@ 1762
+# fit 40 letters x 2 line(s)
+JP バックドロップネックブリーカー
+EN Backdrop Neckbreaker
+
+@ 1763
+# fit 16 letters x 1 line(s)
+JP ダブル頭突き
+EN Double Headbutt
+
+@ 1764
+# fit 40 letters x 2 line(s)
+JP ダブルモンゴリアンチョップ
+EN Double Mongolian Chop
+
+@ 1765
+# fit 40 letters x 2 line(s)
+JP ダブルインパクト
+EN Double Impact
+
+@ 1766
+# fit 40 letters x 2 line(s)
+JP 喉輪バックドロップ
+EN Choke Backdrop
+
+@ 1767
+# fit 40 letters x 2 line(s)
+JP 天を指差し、２回まわす
+EN Point to Sky, Spin Twice
+
+@ 1768
+# fit 16 letters x 1 line(s)
+JP 十文字首切り
+EN Cross Neck Slash
+
+@ 1769
+# fit 40 letters x 2 line(s)
+JP 指回し首切りからボム予告
+EN Finger Spin Throat Slash, Bomb Sign
+
+@ 1770
+# fit 16 letters x 1 line(s)
+JP 喉に指をあてる
+EN Finger to Throat
+
+@ 1771
+# fit 40 letters x 2 line(s)
+JP 指をまわして尻叩き気合いれる
+EN Spin Finger, Slap Butt, Fire Up
+
+@ 1772
+# fit 40 letters x 2 line(s)
+JP 両手広げて観客に吠え、自分を指す
+EN Arms Wide, Roar, Point at Self
+
+@ 1773
+# fit 40 letters x 2 line(s)
+JP 弓引きガッツポーズ
+EN Bow-Draw Fist Pump
+
+@ 1774
+# fit 40 letters x 2 line(s)
+JP 俺がチャンピオンだ
+EN I'm the Champion!
+
+@ 1775
+# fit 16 letters x 1 line(s)
+JP チッチッチッ
+EN Tsk Tsk Tsk
+
+@ 1776
+# fit 40 letters x 2 line(s)
+JP 腕クロス、いくぞ！
+EN Arms Crossed, Here I Come!
+
+@ 1777
+# fit 16 letters x 1 line(s)
+JP チャチャチャ
+EN Cha Cha Cha
+
+@ 1778
+# fit 16 letters x 1 line(s)
+JP マッチョポーズ
+EN Muscle Pose
+
+@ 1779
+# fit 16 letters x 1 line(s)
+JP 客に悪態
+EN Insult Crowd
+
+@ 1780
+# fit 16 letters x 1 line(s)
+JP 相手を見下す
+EN Look Down on Foe
+
+@ 1781
+# fit 40 letters x 2 line(s)
+JP 足を開き軽く腕を上下
+EN Legs Apart, Swing Arms Lightly
+
+@ 1782
+# fit 40 letters x 2 line(s)
+JP 両手を広げてから、座って力こぶ
+EN Arms Wide, Sit and Flex
+
+@ 1783
+# fit 40 letters x 2 line(s)
+JP 手を叩いて相手を招く
+EN Clap and Beckon Opponent
+
+@ 1784
+# fit 40 letters x 2 line(s)
+JP 手を叩いた後両手でアピール
+EN Clap, Then Appeal with Both Hands
+
+@ 1785
+# fit 16 letters x 1 line(s)
+JP 踏ん張りポーズ
+EN Bracing Pose
+
+@ 1786
+# fit 16 letters x 1 line(s)
+JP 両腕をまわす
+EN Windmill Arms
+
+@ 1787
+# fit 40 letters x 2 line(s)
+JP 一本指で右手上げ、バックドロップいくぞ！
+EN One Finger, Right Hand Up, Backdrop!
+
+@ 1788
+# fit 40 letters x 2 line(s)
+JP 腕を小さくクロスして広げる
+EN Cross Arms Small, Spread Them
+
+@ 1789
+# fit 40 letters x 2 line(s)
+JP 投げるぞ、合図で腕まわす
+EN I'll Throw You, Arm Spin Signal
+
+@ 1790
+# fit 16 letters x 1 line(s)
+JP ぶん投げるぞ！
+EN I'll Hurl You!
+
+@ 1791
+# fit 16 letters x 1 line(s)
+JP 雄叫び
+EN Battle Cry
+
+@ 1792
+# fit 40 letters x 2 line(s)
+JP 右手を小刻みに何度も上げる
+EN Raise Right Hand Quickly, Repeatedly
+
+@ 1793
+# fit 40 letters x 2 line(s)
+JP みちドラいくぞ！
+EN Michi-Dora Time!
+
+@ 1794
+# fit 16 letters x 1 line(s)
+JP お調子こき
+EN Showboating
+
+@ 1795
+# fit 40 letters x 2 line(s)
+JP 腕をクロス後ガッツポーズ
+EN Cross Arms, Then Fist Pump
+
+@ 1796
+# fit 40 letters x 2 line(s)
+JP アピール１マサ・サイトー
+EN Appeal 1 Masa Saito
+
+@ 1797
+# fit 40 letters x 2 line(s)
+JP アピール２マサ・サイトー
+EN Appeal 2 Masa Saito
+
+@ 1798
+# fit 40 letters x 2 line(s)
+JP 手を叩いて両腕を上げる
+EN Clap and Raise Both Arms
+
+@ 1799
+# fit 40 letters x 2 line(s)
+JP 両腕を上げた後、挑発ポーズ
+EN Raise Arms, Then Taunt Pose
+
+@ 1800
+# fit 40 letters x 2 line(s)
+JP 両腕を上げて首を左右に振る
+EN Raise Arms, Shake Head Side to Side
+
+@ 1801
+# fit 16 letters x 1 line(s)
+JP サポーター直し
+EN Fix Support
+
+@ 1802
+# fit 16 letters x 1 line(s)
+JP 右腕に力込めて
+EN Flex Right Arm
+
+@ 1803
+# fit 16 letters x 1 line(s)
+JP ハッハッハ！！
+EN Ha Ha Ha!!
+
+@ 1804
+# fit 16 letters x 1 line(s)
+JP ＡＫＩＲＡ１
+EN AKIRA 1
+
+@ 1805
+# fit 16 letters x 1 line(s)
+JP ＡＫＩＲＡ２
+EN AKIRA 2
+
+@ 1806
+# fit 16 letters x 1 line(s)
+JP ＡＫＩＲＡ３
+EN AKIRA 3
+
+@ 1807
+# fit 40 letters x 2 line(s)
+JP ドラゴン・ラナいくぞ！
+EN Dragon Rana Time!
+
+@ 1808
+# fit 16 letters x 1 line(s)
+JP 毒霧
+EN Green Mist
+
+@ 1809
+# fit 40 letters x 2 line(s)
+JP 低空ドロップキック（武藤）
+EN Low Dropkick (Muto)
+
+@ 1810
+# fit 40 letters x 2 line(s)
+JP ジャブ（フライ）
+EN Jab (Frye)
+
+@ 1811
+# fit 40 letters x 2 line(s)
+JP グーパンチジャブ
+EN Closed-Fist Jab
+
+@ 1812
+# fit 40 letters x 2 line(s)
+JP グーパンチフック
+EN Closed-Fist Hook
+
+@ 1813
+# fit 40 letters x 2 line(s)
+JP ローリングエルボー
+EN Rolling Elbow
+
+@ 1814
+# fit 40 letters x 2 line(s)
+JP ローキック（格闘家）
+EN Low Kick (Fighter)
+
+@ 1815
+# fit 40 letters x 2 line(s)
+JP ミドルキック・左（橋本）
+EN Middle Kick - Left (Hashimoto)
+
+@ 1816
+# fit 40 letters x 2 line(s)
+JP サムライラリアット
+EN Samurai Lariat
+
+@ 1817
+# fit 40 letters x 2 line(s)
+JP ショルダータックル
+EN Shoulder Tackle
+
+@ 1818
+# fit 40 letters x 2 line(s)
+JP カウンターラリアット
+EN Counter Lariat
+
+@ 1819
+# fit 40 letters x 2 line(s)
+JP 串刺しいっちゃうぞ！
+EN I'm Going for the Charge!
+
+@ 1820
+# fit 40 letters x 2 line(s)
+JP フロントヘッドロックニー
+EN Front Headlock Knee
+
+@ 1821
+# fit 40 letters x 2 line(s)
+JP 延髄斬り（天龍）
+EN Enzuigiri (Tenryu)
+
+@ 1822
+# fit 40 letters x 2 line(s)
+JP ヘッドロックパンチ
+EN Headlock Punch
+
+@ 1823
+# fit 16 letters x 1 line(s)
+JP サイキック
+EN Psychic
+
+@ 1824
+# fit 40 letters x 2 line(s)
+JP パンチからマウント
+EN Punches to Mount
+
+@ 1825
+# fit 40 letters x 2 line(s)
+JP ニセ天山チョップ
+EN Fake Tenzan Chop
+
+@ 1826
+# fit 40 letters x 2 line(s)
+JP マウントからパンチ
+EN Punches from Mount
+
+@ 1827
+# fit 40 letters x 2 line(s)
+JP うつ伏せマウントからパンチ
+EN Face-Down Mount Punches
+
+@ 1828
+# fit 40 letters x 2 line(s)
+JP マウントから噛み付き
+EN Biting from Mount
+
+@ 1829
+# fit 40 letters x 2 line(s)
+JP マウント側頭部パンチ
+EN Mount Temple Punches
+
+@ 1830
+# fit 40 letters x 2 line(s)
+JP カンクーントルネード
+EN Cancun Tornado
+
+@ 1831
+# fit 40 letters x 2 line(s)
+JP ダイビングエルボー（天龍）
+EN Diving Elbow (Tenryu)
+
+@ 1832
+# fit 44 letters x 2 line(s)
+JP ダイヤモンドカッター（ダッシュ、カウンター）
+EN Diamond Cutter (Dash, Counter)
+
+@ 1833
+# fit 16 letters x 1 line(s)
+JP 天龍チョップ
+EN Tenryu Chop
+
+@ 1834
+# fit 16 letters x 1 line(s)
+JP 天龍ラリアット
+EN Tenryu Lariat
+
+@ 1835
+# fit 40 letters x 2 line(s)
+JP フック（フライ）
+EN Hook (Frye)
+
+@ 1838
+# fit 40 letters x 2 line(s)
+JP 天山プレス（ＴＰから）
+EN Tenzan Press (from TP)
+
+@ 1839
+# fit 40 letters x 2 line(s)
+JP コンビネーションキック（永田）
+EN Combination Kick (Nagata)
+
+@ 1840
+# fit 40 letters x 2 line(s)
+JP スティンガースプラッシュ
+EN Stinger Splash
+
+@ 1841
+# fit 40 letters x 2 line(s)
+JP エルボーアタック（エプロンへ）
+EN Elbow Attack (to Apron)
+
+@ 1842
+# fit 40 letters x 2 line(s)
+JP ダイビングニールキック
+EN Diving Knee Kick
+
+@ 1843
+# fit 40 letters x 2 line(s)
+JP ラリアット（後藤）
+EN Lariat (Goto)
+
+@ 1844
+# fit 40 letters x 2 line(s)
+JP ランニングエルボー
+EN Running Elbow
+
+@ 1845
+# fit 16 letters x 1 line(s)
+JP ラリアット２
+EN Lariat 2
+
+@ 1846
+# fit 16 letters x 1 line(s)
+JP ロザリオ
+EN Rosario
+
+@ 1847
+# fit 40 letters x 2 line(s)
+JP ソバットコンビネーション
+EN Sobat Combination
+
+@ 1848
+# fit 40 letters x 2 line(s)
+JP ヘッドバット（大仁田）
+EN Headbutt (Onita)
+
+@ 1849
+# fit 16 letters x 1 line(s)
+JP 火炎攻撃
+EN Fire Attack
+
+@ 1850
+# fit 58 letters x 2 line(s)
+JP コンビパンチ～マウント（後頭部パンチ／レッグネックロック）
+EN Combo Punch to Mount (Back Punch/Leg Neck Lock)
+
+@ 1851
+# fit 50 letters x 2 line(s)
+JP マウントタックル（後頭部パンチ／胴絞めスリーパー）
+EN Mount Tackle (Back Punch/Body Scissors Sleeper)
+
+@ 1852
+# fit 52 letters x 2 line(s)
+JP マウントタックル（後頭部パンチ／レッグネックロック）
+EN Mount Tackle (Back Punch/Leg Neck Lock)
+
+@ 1853
+# fit 56 letters x 2 line(s)
+JP マウント側頭部パンチ（後頭部パンチ／レッグネックロック）
+EN Mount Temple Punch (Back Punch/Leg Neck Lock)
+
+@ 1854
+# fit 40 letters x 2 line(s)
+JP エルボードロップ（Ｈ斎藤）
+EN Elbow Drop (H. Saito)
+
+@ 1855
+# fit 40 letters x 2 line(s)
+JP 垂直ジャンプ式ニードロップ
+EN Vertical Jump Knee Drop
+
+@ 1856
+# fit 40 letters x 2 line(s)
+JP ノータッチプランチャ
+EN No-Touch Plancha
+
+@ 1857
+# fit 40 letters x 2 line(s)
+JP 高角度プランチャ
+EN High-Angle Plancha
+
+@ 1858
+# fit 40 letters x 2 line(s)
+JP ボディスプラッシュ・ダブルアーム連携
+EN Body Splash, Double Arm Combo
+
+@ 1859
+# fit 16 letters x 1 line(s)
+JP アッパーカット
+EN Uppercut
+
+@ 1860
+# fit 40 letters x 2 line(s)
+JP ケサ斬りチョップ連打
+EN Kesagiri Chop Barrage
+
+@ 1861
+# fit 40 letters x 2 line(s)
+JP ムーンサルトプレス（Ｂｉｇ）
+EN Moonsault Press (Big)
+
+@ 1862
+# fit 16 letters x 1 line(s)
+JP 気合ラリアット
+EN Spirit Lariat
+
+@ 1863
+# fit 40 letters x 2 line(s)
+JP ぶん殴りラリアットＦ
+EN Slugging Lariat F
+
+@ 1864
+# fit 40 letters x 2 line(s)
+JP ムーンサルトプレス（うつ伏せ）
+EN Moonsault Press (Face Down)
+
+@ 1865
+# fit 16 letters x 1 line(s)
+JP エルボー連射Ｂ
+EN Elbow Barrage B
+
+@ 1866
+# fit 16 letters x 1 line(s)
+JP ステップキック
+EN Step Kick
+
+@ 1867
+# fit 40 letters x 2 line(s)
+JP 鋭角エルボードロップ
+EN Sharp-Angle Elbow Drop
+
+@ 1868
+# fit 16 letters x 1 line(s)
+JP ロザリオ
+EN Rosario
+
+@ 1869
+# fit 40 letters x 2 line(s)
+JP ソバットコンビネーション
+EN Sobat Combination
+
+@ 1870
+# fit 40 letters x 2 line(s)
+JP ヘッドバット（大仁田）
+EN Headbutt (Onita)
+
+@ 1871
+# fit 16 letters x 1 line(s)
+JP 火炎攻撃
+EN Fire Attack
+
+@ 1872
+# fit 40 letters x 2 line(s)
+JP パンチ～マウント（ＬＮロック）
+EN Punches to Mount (LN Lock)
+
+@ 1873
+# fit 40 letters x 2 line(s)
+JP マウントタックル（スリーパー）
+EN Mount Tackle (Sleeper)
+
+@ 1874
+# fit 40 letters x 2 line(s)
+JP マウントタックル（ＬＮロック）
+EN Mount Tackle (LN Lock)
+
+@ 1875
+# fit 40 letters x 2 line(s)
+JP マウントパンチ（ＬＮロック）
+EN Mount Punches (LN Lock)
+
+@ 1876
+# fit 40 letters x 2 line(s)
+JP マフラーホールド
+EN Muffler Hold
+
+@ 1877
+# fit 40 letters x 2 line(s)
+JP ＦＭ／チンロック／ストンピング
+EN FM/Chin Lock/Stomping
+
+@ 1878
+# fit 16 letters x 1 line(s)
+JP コの字固め
+EN Square Lock
+
+@ 1879
+# fit 40 letters x 2 line(s)
+JP ＷＡＲスペシャル
+EN WAR Special
+
+@ 1880
+# fit 40 letters x 2 line(s)
+JP エルボードロップ・レッグロック連携
+EN Elbow Drop, Leglock Combo
+
+@ 1881
+# fit 40 letters x 2 line(s)
+JP 反則首四の字固め
+EN Illegal Neck Figure-Four
+
+@ 1882
+# fit 40 letters x 2 line(s)
+JP レッグブリーカー（武藤）
+EN Leg Breaker (Muto)
+
+@ 1883
+# fit 40 letters x 2 line(s)
+JP バッファロースリーパー
+EN Buffalo Sleeper
+
+@ 1884
+# fit 40 letters x 2 line(s)
+JP 監獄固め（蝶野）
+EN Prison Lock (Chono)
+
+@ 1885
+# fit 16 letters x 1 line(s)
+JP カンパーナ
+EN Campana
+
+@ 1886
+# fit 40 letters x 2 line(s)
+JP タックル（フライ）
+EN Tackle (Frye)
+
+@ 1887
+# fit 40 letters x 2 line(s)
+JP マウントから胴絞めスリーパー（うつ伏せ）
+EN Mount Body Sleeper (Face Down)
+
+@ 1888
+# fit 40 letters x 2 line(s)
+JP レッグネックロック
+EN Leg Neck Lock
+
+@ 1889
+# fit 40 letters x 2 line(s)
+JP ジャイアントスイング（中西）
+EN Giant Swing (Nakanishi)
+
+@ 1890
+# fit 44 letters x 2 line(s)
+JP ＦＭ／チンロック／ストンピング（バック返し）
+EN FM/Chin Lock/Stomping (Back Reversal)
+
+@ 1893
+# fit 40 letters x 2 line(s)
+JP コジＭＡＸホールド（うつ伏せ）
+EN Koji MAX Hold (Face Down)
+
+@ 1894
+# fit 40 letters x 2 line(s)
+JP 羽根折り固め（ダウン）
+EN Wing Lock (Down)
+
+@ 1895
+# fit 16 letters x 1 line(s)
+JP 膝固め
+EN Knee Lock
+
+@ 1896
+# fit 40 letters x 2 line(s)
+JP ナガタロック（ダウン）
+EN Nagata Lock (Down)
+
+@ 1897
+# fit 40 letters x 2 line(s)
+JP ナガタロックⅡ（うつ伏せ）
+EN Nagata Lock II (Face Down)
+
+@ 1898
+# fit 40 letters x 2 line(s)
+JP 監獄固め（Ｍサイトー）
+EN Prison Lock (M. Saito)
+
+@ 1899
+# fit 40 letters x 2 line(s)
+JP 変形コブラツイスト
+EN Modified Cobra Twist
+
+@ 1900
+# fit 40 letters x 2 line(s)
+JP 四の字ジャックナイフ固め
+EN Figure-Four Jackknife Hold
+
+@ 1901
+# fit 40 letters x 2 line(s)
+JP ブライアンストレッチ
+EN Brian Stretch
+
+@ 1902
+# fit 40 letters x 2 line(s)
+JP スタンディングヒールホールド
+EN Standing Heel Hold
+
+@ 1903
+# fit 40 letters x 2 line(s)
+JP フライングラリアット
+EN Flying Lariat
+
+@ 1904
+# fit 40 letters x 2 line(s)
+JP 馬乗りマウントパンチ（上半身）
+EN Mounted Punches (Upper Body)
+
+@ 1905
+# fit 40 letters x 2 line(s)
+JP ウルフパック足四の字固め
+EN Wolfpack Figure-Four Leglock
+
+@ 1907
+# fit 40 letters x 2 line(s)
+JP コーナー打撃（腹蹴り）
+EN Corner Strike (Belly Kick)
+
+@ 1908
+# fit 16 letters x 1 line(s)
+JP 掌底いくぞ！
+EN Palm Strike Now!
+
+@ 1909
+# fit 40 letters x 2 line(s)
+JP ダイヤモンドカッター（バック返し）
+EN Diamond Cutter (Back Reversal)
+
+@ 1911
+# fit 40 letters x 2 line(s)
+JP 雪崩式腕ひしぎ逆十字固め
+EN Avalanche Armbar
+
+@ 1912
+# fit 40 letters x 2 line(s)
+JP 雪崩式逆一本背負い
+EN Avalanche Reverse Seoi Nage
+
+@ 1913
+# fit 40 letters x 2 line(s)
+JP 雪崩式ノーザンライトボム
+EN Avalanche Northern Lights Bomb
+
+@ 1914
+# fit 40 letters x 2 line(s)
+JP 雪崩式ミステリオラナ
+EN Avalanche Mysterio Rana
+
+@ 1915
+# fit 40 letters x 2 line(s)
+JP 雪崩式タイガースープレックス
+EN Avalanche Tiger Suplex
+
+@ 1918
+# fit 40 letters x 2 line(s)
+JP 雪崩式ジャーマンスープレックス
+EN Avalanche German Suplex
+
+@ 1919
+# fit 40 letters x 2 line(s)
+JP 投げキッスフランケンシュタイナー
+EN Blown Kiss Frankensteiner
+
+@ 1920
+# fit 40 letters x 2 line(s)
+JP 腰振りフランケンシュタイナー
+EN Hip Swing Frankensteiner
+
+@ 1921
+# fit 40 letters x 2 line(s)
+JP 三角飛びラ・ケブラーダ
+EN Triangle Jump La Quebrada
+
+@ 1923
+# fit 16 letters x 1 line(s)
+JP 高速タックル
+EN Speed Tackle
+
+@ 1924
+# fit 16 letters x 1 line(s)
+JP その場カニ挟み
+EN Stand Crab Hold
+
+@ 1931
+# fit 40 letters x 2 line(s)
+JP 一本背負いドラゴンスクリュー
+EN Seoi Nage Dragon Screw
+
+@ 1932
+# fit 40 letters x 2 line(s)
+JP 変形ラ・マヒストラル（正面）
+EN Modified La Magistral (Front)
+
+@ 1933
+# fit 40 letters x 2 line(s)
+JP ローリングクレイドル
+EN Rolling Cradle
+
+@ 1934
+# fit 16 letters x 1 line(s)
+JP ＩＶニーロック
+EN IV Knee Lock
+
+@ 1935
+# fit 40 letters x 2 line(s)
+JP 横入り式腕ひしぎ逆十字固め
+EN Sneak-In Armbar
+
+@ 1936
+# fit 40 letters x 2 line(s)
+JP フェイント式腕ひしぎ逆十字固め
+EN Feint Armbar
+
+@ 1937
+# fit 16 letters x 1 line(s)
+JP 裏膝四の字固め
+EN Rev. Figure-Four
+
+@ 1938
+# fit 40 letters x 2 line(s)
+JP 逆さ押え込み（ダッシュ）
+EN Inverted Cradle (Dash)
+
+@ 1939
+# fit 16 letters x 1 line(s)
+JP リンギーナ２
+EN Ringina 2
+
+@ 1943
+# fit 40 letters x 2 line(s)
+JP ビクトル式膝十字固め
+EN Victor Knee Bar
+
+@ 1944
+# fit 40 letters x 2 line(s)
+JP 元祖ドラゴンスクリュー
+EN Original Dragon Screw
+
+@ 1945
+# fit 16 letters x 1 line(s)
+JP 目潰し
+EN Eye Gouge
+
+@ 1976
+# fit 40 letters x 2 line(s)
+JP ノーザンライトボム
+EN Northern Lights Bomb
+
+@ 1977
+# fit 40 letters x 2 line(s)
+JP 天山ツームストンパイルドライバー
+EN Tenzan Tombstone Piledriver
+
+@ 1978
+# fit 40 letters x 2 line(s)
+JP 餅つきパワーボム・デスバレーボム連携
+EN Mochitsuki Powerbomb-Deathvalley Combo
+
+@ 1979
+# fit 40 letters x 2 line(s)
+JP 餅つきパワーボム・みちドラ連携
+EN Mochitsuki Powerbomb - Michi-Dora Combo
+
+@ 1980
+# fit 40 letters x 2 line(s)
+JP みちのくドライバー２
+EN Michinoku Driver 2
+
+@ 1981
+# fit 40 letters x 2 line(s)
+JP ボディスラム（金本）
+EN Body Slam (Kanemoto)
+
+@ 1982
+# fit 16 letters x 1 line(s)
+JP 河津落とし
+EN Kawazu Drop
+
+@ 1983
+# fit 40 letters x 2 line(s)
+JP スイングリバースＤＤＴ
+EN Swinging Reverse DDT
+
+@ 1984
+# fit 40 letters x 2 line(s)
+JP カーフブランディング
+EN Calf Branding
+
+@ 1985
+# fit 40 letters x 2 line(s)
+JP ダイビングネックブリーカー
+EN Diving Neckbreaker
+
+@ 1986
+# fit 40 letters x 2 line(s)
+JP いきなり逆一本背負い
+EN Sudden Reverse Seoi Nage
+
+@ 1987
+# fit 40 letters x 2 line(s)
+JP 餅つきパワーボム・ライガーボム連携
+EN Mochitsuki Powerbomb - Liger Bomb Combo
+
+@ 1988
+# fit 40 letters x 2 line(s)
+JP 大谷式ライガーボム
+EN Otani-Style Liger Bomb
+
+@ 1989
+# fit 40 letters x 2 line(s)
+JP 起き上がりジャーマン
+EN Rising German Suplex
+
+@ 1990
+# fit 40 letters x 2 line(s)
+JP 滞空式パワーボム（越中）
+EN Hanging Powerbomb (Koshinaka)
+
+@ 1991
+# fit 40 letters x 2 line(s)
+JP パワーボム（天龍）
+EN Powerbomb (Tenryu)
+
+@ 1998
+# fit 16 letters x 1 line(s)
+JP スパイラルボム
+EN Spiral Bomb
+
+@ 1999
+# fit 40 letters x 2 line(s)
+JP ランニングフェイスクラッシャー（佐々木）
+EN Running Face Crusher (Sasaki)
+
+@ 2000
+# fit 40 letters x 2 line(s)
+JP エクスプロイダー
+EN Exploder
+
+@ 2001
+# fit 40 letters x 2 line(s)
+JP チンクラッシャー
+EN Chin Crusher
+
+@ 2002
+# fit 40 letters x 2 line(s)
+JP スパインバスター
+EN Spinebuster
+
+@ 2003
+# fit 40 letters x 2 line(s)
+JP 垂直落下タイガードライバー
+EN Vertical Drop Tiger Driver
+
+@ 2004
+# fit 40 letters x 2 line(s)
+JP パワーボム（のりあげ）
+EN Powerbomb (Mount-Up)
+
+@ 2006
+# fit 16 letters x 1 line(s)
+JP ジャックハマー
+EN Jackhammer
+
+@ 2007
+# fit 40 letters x 2 line(s)
+JP 変形エクスプロイダー
+EN Modified Exploder
+
+@ 2008
+# fit 40 letters x 2 line(s)
+JP 高角度喉輪落とし
+EN High-Angle Chokeslam
+
+@ 2009
+# fit 40 letters x 2 line(s)
+JP 抱え込み式バックドロップホールド
+EN Cradle Backdrop Hold
+
+@ 2010
+# fit 16 letters x 1 line(s)
+JP ドクターボム
+EN Doctor Bomb
+
+@ 2011
+# fit 40 letters x 2 line(s)
+JP 抱えあげ式ＤＤＴ
+EN Lifting DDT
+
+@ 2012
+# fit 40 letters x 2 line(s)
+JP コブラクラッチスープレックス
+EN Cobra Clutch Suplex
+
+@ 2013
+# fit 40 letters x 2 line(s)
+JP バックドロップ（後藤）
+EN Backdrop (Goto)
+
+@ 2014
+# fit 40 letters x 2 line(s)
+JP バックから足払い
+EN Foot Sweep from Behind
+
+@ 2015
+# fit 40 letters x 2 line(s)
+JP トラースキック・フィッシャーマン連携
+EN Thrust Kick - Fisherman Combo
+
+@ 2016
+# fit 40 letters x 2 line(s)
+JP フランケン・腕ひしぎ逆十字固め連携
+EN Franken - Armbar Combo
+
+@ 2017
+# fit 40 letters x 2 line(s)
+JP デンジャラスバックドロップ
+EN Dangerous Backdrop
+
+@ 2018
+# fit 40 letters x 2 line(s)
+JP パワーボム（小原）
+EN Powerbomb (Ohara)
+
+@ 2019
+# fit 40 letters x 2 line(s)
+JP 首極め膝十字固め
+EN Neck Lock Knee Bar
+
+@ 2020
+# fit 40 letters x 2 line(s)
+JP ファルコンアロー
+EN Falcon Arrow
+
+@ 2021
+# fit 40 letters x 2 line(s)
+JP かんぬきスープレックス
+EN Kannuki Suplex
+
+@ 2022
+# fit 16 letters x 1 line(s)
+JP Ｄ．Ｄ．Ｏ
+EN D.D.O.
+
+@ 2023
+# fit 40 letters x 2 line(s)
+JP ＴＦパワーボム（大仁田）
+EN TF Powerbomb (Onita)
+
+@ 2028
+# fit 16 letters x 1 line(s)
+JP ドラゴンラナ
+EN Dragon Rana
+
+@ 2029
+# fit 16 letters x 1 line(s)
+JP ドラゴンズレイ
+EN Dragon's Ray
+
+@ 2030
+# fit 40 letters x 2 line(s)
+JP 腰振りシューティングスタープレス
+EN Hip-Swing Shooting Star Press
+
+@ 2048
+# fit 40 letters x 2 line(s)
+JP バットで上段攻撃
+EN High Bat Attack
+
+@ 2049
+# fit 16 letters x 1 line(s)
+JP バット攻撃２
+EN Bat Attack 2
+
+@ 2050
+# fit 40 letters x 2 line(s)
+JP ダウン相手へのバット攻撃
+EN Bat Attack on Downed Foe
+
+@ 2058
+# fit 40 letters x 2 line(s)
+JP ラリアットかわしてバック捕る
+EN Dodge Lariat, Take the Back
+
+@ 2059
+# fit 42 letters x 2 line(s)
+JP 足四の字固めをスモール・パッケージホールド
+EN Figure-Four to Small Package Hold
+
+@ 2060
+# fit 40 letters x 2 line(s)
+JP 武藤 垂直落下DDTを空中膝蹴り
+EN Muto: Knee Strike vs Vertical Drop DDT
+
+@ 2061
+# fit 40 letters x 2 line(s)
+JP 蹴り足とって軸足をはらい倒す
+EN Catch Kick, Sweep Standing Leg
+
+@ 2062
+# fit 40 letters x 2 line(s)
+JP ショルダースルーを着地してバックをとる
+EN Land Shoulder Toss, Take the Back
+
+@ 2063
+# fit 40 letters x 2 line(s)
+JP ジャーマン嫌がってエルボー
+EN Resist German, Elbow
+
+@ 2064
+# fit 40 letters x 2 line(s)
+JP ジャーマンこらえて回転エビ固め
+EN Block German, Rolling Cradle
+
+@ 2065
+# fit 40 letters x 2 line(s)
+JP ドロップキック系かわす２
+EN Dodge Dropkick Type 2
+
+@ 2066
+# fit 40 letters x 2 line(s)
+JP フルネルソン切ってバックをとる
+EN Break Full Nelson, Take the Back
+
+@ 2067
+# fit 40 letters x 2 line(s)
+JP パワーボムをウラカン
+EN Powerbomb to Huracanrana
+
+@ 2068
+# fit 40 letters x 2 line(s)
+JP ドラゴンスクリュー返しのハンマーパンチ
+EN Dragon Screw Counter Hammer Punch
+
+@ 2069
+# fit 40 letters x 2 line(s)
+JP ビクトル腕十字を後方に倒す
+EN Victor Armbar, Fall Backward
+
+@ 2070
+# fit 40 letters x 2 line(s)
+JP バックドロップをボディプレス
+EN Backdrop to Body Press
+
+@ 2071
+# fit 40 letters x 2 line(s)
+JP サムライボム着地してバックをとる
+EN Land Samurai Bomb, Take the Back
+
+@ 2072
+# fit 40 letters x 2 line(s)
+JP 飛びつき腕十字をたたきつける
+EN Slam Out of Flying Armbar
+
+@ 2073
+# fit 40 letters x 2 line(s)
+JP デスバレーボムを回転エビ固め
+EN Deathvalley Bomb to Rolling Cradle
+
+@ 2074
+# fit 40 letters x 2 line(s)
+JP ツームストンをツームストン
+EN Tombstone to Tombstone
+
+@ 2075
+# fit 40 letters x 2 line(s)
+JP 払い腰をバックドロップ
+EN Harai Goshi to Backdrop
+
+@ 2076
+# fit 40 letters x 2 line(s)
+JP 垂直落下リバースDDT着地してバックをとる
+EN Land Vert. Drop Rev. DDT, Take the Back
+
+@ 2077
+# fit 40 letters x 2 line(s)
+JP フランケンをパワーボム
+EN Frankensteiner to Powerbomb
+
+@ 2078
+# fit 40 letters x 2 line(s)
+JP 脇固めをサイドバスター
+EN Wakigatame to Side Buster
+
+@ 2079
+# fit 40 letters x 2 line(s)
+JP 雪崩式ブレーンバスター返し
+EN Avalanche Brainbuster Counter
+
+@ 2080
+# fit 40 letters x 2 line(s)
+JP ヒップアタックをバックドロップ
+EN Hip Attack to Backdrop
+
+@ 2081
+# fit 40 letters x 2 line(s)
+JP フロントヘッドロックにボディブロー
+EN Body Blow to Front Headlock
+
+@ 2082
+# fit 44 letters x 2 line(s)
+JP 武藤のローリングディフェンス（ダッシュ兼用）
+EN Muto's Rolling Defense (Also Dash)
+
+@ 2083
+# fit 40 letters x 2 line(s)
+JP サソリ固めをスモールパッケージ
+EN Scorpion Lock to Small Package
+
+@ 2084
+# fit 40 letters x 2 line(s)
+JP 蹴り足つかんでエルボー
+EN Catch Kick, Elbow
+
+@ 2085
+# fit 40 letters x 2 line(s)
+JP フランケンをパワーボム（カウンター）
+EN Frankensteiner to Powerbomb (Counter)
+
+@ 2088
+# fit 40 letters x 2 line(s)
+JP 蹴り足つかんで裏アキレス腱固め
+EN Catch Kick, Reverse Achilles Hold
+
+@ 2089
+# fit 40 letters x 2 line(s)
+JP ビクトル膝十字（バック返し）
+EN Victor Knee Bar (Back Counter)
+
+@ 2090
+# fit 40 letters x 2 line(s)
+JP ブレーンバスターを脇固め
+EN Brainbuster to Wakigatame
+
+@ 2182
+# fit 48 letters x 2 line(s)
+JP 側面からの相手引き起こし：うつ伏せ前（左）上半身
+EN Side Pick-Up: Face Down, Front (L), Upper Body
+
+@ 2183
+# fit 46 letters x 2 line(s)
+JP 側面からの相手引き起こし：仰向け前（左）上半身
+EN Side Pick-Up: Face Up, Front (L), Upper Body
+
+@ 2184
+# fit 48 letters x 2 line(s)
+JP 側面からの相手引き起こし：うつ伏せ前（右）上半身
+EN Side Pick-Up: Face Down, Front (R), Upper Body
+
+@ 2185
+# fit 46 letters x 2 line(s)
+JP 側面からの相手引き起こし：仰向け前（右）上半身
+EN Side Pick-Up: Face Up, Front (R), Upper Body
+
+@ 2186
+# fit 48 letters x 2 line(s)
+JP 側面からの相手引き起こし：うつ伏せ前（左）下半身
+EN Side Pick-Up: Face Down, Front (L), Lower Body
+
+@ 2187
+# fit 46 letters x 2 line(s)
+JP 側面からの相手引き起こし：仰向け前（左）下半身
+EN Side Pick-Up: Face Up, Front (L), Lower Body
+
+@ 2188
+# fit 48 letters x 2 line(s)
+JP 側面からの相手引き起こし：うつ伏せ前（右）下半身
+EN Side Pick-Up: Face Down, Front (R), Lower Body
+
+@ 2189
+# fit 46 letters x 2 line(s)
+JP 側面からの相手引き起こし：仰向け前（右）下半身
+EN Side Pick-Up: Face Up, Front (R), Lower Body
+
+@ 2191
+# fit 40 letters x 2 line(s)
+JP うつ伏せ頭部から新ノーマルフォール
+EN New Normal Pin from Face Down Head
+
+@ 2192
+# fit 40 letters x 2 line(s)
+JP うつ伏せ脚部から片エビ固め
+EN Single-Leg Pin from Face Down Legs
+
+@ 2193
+# fit 40 letters x 2 line(s)
+JP ノーマルフォール
+EN Normal Pin
+
+@ 2194
+# fit 40 letters x 2 line(s)
+JP ノーマルフォール
+EN Normal Pin
+
+@ 2195
+# fit 40 letters x 2 line(s)
+JP ワグナー・ノートンタイプフォール
+EN Wagner/Norton-Type Pin
+
+@ 2196
+# fit 40 letters x 2 line(s)
+JP ワグナー・ノートンタイプフォール
+EN Wagner/Norton-Type Pin
+
+@ 2197
+# fit 40 letters x 2 line(s)
+JP 足を持って反り返りフォール（脚部）
+EN Arched Leg-Hold Pin (Legs)
+
+@ 2198
+# fit 40 letters x 2 line(s)
+JP 片えび固め（脚部）
+EN Single-Leg Pin (Legs)
+
+@ 2199
+# fit 40 letters x 2 line(s)
+JP 踏み付けフォール（頭部）
+EN Stomp Pin (Head)
+
+@ 2200
+# fit 40 letters x 2 line(s)
+JP ノーマルフォール（頭部）
+EN Normal Pin (Head)
+
+@ 2228
+# fit 40 letters x 2 line(s)
+JP 疲れたけど、勝ったぞ！
+EN I'm tired, but I won!
+
+@ 2229
+# fit 40 letters x 2 line(s)
+JP 最高だ！うれしくてしょうがない！
+EN Awesome! I'm so happy!
+
+@ 2230
+# fit 40 letters x 2 line(s)
+JP もんくがあるか！！
+EN Got a problem with that?!
+
+@ 2231
+# fit 16 letters x 1 line(s)
+JP 勝ったぞ！
+EN I won!
+
+@ 2233
+# fit 40 letters x 2 line(s)
+JP 新ノーマルフォール・右（うつ伏せ）
+EN New Normal Pin, Right (Face Down)
+
+@ 2234
+# fit 40 letters x 2 line(s)
+JP 新ノーマルフォール・左（うつ伏せ）
+EN New Normal Pin, Left (Face Down)
+
+@ 2235
+# fit 48 letters x 2 line(s)
+JP ワグナー・ノートンタイプフォール・右（うつ伏せ）
+EN Wagner/Norton Pin, Right (Face Down)
+
+@ 2236
+# fit 48 letters x 2 line(s)
+JP ワグナー・ノートンタイプフォール・左（うつ伏せ）
+EN Wagner/Norton Pin, Left (Face Down)
+
+@ 2238
+# fit 40 letters x 2 line(s)
+JP 勝利ポーズ・永田裕志
+EN Victory Pose: Yuji Nagata
+
+@ 2239
+# fit 40 letters x 2 line(s)
+JP 勝利ポーズ・小原道由
+EN Victory Pose: Michiyoshi Ohara
+
+@ 2240
+# fit 40 letters x 2 line(s)
+JP 勝利ポーズ・後藤達俊
+EN Victory Pose: Tatsutoshi Goto
+
+@ 2241
+# fit 40 letters x 2 line(s)
+JP 勝利ポーズ・ヒロ斎藤
+EN Victory Pose: Hiro Saito
+
+@ 2242
+# fit 40 letters x 2 line(s)
+JP 勝利ポーズ・飯塚高史
+EN Victory Pose: Takashi Iizuka
+
+@ 2243
+# fit 40 letters x 2 line(s)
+JP 勝利ポーズ・ｎＷｏスティング
+EN Victory Pose: nWo Sting
+
+@ 2244
+# fit 40 letters x 2 line(s)
+JP 勝利ポーズ・ＳＡＳＵＫＥ
+EN Victory Pose: SASUKE
+
+@ 2245
+# fit 40 letters x 2 line(s)
+JP 勝利ポーズ・マサ・サイトー
+EN Victory Pose: Masa Saito
+
+@ 2246
+# fit 40 letters x 2 line(s)
+JP 勝利ポーズ・小川直也
+EN Victory Pose: Naoya Ogawa
+
+@ 2247
+# fit 40 letters x 2 line(s)
+JP 勝利ポーズ・ＡＫＩＲＡ+D1042
+EN Victory Pose: Akira+D1042
+
+@ 2248
+# fit 40 letters x 2 line(s)
+JP 勝利ポーズ・大仁田厚
+EN Victory Pose: Atsushi Onita
+
+@ 2258
+# fit 40 letters x 2 line(s)
+JP 普通に立っている
+EN Standing Normally
+
+@ 2259
+# fit 40 letters x 2 line(s)
+JP 両手を腰に立っている
+EN Standing, Hands on Hips
+
+@ 2260
+# fit 40 letters x 2 line(s)
+JP 腕を組み立っている
+EN Standing, Arms Crossed
+
+@ 2261
+# fit 40 letters x 2 line(s)
+JP 怪しいく立っている（旧式）
+EN Standing Menacingly (Old)
+
+@ 2262
+# fit 40 letters x 2 line(s)
+JP 片手腰に立っている
+EN Standing, One Hand on Hip
+
+@ 2263
+# fit 40 letters x 2 line(s)
+JP ブラブラしながら立っている
+EN Standing, Swaying
+
+@ 2264
+# fit 40 letters x 2 line(s)
+JP 怪しく立っている
+EN Standing Menacingly
+
+@ 2268
+# fit 40 letters x 2 line(s)
+JP 猪木ウェイティング（旧式）
+EN Inoki Waiting (Old)
+
+@ 2269
+# fit 16 letters x 1 line(s)
+JP 長州(前半)
+EN Choshu (1st)
+
+@ 2270
+# fit 16 letters x 1 line(s)
+JP 長州(後半)
+EN Choshu (2nd)
+
+@ 2271
+# fit 16 letters x 1 line(s)
+JP 藤波(後半)
+EN Fujinami (2nd)
+
+@ 2272
+# fit 16 letters x 1 line(s)
+JP 橋本(前半)
+EN Hashimoto (1st)
+
+@ 2273
+# fit 16 letters x 1 line(s)
+JP 橋本(後半)
+EN Hashimoto (2nd)
+
+@ 2274
+# fit 16 letters x 1 line(s)
+JP 健介(前半)
+EN Sasaki (1st)
+
+@ 2275
+# fit 16 letters x 1 line(s)
+JP 健介(後半)
+EN Sasaki (2nd)
+
+@ 2276
+# fit 16 letters x 1 line(s)
+JP 木戸（後半）
+EN Kido (2nd)
+
+@ 2277
+# fit 16 letters x 1 line(s)
+JP パワー(前半)
+EN Power (1st)
+
+@ 2278
+# fit 16 letters x 1 line(s)
+JP パワー(後半)
+EN Power (2nd)
+
+@ 2279
+# fit 16 letters x 1 line(s)
+JP ライガー(後半)
+EN Liger (2nd)
+
+@ 2280
+# fit 16 letters x 1 line(s)
+JP カ・シン(前半)
+EN Kashin (1st)
+
+@ 2281
+# fit 16 letters x 1 line(s)
+JP カ・シン(後半)
+EN Kashin (2nd)
+
+@ 2282
+# fit 16 letters x 1 line(s)
+JP 金本(前半)
+EN Kanemoto (1st)
+
+@ 2283
+# fit 16 letters x 1 line(s)
+JP 高岩(前半)
+EN Takaiwa (1st)
+
+@ 2284
+# fit 16 letters x 1 line(s)
+JP 高岩(後半)
+EN Takaiwa (2nd)
+
+@ 2285
+# fit 16 letters x 1 line(s)
+JP 馳(後半)
+EN Hase (2nd)
+
+@ 2286
+# fit 16 letters x 1 line(s)
+JP 越中(前半)
+EN Koshinaka (1st)
+
+@ 2287
+# fit 16 letters x 1 line(s)
+JP 越中(後半)
+EN Koshinaka (2nd)
+
+@ 2288
+# fit 16 letters x 1 line(s)
+JP Ｂ蝶野(前半)
+EN B. Chono (1st)
+
+@ 2289
+# fit 16 letters x 1 line(s)
+JP B蝶野(後半)
+EN B. Chono (2nd)
+
+@ 2290
+# fit 16 letters x 1 line(s)
+JP 蝶野(前半)
+EN Chono (1st)
+
+@ 2291
+# fit 16 letters x 1 line(s)
+JP 蝶野(後半)
+EN Chono (2nd)
+
+@ 2292
+# fit 16 letters x 1 line(s)
+JP 武藤（前半）
+EN Muto (1st)
+
+@ 2293
+# fit 16 letters x 1 line(s)
+JP 武藤（後半）
+EN Muto (2nd)
+
+@ 2294
+# fit 16 letters x 1 line(s)
+JP 天山(前半）
+EN Tenzan (1st)
+
+@ 2295
+# fit 16 letters x 1 line(s)
+JP 天山(後半）
+EN Tenzan (2nd)
+
+@ 2296
+# fit 16 letters x 1 line(s)
+JP ノートン(前半)
+EN Norton (1st)
+
+@ 2297
+# fit 16 letters x 1 line(s)
+JP ノートン(後半)
+EN Norton (2nd)
+
+@ 2300
+# fit 16 letters x 1 line(s)
+JP 小川(前半)
+EN Ogawa (1st)
+
+@ 2301
+# fit 16 letters x 1 line(s)
+JP 小川(後半)
+EN Ogawa (2nd)
+
+@ 2302
+# fit 16 letters x 1 line(s)
+JP 山崎(前半）
+EN Yamazaki (1st)
+
+@ 2303
+# fit 16 letters x 1 line(s)
+JP スコット(前半)
+EN Scott (1st)
+
+@ 2304
+# fit 16 letters x 1 line(s)
+JP スコット(後半)
+EN Scott (2nd)
+
+@ 2305
+# fit 16 letters x 1 line(s)
+JP 藤原(後半)
+EN Fujiwara (2nd)
+
+@ 2306
+# fit 16 letters x 1 line(s)
+JP ﾘｯｸ（後半）
+EN Rick (2nd)
+
+@ 2307
+# fit 16 letters x 1 line(s)
+JP 天龍（後半）
+EN Tenryu (2nd)
+
+@ 2308
+# fit 40 letters x 2 line(s)
+JP ＡＫＩＲＡ（後半）
+EN Akira (2nd)
+
+@ 2313
+# fit 40 letters x 2 line(s)
+JP 右手をあげる（汎用）
+EN Raise Right Hand (Generic)
+
+@ 2314
+# fit 40 letters x 2 line(s)
+JP 左手をあげる（汎用）
+EN Raise Left Hand (Generic)
+
+@ 2315
+# fit 40 letters x 2 line(s)
+JP 両手をあげる（汎用）
+EN Raise Both Hands (Generic)
+
+@ 2316
+# fit 16 letters x 1 line(s)
+JP 周りを見る
+EN Look Around
+
+@ 2317
+# fit 16 letters x 1 line(s)
+JP 吠える（汎用）
+EN Roar (Generic)
+
+@ 2318
+# fit 40 letters x 2 line(s)
+JP 入場・通常リングイン１
+EN Entrance: Normal Ring-In 1
+
+@ 2319
+# fit 40 letters x 2 line(s)
+JP ＮＥＷ歩きVer 1.12
+EN NEW Walk Ver 1.12
+
+@ 2320
+# fit 40 letters x 2 line(s)
+JP 入場・歩き２（ムタ）
+EN Entrance: Walk 2 (Muta)
+
+@ 2321
+# fit 16 letters x 1 line(s)
+JP 走り
+EN Run
+
+@ 2322
+# fit 40 letters x 2 line(s)
+JP 入場・歩き中アオリ１（蝶野）
+EN Entrance: Taunt While Walking 1 (Chono)
+
+@ 2323
+# fit 40 letters x 2 line(s)
+JP 左手をあげる（汎用）
+EN Raise Left Hand (Generic)
+
+@ 2324
+# fit 40 letters x 2 line(s)
+JP 両手をあげる（汎用）
+EN Raise Both Hands (Generic)
+
+@ 2325
+# fit 40 letters x 2 line(s)
+JP 片手ガッツポーズ（藤波）
+EN One-Fist Pump (Fujinami)
+
+@ 2326
+# fit 16 letters x 1 line(s)
+JP 周りを見る
+EN Look Around
+
+@ 2327
+# fit 16 letters x 1 line(s)
+JP 吠える（汎用）
+EN Roar (Generic)
+
+@ 2328
+# fit 40 letters x 2 line(s)
+JP 両腕を開き後ろを振り向く（サムライ）
+EN Spread Arms, Turn Around (Samurai)
+
+@ 2329
+# fit 40 letters x 2 line(s)
+JP 手につばをはく（汎用）
+EN Spit on Hands (Generic)
+
+@ 2330
+# fit 40 letters x 2 line(s)
+JP 止まって顔をたたく(大谷)
+EN Stop, Slap Face (Otani)
+
+@ 2331
+# fit 40 letters x 2 line(s)
+JP 入場・怪しく周囲を見るムタ
+EN Entrance: Muta Eyes the Crowd Darkly
+
+@ 2332
+# fit 40 letters x 2 line(s)
+JP 腕を上げて吠える（天山）
+EN Raise Arms and Roar (Tenzan)
+
+@ 2333
+# fit 40 letters x 2 line(s)
+JP 歩きながらほぐす（山崎）
+EN Loosen Up While Walking (Yamazaki)
+
+@ 2334
+# fit 40 letters x 2 line(s)
+JP 入場・エプロンアピール（蝶野）
+EN Entrance: Apron Appeal (Chono)
+
+@ 2335
+# fit 40 letters x 2 line(s)
+JP ジャンピングリングイン
+EN Jumping Ring-In
+
+@ 2336
+# fit 40 letters x 2 line(s)
+JP 入場・通常リングイン１
+EN Entrance: Normal Ring-In 1
+
+@ 2337
+# fit 40 letters x 2 line(s)
+JP ＮＥＷ歩きVer 1.12
+EN NEW Walk Ver 1.12
+
+@ 2338
+# fit 40 letters x 2 line(s)
+JP 歩き中あおり（ライガー）
+EN Taunt While Walking (Liger)
+
+@ 2339
+# fit 40 letters x 2 line(s)
+JP 両手をあげる（汎用）
+EN Raise Both Hands (Generic)
+
+@ 2340
+# fit 46 letters x 2 line(s)
+JP 入場・トップロープアピール１（ライガー式・右）
+EN Entrance: Top Rope Appeal 1 (Liger, R)
+
+@ 2341
+# fit 45 letters x 2 line(s)
+JP 入場・トップロープアピール2（ライガー式・左）
+EN Entrance: Top Rope Appeal 2 (Liger, L)
+
+@ 2342
+# fit 40 letters x 2 line(s)
+JP ＮＥＷ歩きVer 1.12
+EN NEW Walk Ver 1.12
+
+@ 2343
+# fit 40 letters x 2 line(s)
+JP 両腕をクロスして気合を入れる
+EN Cross Arms, Psych Up
+
+@ 2344
+# fit 40 letters x 2 line(s)
+JP 入場・通常リングイン１
+EN Entrance: Normal Ring-In 1
+
+@ 2345
+# fit 40 letters x 2 line(s)
+JP ＮＥＷ歩きVer 1.12
+EN NEW Walk Ver 1.12
+
+@ 2346
+# fit 16 letters x 1 line(s)
+JP 周りを見る
+EN Look Around
+
+@ 2347
+# fit 40 letters x 2 line(s)
+JP 入場・通常リングイン１
+EN Entrance: Normal Ring-In 1
+
+@ 2348
+# fit 40 letters x 2 line(s)
+JP ＮＥＷ歩きVer 1.12
+EN NEW Walk Ver 1.12
+
+@ 2358
+# fit 40 letters x 2 line(s)
+JP 猪木コールポーズ
+EN Inoki Call Pose
+
+@ 2359
+# fit 40 letters x 2 line(s)
+JP 藤波コールポーズ
+EN Fujinami Call Pose
+
+@ 2360
+# fit 40 letters x 2 line(s)
+JP 長州コールポーズ
+EN Choshu Call Pose
+
+@ 2361
+# fit 40 letters x 2 line(s)
+JP 橋本コールポーズ
+EN Hashimoto Call Pose
+
+@ 2362
+# fit 40 letters x 2 line(s)
+JP 健介コールポーズ
+EN Sasaki Call Pose
+
+@ 2363
+# fit 40 letters x 2 line(s)
+JP 西村コールポーズ
+EN Nishimura Call Pose
+
+@ 2364
+# fit 40 letters x 2 line(s)
+JP 小島コールポーズ
+EN Kojima Call Pose
+
+@ 2365
+# fit 40 letters x 2 line(s)
+JP 中西コールポーズ
+EN Nakanishi Call Pose
+
+@ 2366
+# fit 40 letters x 2 line(s)
+JP 木戸コールポーズ
+EN Kido Call Pose
+
+@ 2367
+# fit 40 letters x 2 line(s)
+JP 平田コールポーズ
+EN Hirata Call Pose
+
+@ 2368
+# fit 40 letters x 2 line(s)
+JP 山崎コールポーズ
+EN Yamazaki Call Pose
+
+@ 2369
+# fit 40 letters x 2 line(s)
+JP ライガーコールポーズ
+EN Liger Call Pose
+
+@ 2370
+# fit 40 letters x 2 line(s)
+JP ｻﾑﾗｲコールポーズ
+EN Samurai Call Pose
+
+@ 2371
+# fit 40 letters x 2 line(s)
+JP カ・シンコールポーズ
+EN Kashin Call Pose
+
+@ 2372
+# fit 40 letters x 2 line(s)
+JP ﾍﾟｶﾞｻｽコールポーズ
+EN Pegasus Call Pose
+
+@ 2373
+# fit 40 letters x 2 line(s)
+JP ブラックコールポーズ
+EN Black Call Pose
+
+@ 2374
+# fit 40 letters x 2 line(s)
+JP 金本コールポーズ
+EN Kanemoto Call Pose
+
+@ 2375
+# fit 40 letters x 2 line(s)
+JP 大谷コールポーズ
+EN Otani Call Pose
+
+@ 2376
+# fit 40 letters x 2 line(s)
+JP 高岩コールポーズ
+EN Takaiwa Call Pose
+
+@ 2377
+# fit 40 letters x 2 line(s)
+JP 蝶野コールポーズ
+EN Chono Call Pose
+
+@ 2378
+# fit 40 letters x 2 line(s)
+JP Ｂ蝶野コールポーズ
+EN B. Chono Call Pose
+
+@ 2379
+# fit 40 letters x 2 line(s)
+JP 武藤コールポーズ
+EN Muto Call Pose
+
+@ 2380
+# fit 40 letters x 2 line(s)
+JP Ｂ武藤コールポーズ
+EN B. Muto Call Pose
+
+@ 2381
+# fit 40 letters x 2 line(s)
+JP 天山コールポーズ
+EN Tenzan Call Pose
+
+@ 2382
+# fit 40 letters x 2 line(s)
+JP ノートンコールポーズ
+EN Norton Call Pose
+
+@ 2383
+# fit 40 letters x 2 line(s)
+JP ムタコールポーズ
+EN Muta Call Pose
+
+@ 2384
+# fit 40 letters x 2 line(s)
+JP 越中コールポーズ
+EN Koshinaka Call Pose
+
+@ 2385
+# fit 40 letters x 2 line(s)
+JP 木村コールポーズ
+EN Kimura Call Pose
+
+@ 2386
+# fit 40 letters x 2 line(s)
+JP パワーコールポーズ
+EN Power Warrior Call Pose
+
+@ 2387
+# fit 40 letters x 2 line(s)
+JP リックコールポーズ
+EN Rick Call Pose
+
+@ 2388
+# fit 40 letters x 2 line(s)
+JP スコットコールポーズ
+EN Scott Call Pose
+
+@ 2389
+# fit 40 letters x 2 line(s)
+JP 坂口コールポーズ
+EN Sakaguchi Call Pose
+
+@ 2390
+# fit 40 letters x 2 line(s)
+JP バトルライガーコールポーズ
+EN Battle Liger Call Pose
+
+@ 2391
+# fit 40 letters x 2 line(s)
+JP 藤原コールポーズ
+EN Fujiwara Call Pose
+
+@ 2392
+# fit 40 letters x 2 line(s)
+JP サスケコールポーズ
+EN Sasuke Call Pose
+
+@ 2393
+# fit 40 letters x 2 line(s)
+JP デルフィンコールポーズ
+EN Delfin Call Pose
+
+@ 2394
+# fit 40 letters x 2 line(s)
+JP 人生コールポーズ
+EN Jinsei Call Pose
+
+@ 2395
+# fit 40 letters x 2 line(s)
+JP 小川コールポーズ
+EN Ogawa Call Pose
+
+@ 2396
+# fit 40 letters x 2 line(s)
+JP T･ﾏｽｸコールポーズ
+EN T-Mask Call Pose
+
+@ 2397
+# fit 40 letters x 2 line(s)
+JP タイガー・キングコールポーズ
+EN Tiger King Call Pose
+
+@ 2398
+# fit 40 letters x 2 line(s)
+JP 天龍コールアクション
+EN Tenryu Call Action
+
+@ 2399
+# fit 40 letters x 2 line(s)
+JP ベビー武藤コールアクション
+EN Baby Muto Call Action
+
+@ 2408
+# fit 40 letters x 2 line(s)
+JP コールポーズ永田裕志
+EN Call Pose (Yuji Nagata)
+
+@ 2409
+# fit 40 letters x 2 line(s)
+JP コールポーズ小原道由
+EN Call Pose (Michiyoshi Ohara)
+
+@ 2410
+# fit 40 letters x 2 line(s)
+JP コールポーズ（両腕を上げる）後藤達俊
+EN Call Pose (Arms Up) (Tatsutoshi Goto)
+
+@ 2411
+# fit 40 letters x 2 line(s)
+JP コールポーズヒロ斎藤
+EN Call Pose (Hiro Saito)
+
+@ 2412
+# fit 40 letters x 2 line(s)
+JP コールポーズ（両腕を上げる）飯塚高史
+EN Call Pose (Arms Up) (Takashi Iizuka)
+
+@ 2413
+# fit 40 letters x 2 line(s)
+JP コールポーズｎＷｏスティング
+EN Call Pose (nWo Sting)
+
+@ 2414
+# fit 40 letters x 2 line(s)
+JP コールポーズドクトル・ワグナーＪｒ
+EN Call Pose (Dr. Wagner Jr.)
+
+@ 2415
+# fit 40 letters x 2 line(s)
+JP コールポーズＳＡＳＵＫＥ
+EN Call Pose (SASUKE)
+
+@ 2416
+# fit 40 letters x 2 line(s)
+JP コールポーズマサ・サイトー
+EN Call Pose (Masa Saito)
+
+@ 2417
+# fit 40 letters x 2 line(s)
+JP コールポーズ小川直也
+EN Call Pose (Naoya Ogawa)
+
+@ 2418
+# fit 40 letters x 2 line(s)
+JP コールポーズＡＫＩＲＡ
+EN Call Pose (Akira)
+
+@ 2419
+# fit 40 letters x 2 line(s)
+JP コールポーズドラゴン・キッド
+EN Call Pose (Dragon Kid)
+
+@ 2423
+# fit 40 letters x 2 line(s)
+JP コールプレイヤー立ちポーズＡ
+EN Call Player Standing Pose A
+
+@ 2424
+# fit 40 letters x 2 line(s)
+JP コールプレイヤー立ちポーズＣ
+EN Call Player Standing Pose C
+
+@ 2425
+# fit 40 letters x 2 line(s)
+JP 健介コールポーズ
+EN Sasaki Call Pose
+
+@ 2426
+# fit 40 letters x 2 line(s)
+JP ノートンコールポーズ
+EN Norton Call Pose
+
+@ 2427
+# fit 40 letters x 2 line(s)
+JP コールポーズ小原道由
+EN Call Pose (Michiyoshi Ohara)
+
+@ 2428
+# fit 40 letters x 2 line(s)
+JP コールポーズ後藤達俊
+EN Call Pose (Tatsutoshi Goto)
+
+@ 2429
+# fit 40 letters x 2 line(s)
+JP コールプレイヤー立ちポーズＡ
+EN Call Player Standing Pose A
+
+@ 2430
+# fit 40 letters x 2 line(s)
+JP コールプレイヤー立ちポーズＢ
+EN Call Player Standing Pose B
+
+@ 2431
+# fit 40 letters x 2 line(s)
+JP コールプレイヤー立ちポーズＣ
+EN Call Player Standing Pose C
+
+@ 2432
+# fit 40 letters x 2 line(s)
+JP コールプレイヤー立ちポーズ猪木
+EN Call Player Standing Pose (Inoki)
+
+@ 2433
+# fit 40 letters x 2 line(s)
+JP ムタ立ちポーズ（改）
+EN Muta Standing Pose (Revised)
+
+@ 2434
+# fit 40 letters x 2 line(s)
+JP 猪木コールポーズ
+EN Inoki Call Pose
+
+@ 2435
+# fit 40 letters x 2 line(s)
+JP ｻﾑﾗｲコールポーズ
+EN Samurai Call Pose
+
+@ 2436
+# fit 40 letters x 2 line(s)
+JP 金本コールポーズ
+EN Kanemoto Call Pose
+
+@ 2437
+# fit 40 letters x 2 line(s)
+JP 蝶野コールポーズ
+EN Chono Call Pose
+
+@ 2438
+# fit 40 letters x 2 line(s)
+JP 天山コールポーズ
+EN Tenzan Call Pose
+
+@ 2439
+# fit 40 letters x 2 line(s)
+JP ムタコールポーズ
+EN Muta Call Pose
+
+@ 2440
+# fit 40 letters x 2 line(s)
+JP 越中コールポーズ
+EN Koshinaka Call Pose
+
+@ 2441
+# fit 40 letters x 2 line(s)
+JP サスケコールポーズ
+EN Sasuke Call Pose
+
+@ 2442
+# fit 40 letters x 2 line(s)
+JP 天龍コールアクション
+EN Tenryu Call Action
+
+@ 2443
+# fit 40 letters x 2 line(s)
+JP コールポーズヒロ斎藤
+EN Call Pose (Hiro Saito)
+
+@ 2444
+# fit 40 letters x 2 line(s)
+JP コールポーズｎＷｏスティング
+EN Call Pose (nWo Sting)
+
+@ 2445
+# fit 40 letters x 2 line(s)
+JP コールプレイヤー立ちポーズＡ
+EN Call Player Standing Pose A
+
+@ 2446
+# fit 40 letters x 2 line(s)
+JP コールプレイヤー立ちポーズＣ
+EN Call Player Standing Pose C
+
+@ 2447
+# fit 40 letters x 2 line(s)
+JP ライガーコールポーズ
+EN Liger Call Pose
+
+@ 2448
+# fit 40 letters x 2 line(s)
+JP コールポーズワグナーＪｒ
+EN Call Pose (Wagner Jr.)
+
+@ 2449
+# fit 40 letters x 2 line(s)
+JP コールプレイヤー立ちポーズＡ
+EN Call Player Standing Pose A
+
+@ 2450
+# fit 40 letters x 2 line(s)
+JP 橋本コールポーズ
+EN Hashimoto Call Pose
+
+@ 2451
+# fit 40 letters x 2 line(s)
+JP コールプレイヤー立ちポーズＡ
+EN Call Player Standing Pose A
+
+@ 2452
+# fit 40 letters x 2 line(s)
+JP パワーコールポーズ
+EN Power Warrior Call Pose
+
+@ 2453
+# fit 40 letters x 2 line(s)
+JP コールポーズドラゴン・キッド
+EN Call Pose (Dragon Kid)
+
+@ 2458
+# fit 16 letters x 1 line(s)
+JP ケロちゃん
+EN Kero-chan
+
+@ 2468
+# fit 16 letters x 1 line(s)
+JP 歩き１
+EN Walk 1
+
+@ 2469
+# fit 40 letters x 2 line(s)
+JP 入場・歩き２（ムタ）
+EN Entrance: Walk 2 (Muta)
+
+@ 2470
+# fit 40 letters x 2 line(s)
+JP 猪木小走り＆歩き
+EN Inoki Jog & Walk
+
+@ 2471
+# fit 16 letters x 1 line(s)
+JP 走り
+EN Run
+
+@ 2472
+# fit 40 letters x 2 line(s)
+JP 入場・歩き中アオリ１（蝶野）
+EN Entrance: Taunt While Walking 1 (Chono)
+
+@ 2473
+# fit 40 letters x 2 line(s)
+JP 歩き中あおり（ライガー）
+EN Taunt While Walking (Liger)
+
+@ 2474
+# fit 40 letters x 2 line(s)
+JP 入場モーション(武藤)
+EN Entrance Motion (Muto)
+
+@ 2475
+# fit 40 letters x 2 line(s)
+JP 右手をあげる（汎用）
+EN Raise Right Hand (Generic)
+
+@ 2476
+# fit 40 letters x 2 line(s)
+JP 左手をあげる（汎用）
+EN Raise Left Hand (Generic)
+
+@ 2477
+# fit 40 letters x 2 line(s)
+JP 両手をあげる（汎用）
+EN Raise Both Hands (Generic)
+
+@ 2478
+# fit 40 letters x 2 line(s)
+JP 片手ガッツポーズ（藤波）
+EN One-Fist Pump (Fujinami)
+
+@ 2479
+# fit 40 letters x 2 line(s)
+JP リストチェック（長州）
+EN Wrist Check (Choshu)
+
+@ 2480
+# fit 40 letters x 2 line(s)
+JP 両腕をクロスして気合を入れる
+EN Cross Arms, Psych Up
+
+@ 2481
+# fit 16 letters x 1 line(s)
+JP 周りを見る
+EN Look Around
+
+@ 2482
+# fit 16 letters x 1 line(s)
+JP 吠える（汎用）
+EN Roar (Generic)
+
+@ 2483
+# fit 40 letters x 2 line(s)
+JP 両腕を開き後ろを振り向く（サムライ）
+EN Spread Arms, Turn Around (Samurai)
+
+@ 2484
+# fit 40 letters x 2 line(s)
+JP 手につばをはく（汎用）
+EN Spit on Hands (Generic)
+
+@ 2485
+# fit 40 letters x 2 line(s)
+JP 止まって顔をたたく(大谷)
+EN Stop, Slap Face (Otani)
+
+@ 2486
+# fit 40 letters x 2 line(s)
+JP 入場・怪しく周囲を見るムタ
+EN Entrance: Muta Eyes the Crowd Darkly
+
+@ 2487
+# fit 40 letters x 2 line(s)
+JP 腕を上げて吠える（天山）
+EN Raise Arms and Roar (Tenzan)
+
+@ 2488
+# fit 40 letters x 2 line(s)
+JP 歩きながらほぐす（山崎）
+EN Loosen Up While Walking (Yamazaki)
+
+@ 2520
+# fit 40 letters x 2 line(s)
+JP 入場・エプロンアピール（蝶野）
+EN Entrance: Apron Appeal (Chono)
+
+@ 2521
+# fit 46 letters x 2 line(s)
+JP 入場・トップロープアピール１（ライガー式・右）
+EN Entrance: Top Rope Appeal 1 (Liger, R)
+
+@ 2522
+# fit 45 letters x 2 line(s)
+JP 入場・トップロープアピール2（タイガー式・右）
+EN Entrance: Top Rope Appeal 2 (Tiger Style, R)
+
+@ 2523
+# fit 40 letters x 2 line(s)
+JP ジャンピングリングイン
+EN Jumping Ring-In
+
+@ 2524
+# fit 40 letters x 2 line(s)
+JP 入場・通常リングイン１
+EN Entrance: Normal Ring-In 1
+
+@ 2525
+# fit 45 letters x 2 line(s)
+JP 入場・トップロープアピール2（タイガー式・左）
+EN Entrance: Top Rope Appeal 2 (Tiger Style, L)
+
+@ 2526
+# fit 40 letters x 2 line(s)
+JP 立ちポ－ズ（未使用）
+EN Standing Pose (Unused)
+
+@ 2527
+# fit 46 letters x 2 line(s)
+JP 入場・トップロープアピール１（ライガー式・左）
+EN Entrance: Top Rope Appeal 1 (Liger Style, L)
+
+@ 2528
+# fit 40 letters x 2 line(s)
+JP ドン・フライ入場悪態
+EN Don Frye Entrance Taunt
+
+@ 2529
+# fit 40 letters x 2 line(s)
+JP ＮＥＷ歩きVer 1.12
+EN NEW Walk Ver 1.12
+
+@ 2530
+# fit 40 letters x 2 line(s)
+JP ローリングリングイン
+EN Rolling Ring-In
+
+@ 2531
+# fit 40 letters x 2 line(s)
+JP ドン・フライ入場・歩き
+EN Don Frye Entrance Walk
+
+@ 2533
+# fit 40 letters x 2 line(s)
+JP 入場ポーズＳＡＳＵＫＥ
+EN Entrance Pose (SASUKE)
+
+@ 2534
+# fit 40 letters x 2 line(s)
+JP 入場ポーズマサ・サイトー
+EN Entrance Pose (Masa Saito)
+
+@ 2535
+# fit 40 letters x 2 line(s)
+JP 入場ポーズ小川直也
+EN Entrance Pose (Naoya Ogawa)
+
+@ 2536
+# fit 16 letters x 1 line(s)
+JP 入場・永田裕志
+EN Entrance: Nagata
+
+@ 2537
+# fit 40 letters x 2 line(s)
+JP 入場・ＡＫＩＲＡ
+EN Entrance: Akira
+
+@ 2538
+# fit 40 letters x 2 line(s)
+JP 入場・ドラゴン・キッド
+EN Entrance: Dragon Kid
+
+@ 2539
+# fit 40 letters x 2 line(s)
+JP 入場・ドラゴン・キッド
+EN Entrance: Dragon Kid
+
+@ 2540
+# fit 16 letters x 1 line(s)
+JP 入場・大仁田厚
+EN Entrance: Onita
+
+@ 2541
+# fit 40 letters x 2 line(s)
+JP 入場・ドラゴン・キッド
+EN Entrance: Dragon Kid
+
+@ 2542
+# fit 16 letters x 1 line(s)
+JP 入場・大仁田厚
+EN Entrance: Onita

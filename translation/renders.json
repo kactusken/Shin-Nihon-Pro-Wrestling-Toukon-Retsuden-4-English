@@ -1,0 +1,389 @@
+{
+ "ENTDATA_TELOP.0.000": {
+  "fp": "5e3d3d0d49b3eb39"
+ },
+ "ENTDATA_TELOP.1.000": {
+  "fp": "df929ada2136a93d"
+ },
+ "ENTDATA_TELOP.2.000": {
+  "fp": "2237ba6710dfddf5"
+ },
+ "MENU_CHATPVR.0.266": {
+  "fp": "68393ad19bbc1938"
+ },
+ "MENU_CHATPVR.0.267": {
+  "fp": "a759c9f97919f9b2"
+ },
+ "MENU_CHATPVR.0.268": {
+  "fp": "9f63e625e297a128"
+ },
+ "MENU_CHATPVR.0.269": {
+  "fp": "fffb0c05fd605fb6"
+ },
+ "MENU_CHATPVR.0.270": {
+  "fp": "54dc7d86716b0ce3"
+ },
+ "MENU_CHATPVR.0.271": {
+  "fp": "de1801b37333e67c"
+ },
+ "MENU_CHATPVR.0.272": {
+  "fp": "9c3553296c0f31ac"
+ },
+ "MENU_CHATPVR.0.273": {
+  "fp": "5b6328d0b1c24e3c"
+ },
+ "MENU_MENU.0.000": {
+  "fp": "4cf142139ded06c3"
+ },
+ "MENU_MENU.0.001": {
+  "fp": "5b9b8bbf6c04b901"
+ },
+ "MENU_MENU.0.002": {
+  "fp": "d7dda03aecb43b53"
+ },
+ "MENU_MENU.0.003": {
+  "fp": "d50a48eb25f3408d"
+ },
+ "MENU_MENU.0.004": {
+  "fp": "ee55ba367ed1924f"
+ },
+ "MENU_MENU.0.006": {
+  "fp": "d6a291f68e43501a"
+ },
+ "MENU_MENU.0.010": {
+  "fp": "ef35f7309673cd35"
+ },
+ "MENU_MENU.0.011": {
+  "fp": "fb2f623cdb9c3d08"
+ },
+ "MENU_MENU.0.013": {
+  "fp": "945ef60b0fa13946"
+ },
+ "MENU_MENU.0.014": {
+  "fp": "aeb632dfcf8e5d26"
+ },
+ "MENU_MENU.0.015": {
+  "fp": "ef41b230d1cd3fc8"
+ },
+ "MENU_MENU.0.016": {
+  "fp": "cdf2e3bf89bd900d"
+ },
+ "MENU_MENU.0.017": {
+  "fp": "a907ab383e378ae8"
+ },
+ "MENU_MENU.0.018": {
+  "fp": "9bc9ba2790a7960e"
+ },
+ "MENU_MENU.0.019": {
+  "fp": "f16ce9e851e28eff"
+ },
+ "MENU_MENU.0.020": {
+  "fp": "a1468cf2ebf3534e"
+ },
+ "MENU_MENU.0.021": {
+  "fp": "6cee41d883ab619d"
+ },
+ "MENU_MENU.0.022": {
+  "fp": "e4b9ac54c4f28d4f"
+ },
+ "MENU_MENU.0.023": {
+  "fp": "07510eb23920bc16"
+ },
+ "MENU_MENU.0.024": {
+  "fp": "24cb1b10d7082cdd"
+ },
+ "MENU_MENU.0.025": {
+  "fp": "5ae3467b9063030e"
+ },
+ "MENU_MENU.0.026": {
+  "fp": "1454c2f4ba07196a"
+ },
+ "MENU_MENU.0.027": {
+  "fp": "07e5dad465555b32"
+ },
+ "MENU_MENU.0.028": {
+  "fp": "96e6c8ce18648cd7"
+ },
+ "MENU_MENU.0.030": {
+  "fp": "ba2d06844b91d7f6"
+ },
+ "MENU_MENU.0.034": {
+  "fp": "f8eed91a7545ebdd"
+ },
+ "MENU_MENU.0.035": {
+  "fp": "09afb01eeb4d1428"
+ },
+ "MENU_MENU.0.036": {
+  "fp": "8ba6382c8d0f1ee8"
+ },
+ "MENU_MENU.0.037": {
+  "fp": "0a87b38786a36f57"
+ },
+ "MENU_MENU.0.038": {
+  "fp": "9f94440eb9dd1f13"
+ },
+ "MENU_MENU.0.039": {
+  "fp": "df1f48f84bb3152f"
+ },
+ "MENU_MENU.0.040": {
+  "fp": "0d9bf3ee55917ea8"
+ },
+ "MENU_MENU.0.041": {
+  "fp": "fbb8259957189d45"
+ },
+ "MENU_MENU.0.042": {
+  "fp": "203815e4b0725e28"
+ },
+ "MENU_MENU.0.043": {
+  "fp": "be38336b36c863ae"
+ },
+ "MENU_MENU.0.045": {
+  "fp": "ce224ae6d219da46"
+ },
+ "MENU_MENU.0.047": {
+  "fp": "6ec887b88b6d9675"
+ },
+ "MENU_MENU.0.048": {
+  "fp": "9a5bc4b874d721eb"
+ },
+ "MENU_MENU.0.049": {
+  "fp": "44140ba9f5b43639"
+ },
+ "MENU_MENU.0.050": {
+  "fp": "e723265b93318a08"
+ },
+ "MENU_MENU.0.051": {
+  "fp": "664f1156473756bc"
+ },
+ "MENU_MENU.0.052": {
+  "fp": "7f56ae16a10a93a5"
+ },
+ "MENU_MENU.0.053": {
+  "fp": "1ec302cc9e302987"
+ },
+ "MENU_MENU.0.054": {
+  "fp": "ea7c2c4cbb196eff"
+ },
+ "MENU_MENU.0.055": {
+  "fp": "0f1ee90a429e5093"
+ },
+ "MENU_MENU.0.056": {
+  "fp": "bf313513e88c387a"
+ },
+ "MENU_MENU.0.057": {
+  "fp": "f0d47f27faa0ae9d"
+ },
+ "MENU_MENU.0.061": {
+  "fp": "09bc85a35a37ede7"
+ },
+ "MENU_MENU.0.062": {
+  "fp": "9d8c3972635703f4"
+ },
+ "MENU_MENU.0.063": {
+  "fp": "5ed5b59c48e5381e"
+ },
+ "MENU_MENU.0.066": {
+  "fp": "68a07c26767bf71f"
+ },
+ "MENU_MENU.0.067": {
+  "fp": "f69b322957602885"
+ },
+ "MENU_MENU.0.069": {
+  "fp": "9c37bbe79cd3b2cc"
+ },
+ "MENU_MENU.0.070": {
+  "fp": "0afd930ed57f8d3c"
+ },
+ "MENU_MENU.0.072": {
+  "fp": "86ed0d267bc5b4ed"
+ },
+ "MENU_MENU.0.073": {
+  "fp": "69c8c0ad9d1f610c"
+ },
+ "MENU_MENU.0.077": {
+  "fp": "be450f1d9ec8a6c3"
+ },
+ "MENU_MENU.0.078": {
+  "fp": "7280d2e97d5c2972"
+ },
+ "MENU_MENU.0.080": {
+  "fp": "ecf3aa3c4f653756"
+ },
+ "MENU_MENU.0.088": {
+  "fp": "40aca1abe1a0e6bf"
+ },
+ "MENU_MENU.0.093": {
+  "fp": "706b16c03310909e"
+ },
+ "MENU_MENU.0.094": {
+  "fp": "d255576111f5bb9a"
+ },
+ "MENU_MENU.0.095": {
+  "fp": "00636197e0bb7c74"
+ },
+ "MENU_MENU.0.096": {
+  "fp": "2eb5a7e78ab09d56"
+ },
+ "MENU_MENU.0.097": {
+  "fp": "aa904076d9eac8d1"
+ },
+ "MENU_MENU.0.098": {
+  "fp": "1ef2d108b2cc7570"
+ },
+ "MENU_MENU.0.100": {
+  "fp": "8a7aaf0ed4f9c2a7"
+ },
+ "MENU_MENU.0.101": {
+  "fp": "123e188f6b92ebb0"
+ },
+ "MENU_MENU.0.102": {
+  "fp": "e491dc4f185d3333"
+ },
+ "MENU_MENU.0.103": {
+  "fp": "365ffab0d6c02791"
+ },
+ "MENU_MENU.0.104": {
+  "fp": "6acbc863c81c5372"
+ },
+ "MENU_MENU.0.107": {
+  "fp": "960b294da858bb30"
+ },
+ "MENU_MENU.0.108": {
+  "fp": "3214b849700472f7"
+ },
+ "MENU_MENU.0.109": {
+  "fp": "9b8055e3b6216e27"
+ },
+ "MENU_MENU.0.110": {
+  "fp": "eaa7c1ca326c21f0"
+ },
+ "MENU_MENU.0.111": {
+  "fp": "11720e2280f2318b"
+ },
+ "MENU_MENU.0.114": {
+  "fp": "c32dc657d0cd10b2"
+ },
+ "MENU_MENU.0.123": {
+  "fp": "15f87df88456b646"
+ },
+ "MENU_MENU.0.124": {
+  "fp": "704a9d152e8eb964"
+ },
+ "MENU_MENU.0.125": {
+  "fp": "4693f5d256f9a75a"
+ },
+ "MENU_MENU.0.126": {
+  "fp": "00d4d742c51bdaea"
+ },
+ "MENU_MENU.0.127": {
+  "fp": "ff1d6ba6ccee1b36"
+ },
+ "MENU_MENU.0.128": {
+  "fp": "318c5b8658788824"
+ },
+ "MENU_MENU.0.130": {
+  "fp": "90489cbed1d9fe0b"
+ },
+ "MENU_MENU.0.131": {
+  "fp": "5ac907d5d010b782"
+ },
+ "MENU_MENU.0.133": {
+  "fp": "774694a60b3ed733"
+ },
+ "MENU_MENU.0.134": {
+  "fp": "d3cb738de95f90b2"
+ },
+ "MENU_MENU.0.135": {
+  "fp": "be546064f1de99bb"
+ },
+ "MENU_MENU.0.136": {
+  "fp": "96b2bc1b0f3dfc31"
+ },
+ "MENU_MENU.0.138": {
+  "fp": "1721a10045fdee6e"
+ },
+ "MENU_MENU.0.139": {
+  "fp": "193303277d1a99ff"
+ },
+ "MENU_MENU.0.140": {
+  "fp": "116f9c8f52909b6d"
+ },
+ "MENU_MENU.0.141": {
+  "fp": "69e66c7064c8f54d"
+ },
+ "MENU_MENU.0.142": {
+  "fp": "d298e7545a6771fb"
+ },
+ "MENU_MENU.0.143": {
+  "fp": "c9b13c5b34a6260f"
+ },
+ "MENU_MENU.0.146": {
+  "fp": "31979790838d9adc"
+ },
+ "MENU_MENU.0.148": {
+  "fp": "6d4e42f06910cafc"
+ },
+ "MENU_MENU.0.149": {
+  "fp": "014cf0a960e92a78"
+ },
+ "MENU_MENU.0.150": {
+  "fp": "c5fa097cd5c3201f"
+ },
+ "MENU_MENU.0.155": {
+  "fp": "b94632c1ec44057e"
+ },
+ "MENU_MENU.0.156": {
+  "fp": "d4874db74bc79cc4"
+ },
+ "MENU_MENU.0.158": {
+  "fp": "ad045952225d3b31"
+ },
+ "MENU_MENU.0.159": {
+  "fp": "9bc322eb72847be4"
+ },
+ "MENU_MENU.0.160": {
+  "fp": "715ea0c0e4aa82d2"
+ },
+ "MENU_MENU.0.161": {
+  "fp": "dc3b8cf24a81effd"
+ },
+ "MENU_MENU.0.162": {
+  "fp": "078d9985e3efc6c7"
+ },
+ "MENU_MENU.0.163": {
+  "fp": "723087aa3c80c249"
+ },
+ "MENU_MENU.0.164": {
+  "fp": "0f56bc18661f40cf"
+ },
+ "MENU_MENU.0.165": {
+  "fp": "843c3fff8f17080f"
+ },
+ "MENU_MENU.0.166": {
+  "fp": "9f35819ad8b3a1be"
+ },
+ "MENU_MENU.0.167": {
+  "fp": "ffbfb7fbcd8b072e"
+ },
+ "MENU_MENU.0.168": {
+  "fp": "c4c3db8098b7af6e"
+ },
+ "MENU_MENU.0.169": {
+  "fp": "9061f3973178f3fb"
+ },
+ "MENU_MENU.0.170": {
+  "fp": "55a55837a84afa76"
+ },
+ "MENU_MENU.0.171": {
+  "fp": "887e3bbe69a1c32d"
+ },
+ "MENU_MENU.0.172": {
+  "fp": "a0baba0c94c1af2f"
+ },
+ "SPRITE_GAMEN.0.004": {
+  "fp": "89134a888dd94540"
+ },
+ "SPRITE_GAMEN.0.005": {
+  "fp": "9082edf4d8452d13"
+ }
+}

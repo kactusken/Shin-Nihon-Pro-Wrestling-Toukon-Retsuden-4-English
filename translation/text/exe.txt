@@ -1,0 +1,4892 @@
+# 1ST_READ.BIN strings: error and network messages, move names, wrestler names, labels.
+# One block per string (id = file offset). `refs` = pointers to it (0: a fixed field in a record), `slot` = bytes it may use in place.
+# JP lines: the original; EN lines: plain ASCII, one per line (a new line only where the Japanese has one).
+# Each block says its limit: `# fit W letters x N line(s)`. A JP text ending in spaces is a padded label: its
+# English is padded to the same length by the build. `%s` `%d` `%-16s`...: printf codes - keep them, in the same order.
+# A string longer than its slot is moved if it has pointers (refs > 0), else it must fit.
+
+@ 0B977C refs=1 slot=44
+# fit 42 letters x 1 line(s)
+JP 対戦相手との通信にトラブルが発生しました。
+EN Communication trouble with your opponent.
+
+@ 0B97A8 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 通信にトラブルが発生しました。
+EN A communication problem occurred.
+
+@ 0B97C8 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 電話回線にトラブルが発生しました。
+EN A phone line problem occurred.
+
+@ 0B97EC refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 対戦相手からの応答を待っています。
+EN Waiting for opponent's response.
+
+@ 0B9810 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 試合は終了します。
+EN The match will now end.
+
+@ 0B9824 refs=3 slot=16
+# fit 16 letters x 1 line(s)
+JP データエラー
+EN Data Error
+
+@ 0B9834 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP アッパー掌打
+EN Palm Uppercut
+
+@ 0B9844 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 浴びせ蹴り
+EN Axe Kick
+
+@ 0B9850 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP アリキック
+EN Ali Kick
+
+@ 0B985C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ウルトラミサイルキック
+EN Ultra Missile Kick
+
+@ 0B9874 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 打ち付け式エルボースマッシュ
+EN Slam-Style Elbow Smash
+
+@ 0B9894 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP エルボースタンプ
+EN Elbow Stamp
+
+@ 0B98A8 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP ジャンピングエルボードロップ
+EN Jumping Elbow Drop
+
+@ 0B98C8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP エルボーバット
+EN Elbow Butt
+
+@ 0B98D8 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 延髄斬り
+EN Enzuigiri
+
+@ 0B98E4 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP カチ上げ式エルボースマッシュ
+EN Upswing Elbow Smash
+
+@ 0B9904 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 金本チョップ
+EN Kanemoto Chop
+
+@ 0B9914 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP カンガルーキック
+EN Kangaroo Kick
+
+@ 0B9928 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 元祖延髄斬り
+EN Orig. Enzuigiri
+
+@ 0B9938 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP キチンシンク
+EN Kitchen Sink
+
+@ 0B9948 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 逆水平チョップ
+EN Backhand Chop
+
+@ 0B9958 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 急所蹴り
+EN Low Blow Kick
+
+@ 0B9964 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 急所ヘッドバット
+EN Low Blow Headbutt
+
+@ 0B9978 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ギロチンドロップ
+EN Guillotine Drop
+
+@ 0B998C refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP キングコングニードロップ
+EN King Kong Knee Drop
+
+@ 0B99A8 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 串刺しエルボーアタック
+EN Corner Elbow Attack
+
+@ 0B99C0 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 迎撃ドロップキック
+EN Intercepting Dropkick
+
+@ 0B99D4 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ケサ斬りチョップ
+EN Kesagiri Chop
+
+@ 0B99E8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ケンカキック
+EN Yakuza Kick
+
+@ 0B99F8 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ケンスケラリアット
+EN Kensuke Lariat
+
+@ 0B9A0C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP コンビネーションキック
+EN Combination Kick
+
+@ 0B9A24 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP サマーソルトキック
+EN Somersault Kick
+
+@ 0B9A38 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP サマーソルトダブルニードロップ
+EN Somersault Double Knee Drop
+
+@ 0B9A58 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP サンセットフリップ
+EN Sunset Flip
+
+@ 0B9A6C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ジャンピングエルボー
+EN Jumping Elbow
+
+@ 0B9A84 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ジャンピングニーアタック
+EN Jumping Knee Attack
+
+@ 0B9AA0 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ジャンピングヒップアタック
+EN Jumping Hip Attack
+
+@ 0B9ABC refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP シューティングスタープレス
+EN Shooting Star Press
+
+@ 0B9AD8 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 掌打
+EN Palm Strike
+
+@ 0B9AE0 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 正面飛びミサイルキック
+EN Front Missile Kick
+
+@ 0B9AF8 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP ミサイルキック＆ニップアップ
+EN Missile Kick & Nip-Up
+
+@ 0B9B18 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ショートレンジラリアット
+EN Short-Range Lariat
+
+@ 0B9B34 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ショルダータックル
+EN Shoulder Tackle
+
+@ 0B9B48 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 垂直落下式ダイビングヘッドバット
+EN Vertical Drop Diving Headbutt
+
+@ 0B9B6C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 水面蹴り
+EN Sweep Kick
+
+@ 0B9B78 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP スターダストプレス
+EN Stardust Press
+
+@ 0B9B8C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ストンピング
+EN Stomp
+
+@ 0B9B9C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP スピンキック
+EN Spin Kick
+
+@ 0B9BAC refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP スペースフライングタイガードロップ
+EN Space Flying Tiger Drop
+
+@ 0B9BD0 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP スライディングキック
+EN Sliding Kick
+
+@ 0B9BE8 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 地獄突き
+EN Hell Thrust
+
+@ 0B9BF4 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP スワンダイブ式ニールキック
+EN Swan Dive Knee Kick
+
+@ 0B9C10 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP スワンダイブ式プランチャ
+EN Swan Dive Plancha
+
+@ 0B9C2C refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP スワンダイブ式ミサイルキック
+EN Swan Dive Missile Kick
+
+@ 0B9C4C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP セントーン
+EN Senton
+
+@ 0B9C58 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 側転エルボー
+EN Cartwheel Elbow
+
+@ 0B9C68 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 側転ボディアタック
+EN Cartwheel Body Attack
+
+@ 0B9C7C refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ダイビングエルボードロップ
+EN Diving Elbow Drop
+
+@ 0B9C98 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ダイビングギロチンドロップ
+EN Diving Guillotine Drop
+
+@ 0B9CB4 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP ダイビングショルダーアタック
+EN Diving Shoulder Attack
+
+@ 0B9CD4 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ダイビングニードロップ
+EN Diving Knee Drop
+
+@ 0B9CEC refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ダイビングニールキック
+EN Diving Knee Kick
+
+@ 0B9D04 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ダイビングヒップアタック
+EN Diving Hip Attack
+
+@ 0B9D20 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ダイビングヘッドバット
+EN Diving Headbutt
+
+@ 0B9D38 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ダイビングボディアタック
+EN Diving Body Attack
+
+@ 0B9D54 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP ダイビングモンゴリアンチョップ
+EN Diving Mongolian Chop
+
+@ 0B9D74 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ダイビングラリアット
+EN Diving Lariat
+
+@ 0B9D8C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 竜巻蹴り
+EN Tornado Kick
+
+@ 0B9D98 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ダブルスレッジハンマー
+EN Double Sledgehammer
+
+@ 0B9DB0 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 低空ドロップキック
+EN Low Dropkick
+
+@ 0B9DC4 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 天山チョップ
+EN Tenzan Chop
+
+@ 0B9DD4 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 天山プレス
+EN Tenzan Press
+
+@ 0B9DE0 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP トーキック
+EN Toe Kick
+
+@ 0B9DEC refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 毒霧
+EN Green Mist
+
+@ 0B9DF4 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP トペ・コン・ヒーロ
+EN Tope Con Hilo
+
+@ 0B9E08 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP トペ・スイシーダ
+EN Tope Suicida
+
+@ 0B9E1C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP トペ・デ・レベルサ
+EN Tope de Reversa
+
+@ 0B9E30 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP トラースキック
+EN Thrust Kick
+
+@ 0B9E40 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ドラゴンロケット
+EN Dragon Rocket
+
+@ 0B9E54 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ドロップキック
+EN Dropkick
+
+@ 0B9E64 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ナックルパンチ
+EN Knuckle Punch
+
+@ 0B9E74 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ニードロップ
+EN Knee Drop
+
+@ 0B9E84 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ニールキック
+EN Knee Kick
+
+@ 0B9E94 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ハイキック
+EN High Kick
+
+@ 0B9EA0 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 背面エルボースマッシュ
+EN Back Elbow Smash
+
+@ 0B9EB8 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 馳チョップ
+EN Hase Chop
+
+@ 0B9EC4 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 張り手
+EN Slap
+
+@ 0B9ECC refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ハンマーパンチ
+EN Hammer Punch
+
+@ 0B9EDC refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ヒップバット
+EN Hip Butt
+
+@ 0B9EEC refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP フットスタンプ
+EN Foot Stomp
+
+@ 0B9EFC refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP フライングクロスチョップ
+EN Flying Cross Chop
+
+@ 0B9F18 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP フライングショルダーアタック
+EN Flying Shoulder Attack
+
+@ 0B9F38 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP フライングニールキック
+EN Flying Knee Kick
+
+@ 0B9F50 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP フラッシングエルボー
+EN Flashing Elbow
+
+@ 0B9F68 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP プランチャスイシーダ
+EN Plancha Suicida
+
+@ 0B9F80 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 振り抜き式エルボースマッシュ
+EN Swinging Elbow Smash
+
+@ 0B9FA0 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ぶん殴りラリアット
+EN Slugging Lariat
+
+@ 0B9FB4 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ベアナックルパンチ
+EN Bare Knuckle Punch
+
+@ 0B9FC8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ヘッドドロップ
+EN Head Drop
+
+@ 0B9FD8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ヘッドバット
+EN Headbutt
+
+@ 0B9FE8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ボディブロー
+EN Body Blow
+
+@ 0B9FF8 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ボディスプラッシュ
+EN Body Splash
+
+@ 0BA00C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ボディプレス
+EN Body Press
+
+@ 0BA01C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP またぎ張り手
+EN Straddle Slap
+
+@ 0BA02C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ミサイルキック
+EN Missile Kick
+
+@ 0BA03C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ミドルキック
+EN Middle Kick
+
+@ 0BA04C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ムーンサルトキック
+EN Moonsault Kick
+
+@ 0BA060 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ムーンサルトプレス
+EN Moonsault Press
+
+@ 0BA074 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP モンゴリアンチョップ
+EN Mongolian Chop
+
+@ 0BA08C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 弓引きナックルパート
+EN Bow-Draw Knuckle Part
+
+@ 0BA0A4 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ラウンディングボディプレス
+EN Rounding Body Press
+
+@ 0BA0C0 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ラ・ケブラーダ
+EN La Quebrada
+
+@ 0BA0D0 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ラリアット
+EN Lariat
+
+@ 0BA0DC refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP リキラリアット
+EN Riki Lariat
+
+@ 0BA0EC refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ローキック
+EN Low Kick
+
+@ 0BA0F8 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ローリングセントーン
+EN Rolling Senton
+
+@ 0BA110 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ローリングソバット
+EN Rolling Sobat
+
+@ 0BA124 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP サッカーボールキック
+EN Soccer Ball Kick
+
+@ 0BA13C refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 延髄ダイビングニードロップ
+EN Enzuigiri Diving Knee Drop
+
+@ 0BA158 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP フェニックススプラッシュ
+EN Phoenix Splash
+
+@ 0BA174 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 片エビ固め
+EN Half Crab
+
+@ 0BA180 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 体固め
+EN Body Pin
+
+@ 0BA188 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP サンドイッチラリアット
+EN Sandwich Lariat
+
+@ 0BA1A0 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ダブルドロップキック
+EN Double Dropkick
+
+@ 0BA1B8 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 胴絞めチキンウィングフェイスロック
+EN Body Scissors Chicken Wing Facelock
+
+@ 0BA1DC refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 放り投げバックブリーカー
+EN Tossing Backbreaker
+
+@ 0BA1F8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP アームホイップ
+EN Arm Whip
+
+@ 0BA208 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 足浮きジャーマンスープレックス
+EN Floating German Suplex
+
+@ 0BA228 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP アトミックドロップ
+EN Atomic Drop
+
+@ 0BA23C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP アントニオドライバー
+EN Antonio Driver
+
+@ 0BA254 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 一本背負い
+EN Seoi Nage
+
+@ 0BA260 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 裏投げ
+EN Ura-Nage
+
+@ 0BA268 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP オクラホマスタンピート
+EN Oklahoma Stampede
+
+@ 0BA280 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 逆一本背負い
+EN Rev. Seoi Nage
+
+@ 0BA290 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ケブラドーラ・コン・ヒーロ
+EN Quebradora Con Hilo
+
+@ 0BA2AC refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 高角度ジャーマンスープレックス
+EN High Angle German Suplex
+
+@ 0BA2CC refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 高速ブレーンバスター
+EN High-Speed Brainbuster
+
+@ 0BA2E4 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 腰投げ
+EN Hip Toss
+
+@ 0BA2EC refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP サムライボム
+EN Samurai Bomb
+
+@ 0BA2FC refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP サンダーライガーボム
+EN Thunder Liger Bomb
+
+@ 0BA314 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP ジャーマン式パイルドライバー
+EN German-Style Piledriver
+
+@ 0BA334 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP ジャーマンスープレックスホイップ
+EN German Suplex Whip
+
+@ 0BA358 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP ジャーマンスープレックスホールド
+EN German Suplex Hold
+
+@ 0BA37C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ジャンピングＤ．Ｄ．Ｔ
+EN Jumping DDT
+
+@ 0BA394 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ジャンピングバックドロップ
+EN Jumping Backdrop
+
+@ 0BA3B0 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP シュミット式バックブリーカー
+EN Schmidt-Style Backbreaker
+
+@ 0BA3D0 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ショルダースルー
+EN Shoulder Throw
+
+@ 0BA3E4 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 垂直落下式Ｄ．Ｄ．Ｔ
+EN Vertical Drop DDT
+
+@ 0BA3FC refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 垂直落下式ブレーンバスター
+EN Vertical Drop Brainbuster
+
+@ 0BA418 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 垂直落下リバースブレーンバスター
+EN Vertical Drop Reverse Brainbuster
+
+@ 0BA43C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ストレッチボム
+EN Stretch Bomb
+
+@ 0BA44C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP スロイダー
+EN Sloider
+
+@ 0BA458 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP タイガースープレックスホールド
+EN Tiger Suplex Hold
+
+@ 0BA478 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP タイガードライバー
+EN Tiger Driver
+
+@ 0BA48C refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ダブルアームスープレックス
+EN Double Arm Suplex
+
+@ 0BA4A8 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP Ｗアームスープレックスホールド
+EN Double Arm Suplex Hold
+
+@ 0BA4C8 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ダブルアームプランチャ
+EN Double Arm Plancha
+
+@ 0BA4E0 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ダブルフェイスクラッシャー
+EN Double Facecrusher
+
+@ 0BA4FC refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 長滞空垂直落下式ブレーンバスター
+EN Long-Hang Vertical Drop Brainbuster
+
+@ 0BA520 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ツープラトンバックドロップ
+EN Double-Team Backdrop
+
+@ 0BA53C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ツープラトンパワーボム
+EN Double-Team Powerbomb
+
+@ 0BA554 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP ツープラトンブレーンバスター
+EN Double-Team Brainbuster
+
+@ 0BA574 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP ツームストンパイルドライバー
+EN Tombstone Piledriver
+
+@ 0BA594 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP Ｔ．Ｔ．Ｄ
+EN TTD
+
+@ 0BA5A0 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP Ｄ．Ｄ．Ｔ
+EN DDT
+
+@ 0BA5AC refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 低空ジャーマンスープレックス
+EN Low-Angle German Suplex
+
+@ 0BA5CC refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 低空バックドロップ
+EN Low Backdrop
+
+@ 0BA5E0 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP デッドリードライブ
+EN Deadly Drive
+
+@ 0BA5F4 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP ドラゴンスープレックスホールド
+EN Dragon Suplex Hold
+
+@ 0BA614 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ドラゴンスクリュー
+EN Dragon Screw
+
+@ 0BA628 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ドラゴンバックブリーカー
+EN Dragon Back Breaker
+
+@ 0BA644 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 投げっぱなしジャーマンＳ
+EN Release German Suplex
+
+@ 0BA660 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 投げっぱなしタイガーＳ
+EN Release Tiger Suplex
+
+@ 0BA678 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 投げっぱなしドラゴンＳ
+EN Release Dragon Suplex
+
+@ 0BA690 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 投げっぱなしパワーボム
+EN Release Powerbomb
+
+@ 0BA6A8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 雪崩式裏投げ
+EN Aval. Ura-Nage
+
+@ 0BA6B8 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 雪崩式ダブルアームスープレックス
+EN Avalanche Double Arm Suplex
+
+@ 0BA6DC refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 雪崩式Ｔストンパイルドライバー
+EN Avalanche Tombstone Piledriver
+
+@ 0BA6FC refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 雪崩式Ｄ．Ｄ．Ｔ
+EN Avalanche DDT
+
+@ 0BA710 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 雪崩式ドラゴンスクリュー
+EN Avalanche Dragon Screw
+
+@ 0BA72C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 雪崩式バックドロップ
+EN Avalanche Backdrop
+
+@ 0BA744 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 雪崩式パワースラム
+EN Avalanche Powerslam
+
+@ 0BA758 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 雪崩式フィッシャーマンバスター
+EN Avalanche Fisherman Buster
+
+@ 0BA778 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 雪崩式フランケンシュタイナー
+EN Avalanche Frankensteiner
+
+@ 0BA798 refs=2 slot=24
+# fit 40 letters x 1 line(s)
+JP 雪崩式ブレーンバスター
+EN Avalanche Brainbuster
+
+@ 0BA7B0 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 雪崩式フロントスープレックス
+EN Avalanche Front Suplex
+
+@ 0BA7D0 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 雪崩式マウンテンボム
+EN Avalanche Mountain Bomb
+
+@ 0BA7E8 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP ノーザンライトスープレックス
+EN Northern Lights Suplex
+
+@ 0BA808 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ノーザンライトボム
+EN Northern Lights Bomb
+
+@ 0BA81C refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ハーフハッチスープレックス
+EN Half Hatch Suplex
+
+@ 0BA838 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ハイアングルパワーボム
+EN High Angle Powerbomb
+
+@ 0BA850 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ハイアングルボディスラム
+EN High Angle Body Slam
+
+@ 0BA86C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP パイルドライバー
+EN Piledriver
+
+@ 0BA880 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP バックドロップ
+EN Backdrop
+
+@ 0BA890 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP バックフリップ
+EN Back Flip
+
+@ 0BA8A0 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP パワースラム
+EN Powerslam
+
+@ 0BA8B0 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP パワーボム
+EN Powerbomb
+
+@ 0BA8BC refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 捻り式バックドロップ
+EN Twisting Backdrop
+
+@ 0BA8D4 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP フィッシャーマンスープレックス
+EN Fisherman Suplex
+
+@ 0BA8F4 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP フィッシャーマンＤ．Ｄ．Ｔ
+EN Fisherman DDT
+
+@ 0BA910 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP フェイスクラッシャー
+EN Face Crusher
+
+@ 0BA928 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP フライングメイヤー
+EN Flying Mare
+
+@ 0BA93C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ショルダーバスター
+EN Shoulder Buster
+
+@ 0BA950 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP フランケンシュタイナー
+EN Frankensteiner
+
+@ 0BA968 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ブルドッキングヘッドロック
+EN Bulldog Headlock
+
+@ 0BA984 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP フルネルソン
+EN Full Nelson
+
+@ 0BA994 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ブレーンバスター
+EN Brainbuster
+
+@ 0BA9A8 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP フロントスープレックス
+EN Front Suplex
+
+@ 0BA9C0 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 変形パイルドライバー
+EN Modified Piledriver
+
+@ 0BA9D8 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 変形バックドロップ
+EN Modified Backdrop
+
+@ 0BA9EC refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP ペンデュラムバックブリーカー
+EN Pendulum Backbreaker
+
+@ 0BAA0C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ボディスラム
+EN Body Slam
+
+@ 0BAA1C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP マウンテンボム
+EN Mountain Bomb
+
+@ 0BAA2C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP マンハッタンドロップ
+EN Manhattan Drop
+
+@ 0BAA44 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP ライガースープレックスホールド
+EN Liger Suplex Hold
+
+@ 0BAA64 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ライガーボム
+EN Liger Bomb
+
+@ 0BAA74 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ライディーンバスター
+EN Raiden Buster
+
+@ 0BAA8C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP リバーススープレックス
+EN Reverse Suplex
+
+@ 0BAAA4 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP リバースＤ．Ｄ．Ｔ
+EN Reverse DDT
+
+@ 0BAAB8 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP リバースブレーンバスター
+EN Reverse Brainbuster
+
+@ 0BAAD4 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP リフトアップスラム
+EN Lift-Up Slam
+
+@ 0BAAE8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 両足タックル
+EN Double Leg Shot
+
+@ 0BAAF8 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ローリングジャーマン
+EN Rolling German
+
+@ 0BAB10 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ワイルドボム
+EN Wild Bomb
+
+@ 0BAB20 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 抱え式バックドロップ
+EN Clutch Backdrop
+
+@ 0BAB38 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 巴投げ
+EN Tomoe Nage
+
+@ 0BAB40 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 胴絞めスリーパーホールド
+EN Body Scissors Sleeper
+
+@ 0BAB5C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP Ｓ．Ｔ．Ｔ
+EN STT
+
+@ 0BAB68 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP Ｓ．Ｔ．Ｏ
+EN STO
+
+@ 0BAB74 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 払い腰
+EN Harai Goshi
+
+@ 0BAB7C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP すくい投げ
+EN Scoop Throw
+
+@ 0BAB88 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 膝十字固め
+EN Knee Bar
+
+@ 0BAB94 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP チキンウイングアームロック
+EN Chicken Wing Armlock
+
+@ 0BABB0 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP トライアングルサブミッション
+EN Triangle Submission
+
+@ 0BABD0 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 原型Ｓ．Ｔ．Ｆ
+EN Original STF
+
+@ 0BABE0 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP アイクロー
+EN Eye Claw
+
+@ 0BABEC refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP アキレス腱固め
+EN Achilles Hold
+
+@ 0BABFC refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 足四の字固め
+EN Figure-4 Leglock
+
+@ 0BAC0C refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP アルゼンチンバックブリーカー
+EN Argentine Backbreaker
+
+@ 0BAC2C refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 腕固め
+EN Arm Lock
+
+@ 0BAC34 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 腕ひしぎ逆十字固め
+EN Armbar
+
+@ 0BAC48 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 裏アキレス腱固め
+EN Reverse Achilles Hold
+
+@ 0BAC5C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 裏Ｓ．Ｔ．Ｆ
+EN Reverse STF
+
+@ 0BAC6C refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP ウラカン・ラナ・インベルティダ
+EN Huracanrana Invertida
+
+@ 0BAC8C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP Ｓ．Ｔ．Ｆ
+EN STF
+
+@ 0BAC98 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 抱え込み式リバースボストンクラブ
+EN Cradled Reverse Boston Crab
+
+@ 0BACBC refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP カナディアンバックブリーカー
+EN Canadian Backbreaker
+
+@ 0BACDC refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP カニばさみ
+EN Leg Scissors
+
+@ 0BACE8 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 鎌固め
+EN Sickle Hold
+
+@ 0BACF0 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 噛みつき
+EN Biting
+
+@ 0BACFC refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 河津掛けからのグラウンド卍固め
+EN Kawazu Drop to Ground Octopus Hold
+
+@ 0BAD1C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 元祖卍固め
+EN Original Octopus
+
+@ 0BAD28 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP キーロック
+EN Key Lock
+
+@ 0BAD34 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP キャメルクラッチ
+EN Camel Clutch
+
+@ 0BAD48 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP クォーターネルソン
+EN Quarter Nelson
+
+@ 0BAD5C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP グランドコブラツイスト
+EN Ground Cobra Twist
+
+@ 0BAD74 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP グリグリ
+EN Grinding
+
+@ 0BAD80 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 高角度前方回転エビ固め
+EN High-Angle Forward Roll-Up
+
+@ 0BAD98 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP コブラツイスト
+EN Cobra Twist
+
+@ 0BADA8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 逆さ押え込み
+EN Reverse Roll-Up
+
+@ 0BADB8 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP サソリ固め
+EN Scorpion Lock
+
+@ 0BADC4 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 三角絞め
+EN Triangle Choke
+
+@ 0BADD0 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ジャイアントスイング
+EN Giant Swing
+
+@ 0BADE8 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP ジャパニーズレッグロールクラッチ
+EN Japanese Leg Roll Clutch
+
+@ 0BAE0C refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP ジャンピングアームブリーカー
+EN Jumping Armbreaker
+
+@ 0BAE2C refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ショルダーアームブリーカー
+EN Shoulder Armbreaker
+
+@ 0BAE48 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ショルダーネックブリーカー
+EN Shoulder Neckbreaker
+
+@ 0BAE64 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ストラングルホールドα
+EN Strangle Hold Alpha
+
+@ 0BAE7C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ストラングルホールドγ
+EN Strangle Hold Gamma
+
+@ 0BAE94 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP スピニングレッグロック
+EN Spinning Leg Lock
+
+@ 0BAEAC refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP スモールパッケージホールド
+EN Small Package Hold
+
+@ 0BAEC8 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP スリーパーホールド
+EN Sleeper Hold
+
+@ 0BAEDC refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP タイガースピン
+EN Tiger Spin
+
+@ 0BAEEC refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ダブルニークラッシャー
+EN Double Knee Crusher
+
+@ 0BAF04 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP ダブルショルダーアームブリーカー
+EN Double Shoulder Armbreaker
+
+@ 0BAF28 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP チキンウィングアームロック
+EN Chicken Wing Armlock
+
+@ 0BAF44 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP チキンウィングフェイスロック
+EN Chicken Wing Facelock
+
+@ 0BAF64 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP チョークスリーパーホールド
+EN Choke Sleeper Hold
+
+@ 0BAF80 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP テキサスクローバーホールド
+EN Texas Cloverleaf Hold
+
+@ 0BAF9C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 飛びつき式回転エビ固め
+EN Jumping Rolling Cradle
+
+@ 0BAFB4 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ドラゴンスリーパーホールド
+EN Dragon Sleeper Hold
+
+@ 0BAFD0 refs=2 slot=24
+# fit 40 letters x 1 line(s)
+JP ネックハンギングツリー
+EN Neck Hanging Tree
+
+@ 0BAFE8 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ネックブリーカードロップ
+EN Neckbreaker Drop
+
+@ 0BB004 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP バックを捕り返す
+EN Back Reversal
+
+@ 0BB018 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 羽根折り固め
+EN Wing Lock
+
+@ 0BB028 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 羽根折り脇固め
+EN Wing Lock Armbar
+
+@ 0BB038 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 腹固め
+EN Belly Hold
+
+@ 0BB040 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ハンマーロック
+EN Hammerlock
+
+@ 0BB050 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP フェイスロック
+EN Facelock
+
+@ 0BB060 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 踏み付け式逆片エビ固め
+EN Stomping Reverse Half Crab
+
+@ 0BB078 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP フライングヘッドシザース
+EN Flying Head Scissors
+
+@ 0BB094 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ベアハッグ
+EN Bear Hug
+
+@ 0BB0A0 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ヘッドロック
+EN Headlock
+
+@ 0BB0B0 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ボーアンドアロー
+EN Bow and Arrow
+
+@ 0BB0C4 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 卍固め
+EN Octopus Hold
+
+@ 0BB0CC refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP メキシカンストレッチ
+EN Mexican Stretch
+
+@ 0BB0E4 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ラ・マヒストラル
+EN La Magistral
+
+@ 0BB0F8 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP リバースインディアンデスロック
+EN Reverse Indian Deathlock
+
+@ 0BB118 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP リバースハーフボストンクラブ
+EN Reverse Half Boston Crab
+
+@ 0BB138 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP リバースボストンクラブ
+EN Reverse Boston Crab
+
+@ 0BB150 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ロメロスペシャル
+EN Romero Special
+
+@ 0BB164 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 変形カベルナリア
+EN Modified Cavernaria
+
+@ 0BB178 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 脇固め
+EN Wakigatame
+
+@ 0BB180 refs=2 slot=16
+# fit 16 letters x 1 line(s)
+JP 首四の字固め
+EN Neck Figure-Four
+
+@ 0BB190 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP ハイジャックパイルドライバー
+EN Hijack Piledriver
+
+@ 0BB1B0 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ダブルアキレス腱固め
+EN Double Achilles Hold
+
+@ 0BB1C8 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ダブル腕ひしぎ逆十字固め
+EN Double Armbar
+
+@ 0BB1E4 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 超高層Ｄ．Ｄ．Ｔ
+EN Super High DDT
+
+@ 0BB1F8 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 超高層ブルドッキングヘッドロック
+EN Super High Bulldog
+
+@ 0BB21C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP Ｓ．Ｓ．Ｄ
+EN SSD
+
+@ 0BB228 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 元祖フランケンシュタイナー
+EN Original Frankensteiner
+
+@ 0BB244 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP スタイナードライバー
+EN Steiner Driver
+
+@ 0BB25C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ティルトスラム
+EN Tilt Slam
+
+@ 0BB26C refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 投げっぱなしストレッチボム
+EN Release Stretch Bomb
+
+@ 0BB288 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 水車落とし
+EN Waterwheel Drop
+
+@ 0BB294 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 滞空式パワーボム
+EN Hanging Powerbomb
+
+@ 0BB2A8 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 連続ブレーンバスター
+EN Consecutive Brainbusters
+
+@ 0BB2C0 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 雪崩式垂直落下ブレーンバスター
+EN Avalanche Vertical Drop Brainbuster
+
+@ 0BB2E0 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 急所膝打ち
+EN Low Blow Knee
+
+@ 0BB2EC refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP ジャンピングネックブリーカー
+EN Jumping Neckbreaker
+
+@ 0BB30C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP マウント掌底
+EN Mounted Palm
+
+@ 0BB31C refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 輪廻
+EN Rinne
+
+@ 0BB324 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 顔面ウォッシュ
+EN Face Wash
+
+@ 0BB334 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ダイビングブレーンチョップ
+EN Diving Brain Chop
+
+@ 0BB350 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP つばめ返し
+EN Tsubame Gaeshi
+
+@ 0BB35C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 急所パンチ
+EN Low Blow Punch
+
+@ 0BB368 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP スワンダイブ式ニードロップ
+EN Swan Dive Knee Drop
+
+@ 0BB384 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 回転延髄斬り
+EN Spin Enzuigiri
+
+@ 0BB394 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 飛び後ろ回し蹴り
+EN Jumping Spin Kick
+
+@ 0BB3A8 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ムササビボディプレス
+EN Flying Squirrel Body Press
+
+@ 0BB3C0 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 突っ張り
+EN Palm Thrusts
+
+@ 0BB3CC refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP カウンターキック
+EN Counter Kick
+
+@ 0BB3E0 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ダイビングセントーン
+EN Diving Senton
+
+@ 0BB3F8 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 稲妻レッグラリアット
+EN Lightning Leg Lariat
+
+@ 0BB410 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ダイビングボディプレス
+EN Diving Body Press
+
+@ 0BB428 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP トペ・アトミコ
+EN Tope Atomico
+
+@ 0BB438 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 一本足頭突き
+EN One-Leg Headbutt
+
+@ 0BB448 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ブファドゥーラ
+EN Bufadora
+
+@ 0BB458 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ライダーキック
+EN Rider Kick
+
+@ 0BB468 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP サスケスペシャル１号
+EN Sasuke Special No. 1
+
+@ 0BB480 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP サスケスペシャル２号
+EN Sasuke Special No. 2
+
+@ 0BB498 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 側転ジャンピングエルボー
+EN Cartwheel Jumping Elbow
+
+@ 0BB4B4 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 念仏ダイビングヘッドバット
+EN Nenbutsu Diving Headbutt
+
+@ 0BB4D0 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 念仏ケブラーダ
+EN Nenbutsu Plancha
+
+@ 0BB4E0 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 拝み渡り
+EN Praying Walk
+
+@ 0BB4EC refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 念仏ダイビングショルダーアタック
+EN Nenbutsu Diving Shoulder Attack
+
+@ 0BB510 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP リバーススプラッシュ
+EN Reverse Splash
+
+@ 0BB528 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 頭掴んでのコーナー叩き付け
+EN Head-Grab Corner Slam
+
+@ 0BB544 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP リックラリアット
+EN Rick Lariat
+
+@ 0BB558 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP バックエルボー
+EN Back Elbow
+
+@ 0BB568 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP リターンラリアット
+EN Return Lariat
+
+@ 0BB57C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ヘッドステップ
+EN Head Step
+
+@ 0BB58C refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ジャンピングニードロップ
+EN Jumping Knee Drop
+
+@ 0BB5A8 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 串刺し掌打
+EN Corner Palm
+
+@ 0BB5B4 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ダッシュエルボーアタック
+EN Dash Elbow Attack
+
+@ 0BB5D0 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP エルボードロップ
+EN Elbow Drop
+
+@ 0BB5E4 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 大阪臨海アッパー
+EN Osaka Rinkai Upper
+
+@ 0BB5F8 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 凶器攻撃
+EN Weapon Attack
+
+@ 0BB604 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ケンスケハンマー
+EN Kensuke Hammer
+
+@ 0BB618 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 飛行機投げ
+EN Airplane Throw
+
+@ 0BB624 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 飛びつき式腕ひしぎ逆十字固め
+EN Jumping Armbar
+
+@ 0BB644 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP スクールボーイ
+EN Schoolboy
+
+@ 0BB654 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ダイヤモンドカッター
+EN Diamond Cutter
+
+@ 0BB66C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 飛びつき式膝十字固め
+EN Jumping Knee Bar
+
+@ 0BB684 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ビクトル式腕十字固め
+EN Victor-Style Armbar
+
+@ 0BB69C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP キドクラッチ
+EN Kido Clutch
+
+@ 0BB6AC refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP トライアングルスコーピオン
+EN Triangle Scorpion
+
+@ 0BB6C8 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP スイング式コブラクラッチ
+EN Swinging Cobra Clutch
+
+@ 0BB6E4 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP フライングネックブリーカー
+EN Flying Neckbreaker
+
+@ 0BB700 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 高角度脇固め
+EN Steep Wakigatame
+
+@ 0BB710 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP スタンディングアキレス腱固め
+EN Standing Achilles Hold
+
+@ 0BB730 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP スーパー・ウラカン・ラナ
+EN Super Huracanrana
+
+@ 0BB74C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP サルディーナクラッチ
+EN Sardina Clutch
+
+@ 0BB764 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ミステリオ・ラナ
+EN Mysterio Rana
+
+@ 0BB778 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 人工衛星ヘッドシザース
+EN Satellite Head Scissors
+
+@ 0BB790 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 極楽固め
+EN Paradise Hold
+
+@ 0BB79C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ロープへの腕絡め
+EN Arm Wrap to Ropes
+
+@ 0BB7B0 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ローリングクラッチホールド
+EN Rolling Clutch Hold
+
+@ 0BB7CC refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 顔面足押さえ
+EN Foot Face Press
+
+@ 0BB7DC refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 磔式カナディアンＢＢ
+EN Crucifix Canadian BB
+
+@ 0BB7F4 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 金本スペシャル
+EN Kanemoto Special
+
+@ 0BB804 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 顔面かきむしり
+EN Face Rake
+
+@ 0BB814 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP かんぬき
+EN Kannuki Hold
+
+@ 0BB820 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ゴリースペシャル
+EN Gory Special
+
+@ 0BB834 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 連続膝蹴りＤ．Ｄ．Ｔ
+EN Rapid Knees DDT
+
+@ 0BB84C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP めり込みＤ．Ｄ．Ｔ
+EN Sinking DDT
+
+@ 0BB860 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ブレーンバスタースラム
+EN Brainbuster Slam
+
+@ 0BB878 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 投げっぱなしフロントスープレックス
+EN Release Front Suplex
+
+@ 0BB89C refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 雪崩式Ｒフランケンシュタイナー
+EN Avalanche Rev. Frankensteiner
+
+@ 0BB8BC refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 雪崩式キャプチュード
+EN Avalanche Capture Suplex
+
+@ 0BB8D4 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ベアハッグドロップ
+EN Bear Hug Drop
+
+@ 0BB8E8 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 引っこ抜きブレーンバスター
+EN Pull-Out Brainbuster
+
+@ 0BB904 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP トルネードボム
+EN Tornado Bomb
+
+@ 0BB914 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 雪崩式パワーボム
+EN Avalanche Powerbomb
+
+@ 0BB928 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP フィッシャーマンバスター
+EN Fisherman Buster
+
+@ 0BB944 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 雪崩式毒霧フランケンシュタイナー
+EN Avalanche Green Mist Frankensteiner
+
+@ 0BB968 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP ダイビングフランケンシュタイナー
+EN Diving Frankensteiner
+
+@ 0BB98C refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 雪崩式リバースＤ．Ｄ．Ｔ
+EN Avalanche Reverse DDT
+
+@ 0BB9A8 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 垂直落下式リバースＤ．Ｄ．Ｔ
+EN Vertical Drop Reverse DDT
+
+@ 0BB9C8 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 喉輪落とし
+EN Chokeslam
+
+@ 0BB9D4 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP クロスアームスープレックス
+EN Cross Arm Suplex
+
+@ 0BB9F0 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 餅つき式パワーボム
+EN Mochitsuki Powerbomb
+
+@ 0BBA04 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP デスバレーボム
+EN Deathvalley Bomb
+
+@ 0BBA14 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ブリザード
+EN Blizzard
+
+@ 0BBA20 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP スワンダイブ式Ｄ．Ｄ．Ｔ
+EN Swan Dive DDT
+
+@ 0BBA3C refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 高速ジャーマンスープレックス
+EN Fast German Suplex
+
+@ 0BBA5C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 魔神風車固め
+EN Majin Windmill
+
+@ 0BBA6C refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ベアハッグスープレックス
+EN Bear Hug Suplex
+
+@ 0BBA88 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 超竜ボム
+EN Choryu Bomb
+
+@ 0BBA94 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP Ｂ．Ｔボム
+EN BT Bomb
+
+@ 0BBAA0 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 雪崩式Ｂ．Ｔボム
+EN Avalanche BT Bomb
+
+@ 0BBAB4 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ヘッドシザース
+EN Head Scissors
+
+@ 0BBAC4 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP サンダーファイヤーパワーボム
+EN Thunder Fire Powerbomb
+
+@ 0BBAE4 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP スイング式Ｄ．Ｄ．Ｔ
+EN Swinging DDT
+
+@ 0BBAFC refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP マヤ式スープレックスホールド
+EN Maya-Style Suplex Hold
+
+@ 0BBB1C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP Ｄ式スペシャル２
+EN D-Style Special 2
+
+@ 0BBB30 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP バックドロップホールド
+EN Backdrop Hold
+
+@ 0BBB48 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 念仏パワーボム
+EN Nenbutsu Bomb
+
+@ 0BBB58 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 高野落とし
+EN Takano Drop
+
+@ 0BBB64 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 旋回式フロントスープレックス
+EN Turning Front Suplex
+
+@ 0BBB84 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 場外ブレーンバスター
+EN Outside Brainbuster
+
+@ 0BBB9C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 雪崩式デスバレーボム
+EN Avalanche Deathvalley Bomb
+
+@ 0BBBB4 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP サイドバスター
+EN Side Buster
+
+@ 0BBBC4 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ジャンピングパワーボム
+EN Jumping Powerbomb
+
+@ 0BBBDC refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 飛びつき式ブルドッキング
+EN Jumping Bulldog
+
+@ 0BBBF8 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 大回転ジャーマンスープレックス
+EN Big Rotation German Suplex
+
+@ 0BBC18 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ブロックバスター
+EN Blockbuster
+
+@ 0BBC2C refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP ＳＴＯ
+EN STO
+
+@ 0BBC34 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP ダイビングフラッシングエルボー
+EN Diving Flashing Elbow
+
+@ 0BBC54 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 雪崩式ダイヤモンドカッター
+EN Avalanche Diamond Cutter
+
+@ 0BBC70 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 雪崩式水車落とし
+EN Avalanche Waterwheel Drop
+
+@ 0BBC84 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP フィンタ・デ・レギレテ
+EN Finta de Rigilete
+
+@ 0BBC9C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP Ｉ．Ｖニーロック
+EN IV Knee Lock
+
+@ 0BBCB0 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ＷＡＲスペシャル
+EN WAR Special
+
+@ 0BBCC4 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 足払い
+EN Foot Sweep
+
+@ 0BBCCC refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP アックスボンバー
+EN Axe Bomber
+
+@ 0BBCE0 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP アッパーカット
+EN Uppercut
+
+@ 0BBCF0 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 浴びせ蹴りコンビネーションキック
+EN Axe Kick Combination
+
+@ 0BBD14 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ウエスタンラリアット
+EN Western Lariat
+
+@ 0BBD2C refs=2 slot=16
+# fit 16 letters x 1 line(s)
+JP マウントパンチ
+EN Mount Punch
+
+@ 0BBD3C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 鋭角エルボードロップ
+EN Sharp-Angle Elbow Drop
+
+@ 0BBD54 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP エクスプロイダー
+EN Exploder
+
+@ 0BBD68 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP エルボーアタック
+EN Elbow Attack
+
+@ 0BBD7C refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP エルボーコンビネーション
+EN Elbow Combination
+
+@ 0BBD98 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP エルボー連射
+EN Elbow Barrage
+
+@ 0BBDA8 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 大谷式ライガーボム
+EN Otani-Style Liger Bomb
+
+@ 0BBDBC refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 起き上りジャーマンスープレックス
+EN Rising German Suplex
+
+@ 0BBDE0 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP カーフブランディング
+EN Calf Branding
+
+@ 0BBDF8 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP カウンターグランドコブラツイスト
+EN Counter Ground Cobra Twist
+
+@ 0BBE1C refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP カウンターケサ斬りチョップ
+EN Counter Kesagiri Chop
+
+@ 0BBE38 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP カウンター掌打
+EN Counter Palm
+
+@ 0BBE48 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP カウンター水車落とし
+EN Counter Waterwheel Drop
+
+@ 0BBE60 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP カウンターラリアット
+EN Counter Lariat
+
+@ 0BBE78 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP カウンターリフトアップスラム
+EN Counter Lift-Up Slam
+
+@ 0BBE98 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 抱え上げ式Ｄ．Ｄ．Ｔ
+EN Lifting DDT
+
+@ 0BBEB0 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 抱え込み式バックドロップホールド
+EN Cradle Backdrop Hold
+
+@ 0BBED4 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 踵落としコンビネーションキック
+EN Heel Drop Combination Kick
+
+@ 0BBEF4 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP カシン式エルボースマッシュ
+EN Kashin Elbow Smash
+
+@ 0BBF10 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP カスティーゴセルビカレス
+EN Castigo Cervicales
+
+@ 0BBF2C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP カチ上げラリアット
+EN Upswing Lariat
+
+@ 0BBF40 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 剃刀コンビネーションキック
+EN Razor Combination Kick
+
+@ 0BBF5C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 河津落とし
+EN Kawazu Drop
+
+@ 0BBF68 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP カンクーントルネード
+EN Cancun Tornado
+
+@ 0BBF80 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 監獄固め
+EN Prison Lock
+
+@ 0BBF8C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 元祖ドラゴンスクリュー
+EN Original Dragon Screw
+
+@ 0BBFA4 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP かんぬきスープレックス
+EN Kannuki Suplex
+
+@ 0BBFBC refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP カンパーナ
+EN Campana
+
+@ 0BBFC8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 気合ラリアット
+EN Spirit Lariat
+
+@ 0BBFD8 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP グーパンチジャブ
+EN Closed-Fist Jab
+
+@ 0BBFEC refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP グーパンチ
+EN Fist Punch
+
+@ 0BBFF8 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 串刺しラリアット
+EN Corner Lariat
+
+@ 0BC00C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 首極め膝十字固め
+EN Neck Lock Knee Bar
+
+@ 0BC020 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 高速タックル
+EN Speed Tackle
+
+@ 0BC030 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP コジＭＡＸホールド
+EN Koji MAX Hold
+
+@ 0BC044 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 越中式パワーボム
+EN Koshinaka-Style Powerbomb
+
+@ 0BC058 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 腰振りシューティングスタープレス
+EN Hip-Swing Shooting Star Press
+
+@ 0BC07C refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 腰振りフランケンシュタイナー
+EN Hip Swing Frankensteiner
+
+@ 0BC09C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP コの字固め
+EN Square Lock
+
+@ 0BC0A8 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP コブラクラッチスープレックス
+EN Cobra Clutch Suplex
+
+@ 0BC0C8 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP サイキック
+EN Psychic
+
+@ 0BC0D4 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP サムライラリアット
+EN Samurai Lariat
+
+@ 0BC0E8 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP サンドイッチハイキック
+EN Sandwich High Kick
+
+@ 0BC100 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ジャックハマー
+EN Jackhammer
+
+@ 0BC110 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP ジャブ
+EN Jab
+
+@ 0BC118 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 重爆キック
+EN Heavy Bomb Kick
+
+@ 0BC124 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP スイングリバースＤ．Ｄ．Ｔ
+EN Swinging Reverse DDT
+
+@ 0BC140 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP スタンディングヒールホールド
+EN Standing Heel Hold
+
+@ 0BC160 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP スティンガースプラッシュ
+EN Stinger Splash
+
+@ 0BC17C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ステップキック
+EN Step Kick
+
+@ 0BC18C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP スパイラルボム
+EN Spiral Bomb
+
+@ 0BC19C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP スパインバスター
+EN Spinebuster
+
+@ 0BC1B0 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP タイガーコンビネーションキック
+EN Tiger Combination Kick
+
+@ 0BC1D0 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 太鼓の乱れ打ち
+EN Taiko Barrage
+
+@ 0BC1E0 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ダイビング天山プレス
+EN Diving Tenzan Press
+
+@ 0BC1F8 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP タックル
+EN Tackle
+
+@ 0BC204 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ダッシュ逆さ押さえ込み
+EN Dash Reverse Roll-Up
+
+@ 0BC21C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP タパティア
+EN Tapatia
+
+@ 0BC228 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ダブルインパクト
+EN Double Impact
+
+@ 0BC23C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ダブル頭突き
+EN Double Headbutt
+
+@ 0BC24C refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ダブルモンゴリアンチョップ
+EN Double Mongolian Chop
+
+@ 0BC268 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP チンロック
+EN Chinlock
+
+@ 0BC274 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP デンジャラスバックドロップ
+EN Dangerous Backdrop
+
+@ 0BC290 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 天龍エルボードロップ
+EN Tenryu Elbow Drop
+
+@ 0BC2A8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 天龍チョップ
+EN Tenryu Chop
+
+@ 0BC2B8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 天龍パワーボム
+EN Tenryu Powerbomb
+
+@ 0BC2C8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 天龍ラリアット
+EN Tenryu Lariat
+
+@ 0BC2D8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ドクターボム
+EN Doctor Bomb
+
+@ 0BC2E8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ドラゴン・ラナ
+EN Dragon Rana
+
+@ 0BC2F8 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ドラゴンズ・レイ
+EN Dragon's Ray
+
+@ 0BC30C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ナガタロック
+EN Nagata Lock
+
+@ 0BC31C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ナガタロックⅡ
+EN Nagata Lock II
+
+@ 0BC32C refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 投げキッスフランケンシュタイナー
+EN Blown Kiss Frankensteiner
+
+@ 0BC350 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 雪崩式ジャーマンスープレックス
+EN Avalanche German Suplex
+
+@ 0BC370 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ニーリフト
+EN Knee Lift
+
+@ 0BC37C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ニセ天山チョップ
+EN Fake Tenzan Chop
+
+@ 0BC390 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ノータッチプランチャ
+EN No-Touch Plancha
+
+@ 0BC3A8 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 喉輪バックドロップ
+EN Choke Backdrop
+
+@ 0BC3BC refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP バックドロップネックブリーカー
+EN Backdrop Neckbreaker
+
+@ 0BC3DC refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP バッファロースリーパー
+EN Buffalo Sleeper
+
+@ 0BC3F4 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ビクトル膝十字固め
+EN Victor Knee Bar
+
+@ 0BC408 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 膝固め
+EN Knee Lock
+
+@ 0BC410 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP ファイヤーバードスプラッシュ
+EN Firebird Splash
+
+@ 0BC430 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ファルコンアロー
+EN Falcon Arrow
+
+@ 0BC444 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP フェイント式腕ひしぎ逆十字固め
+EN Feint Armbar
+
+@ 0BC464 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP フック
+EN Hook
+
+@ 0BC46C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ブライアンストレッチ
+EN Brian Stretch
+
+@ 0BC484 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP フロントネックチャンスリー
+EN Front Neck Chancery
+
+@ 0BC4A0 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP フロントヘッドロックニー
+EN Front Headlock Knee
+
+@ 0BC4BC refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 変形コブラツイスト
+EN Modified Cobra Twist
+
+@ 0BC4D0 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ストレッチプラム
+EN Stretch Plum
+
+@ 0BC4E4 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 変形ラ・マヒストラル
+EN Modified La Magistral
+
+@ 0BC4FC refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP マフラーホールド
+EN Muffler Hold
+
+@ 0BC510 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP みちのくドライバーⅡ
+EN Michinoku Driver II
+
+@ 0BC528 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 目潰し
+EN Eye Gouge
+
+@ 0BC530 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ランニングエルボー
+EN Running Elbow
+
+@ 0BC544 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ランニングケサ斬りチョップ
+EN Running Kesagiri Chop
+
+@ 0BC560 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ランニングボディーアタック
+EN Running Body Attack
+
+@ 0BC57C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP リンギーナⅡ
+EN Ringina II
+
+@ 0BC58C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP レッグネックロック
+EN Leg Neck Lock
+
+@ 0BC5A0 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP レッグロック
+EN Leg Lock
+
+@ 0BC5B0 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ローリングエルボー
+EN Rolling Elbow
+
+@ 0BC5C4 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ローリングクレイドル
+EN Rolling Cradle
+
+@ 0BC5DC refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ローリングケサ斬りチョップ
+EN Rolling Kesagiri Chop
+
+@ 0BC5F8 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 一本背負いドラゴンスクリュー
+EN Seoi Nage Dragon Screw
+
+@ 0BC618 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 横入り式腕ひしぎ逆十字固め
+EN Sneak-In Armbar
+
+@ 0BC634 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 回転エビ固め
+EN Rolling Cradle
+
+@ 0BC644 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 顔面蹴り
+EN Face Kick
+
+@ 0BC650 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 高角度バックドロップ
+EN High-Angle Backdrop
+
+@ 0BC668 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 高角度プランチャ
+EN High-Angle Plancha
+
+@ 0BC67C refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 高角度フロントスープレックス
+EN High-Angle Front Suplex
+
+@ 0BC69C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 高角度喉輪落とし
+EN High-Angle Chokeslam
+
+@ 0BC6B0 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 四の字ジャックナイフ固め
+EN Figure-Four Jackknife Hold
+
+@ 0BC6CC refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 垂直落下式タイガードライバー
+EN Vertical Drop Tiger Driver
+
+@ 0BC6EC refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 雪崩式ノーザンライトボム
+EN Avalanche Northern Lights Bomb
+
+@ 0BC708 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 雪崩式ミステリオ・ラナ
+EN Avalanche Mysterio Rana
+
+@ 0BC720 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 雪崩式逆一本背負い
+EN Avalanche Reverse Seoi Nage
+
+@ 0BC734 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 雪崩式腕ひしぎ逆十字固め
+EN Avalanche Armbar
+
+@ 0BC750 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 変形エクスプロイダー
+EN Modified Exploder
+
+@ 0BC768 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 裏膝四の字固め
+EN Rev. Figure-Four
+
+@ 0BC778 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP マウントボディパンチ
+EN Mount Body Punch
+
+@ 0BC790 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP マウント側頭部パンチ
+EN Mount Temple Punches
+
+@ 0BC7A8 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP マウントヘッドバット
+EN Mount Headbutt
+
+@ 0BC7C0 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP マウント後頭部パンチ
+EN Mount Back-of-Head Punch
+
+@ 0BC7D8 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP マウント噛みつき
+EN Mount Biting
+
+@ 0BC7EC refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP マウント胴絞めスリーパー
+EN Mount Body Scissors Sleeper
+
+@ 0BC808 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ケサ斬りチョップ連打
+EN Kesagiri Chop Barrage
+
+@ 0BC820 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ヘッドロックパンチ
+EN Headlock Punch
+
+@ 0BC834 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ロザリオ
+EN Rosario
+
+@ 0BC840 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ソバットコンビネーション
+EN Sobat Combination
+
+@ 0BC85C refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP バミューダトライアングル
+EN Bermuda Triangle
+
+@ 0BC878 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP Ｄ．Ｄ．Ｏ
+EN D.D.O.
+
+@ 0BC884 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 火炎攻撃
+EN Fire Attack
+
+@ 0BC890 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP Ｘスープレックス
+EN X Suplex
+
+@ 0BC8A4 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 投げっぱなしノーザンライトＳ
+EN Release Northern Lights Suplex
+
+@ 0BC8C4 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP フライングラリアット
+EN Flying Lariat
+
+@ 0BC8DC refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP スタンディング裏アキレス腱固め
+EN Standing Reverse Achilles Hold
+
+@ 0BC8FC refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ワンハンドバックブリーカー
+EN One-Hand Backbreaker
+
+@ 0BC918 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP キャプチュード
+EN Capture Suplex
+
+@ 0BC928 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP コルバタ
+EN Corbata
+
+@ 0BC934 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP サルトモルタル
+EN Salto Mortal
+
+@ 0BC944 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP プランチャ
+EN Plancha
+
+@ 0BC950 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ティラブソン
+EN Tire-bouchon
+
+@ 0BC960 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP パサーダモルタル
+EN Pasada Mortal
+
+@ 0BC974 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP アステカ式スープレックスホールド
+EN Aztec Suplex Hold
+
+@ 0BC998 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ダイビングネックブリーカー
+EN Diving Neckbreaker
+
+@ 0BC9B4 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP コーナーストンピング
+EN Corner Stomping
+
+@ 0BC9CC refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP レッグブリーカー
+EN Leg Breaker
+
+@ 0BC9E0 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 天山ツームストンパイルドライバー
+EN Tenzan Tombstone Piledriver
+
+@ 0BCA04 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP チンクラッシャー
+EN Chin Crusher
+
+@ 0BCA18 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP セントーン・アトミコ
+EN Senton Atomico
+
+@ 0BCA30 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 雪崩式タイガースープレックス
+EN Avalanche Tiger Suplex
+
+@ 0BCA50 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP エビ固め
+EN Cradle
+
+@ 0BCA5C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP コーナー打ち付け
+EN Corner Smash
+
+@ 0BCA70 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP スカイハイドロップキック
+EN Sky High Dropkick
+
+@ 0BCA8C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 踏み付け式フォール
+EN Foot-Stomp Pin
+
+@ 0BCAA0 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ランニング掌打
+EN Running Palm
+
+@ 0BCAB0 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 本部席裁定
+EN Table Ruling
+
+@ 0BCABC refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 時間切れ引き分け
+EN Time Limit Draw
+
+@ 0BCAD0 refs=2 slot=20
+# fit 40 letters x 1 line(s)
+JP 両者リングアウト
+EN Double Count-Out
+
+@ 0BCAE4 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 反則勝ち
+EN Win by DQ
+
+@ 0BCAF0 refs=2 slot=16
+# fit 16 letters x 1 line(s)
+JP リングアウト
+EN Count-Out
+
+@ 0BCB00 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 試合続行不可能
+EN Cannot Continue
+
+@ 0BCB2C refs=1 slot=4
+# fit 16 letters x 1 line(s)
+JP ０
+EN 0
+
+@ 0BCB30 refs=1 slot=4
+# fit 16 letters x 1 line(s)
+JP １
+EN 1
+
+@ 0BCB34 refs=1 slot=4
+# fit 16 letters x 1 line(s)
+JP ２
+EN 2
+
+@ 0BCB38 refs=1 slot=4
+# fit 16 letters x 1 line(s)
+JP ３
+EN 3
+
+@ 0BCB3C refs=1 slot=4
+# fit 16 letters x 1 line(s)
+JP ４
+EN 4
+
+@ 0BCB40 refs=1 slot=4
+# fit 16 letters x 1 line(s)
+JP ５
+EN 5
+
+@ 0BCB44 refs=1 slot=4
+# fit 16 letters x 1 line(s)
+JP ６
+EN 6
+
+@ 0BCB48 refs=1 slot=4
+# fit 16 letters x 1 line(s)
+JP ７
+EN 7
+
+@ 0BCB4C refs=1 slot=4
+# fit 16 letters x 1 line(s)
+JP ８
+EN 8
+
+@ 0BCB50 refs=1 slot=4
+# fit 16 letters x 1 line(s)
+JP ９
+EN 9
+
+@ 0BCB54 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP %d分%s%s秒
+EN %d min %s%s sec
+
+@ 0BCB60 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP %s%s分%s%s秒
+EN %s%smin %s%ssec
+
+@ 0BCB70 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP ＫＯ
+EN KO
+
+@ 0BCB78 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ギブアップ
+EN Give Up
+
+@ 0BCB84 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP レフェリーストップ
+EN Referee Stop
+
+@ 0BCB98 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ピンフォール
+EN Pinfall
+
+@ 0BCBA8 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 時間切れ　引き分け
+EN Time Limit Draw
+
+@ 0BCCF8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ヤングライオン
+EN Young Lion
+
+@ 0BCD24 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ｼｽﾃﾑﾌｧｲﾙ
+EN System File
+
+@ 0BCD30 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 闘魂烈伝４システムファイル
+EN Toukon Retsuden 4 System File
+
+@ 0BCD5C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ｴﾃﾞｨｯﾄﾚｽﾗｰ1
+EN Edit Wrestler 1
+
+@ 0BCD78 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ｴﾃﾞｨｯﾄﾚｽﾗｰ2
+EN Edit Wrestler 2
+
+@ 0BCD94 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ｴﾃﾞｨｯﾄﾚｽﾗｰ3
+EN Edit Wrestler 3
+
+@ 0BCDB0 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ｴﾃﾞｨｯﾄﾚｽﾗｰ4
+EN Edit Wrestler 4
+
+@ 0BCDCC refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ｴﾃﾞｨｯﾄﾚｽﾗｰ5
+EN Edit Wrestler 5
+
+@ 0BCDE8 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ｴﾃﾞｨｯﾄﾚｽﾗｰ6
+EN Edit Wrestler 6
+
+@ 0BCE04 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ｴﾃﾞｨｯﾄﾚｽﾗｰ7
+EN Edit Wrestler 7
+
+@ 0BCE20 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ｴﾃﾞｨｯﾄﾚｽﾗｰ8
+EN Edit Wrestler 8
+
+@ 0BCE3C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ｼﾝｸﾞﾙﾄｰﾅﾒﾝﾄ
+EN Singles Tourney
+
+@ 0BCE48 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP トーナメント・シングル
+EN Singles Tournament
+
+@ 0BCE70 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ﾀｯｸﾞﾄｰﾅﾒﾝﾄ
+EN Tag Tournament
+
+@ 0BCE7C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP トーナメント・タッグ
+EN Tag Tournament
+
+@ 0BCEA4 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ｼﾝｸﾞﾙﾘｰｸﾞｾﾝ
+EN Singles League
+
+@ 0BCEB0 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP リーグ戦・シングル
+EN Singles League
+
+@ 0BCED4 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ﾀｯｸﾞﾘｰｸﾞｾﾝ
+EN Tag League
+
+@ 0BCEE0 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP リーグ戦・タッグ
+EN Tag League
+
+@ 0BCF04 refs=1 slot=16
+# fit 40 letters x 1 line(s)
+JP ｲﾘﾐﾈｰｼｮﾝ-ｶﾁﾇｷｾﾝ
+EN Elim - Survival
+
+@ 0BCF14 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP イリミネーション・勝ち抜き戦
+EN Elimination - Survival
+
+@ 0BCF44 refs=1 slot=16
+# fit 40 letters x 1 line(s)
+JP ｲﾘﾐﾈｰｼｮﾝ-ﾃﾝﾄﾘｾﾝ
+EN Elim - Points
+
+@ 0BCF54 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP イリミネーション・点取り戦
+EN Elimination - Points
+
+@ 0BCF80 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP IWGPﾍﾋﾞｰｷｭｳｼﾝｸﾞﾙ
+EN IWGP Hvy Singles
+
+@ 0BCF94 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP ＩＷＧＰヘビー級シングル
+EN IWGP Heavyweight Singles
+
+@ 0BCFC0 refs=1 slot=16
+# fit 40 letters x 1 line(s)
+JP IWGPﾍﾋﾞｰｷｭｳﾀｯｸﾞ
+EN IWGP Hvy Tag
+
+@ 0BCFD0 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ＩＷＧＰヘビー級タッグ
+EN IWGP Heavyweight Tag
+
+@ 0BCFF8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP IWGPｼﾞｭﾆｱｼﾝｸﾞﾙ
+EN IWGP Jr Singles
+
+@ 0BD008 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP ＩＷＧＰジュニアヘビー級シングル
+EN IWGP Junior Heavyweight Singles
+
+@ 0BD03C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP IWGPｼﾞｭﾆｱﾀｯｸﾞ
+EN IWGP Jr Tag
+
+@ 0BD04C refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP ＩＷＧＰジュニアヘビー級タッグ
+EN IWGP Junior Heavyweight Tag
+
+@ 0BD07C refs=1 slot=16
+# fit 40 letters x 1 line(s)
+JP G1ｸﾗｲﾏｯｸｽﾄｰﾅﾒﾝﾄ
+EN G1 Climax Tourney
+
+@ 0BD08C refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP Ｇ１クライマックス・トーナメント
+EN G1 Climax Tournament
+
+@ 0BD0C0 refs=1 slot=16
+# fit 40 letters x 1 line(s)
+JP G1ｸﾗｲﾏｯｸｽﾘｰｸﾞｾﾝ
+EN G1 Climax League
+
+@ 0BD0D0 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP Ｇ１クライマックス・リーグ戦
+EN G1 Climax League
+
+@ 0BD100 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP SGﾀｯｸﾞﾘｰｸﾞｾﾝ
+EN SG Tag League
+
+@ 0BD110 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ＳＧタッグリーグ戦
+EN SG Tag League
+
+@ 0BD134 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ﾍﾞｽﾄｵﾌﾞｻﾞｽｰﾊﾟｰJr
+EN Best of Super Jr
+
+@ 0BD148 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP ベスト・オブ・ザ・スーパーＪｒ．
+EN Best of the Super Juniors
+
+@ 0BD17C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ｽｰﾊﾟｰJr.ﾀｯｸﾞﾘｰｸﾞ
+EN Super Jr. Tag
+
+@ 0BD190 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP スーパーＪｒ．タッグリーグ戦
+EN Super Jr. Tag League
+
+@ 0BD1C0 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ﾁｬﾚﾝｼﾞｻﾞﾊﾞｰﾆﾝｸﾞS
+EN Burning Singles
+
+@ 0BD1D4 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP チャレンジザバーニングシングル
+EN Challenge the Burning Singles
+
+@ 0BD204 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ﾁｬﾚﾝｼﾞｻﾞﾊﾞｰﾆﾝｸﾞT
+EN Burning Tag
+
+@ 0BD218 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP チャレンジザバーニングタッグ
+EN Challenge the Burning Tag
+
+@ 0BE068 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 闘魂烈伝サーバーに接続するために
+EN To connect to Toukon Retsuden Server,
+
+@ 0BE08C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ダイヤリングします
+EN Dialing will begin.
+
+@ 0BE0A0 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP よろしいですか？
+EN Is this OK?
+
+@ 0BE0B8 refs=3 slot=12
+# fit 16 letters x 1 line(s)
+JP 　　　はい
+EN Yes
+
+@ 0BE0C4 refs=3 slot=16
+# fit 16 letters x 1 line(s)
+JP 　　　いいえ
+EN No
+
+@ 0BE11C refs=2 slot=28
+# fit 40 letters x 1 line(s)
+JP ダイヤルできませんでした
+EN Could not dial.
+
+@ 0BE138 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 電話回線が話し中です
+EN The line is busy.
+
+@ 0BE150 refs=4 slot=28
+# fit 40 letters x 1 line(s)
+JP メインメニューへ戻ります
+EN Returning to the main menu.
+
+@ 0BE16C refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP モデムがつながっているか
+EN Make sure the modem is connected and
+
+@ 0BE188 refs=1 slot=44
+# fit 40 letters x 1 line(s)
+JP ＤｒｅａｍＰａｓｓｐｏｒｔでモデムの設定
+EN the DreamPassport modem settings are
+
+@ 0BE1B4 refs=1 slot=44
+# fit 40 letters x 1 line(s)
+JP が正しいか確認し、パスワードを含むすべて
+EN correct, then save all data, including
+
+@ 0BE1E0 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP のデータを本体に保存してください
+EN the password, to the console.
+
+@ 0BE204 refs=1 slot=40
+# fit 40 letters x 1 line(s)
+JP ログインＩＤまたはログインパスワードが
+EN The login ID or login password
+
+@ 0BE22C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 間違っています
+EN is incorrect.
+
+@ 0BE23C refs=1 slot=44
+# fit 40 letters x 1 line(s)
+JP ＤｒｅａｍＰａｓｓｐｏｒｔでログインＩＤ
+EN Make sure the login ID in DreamPassport
+
+@ 0BE268 refs=1 slot=40
+# fit 40 letters x 1 line(s)
+JP またはログインパスワード設定が正しいか
+EN or login password setting is correct,
+
+@ 0BE290 refs=1 slot=44
+# fit 40 letters x 1 line(s)
+JP 確認し、パスワードを含むすべてのデータを
+EN then save all data, including passwords,
+
+@ 0BE2BC refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 本体に保存してください
+EN to the console.
+
+@ 0BE2D4 refs=1 slot=40
+# fit 40 letters x 1 line(s)
+JP ネットワークが非常に混み合っているため
+EN The network is extremely busy.
+
+@ 0BE2FC refs=1 slot=40
+# fit 40 letters x 1 line(s)
+JP 闘魂烈伝サーバーに接続できませんでした
+EN Could not reach Toukon Retsuden Server.
+
+@ 0BE324 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 電話回線が切断されました
+EN The phone line was disconnected.
+
+@ 0BE340 refs=1 slot=40
+# fit 40 letters x 1 line(s)
+JP 電話線が接続されているかご確認ください
+EN Check that the phone cable is connected.
+
+@ 0BE368 refs=1 slot=40
+# fit 40 letters x 1 line(s)
+JP 闘魂烈伝サーバーとの通信中にトラブルが
+EN Trouble on Toukon Retsuden Server link,
+
+@ 0BE390 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 発生したため電話回線を切断しました
+EN so the phone line was disconnected.
+
+@ 0BE3B4 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 通信中にトラブルが発生したため
+EN A problem occurred in communication, so
+
+@ 0BE3D4 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 電話回線を切断しました
+EN the phone line was disconnected.
+
+@ 0BE3EC refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP １５分間入力がないため電話回線を
+EN No input for 15 minutes, so the line
+
+@ 0BE410 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 切断しました
+EN was cut off.
+
+@ 0BE420 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 対戦相手との通信中にトラブルが発生
+EN A problem occurred communicating with
+
+@ 0BE444 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP しました
+EN the opponent.
+
+@ 0BE4E0 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 闘魂烈伝サーバー通信中に異常が発生
+EN Toukon Retsuden Server comm. error.
+
+@ 0BE504 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 　%-16s%3s人
+EN  %-16s%3s ppl
+
+@ 0BE520 refs=1 slot=40
+# fit 40 letters x 1 line(s)
+JP 闘魂烈伝サーバーにユーザー登録します
+EN Registering with Toukon Retsuden Server.
+
+@ 0BE548 refs=1 slot=40
+# fit 40 letters x 1 line(s)
+JP 次の画面で入門する団体を選んでください
+EN Select the federation to join next.
+
+@ 0BE57C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 名前　　　　　　：%s
+EN Name: %s
+
+@ 0BE594 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 所属団体名　　　：%s
+EN Federation: %s
+
+@ 0BE5AC refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ランキング　　　：%s
+EN Ranking: %s
+
+@ 0BE5C4 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 交流戦ランキング：%s
+EN Inter-Fed. Rank: %s
+
+@ 0BE5DC refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 団体参照
+EN View Federation
+
+@ 0BE5F4 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 会場へ
+EN To Venue
+
+@ 0BE608 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 交流戦会場へ
+EN To Interfed Hall
+
+@ 0BE624 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 旗揚げ
+EN Found Federation
+
+@ 0BE644 refs=2 slot=20
+# fit 40 letters x 1 line(s)
+JP 団体名　　　：%s
+EN Federation: %s
+
+@ 0BE658 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 設立年月日　：%s年%s月%s日
+EN Founded: %s/%s/%s
+
+@ 0BE674 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 所属レスラー：%s名
+EN Wrestlers: %s
+
+@ 0BE688 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP メッセージ　：%s
+EN Message: %s
+
+@ 0BE6B0 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 選手一覧
+EN Wrestler List
+
+@ 0BE6C8 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 観戦
+EN Watch
+
+@ 0BE6DC refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 入門
+EN Join
+
+@ 0BE6E4 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP データ更新
+EN Update Data
+
+@ 0BE6F0 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 移籍
+EN Transfer
+
+@ 0BE6F8 refs=1 slot=40
+# fit 40 letters x 1 line(s)
+JP %02s %-8s選手 %-8s %s %3s勝%3s敗%2s分
+EN %02s %-8s %-8s %s %3sW %3sL %2sD
+
+@ 0BE720 refs=1 slot=40
+# fit 40 letters x 1 line(s)
+JP %2s %-8s選手 VS %2s %-8s選手 %2s/%2s
+EN %2s %-8s vs %2s %-8s %2s/%2s
+
+@ 0BE748 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 選択された試合をダウンロードした後
+EN After downloading the selected match,
+
+@ 0BE76C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 電話回線は切断されます
+EN the phone line will be disconnected.
+
+@ 0BE784 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 選択した試合を観戦しますか？
+EN Watch the selected match?
+
+@ 0BE7B0 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 略称　　　　：%s
+EN Abbrev.: %s
+
+@ 0BE7C4 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP アピール　　：%s
+EN Appeal: %s
+
+@ 0BE7D8 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP メッセージ
+EN Message
+
+@ 0BE7E4 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 一行目　　　：%s
+EN Line 1: %s
+
+@ 0BE7F8 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 二行目　　　：%s
+EN Line 2: %s
+
+@ 0BE80C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 三行目　　　：%s
+EN Line 3: %s
+
+@ 0BE820 refs=3 slot=8
+# fit 16 letters x 1 line(s)
+JP 決定
+EN OK
+
+@ 0BE844 refs=2 slot=24
+# fit 40 letters x 1 line(s)
+JP エディットレスラー：%s
+EN Edit Wrestler: %s
+
+@ 0BE85C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP ハンドルネーム　　：%s
+EN Handle Name: %s
+
+@ 0BE874 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 許可する
+EN Allow
+
+@ 0BE880 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 許可しない
+EN Don't Allow
+
+@ 0BE88C refs=2 slot=24
+# fit 40 letters x 1 line(s)
+JP ダウンロード　　　：%s
+EN Download: %s
+
+@ 0BE8AC refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP ダウンロードを許可しますか？
+EN Allow downloads?
+
+@ 0BE8CC refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 　　　許可する
+EN Allow
+
+@ 0BE8DC refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 　　　許可しない
+EN Don't Allow
+
+@ 0BE8F0 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP %sに移籍しますか？
+EN Transfer to %s?
+
+@ 0BE904 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 　　　移籍します
+EN Transfer
+
+@ 0BE928 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 　　　移籍しません
+EN Don't Transfer
+
+@ 0BE93C refs=2 slot=36
+# fit 40 letters x 1 line(s)
+JP 試合データをアップロードしています
+EN Uploading match data.
+
+@ 0BE96C refs=2 slot=36
+# fit 40 letters x 1 line(s)
+JP ダウンロードしたエディットデータを
+EN The downloaded Edit data could not be
+
+@ 0BE990 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP ビジュアルメモリにセーブすることが
+EN saved to the Visual Memory.
+
+@ 0BE9B4 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP できませんでした
+EN Save failed.
+
+@ 0BE9C8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP セーブしました
+EN Saved.
+
+@ 0BE9D8 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP ダウンロードしたエディットデータの
+EN Saving of the downloaded Edit data
+
+@ 0BE9FC refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP セーブをキャンセルしました
+EN was canceled.
+
+@ 0BEA24 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 　%-8s選手 %8s %3s勝%3s敗%2s位
+EN %-8s %8s %3sW%3sL #%2s
+
+@ 0BEA44 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 　　　対戦相手　%8s選手
+EN Opponent %8s
+
+@ 0BEA5C refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 　　　遅延時間　　%2d．%02d秒
+EN Delay %2d.%02d sec
+
+@ 0BEA7C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 　　　　リングイン
+EN Enter Ring
+
+@ 0BEA90 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 　　　　リングアウト
+EN Ring Out
+
+@ 0BEAB0 refs=1 slot=40
+# fit 40 letters x 1 line(s)
+JP 電話回線を切断し通信対戦を終了します
+EN Disconnecting and ending Network Match.
+
+@ 0BEAD8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP よろしいですか
+EN Is this OK?
+
+@ 0BEAF4 refs=1 slot=44
+# fit 40 letters x 1 line(s)
+JP 対戦相手との接続にトラブルが発生しました
+EN Trouble connecting to the opponent.
+
+@ 0BEB20 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 接続を解除します
+EN Disconnecting.
+
+@ 0BEB34 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP その選手はすでに試合を始めているか
+EN That wrestler is already in a match or
+
+@ 0BEB58 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 控え室を出ているため対戦要求は
+EN has left the locker room, so the match
+
+@ 0BEB78 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 受けつけられませんでした
+EN request could not be accepted.
+
+@ 0BEB94 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 他の対戦相手を選んでください
+EN Please choose another opponent.
+
+@ 0BEBB4 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP ネットワークが混み合っているため
+EN The network is too busy.
+
+@ 0BEBD8 refs=1 slot=36
+# fit 40 letters x 1 line(s)
+JP 対戦相手は対戦要求に答えることが
+EN Your opponent cannot accept
+
+@ 0BEBFC refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP できません
+EN the challenge.
+
+@ 0BEC08 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP リングアウトしました
+EN You were counted out.
+
+@ 0BEC20 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 対戦相手がリングアウトしました
+EN The opponent has left the ring.
+
+@ 0BEC40 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP タイムアウトしました
+EN Timed out.
+
+@ 0BEC58 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 対戦相手に接続しています
+EN Connecting to your opponent...
+
+@ 0BEC74 refs=1 slot=40
+# fit 40 letters x 1 line(s)
+JP 会場内の選手から対戦要求を受けています
+EN Challenged by a wrestler in the venue.
+
+@ 0BECA4 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 試合の準備をしています
+EN Preparing for the match...
+
+@ 0BECD4 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 試合を開始します
+EN The match will begin.
+
+@ 0BECE8 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP 試合中に５回まで思考パターンを
+EN During a match you can change Thinking
+
+@ 0BED08 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 変更できます
+EN Pattern 5 times.
+
+@ 0BED18 refs=1 slot=40
+# fit 40 letters x 1 line(s)
+JP 試合中は対戦相手に迷惑がかかりますので
+EN Your opponent will be inconvenienced, so
+
+@ 0BED40 refs=1 slot=40
+# fit 40 letters x 1 line(s)
+JP 電話線を切ったりＣＤドアを開けないで
+EN do not unplug the phone line or open the
+
+@ 0BED68 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ください
+EN disc door.
+
+@ 0BEDC4 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 選手一覧に戻ります
+EN Return to the wrestler list.
+
+@ 0BEDD8 refs=1 slot=28
+# fit 40 letters x 1 line(s)
+JP 選択した試合を観戦します
+EN Watch the selected match.
+
+@ 0BEDF4 refs=1 slot=40
+# fit 40 letters x 1 line(s)
+JP 観戦する試合を選択する画面へ戻ります
+EN Return to the match selection screen.
+
+@ 0BEE1C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP 交流戦会場へ行きます
+EN Go to the Inter-Federation venue.
+
+@ 0BEE34 refs=1 slot=80
+# fit 40 letters x 3 line(s)
+JP        メモリーカードアクセス中        
+JP 
+JP    メモリーカードを抜かないで下さい。
+EN         Accessing Memory Card
+EN 
+EN   Do not remove the Memory Card.
+
+@ 0BEE84 refs=1 slot=88
+# fit 40 letters x 4 line(s)
+JP                 注  意
+JP 
+JP ゲーム中にメモリーカードを抜いたり、交換
+JP したりしないで下さい。
+EN                 Caution
+EN 
+EN Do not remove or swap the Memory Card
+EN during the game.
+
+@ 0BEEDC refs=1 slot=204
+# fit 40 letters x 5 line(s)
+JP メモリーカードが認識できません。データを
+JP 保存するには、ポートＡのソケット１に９１
+JP ブロック以上の空きのあるメモリーカードが
+JP 必要です。このままゲームをプレイする事は
+JP できますが、データは保存できません。
+EN The Memory Card cannot be read. To save
+EN data, insert a Memory Card with 91 or
+EN more free blocks in Port A, Slot 1.
+EN You can play on without it, but your
+EN data will not be saved.
+
+@ 0BEFA8 refs=1 slot=200
+# fit 42 letters x 5 line(s)
+JP メモリーカードの空きブロック数が不足して
+JP いるためシステムファイルを作成できません。
+JP 全てのデータを保存するには91ブロック必要
+JP です。このままゲームをプレイする事はでき
+JP ますが、データは保存できません。
+EN Not enough free Memory Card blocks to
+EN create the system file. Saving all
+EN data requires 91 blocks. You can keep
+EN playing, but your data cannot be
+EN saved.
+
+@ 0BF070 refs=1 slot=172
+# fit 42 letters x 4 line(s)
+JP メモリーカードの空きブロック数が不足して
+JP います。全てのデータを保存するには91ブロッ
+JP ク必要です。このままゲームを始める事はでき
+JP ますが、データを保存できない事があります。
+EN Not enough free Memory Card blocks.
+EN Saving all data requires 91 blocks.
+EN You can start the game, but your data
+EN may not be saved.
+
+@ 0BF11C refs=1 slot=132
+# fit 40 letters x 4 line(s)
+JP メモリーカードが初期化されていません。
+JP データを保存するためには、本体ファイルモ
+JP ードにて、メモリーカードの初期化を行って
+JP ください。
+EN The Memory Card is not initialized.
+EN To save data, initialize the Memory
+EN Card in the system's File mode.
+EN Please do so first.
+
+@ 0BF1A0 refs=1 slot=160
+# fit 42 letters x 4 line(s)
+JP メモリーカードの空きブロック数が不足して
+JP います。全てのデータを保存するには91ブロッ
+JP ク必要です。このままゲームを始める事はでき
+JP ますが、データは保存できません。
+EN Not enough free Memory Card blocks.
+EN Saving all data requires 91 blocks.
+EN You can start the game, but your data
+EN cannot be saved.
+
+@ 0BF240 refs=1 slot=128
+# fit 40 letters x 4 line(s)
+JP 正しいメモリーカードが認識できません。
+JP はじめに挿入されていたメモリーカードを
+JP ポートＡのソケット１に正しく挿入してくだ
+JP さい。
+EN The correct Memory Card was not found.
+EN Please insert the Memory Card that was
+EN in Port A, Slot 1 at the start.
+EN Make sure it is inserted properly.
+
+@ 0BF2C0 refs=1 slot=76
+# fit 40 letters x 2 line(s)
+JP メモリーカードの空きブロック数が不足して
+JP いるため、保存できませんでした。
+EN Not enough free Memory Card blocks.
+EN The data could not be saved.
+
+@ 0BF30C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 新日本プロレス
+EN NJPW
+
+@ 0BF31C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ＮＷＯジャパン
+EN nWo Japan
+
+@ 0BF32C refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP フリー
+EN Freelance
+
+@ 0BF334 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP ＵＦＯ
+EN UFO
+
+@ 0BF33C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ジュニア選手
+EN Junior Wrestlers
+
+@ 0BF34C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP エディット
+EN Edit
+
+@ 0BF358 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ランダム
+EN Random
+
+@ 0BF364 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 不戦敗
+EN Forfeit Loss
+
+@ 0BF36C refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 橋本真也
+EN Shinya Hashimoto
+
+@ 0BF378 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 佐々木健介
+EN Kensuke Sasaki
+
+@ 0BF384 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 藤波辰爾
+EN Tatsumi Fujinami
+
+@ 0BF390 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 越中詩郎
+EN Shiro Koshinaka
+
+@ 0BF39C refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 木村健悟
+EN Kengo Kimura
+
+@ 0BF3A8 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 平田淳嗣
+EN Junji Hirata
+
+@ 0BF3B4 refs=2 slot=8
+# fit 16 letters x 1 line(s)
+JP 木戸修
+EN Osamu Kido
+
+@ 0BF3BC refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 山崎一夫
+EN Kazuo Yamazaki
+
+@ 0BF3C8 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 飯塚高史
+EN Takashi Iizuka
+
+@ 0BF3D4 refs=2 slot=8
+# fit 16 letters x 1 line(s)
+JP 中西学
+EN Manabu Nakanishi
+
+@ 0BF3DC refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 永田裕志
+EN Yuji Nagata
+
+@ 0BF3E8 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 安田忠夫
+EN Tadao Yasuda
+
+@ 0BF3F4 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 後藤達俊
+EN Tatsutoshi Goto
+
+@ 0BF400 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 小原道由
+EN Michiyoshi Ohara
+
+@ 0BF40C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP パワーウォリアー
+EN Power Warrior
+
+@ 0BF420 refs=2 slot=8
+# fit 16 letters x 1 line(s)
+JP 長州力
+EN Riki Choshu
+
+@ 0BF428 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP マサ・サイトー
+EN Masa Saito
+
+@ 0BF438 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 坂口征二
+EN Seiji Sakaguchi
+
+@ 0BF444 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 田中秀和
+EN Hidekazu Tanaka
+
+@ 0BF450 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP タイガー服部
+EN Tiger Hattori
+
+@ 0BF460 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 蝶野正洋
+EN Masahiro Chono
+
+@ 0BF46C refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 武藤敬司
+EN Keiji Muto
+
+@ 0BF478 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP グレート・ムタ
+EN The Great Muta
+
+@ 0BF488 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP ヒロ斎藤
+EN Hiro Saito
+
+@ 0BF494 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 天山広吉
+EN Hiroyoshi Tenzan
+
+@ 0BF4A0 refs=2 slot=8
+# fit 16 letters x 1 line(s)
+JP 小島聡
+EN Satoshi Kojima
+
+@ 0BF4A8 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP ＡＫＩＲＡ
+EN Akira
+
+@ 0BF4B4 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 天龍源一郎
+EN Genichiro Tenryu
+
+@ 0BF4C0 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ドン・フライ
+EN Don Frye
+
+@ 0BF4D0 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 大仁田厚
+EN Atsushi Onita
+
+@ 0BF4DC refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 小川直也
+EN Naoya Ogawa
+
+@ 0BF4E8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP アントニオ猪木
+EN Antonio Inoki
+
+@ 0BF4F8 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 獣神Ｔ・ライガー
+EN Jushin Thunder Liger
+
+@ 0BF50C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP エル・サムライ
+EN El Samurai
+
+@ 0BF51C refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 金本浩二
+EN Koji Kanemoto
+
+@ 0BF528 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 大谷晋二郎
+EN Shinjiro Otani
+
+@ 0BF534 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ケンドー・カシン
+EN Kendo Kashin
+
+@ 0BF548 refs=2 slot=12
+# fit 16 letters x 1 line(s)
+JP 高岩竜一
+EN Ryuichi Takaiwa
+
+@ 0BF554 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP Ｄ・ワグナーＪｒ
+EN Dr. Wagner Jr.
+
+@ 0BF568 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP Ｔ・Ｇ・サスケ
+EN The Great Sasuke
+
+@ 0BF578 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ドラゴン・キッド
+EN Dragon Kid
+
+@ 0BF58C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP ＳＡＳＵＫＥ
+EN SASUKE
+
+@ 0BF59C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 長州  力
+EN Riki Choshu
+
+@ 0BF5A8 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP マササイトー
+EN Masa Saito
+
+@ 0BF5B8 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 坂口  征二
+EN Seiji Sakaguchi
+
+@ 0BF5C4 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 田中  秀和
+EN Hidekazu Tanaka
+
+@ 0BF5D0 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP タイガー・服部
+EN Tiger Hattori
+
+@ 0BF5E0 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP アントニオ・猪木
+EN Antonio Inoki
+
+@ 0BF5F4 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP Ｓａｓｕｋｅ
+EN Sasuke
+
+@ 0BF604 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP パワー
+EN Power
+
+@ 0BF60C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP Ｍサイトー
+EN M. Saito
+
+@ 0BF618 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP Ｔ・服部
+EN T. Hattori
+
+@ 0BF624 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 愚零闘武多
+EN The Great Muta
+
+@ 0BF630 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ドンフライ
+EN Don Frye
+
+@ 0BF63C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP Ａ・猪木
+EN A. Inoki
+
+@ 0BF648 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ライガー
+EN Liger
+
+@ 0BF654 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP サムライ
+EN Samurai
+
+@ 0BF660 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP カシン
+EN Kashin
+
+@ 0BF668 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ワグナー
+EN Wagner
+
+@ 0BF674 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP サスケ
+EN Sasuke
+
+@ 0BF67C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ドラゴン
+EN Dragon
+
+@ 0BF688 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ＳＡＳＫＥ
+EN SASUKE
+
+@ 0BF6CC refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP Ａ組
+EN Block A
+
+@ 0BF6D4 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP Ｂ組
+EN Block B
+
+@ 0BF6DC refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP Ｃ組
+EN Block C
+
+@ 0BF6E4 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP Ｄ組
+EN Block D
+
+@ 0BF6EC refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 優勝
+EN Champion
+
+@ 0BF6F4 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 決勝
+EN Finals
+
+@ 0BF6FC refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 準決勝
+EN Semifinals
+
+@ 0BF710 refs=1 slot=4
+# fit 16 letters x 1 line(s)
+JP 組
+EN Team
+
+@ 0BF72C refs=4 slot=32
+# fit 40 letters x 2 line(s)
+JP %s vs %s＆%s組
+JP %02d分%02d秒 %s
+EN %s vs %s & %s
+EN %02d min %02d sec %s
+
+@ 0BF74C refs=4 slot=16
+# fit 16 letters x 1 line(s)
+JP %s vs %s＆%s組
+EN %s vs %s & %s
+
+@ 0BF75C refs=4 slot=28
+# fit 40 letters x 2 line(s)
+JP %s vs %s
+JP %02d分%02d秒 %s
+EN %s vs %s
+EN %02d min %02d sec %s
+
+@ 0BF784 refs=3 slot=8
+# fit 16 letters x 1 line(s)
+JP   初代
+EN   1st
+
+@ 0BF78C refs=2 slot=8
+# fit 16 letters x 1 line(s)
+JP 第%2d代
+EN No.%2d
+
+@ 0BF794 refs=5 slot=8
+# fit 16 letters x 1 line(s)
+JP Ｖ%-2d
+EN V%-2d
+
+@ 0BF7C0 refs=2 slot=20
+# fit 40 letters x 1 line(s)
+JP 第%2d回 %-22s %-5s
+EN No.%2d %-22s %-5s
+
+@ 0BF7D4 refs=3 slot=8
+# fit 16 letters x 1 line(s)
+JP 奪取
+EN Won
+
+@ 0BF7DC refs=3 slot=28
+# fit 40 letters x 2 line(s)
+JP %s %-22s %s
+JP %02d分%02d秒 %s
+EN %s %-22s %s
+EN %02d min %02d sec %s
+
+@ 0BF7F8 refs=3 slot=36
+# fit 40 letters x 2 line(s)
+JP 第%2d戦 vs %s＆%s組
+JP %02d分%02d秒 %s
+EN Match %2d vs %s & %s
+EN %02d min %02d sec %s
+
+@ 0BF81C refs=3 slot=20
+# fit 40 letters x 1 line(s)
+JP 第%2d戦 vs %s＆%s組
+EN Match %2d vs %s & %s
+
+@ 0BF830 refs=2 slot=32
+# fit 40 letters x 2 line(s)
+JP 第%2d戦 vs %s
+JP %02d分%02d秒 %s
+EN Match %2d vs %s
+EN %02d min %02d sec %s
+
+@ 0BF850 refs=3 slot=16
+# fit 16 letters x 1 line(s)
+JP 第%2d戦 vs %s
+EN Match %2d vs %s
+
+@ 0BF88C refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP   名前
+EN Name
+
+@ 0BF894 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP ベース
+EN Base
+
+@ 0BF89C refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 前口上
+EN Intro
+
+@ 0BF8A4 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP   呼称
+EN Alias
+
+@ 0BF8AC refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP   身長
+EN Height
+
+@ 0BF8B4 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP   体重
+EN Weight
+
+@ 0BF8BC refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 入場曲
+EN Theme
+
+@ 0BF8C4 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 体格  
+EN Build
+
+@ 0BF8CC refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP コスチューム  
+EN Costume
+
+@ 0BF8DC refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 試合時間          
+EN Match Time
+
+@ 0BF8F0 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ロープブレイク    
+EN Rope Break
+
+@ 0BF904 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 引き分け設定      
+EN Draw Setting
+
+@ 0BF918 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 強制退去      
+EN Forced Exit
+
+@ 0BF928 refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP 試合ルール    
+EN Match Rules
+
+@ 0BF938 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ＫＯ設定          
+EN KO Setting
+
+@ 0BF94C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 場外戦            
+EN Outside Fights
+
+@ 0BF960 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP 場外カウント      
+EN Outside Count
+
+@ 0BF974 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 難易度   
+EN Difficulty
+
+@ 0BF980 refs=1 slot=16
+# fit 40 letters x 1 line(s)
+JP 入場シーン     
+EN Entrance Scene
+
+@ 0BF990 refs=1 slot=16
+# fit 40 letters x 1 line(s)
+JP 上部表示       
+EN Top Display
+
+@ 0BF9A0 refs=1 slot=16
+# fit 40 letters x 1 line(s)
+JP 技名表示       
+EN Move Name Display
+
+@ 0BF9B0 refs=1 slot=16
+# fit 40 letters x 1 line(s)
+JP ぷるぷるぱっく 
+EN Jump Pack
+
+@ 0BF9C0 refs=1 slot=16
+# fit 40 letters x 1 line(s)
+JP 体力表示       
+EN Stamina Display
+
+@ 0BF9D0 refs=1 slot=16
+# fit 40 letters x 1 line(s)
+JP タッグマーカー 
+EN Tag Marker
+
+@ 0BF9E0 refs=1 slot=16
+# fit 40 letters x 1 line(s)
+JP カメラ視点     
+EN Camera Angle
+
+@ 0BF9F0 refs=1 slot=16
+# fit 40 letters x 1 line(s)
+JP サウンド       
+EN Sound
+
+@ 0BFA00 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP ＢＧＭ     
+EN BGM
+
+@ 0BFA0C refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ＢＧＭ音量         
+EN BGM Volume
+
+@ 0BFA20 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP ＳＥ音量           
+EN SE Volume
+
+@ 0BFA6C refs=1 slot=16
+# fit 16 letters x 1 line(s)
+JP %-32s［詳細］
+EN %-32s[Details]
+
+@ 0BFA8C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP %-24s［%3d］［詳細］
+EN %-24s[%3d][Details]
+
+@ 0BFAA4 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP %-24s  %3d  ［詳細］
+EN %-24s  %3d  [Details]
+
+@ 0BFAF8 refs=1 slot=44
+# fit 40 letters x 1 line(s)
+JP                                 ［決定］
+EN                                  [OK]
+
+@ 0BFB30 refs=1 slot=4
+# fit 16 letters x 1 line(s)
+JP Ａ
+EN A
+
+@ 0BFB34 refs=1 slot=4
+# fit 16 letters x 1 line(s)
+JP Ｂ
+EN B
+
+@ 0BFB38 refs=1 slot=4
+# fit 16 letters x 1 line(s)
+JP Ｃ
+EN C
+
+@ 0BFB3C refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP クリティカルコンボ－%s
+EN Critical Combo - %s
+
+@ 0BFB74 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP クリティカルコンボ－%s Finish
+EN Critical Combo - %s Finish
+
+@ 0BFB94 refs=1 slot=32
+# fit 40 letters x 1 line(s)
+JP クリティカルコンボ－%s Start
+EN Critical Combo - %s Start
+
+@ 0BFBD0 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP パスワード確認中．．．
+EN Checking password...
+
+@ 0BFBE8 refs=1 slot=24
+# fit 40 letters x 1 line(s)
+JP サーバーに接続中．．．
+EN Connecting to server...
+
+@ 0BFC00 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 通信中
+EN Online
+
+@ 0BFC08 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP 切断中
+EN Disconnecting
+
+@ 0C000C refs=2 slot=16
+# fit 16 letters x 1 line(s)
+JP ヤングライオン
+EN Young Lion
+
+@ 0C0030 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 序盤思考
+EN Early Thinking
+
+@ 0C003C refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 中盤思考
+EN Mid Thinking
+
+@ 0C0048 refs=1 slot=12
+# fit 16 letters x 1 line(s)
+JP 終盤思考
+EN Late Thinking
+
+@ 0C0054 refs=1 slot=20
+# fit 40 letters x 1 line(s)
+JP フィニッシュ思考
+EN Finish Thinking
+
+@ 0C38A4 refs=1 slot=8
+# fit 16 letters x 1 line(s)
+JP ﾌﾌL?
+
+@ 0C4928 refs=1 slot=6
+# fit 16 letters x 1 line(s)
+JP 官x?
+
+@ 0C9472 refs=1 slot=2
+# fit 16 letters x 1 line(s)
+JP ｸ
+
+@ 0C9560 refs=1 slot=2
+# fit 16 letters x 1 line(s)
+JP ﾉ
+
+@ 0CD5B4 refs=1 slot=2
+# fit 16 letters x 1 line(s)
+JP ｸ
+
+@ 0CDC36 refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 藤波辰爾
+EN Tatsumi Fujinami
+
+@ 0CDC5F refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP Ｂ・Ｖ・ベイダー
+EN Big Van Vader
+
+@ 0CDD2C refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 藤波辰爾
+EN Tatsumi Fujinami
+
+@ 0CDE4B refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 蝶野正洋
+EN Masahiro Chono
+
+@ 0CDFEA refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 蝶野正洋＆天山広吉
+EN Chono & Tenzan
+
+@ 0CE03C refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 山崎一夫＆飯塚高史
+EN Yamazaki & Iizuka
+
+@ 0CE0B7 refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 長州力＆佐々木健介
+EN Choshu & Sasaki
+
+@ 0CE109 refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 佐々木健介＆山崎一夫
+EN Sasaki & Yamazaki
+
+@ 0CE15B refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 蝶野正洋＆天山広吉
+EN Chono & Tenzan
+
+@ 0CE468 refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP エル・サムライ
+EN El Samurai
+
+@ 0CE606 refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP ライガー＆サスケ
+EN Liger & Sasuke
+
+@ 0CE62F refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP #%大谷晋二郎＆高岩竜一
+EN #%Otani & Takaiwa
+
+@ 0CE682 refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 蝶野正洋
+EN Masahiro Chono
+
+@ 0CE6AB refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 蝶野正洋
+EN Masahiro Chono
+
+@ 0CE6D4 refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 藤波辰爾
+EN Tatsumi Fujinami
+
+@ 0CE6FD refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 蝶野正洋
+EN Masahiro Chono
+
+@ 0CE726 refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 武藤敬司
+EN Keiji Muto
+
+@ 0CE74F refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 長州力
+EN Riki Choshu
+
+@ 0CE778 refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 佐々木健介
+EN Kensuke Sasaki
+
+@ 0CE7A1 refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 橋本真也
+EN Shinya Hashimoto
+
+@ 0CE7CA refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 獣神サンダー・ライガー
+EN Jushin Thunder Liger
+
+@ 0CE7F3 refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP ワイルド・ペガサス
+EN Wild Pegasus
+
+@ 0CE81C refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP ブラック・タイガー
+EN Black Tiger
+
+@ 0CE845 refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP エル・サムライ
+EN El Samurai
+
+@ 0CE86E refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 金本浩二
+EN Koji Kanemoto
+
+@ 0CE897 refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP ケンドー・カシン
+EN Kendo Kashin
+
+@ 0CE8C0 refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP Ｗペガサス＆大谷晋二郎
+EN Pegasus & Otani
+
+@ 0CE8E9 refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 藤波辰爾＆ＢＶベイダー
+EN Fujinami & Vader
+
+@ 0CE912 refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 長州力＆橋本真也
+EN Choshu & Hashimoto
+
+@ 0CE93B refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 武藤敬司＆馳浩
+EN Muto & Hase
+
+@ 0CE964 refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 武藤敬司＆馳浩
+EN Muto & Hase
+
+@ 0CE98D refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 蝶野正洋＆天山広吉
+EN Chono & Tenzan
+
+@ 0CE9B6 refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 橋本真也＆Ｓノートン
+EN Hashimoto & Norton
+
+@ 0CE9DF refs=0 slot=39
+# fit 38 letters x 1 line(s)
+JP 蝶野正洋＆武藤敬司
+EN Chono & Muto
+
+@ 0CEA08 refs=0 slot=40
+# fit 39 letters x 1 line(s)
+JP 武藤敬司＆小島聡
+EN Muto & Kojima
+
+@ 0CEF7C refs=1 slot=4
+# fit 16 letters x 1 line(s)
+JP ｯ
