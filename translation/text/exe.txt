@@ -4190,7 +4190,7 @@ EN Antonio Inoki
 @ 0BF4F8 refs=1 slot=20
 # fit 40 letters x 1 line(s)
 JP 獣神Ｔ・ライガー
-EN Jushin Thunder Liger
+EN Jushin T. Liger
 
 @ 0BF50C refs=1 slot=16
 # fit 16 letters x 1 line(s)
@@ -4540,7 +4540,7 @@ EN Outside Count
 @ 0BF974 refs=1 slot=12
 # fit 16 letters x 1 line(s)
 JP 難易度   
-EN Difficulty
+EN CPU Level
 
 @ 0BF980 refs=1 slot=16
 # fit 40 letters x 1 line(s)
@@ -4550,12 +4550,12 @@ EN Entrance Scene
 @ 0BF990 refs=1 slot=16
 # fit 40 letters x 1 line(s)
 JP 上部表示       
-EN Top Display
+EN Show Names
 
 @ 0BF9A0 refs=1 slot=16
 # fit 40 letters x 1 line(s)
 JP 技名表示       
-EN Move Name Display
+EN Show Moves
 
 @ 0BF9B0 refs=1 slot=16
 # fit 40 letters x 1 line(s)
@@ -4565,7 +4565,7 @@ EN Jump Pack
 @ 0BF9C0 refs=1 slot=16
 # fit 40 letters x 1 line(s)
 JP 体力表示       
-EN Stamina Display
+EN Show Stamina
 
 @ 0BF9D0 refs=1 slot=16
 # fit 40 letters x 1 line(s)

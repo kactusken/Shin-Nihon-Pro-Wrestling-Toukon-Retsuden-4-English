@@ -52,3 +52,7 @@ established community names (existing English guides) over new coinages.
 - 本部席裁定 = Table Ruling; 前口上 = Entrance Speech (label "Intro" where 6 letters); ぷるぷるぱっく = Jump Pack;
   異種格闘技 = MMA Rules (rule value) / Cross-Style Match (banner).
 - Help text: imperative, sentence case, period. Labels: Title Case. ASCII only; printf codes kept in order.
+- Owner, round 1 (2026-11-07): Options labels CPU Level, Show Names, Show Moves, Show Stamina; CPU level セメント = Aggressive
+  (everywhere); camera 特リン = Ring; BGM values Venue Std, Tokyo A/B/C, Yokohama, Osaka A/B, Fukuoka, Sapporo; menu
+  labels Burning Spirit, Edit Wrestler, Elimination, Go Back, banner Exhibition; button 変更 = Edit; HUD / character
+  select short name 獣神Ｔ・ライガー = Jushin T. Liger.

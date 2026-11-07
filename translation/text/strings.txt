@@ -574,7 +574,7 @@ EN Strong
 @ 0100
 # fit 16 letters x 1 line(s)
 JP セメント
-EN Cement
+EN Aggressive
 
 @ 0101
 # fit 16 letters x 1 line(s)
@@ -674,7 +674,7 @@ EN Auto
 @ 0120
 # fit 16 letters x 1 line(s)
 JP 特リン
-EN Ringside
+EN Ring
 
 @ 0121
 # fit 40 letters x 2 line(s)
@@ -1131,7 +1131,7 @@ EN Set the thinking in detail.
 JP ラーニング相手のレベルをセメントに
 JP 設定します
 EN Set the learning opponent's level to
-EN Cement.
+EN Aggressive.
 
 @ 0200
 # fit 40 letters x 2 line(s)
@@ -4040,47 +4040,47 @@ EN Face Backward
 @ 0775
 # fit 16 letters x 1 line(s)
 JP 選択会場曲
-EN Venue Theme
+EN Venue Std
 
 @ 0776
 # fit 16 letters x 1 line(s)
 JP 東京会場Ａ
-EN Tokyo Venue A
+EN Tokyo A
 
 @ 0777
 # fit 16 letters x 1 line(s)
 JP 東京会場Ｂ
-EN Tokyo Venue B
+EN Tokyo B
 
 @ 0778
 # fit 16 letters x 1 line(s)
 JP 東京会場Ｃ
-EN Tokyo Venue C
+EN Tokyo C
 
 @ 0779
 # fit 16 letters x 1 line(s)
 JP  横浜会場
-EN Yokohama Venue
+EN Yokohama
 
 @ 0780
 # fit 16 letters x 1 line(s)
 JP 大阪会場Ａ
-EN Osaka Venue A
+EN Osaka A
 
 @ 0781
 # fit 16 letters x 1 line(s)
 JP 大阪会場Ｂ
-EN Osaka Venue B
+EN Osaka B
 
 @ 0782
 # fit 16 letters x 1 line(s)
 JP  福岡会場
-EN Fukuoka Venue
+EN Fukuoka
 
 @ 0783
 # fit 16 letters x 1 line(s)
 JP  札幌会場
-EN Sapporo Venue
+EN Sapporo
 
 @ 0784
 # fit 16 letters x 1 line(s)
@@ -6163,7 +6163,7 @@ EN           [Loading Data]
 @ 1137
 # fit 16 letters x 1 line(s)
 JP セメント
-EN Cement
+EN Aggressive
 
 @ 1138
 # fit 16 letters x 1 line(s)
@@ -6213,7 +6213,7 @@ EN Auto
 @ 1147
 # fit 16 letters x 1 line(s)
 JP 特リン
-EN Ringside
+EN Ring
 
 @ 1148
 # fit 16 letters x 1 line(s)

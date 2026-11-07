@@ -1691,8 +1691,36 @@ Dreamcast GD-ROM, Tomy, product T-28202M, V1.006, released 1999-09-02 in Japan o
   renders English on a 4:1 canvas and squeezes it. Atlases (`ENTDATA/TELOP.PAC`: match banners, round names, time limits)
   and multi-row headings are redrawn row by row from boxes in `graphics.csv`.
 - Kept Japanese: the title logo (MENU_MENU.0.065, pending the owner), movies, credits.
-- Not found: the button "複製" (Copy) of the Edit screen: not among the MENU.PAC textures that decode (a 32x32 texture,
-  MENU_MENU.0.113, is garbled).
+- The Edit Settings "複製" (Copy) button is MENU_MENU.0.113 (MENU.PAC section 0 entry 113, file offset 0xFD220, 32x32
+  ARGB4444 twiddled). Its RGB is the button; its alpha is an unrelated mask reading セーブ, so with alpha applied it looked
+  garbled. The game draws it opaque (*seen headless*). The English keeps the original alpha (`keep alpha` in graphics.csv).
+- One text size (owner, 2026-11-07): `tools/imgtext.py` draws every one-line menu label at the size the longest needs, and
+  every beveled 32x32 button (New, Edit, OK, Copy...) as a flat plate with the original frame and text at one size
+  (`BUTTON_FS`; longer words shrink to fit). The button is shown about 2 x 1.45 times its texel size.
+- The 1ST_READ.BIN short wrestler names (character select, match HUD) must stay within 16 letters: a 20-letter name
+  garbled the HUD name plate (*verified in game*, 2026-11-07).
 
 ## Open questions
-- The `複製` button; the title logo; text areas not measured in game (see private/work/sweep.md).
+- The title logo; text areas not measured in game (see private/work/sweep.md).
+
+## Crowd rush (comeback state)
+*From the code* (1ST_READ.BIN), trigger also *seen headless* (Liger vs Hashimoto exhibition, original image).
+- Every wrestler object has a status object at `wrestler+0x84` (heap, e.g. 0x8C5A08A0 in one match;
+  `status+0` points back to the wrestler, `wrestler+0x64` is the opponent, `wrestler+0xC5` the slot).
+  Status fields: `+0x10..+0x20` maxima, `+0x24` current stamina (the main health value), `+0x38` lowest
+  stamina % reached, `+0xDE` stamina %, `+0x84` short-term damage pool, `+0x9C` (u16) hits taken in a
+  row, `+0x9E` (u16) rush timer in frames, `+0xD5` copy of "timer running", `+0xB5` eliminated.
+- Counter: the damage routines (0x8C03E990, and the one around 0x8C03DA00) add 1 to the victim's
+  `+0x9C` for each hit from another slot, and set the attacker's `+0x9C` to 0: it counts hits taken
+  without hitting back.
+- Trigger, 0x8C0408D8 (run every frame for every wrestler from 0x8C03D56E): when no rush is running, the
+  counter is at least 8 and the wrestler's current stamina `+0x24` is lower than the opponent's, it
+  sets `+0x9E` = 1800 (30 seconds) and clears the counter. In the 4-wrestler mode (`0x8C1E15B2` = 2) it
+  also fires when all three others target this wrestler. A special-match id 54 in `0x8C1E158C` starts
+  a wrestler with the rush (0x8C024F10). No test of corner, controller (player/CPU) or wrestler stat.
+- While `+0x9E` > 0 it counts down and the counter stays 0. Effects read from the code: stamina
+  regeneration +1 per frame (0x8C03E4E0); the damage pool `+0x84` fills half as fast and drains twice
+  as fast (0x8C03E684, 0x8C03EB5E, 0x8C03DC5C); stamina damage x1.5 in both damage routines (taken in
+  0x8C03E990, dealt in the other - the two check opposite sides, cause unknown); a different action id
+  (0x1A9 instead of 0x1A8) at 0x8C038BD6. The HUD name cycles white/red/blue/green while it runs
+  (*seen headless*). The pin kick-out routine and the chant sound were not traced.

@@ -25,14 +25,14 @@ FILL = (255, 255, 255, 255)
 OUTLINE = (24, 24, 32, 255)
 
 
-def render_label(text, size=(128, 128), aspect=CANVAS_ASPECT, color=FILL, outline=OUTLINE, stroke=6):
+def render_label(text, size=(128, 128), aspect=CANVAS_ASPECT, color=FILL, outline=OUTLINE, stroke=6, max_fs=None):
     w, h = size
     cw = 1024
     ch = int(cw / aspect)
     pad = 10
     lines = text.split(' / ')
     best = None
-    for fs in range(int(ch / len(lines)) + 40, 8, -2):
+    for fs in range(min(int(ch / len(lines)) + 40, max_fs or 9999), 8, -2):
         font = ImageFont.truetype(str(FONT), fs)
         boxes = [font.getbbox(l, stroke_width=stroke) for l in lines]
         tw = max(b[2] - b[0] for b in boxes)
@@ -51,6 +51,68 @@ def render_label(text, size=(128, 128), aspect=CANVAS_ASPECT, color=FILL, outlin
         d.text((x, y - b[1]), l, font=font, fill=color, stroke_width=stroke, stroke_fill=outline)
         y += (b[3] - b[1]) + 4
     return im.resize((w, h), Image.LANCZOS)
+
+
+def label_fit(text, aspect=CANVAS_ASPECT, stroke=6):
+    """The largest font size at which `text` fits a menu label canvas (what render_label picks)."""
+    cw = 1024
+    ch = int(cw / aspect)
+    lines = text.split(' / ')
+    for fs in range(int(ch / len(lines)) + 40, 8, -2):
+        font = ImageFont.truetype(str(FONT), fs)
+        boxes = [font.getbbox(l, stroke_width=stroke) for l in lines]
+        if (max(b[2] - b[0] for b in boxes) <= cw - 20
+                and sum(b[3] - b[1] for b in boxes) + 4 * (len(lines) - 1) <= ch - 20):
+            return fs
+    raise SystemExit(f'label {text!r} does not fit')
+
+
+# Beveled buttons (owner, round 1 2026-11-07: a flat plate, the frame, then the text, one text size).
+# The 32x32 texture is shown about 2 x 1.45 times; its inside (30x28 texels) is a 1.5:1 box on screen.
+BUTTON_PLATE = (58, 60, 66, 255)
+BUTTON_FRAME = {'top': (189, 190, 189, 255), 'bottom': (189, 190, 189, 255), 'left': (98, 101, 98, 255),
+                'right': (139, 137, 139, 255), 'shadow': (12, 14, 12, 255)}
+BUTTON_TEXT = (240, 240, 240, 255)
+BUTTON_SHADOW = (8, 8, 12, 255)
+BUTTON_ASPECT = 1.5
+BUTTON_FS = 430   # canvas font size for every button (fits 5 letters: "Match"); longer labels shrink to fit
+
+
+def render_button(text, size=(32, 32), fs=BUTTON_FS):
+    """A beveled button: flat plate, the original frame, `text` centred at one size for all buttons."""
+    w, h = size
+    im = Image.new('RGBA', (w, h), BUTTON_PLATE)
+    px = im.load()
+    for x in range(w):
+        px[x, 0] = BUTTON_FRAME['top']
+        px[x, h - 1] = BUTTON_FRAME['bottom']
+        if 0 < x < w - 1:
+            px[x, 1] = BUTTON_FRAME['shadow']
+    for y in range(1, h - 1):
+        px[0, y] = BUTTON_FRAME['left']
+        px[w - 1, y] = BUTTON_FRAME['right']
+    iw, ih = w - 2, h - 4                       # inside: below the shadow line, above the bottom edge
+    cw = 1024
+    ch = int(cw / BUTTON_ASPECT)
+    pad = 60
+    for size_ in range(fs, 8, -4):
+        font = ImageFont.truetype(str(FONT), size_)
+        b = font.getbbox(text)
+        if b[2] - b[0] <= cw - 2 * pad and b[3] - b[1] <= ch - 2 * pad:
+            break
+    mask = Image.new('L', (cw, ch), 0)
+    ref = font.getbbox('ABCDEFGHIKLMNOPRSTUVWXYZ')       # centre on cap height, not on this word's ink
+    x = (cw - (b[2] - b[0])) // 2 - b[0]
+    y = (ch - (ref[3] - ref[1])) // 2 - ref[1]
+    ImageDraw.Draw(mask).text((x, y), text, font=font, fill=255)
+    mask = mask.resize((iw, ih), Image.LANCZOS)
+    layer = Image.new('RGBA', (iw, ih), (0, 0, 0, 0))
+    shadow_mask = Image.new('L', (iw, ih), 0)
+    shadow_mask.paste(mask, (1, 1))
+    layer.paste(Image.new('RGBA', (iw, ih), BUTTON_SHADOW), (0, 0), shadow_mask)
+    layer.paste(Image.new('RGBA', (iw, ih), BUTTON_TEXT), (0, 0), mask)
+    im.alpha_composite(layer, (1, 2))
+    return im
 
 
 GOLD = (255, 170, 20, 255)
@@ -192,6 +254,15 @@ def render_box(img, box, text, style):
     img.alpha_composite(layer.resize((w, h), Image.LANCZOS), (x0, y0))
 
 
+def is_menu_label(r):
+    """A single white menu label drawn whole by render_label (no boxes, one item, not a button or plate)."""
+    notes = r.get('notes') or ''
+    return (bool((r.get('english') or '').strip()) and r.get('status') != 'keep' and not r.get('boxes')
+            and r['category'] != 'multi' and ' | ' not in r['english'] and text_color(notes) == 'white'
+            and int(r['width']) <= 128
+            and not any(k in notes for k in ('beveled', 'plate', 'tile', 'bar', 'button')))
+
+
 def rows():
     p = paths.GRAPHICS_CSV
     if not p.exists():
@@ -212,6 +283,8 @@ def main(argv=None):
         only = set(argv[1:])
         n = 0
         version, done = catalog.renderer_version(), catalog.load_renders()
+        # every one-line menu label at one size (owner, round 1): the size the longest one needs
+        label_fs = min(label_fit(r['english'].strip()) for r in rows() if is_menu_label(r) and ' / ' not in r['english'])
         for r in rows():
             if not (r.get('english') or '').strip() or r.get('status') == 'keep':
                 continue
@@ -237,10 +310,13 @@ def main(argv=None):
                 rh = h // len(parts)
                 for k, t in enumerate(parts):
                     render_row(img, (0, k * rh, w, (k + 1) * rh), t, fg, w / rh if fg != 'white' or w > 128 else CANVAS_ASPECT)
+            elif 'beveled' in (r.get('notes') or ''):
+                img = render_button(parts[0], (w, h))
+                if 'keep alpha' in r['notes']:       # alpha is data of its own (MENU_MENU.0.113: a セーブ mask)
+                    img.putalpha(orig.getchannel('A'))
             else:
-                if fg == 'white' and w <= 128 and not any(k in (r.get('notes') or '') for k in ('beveled', 'plate', 'tile', 'bar', 'button')):
-                    img = Image.new('RGBA', (w, h), (0, 0, 0, 0))
-                    img = render_label(parts[0], (w, h))
+                if is_menu_label(r):
+                    img = render_label(parts[0], (w, h), max_fs=label_fs)
                 else:
                     bb = text_bbox(img, fg) if any(k in (r.get('notes') or '') for k in ('plate', 'tile', 'bar')) else None
                     if bb:

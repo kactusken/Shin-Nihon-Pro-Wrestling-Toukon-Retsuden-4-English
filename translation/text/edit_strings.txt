@@ -525,7 +525,7 @@ EN Strong
 @ 0100
 # fit 16 letters x 1 line(s)
 JP セメント
-EN Cement
+EN Aggressive
 
 @ 0101
 # fit 16 letters x 1 line(s)
@@ -615,7 +615,7 @@ EN Auto
 @ 0118
 # fit 16 letters x 1 line(s)
 JP 特リン
-EN Ringside
+EN Ring
 
 @ 0119
 # fit 40 letters x 2 line(s)
