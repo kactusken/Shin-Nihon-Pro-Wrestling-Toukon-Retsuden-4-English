@@ -7,7 +7,7 @@ offsets; `u16`/`u32` little-endian unless marked BE. Findings are marked *verifi
 ## Contents
 - [Image](#image) · [Disc layout](#disc-layout) · [Executable and memory](#executable-and-memory)
 - [Archives and compression](#archives-and-compression) · [Text](#text) · [Images](#images)
-- [Open questions](#open-questions)
+- [Open questions](#open-questions) · Match controls and moves: [CONTROLS.md](CONTROLS.md)
 
 ## Image
 `Shin Nihon Pro Wrestling - Toukon Retsuden 4 (Japan) (Track 3).bin`, 1185760800 bytes, SHA-1 `0229390c08f9003433de20d5335dde21cc2cb7c6`.
