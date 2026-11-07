@@ -311,6 +311,8 @@ def main(argv=None):
             elif r['category'] == 'multi' or len(parts) > 1:
                 rh = h // len(parts)
                 for k, t in enumerate(parts):
+                    if not t:                   # an empty row of the atlas stays as it is
+                        continue
                     render_row(img, (0, k * rh, w, (k + 1) * rh), t, fg, w / rh if fg != 'white' or w > 128 else CANVAS_ASPECT)
             elif 'beveled' in (r.get('notes') or '') or 'teal plate' in (r.get('notes') or ''):
                 img = render_button(parts[0], (w, h), BUTTON if 'beveled' in r['notes'] else TEAL_PLATE)

@@ -44,8 +44,12 @@ import paths  # noqa: E402
 # restored debug menu as its own patch) gets another group name, e.g. dev-menu, and a make_patches
 # VARIANT, with DEFAULT_GROUPS = set() to keep it out of the main patch.
 CODE_PATCHES = [
+    # Edit > Parameter rows: the Japanese values are full-width digits ([３] = 4 cells), the English
+    # ones half-width - one space inside the brackets keeps both columns under their headings and the cursor
+    ('layout', '/1ST_READ.BIN', 0x8C0CFA48, b'%s   [%s]   [%s]\0\0\0\0', b'%s   [ %s]   [ %s]\0\0',
+     'Edit parameter rows: values under Attack/Defense'),
 ]
-ALWAYS_GROUPS = set()               # in every translated build, not a choice (--unlocks ignores them): the English's own fixes
+ALWAYS_GROUPS = {'layout'}              # in every translated build, not a choice (--unlocks ignores them): the English's own fixes
 UNLOCK_GROUPS = sorted({p[0] for p in CODE_PATCHES} - ALWAYS_GROUPS)
 PLAYER_GROUPS = [g for g in UNLOCK_GROUPS if not g.startswith('debug-')]
 DEFAULT_GROUPS = set(PLAYER_GROUPS)  # without --unlocks; set() when the extras ship as separate "(All Unlocked)" patches

@@ -2867,70 +2867,83 @@ EN  Parameter    Attack  Defense
 @ 0545
 # fit 40 letters x 2 line(s)
 JP     合計       %3d    %3d     %3d／%3d
-EN     Total      %3d    %3d     %3d/%3d
+EN     Total      %3d    %3d     %3d/ %3d
 
 @ 0546
 # fit 16 letters x 1 line(s)
+# field 12
 JP      頭     
 EN Head
 
 @ 0547
 # fit 16 letters x 1 line(s)
+# field 12
 JP チョップ＆掌
 EN Chop & Palm
 
 @ 0548
 # fit 16 letters x 1 line(s)
+# field 12
 JP    拳・肘   
 EN Fist/Elbow
 
 @ 0549
 # fit 16 letters x 1 line(s)
+# field 12
 JP     腕力    
 EN Arm Strength
 
 @ 0550
 # fit 16 letters x 1 line(s)
+# field 12
 JP     馬力    
 EN Power
 
 @ 0551
 # fit 16 letters x 1 line(s)
+# field 12
 JP    瞬発力   
-EN Explosiveness
+EN Quickness
 
 @ 0552
 # fit 16 letters x 1 line(s)
+# field 12
 JP   ブリッジ  
 EN Bridge
 
 @ 0553
 # fit 16 letters x 1 line(s)
+# field 12
 JP     蹴り    
 EN Kicks
 
 @ 0554
 # fit 16 letters x 1 line(s)
+# field 12
 JP     絞め    
-EN Choke
+EN Chokes
 
 @ 0555
 # fit 16 letters x 1 line(s)
+# field 12
 JP     関節    
 EN Joint Locks
 
 @ 0556
 # fit 16 letters x 1 line(s)
+# field 12
 JP   ラフ攻撃  
-EN Rough Attacks
+EN Rough Play
 
 @ 0557
 # fit 16 letters x 1 line(s)
+# field 12
 JP    飛び技   
 EN Aerial Moves
 
 @ 0558
 # fit 16 letters x 1 line(s)
+# field 12
 JP  テクニック 
 EN Technique
 
@@ -3065,8 +3078,9 @@ EN 9
 
 @ 0582
 # fit 40 letters x 2 line(s)
+# field 18
 JP 思考パターンの名称
-EN Thinking Pattern Name
+EN Thinking Pat. Name
 
 @ 0583
 # fit 16 letters x 1 line(s)
@@ -4290,60 +4304,65 @@ EN AUTO
 @ 0825
 # fit 16 letters x 1 line(s)
 JP ＋方向ボタン
-EN D-Pad
+EN  D-Pad
 
 @ 0826
 # fit 16 letters x 1 line(s)
 JP  ノーマル
-EN Normal
+EN  Normal
 
 @ 0827
 # fit 16 letters x 1 line(s)
 JP  Ｓグロッキー
-EN S-Groggy
+EN  S-Groggy
 
 @ 0828
 # fit 16 letters x 1 line(s)
 JP  Ｍグロッキー
-EN M-Groggy
+EN  M-Groggy
 
 @ 0829
 # fit 16 letters x 1 line(s)
 JP  Ｌグロッキー
-EN L-Groggy
+EN  L-Groggy
 
 @ 0830
 # fit 16 letters x 1 line(s)
 JP  グロッキー
-EN Groggy
+EN  Groggy
 
 @ 0831
 # fit 40 letters x 2 line(s)
 JP            クリティカル設定
-EN Critical Setup
+EN              Critical Setup
 
 @ 0832
 # fit 16 letters x 1 line(s)
+# field 6
 JP メイン
 EN Main
 
 @ 0833
 # fit 16 letters x 1 line(s)
+# field 6
 JP   頭  
 EN Head
 
 @ 0834
 # fit 16 letters x 1 line(s)
+# field 6
 JP   胴  
 EN Torso
 
 @ 0835
 # fit 16 letters x 1 line(s)
+# field 6
 JP   腕  
 EN Arms
 
 @ 0836
 # fit 16 letters x 1 line(s)
+# field 6
 JP   足  
 EN Legs
 
@@ -8246,7 +8265,7 @@ EN Move Both Arms Lightly
 @ 1398
 # fit 40 letters x 2 line(s)
 JP 右手あげて両手あげる呼び込む
-EN Raise One Hand, Then Both; Beckon
+EN Raise One Hand, Both; Beckon
 
 @ 1399
 # fit 40 letters x 2 line(s)
@@ -8356,7 +8375,7 @@ EN STF / Original STF Combo
 @ 1448
 # fit 40 letters x 2 line(s)
 JP Ｒインディアン・弓矢固め連携
-EN Reverse Indian / Bow and Arrow Combo
+EN Reverse Indian/Bow & Arrow Combo
 
 @ 1449
 # fit 40 letters x 2 line(s)
@@ -8506,7 +8525,7 @@ EN Consecutive Brainbusters
 @ 1488
 # fit 40 letters x 2 line(s)
 JP 雪崩式垂直落下式ＢバスターＢＴ
-EN Avalanche Vertical Drop Brainbuster BT
+EN Avalanche Vert. Drop B-Buster BT
 
 @ 1518
 # fit 40 letters x 2 line(s)
@@ -8526,7 +8545,7 @@ EN Tornado Kick
 @ 1525
 # fit 40 letters x 2 line(s)
 JP 両手を広げてフィニッシュ宣言
-EN Spread Both Arms, Declare the Finish
+EN Spread Arms, Declare the Finish
 
 @ 1526
 # fit 40 letters x 2 line(s)
@@ -9541,7 +9560,7 @@ EN FM / Sleeper / Soccer Kick
 @ 1796
 # fit 40 letters x 2 line(s)
 JP ＦＭ／首四の字／サッカーキック
-EN FM / Neck Figure-Four / Soccer Kick
+EN FM / Neck Figure-4 / Soccer Kick
 
 @ 1797
 # fit 40 letters x 2 line(s)
@@ -9571,7 +9590,7 @@ EN FM/Sleeper/Stomping
 @ 1803
 # fit 40 letters x 2 line(s)
 JP ＦＭ／首四の字／サッカーキック
-EN FM / Neck Figure-Four / Soccer Kick
+EN FM / Neck Figure-4 / Soccer Kick
 
 @ 1804
 # fit 40 letters x 2 line(s)
@@ -9841,7 +9860,7 @@ EN Japanese Armbreaker (Koshinaka)
 @ 1921
 # fit 40 letters x 2 line(s)
 JP 河津落としからのグランド卍固め
-EN Kawazu Drop to Ground Octopus Hold
+EN Kawazu Drop, Ground Octopus Hold
 
 @ 1922
 # fit 40 letters x 2 line(s)
@@ -10681,7 +10700,7 @@ EN Rolling German
 @ 2102
 # fit 40 letters x 2 line(s)
 JP 垂直落下式Ｒブレーンバスター
-EN Vertical Drop Reverse Brainbuster
+EN Vert. Drop Reverse Brainbuster
 
 @ 2103
 # fit 40 letters x 2 line(s)
@@ -10776,7 +10795,7 @@ EN German Suplex Whip
 @ 2121
 # fit 40 letters x 2 line(s)
 JP 長滞空垂直落下式ブレーンバスター
-EN Long-Hang Vertical Drop Brainbuster
+EN Long-Hang Vert. Drop Brainbuster
 
 @ 2122
 # fit 40 letters x 2 line(s)
@@ -11071,12 +11090,12 @@ EN Fisherman Buster
 @ 2209
 # fit 40 letters x 2 line(s)
 JP 雪崩式垂直落下式ブレーンバスター
-EN Avalanche Vertical Drop Brainbuster
+EN Avalanche Vert. Drop Brainbuster
 
 @ 2210
 # fit 40 letters x 2 line(s)
 JP 雪崩式毒霧フランケンシュタイナー
-EN Avalanche Green Mist Frankensteiner
+EN Avalanche Mist Frankensteiner
 
 @ 2211
 # fit 40 letters x 2 line(s)
@@ -11346,7 +11365,7 @@ EN Taunt Crowd from Corner Post
 @ 2287
 # fit 40 letters x 2 line(s)
 JP 両手を上げて勢いよく振り下ろす
-EN Raise Both Hands, Swing Down Hard
+EN Raise Both Hands, Swing Down
 
 @ 2288
 # fit 40 letters x 2 line(s)
@@ -11486,7 +11505,7 @@ EN Double Impact
 @ 2347
 # fit 40 letters x 2 line(s)
 JP 伸びから両腕を大きく広げる
-EN Stretch, Then Spread Both Arms Wide
+EN Stretch, Then Spread Arms Wide
 
 @ 2348
 # fit 40 letters x 2 line(s)
@@ -11501,7 +11520,7 @@ EN Cross Neck Slash
 @ 2350
 # fit 40 letters x 2 line(s)
 JP 指回し首切りからボム予告
-EN Finger Spin Throat Slash, Bomb Sign
+EN Finger Twirl, Slash, Bomb Sign
 
 @ 2351
 # fit 16 letters x 1 line(s)
@@ -11516,7 +11535,7 @@ EN Spin Finger, Slap Butt, Fire Up
 @ 2353
 # fit 40 letters x 2 line(s)
 JP 両手広げて観客に吠え自分を指す
-EN Spread Arms, Roar at Crowd, Point at Me
+EN Spread Arms, Roar, Point at Self
 
 @ 2354
 # fit 40 letters x 2 line(s)
@@ -11576,7 +11595,7 @@ EN Clap and Beckon Opponent
 @ 2365
 # fit 40 letters x 2 line(s)
 JP 手を叩いた後両手でアピール
-EN Clap, Then Appeal with Both Hands
+EN Clap, Then Appeal w/ Both Hands
 
 @ 2366
 # fit 16 letters x 1 line(s)
@@ -11591,7 +11610,7 @@ EN Windmill Arms
 @ 2368
 # fit 40 letters x 2 line(s)
 JP 天を指しバックドロップいくぞ！
-EN Point to Sky: Backdrop, Here I Come!
+EN Point Up: Backdrop Is Coming!
 
 @ 2369
 # fit 40 letters x 2 line(s)
@@ -11616,7 +11635,7 @@ EN Battle Cry
 @ 2373
 # fit 40 letters x 2 line(s)
 JP 右手を小刻みに何度も上げる
-EN Raise Right Hand Quickly, Repeatedly
+EN Raise Right Hand Rapidly
 
 @ 2374
 # fit 40 letters x 2 line(s)
@@ -11656,7 +11675,7 @@ EN Raise Arms, Then Taunt Pose
 @ 2381
 # fit 40 letters x 2 line(s)
 JP 両腕を上げて首を左右に振る
-EN Raise Arms, Shake Head Side to Side
+EN Raise Arms, Shake Head
 
 @ 2382
 # fit 16 letters x 1 line(s)
@@ -12141,7 +12160,7 @@ EN Figure-Four Leglock (Muto 2)
 @ 2487
 # fit 40 letters x 2 line(s)
 JP 片膝ついて雄叫び（Ｓ回復）
-EN Kneel on One Knee and Shout (Recover S)
+EN Kneel and Shout (Recover S)
 
 @ 2488
 # fit 40 letters x 2 line(s)
@@ -12341,7 +12360,7 @@ EN Catch Kick, Elbow (Left)
 @ 2546
 # fit 40 letters x 2 line(s)
 JP 蹴り足とって裏アキレス（左）
-EN Catch Kick, Reverse Achilles (Left)
+EN Catch Kick, Rev. Achilles (Left)
 
 @ 2557
 # fit 40 letters x 2 line(s)
@@ -13021,7 +13040,7 @@ EN Raise Arms and Roar (Tenzan)
 @ 2914
 # fit 40 letters x 2 line(s)
 JP 歩きながらほぐす（山崎）
-EN Loosen Up While Walking (Yamazaki)
+EN Loosen Up Walking (Yamazaki)
 
 @ 2916
 # fit 40 letters x 2 line(s)
@@ -13556,7 +13575,7 @@ EN Raise Arms and Roar (Tenzan)
 @ 3069
 # fit 40 letters x 2 line(s)
 JP 歩きながらほぐす（山崎）
-EN Loosen Up While Walking (Yamazaki)
+EN Loosen Up Walking (Yamazaki)
 
 @ 3070
 # fit 40 letters x 2 line(s)

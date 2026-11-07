@@ -85,7 +85,21 @@ HEADER_STRINGS = [
     '# The game draws a letter in half a Japanese character cell, so a 20-glyph Japanese line holds 40 letters.',
     '# Each block says its limit: `# fit W letters x N line(s)` - checked by lint.',
     '# Control codes: none. Do not write full-width characters.',
+    '# `# field N` (added by hand): a fixed-width label - the build pads the English to N letters, so the',
+    '# values, brackets and cursor drawn after it stay where the Japanese has them.',
 ]
+
+
+FIELD = re.compile(r'#\s*field\s+(\d+)')
+
+
+def field_width(block):
+    """N of a block's `# field N` comment (a fixed-width label), or None."""
+    for k, t in block.lines:
+        m = FIELD.match(t) if k == '#' else None
+        if m:
+            return int(m.group(1))
+    return None
 
 
 def fit_for(i, lines):
@@ -140,7 +154,13 @@ def strings_step_for(which):
             i = int(b.id)
             if entries[i] is None:
                 raise SystemExit(f'{t.textfile} block {b.id}: unused entry in the original')
-            entries[i] = encode(t.newline.decode('ascii').join(b.english), b.id, t.textfile)
+            en = t.newline.decode('ascii').join(b.english)
+            w = field_width(b)
+            if w is not None:
+                if len(en) > w:
+                    raise SystemExit(f'{t.textfile} block {b.id}: {len(en)} letters, the field holds {w}: shorten it')
+                en = en.ljust(w)
+            entries[i] = encode(en, b.id, t.textfile)
             n += 1
         if n:
             files.put(t.disc_path, build_strings(entries))

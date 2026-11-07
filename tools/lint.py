@@ -204,6 +204,9 @@ def check_entry(e, terms):
     return out
 
 
+MOVE_NAMES_FROM = {'strings.txt': 1398, 'edit_strings.txt': 907}   # first block of the move/action names
+
+
 def game_check(e):
     """This game's own checks on an entry (hook): a list of (severity, kind, message). When the
     build wraps the English itself, check here what the wrapped text will do, with the build's own
@@ -224,6 +227,13 @@ def game_check(e):
         for ln in lines:
             if len(ln) > w:
                 out.append(('error', 'room', f'{len(ln)} letters, the line holds {w}: {ln!r}'))
+    # move and action names: the Edit move picker draws them in [%-32s] (owner, 2026-11-07: the limit for every move name)
+    first = MOVE_NAMES_FROM.get(Path(str(e.file)).name)
+    if first is not None and str(e.key).isdigit() and int(e.key) >= first and '\n' not in e.english and len(e.english) > 32:
+        out.append(('error', 'room', f'{len(e.english)} letters, a move name holds 32 (Edit move picker): {e.english!r}'))
+    m = re.search(r'# field (\d+)', e.notes or '')
+    if m and len(e.english) > int(m.group(1)):
+        out.append(('error', 'room', f'{len(e.english)} letters, the fixed-width field holds {m.group(1)}: {e.english!r}'))
     return out
 
 

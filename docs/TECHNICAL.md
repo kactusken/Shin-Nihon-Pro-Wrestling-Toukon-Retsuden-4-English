@@ -1714,6 +1714,25 @@ Dreamcast GD-ROM, Tomy, product T-28202M, V1.006, released 1999-09-02 in Japan o
 - The 1ST_READ.BIN short wrestler names (character select, match HUD) must stay within 16 letters: a 20-letter name
   garbled the HUD name plate (*verified in game*, 2026-11-07).
 
+## Edit screen layout
+
+The Edit Settings sub-screens draw a label and then its values with printf in character cells (a letter = 1 cell, a
+Japanese character = 2), and the cursor box is placed and sized for the Japanese cells. English has to keep those widths
+(*seen headless*, test5, 2026-11-07; original and build compared screen by screen, `private/work/sweep/40-edit-screens.steps`):
+
+- Fixed-width labels: the Parameter names are a 12-cell field (`%s   [%s]   [%s]`), the HP names 6 cells (`%s  [%6ld]`),
+  the Thinking Pattern name label 18 cells (`%s  ［%-16s］`). `# field N` on a STRINGS.PAC block makes the build pad
+  the English to N letters (tools/gametext.py; lint checks the length).
+- Parameter values are digit strings from the 1ST_READ.BIN digit table: full-width in Japanese (［３］ = 4 cells), one
+  letter in English. The format at 0x8C0CFA48 becomes `%s   [ %s]   [ %s]` (build.py CODE_PATCHES, group `layout`).
+- `［詳細］` is 8 cells and so is the cursor: the English button is `[Detail]`.
+- The Critical Setup heading (MENU STRINGS 0831) is centred with leading spaces, like the Japanese.
+- Move Setup category plates (MENU_MENU.0.133-136, 64x16 rows) come from the icon table 0x8C0E2924: 13 entries of 20
+  bytes (`u16 w, h; s16 xoff, yoff; u16 u0, v0, u1, v1, texture, pad`), indexed by the move's type byte (table
+  0x8C0E2A28) minus 1, drawn at the name's x minus xoff. The original xoffs are 0, -20 ... -240, so each category
+  sits 20 px further right than the one before (*from the code*, read at 0x8C09018A; one reference). Kept as in
+  the original (owner, 2026-11-07); setting all xoffs to 0 would put every plate over the start of the name.
+
 ## Champion histories
 *From the code*, screens *seen headless* (2026-11-07, original and build). Twelve tables of fixed records in
 `1ST_READ.BIN`, each copied whole (memcpy, e.g. 0x8C071C20: 0x290 bytes from `0xCDC34` to `obj+0x338`, 0xD2 bytes

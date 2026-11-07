@@ -4600,17 +4600,17 @@ EN SE Volume
 @ 0BFA6C refs=1 slot=16
 # fit 16 letters x 1 line(s)
 JP %-32s［詳細］
-EN %-32s[Details]
+EN %-32s[Detail]
 
 @ 0BFA8C refs=1 slot=24
 # fit 40 letters x 1 line(s)
 JP %-24s［%3d］［詳細］
-EN %-24s[%3d][Details]
+EN %-24s [%3d] [Detail]
 
 @ 0BFAA4 refs=1 slot=24
 # fit 40 letters x 1 line(s)
 JP %-24s  %3d  ［詳細］
-EN %-24s  %3d  [Details]
+EN %-24s  %3d  [Detail]
 
 @ 0BFAF8 refs=1 slot=44
 # fit 40 letters x 1 line(s)
