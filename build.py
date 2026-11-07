@@ -35,6 +35,7 @@ import codepatch  # noqa: E402
 import disc  # noqa: E402
 import gfx  # noqa: E402
 import image  # noqa: E402
+import nameentry  # noqa: E402
 import paths  # noqa: E402
 
 # Gameplay patches: (group, file, address, original, new, description) - see tools/codepatch.py.
@@ -56,6 +57,8 @@ BOOT_PATCHES = {
 
 def to_offset(name, addr):
     """GAME-SPECIFIC: file offset of a RAM address in file `name` (overlay base, ELF segments, ...)."""
+    if name == '/1ST_READ.BIN':
+        return addr - 0x8C010000
     raise SystemExit(f'build.py to_offset(): no address mapping for {name} yet')
 
 
@@ -186,6 +189,10 @@ def main(argv=None):
                     continue
                 step(paths.TRANSLATION / rel, files)
 
+        if not args.no_translation:  # the English's own fix: names of up to 16 letters (tools/nameentry.py)
+            exe = files.get(nameentry.FILE)
+            codepatch.apply(files, nameentry.patches(lambda a, n: bytes(exe[to_offset(nameentry.FILE, a):][:n])),
+                            {nameentry.GROUP}, to_offset)
         codepatch.apply(files, CODE_PATCHES, set(args.unlocks) | (set() if args.no_translation else ALWAYS_GROUPS), to_offset)
 
         if not args.no_translation:

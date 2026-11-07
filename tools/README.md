@@ -21,6 +21,7 @@ Set up from the translation kit (version 33f4cf3). Tools marked *game* are stubs
 | [pngio.py](pngio.py) | PNG reading and indexed PNG writing without dependencies |
 | [blocks.py](blocks.py), [textdb.py](textdb.py) | message block files (`blocks.merge()` for dump tools: keeps English and hand comments); every translatable string as one list |
 | [pvr.py](pvr.py) | PVR textures (GBIX/PVRT): decode every layout to RGBA (twiddled, rectangle, VQ, small VQ, palette), encode RGBA back into twiddled 16-bit (`encode`) and VQ textures (`encode_vq`, numpy, at edit time); `scan` finds them in any data |
+| [nameentry.py](nameentry.py) | *game*: the name-entry patch (16 letters, stored as ASCII) - SH-4 sources assembled into build.py's code patches; `--check` against the original |
 | [sh4.py](sh4.py) | `asm`: a small SH-4 assembler for hooks (little-endian; labels, .long/.word, `mov.l =x` literal pools, FPU registers; refuses branches and PC-relative loads in delay slots) |
 
 ## Checking

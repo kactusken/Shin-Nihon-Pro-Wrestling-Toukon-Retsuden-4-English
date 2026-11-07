@@ -1681,6 +1681,20 @@ Dreamcast GD-ROM, Tomy, product T-28202M, V1.006, released 1999-09-02 in Japan o
   short names = max(16, Japanese width in cells). Known tight fields (*seen headless*): option values in the rule
   screen (brackets are as wide as the widest Japanese value), edit-menu labels (6 letters), main option labels.
 
+- **Name entry** (*from the code*; patch *verified in game* in test4: wrestler name, 16 letters, in a match): one editor class (constructor `0x8C095CC0`,
+  `editor(obj, cells 1..20, help id, help id)`, 0xD0 bytes) works in full-width cells: buffer at +0x50 (cells padded
+  with `0x8140`, end byte at cells x 2), cell count at +0xC8, output pointer at +0x84 (setText `0x8C096B56`; OK copies
+  the buffer there and blanks trailing spaces). Its keyboards are the strings at `0xBFC10...` (table `0xD694C`, 3
+  groups x 7 rows per page; the ABC/123 page types full-width Ａ, ２, ！...). Edit mode uses it twice, each from a
+  28-byte parent that keeps a copy of the name at +8: the wrestler name (record `0x8C28236C` + 0x47A, 16 bytes + end;
+  parent vtable `0x8C0EFAE8`, setup `0x8C096E56`, update `0x8C096FA2`) and the Thinking pattern names (17-byte slots at
+  `0x8C282840`, slot number at `0x8C282E40`; vtable `0x8C0EFB00`). Both asked for 8 cells, so only 8 English letters
+  fit. `tools/nameentry.py` (always on in the English build) asks for 16 cells, enlarges the parents to 44 bytes, loads
+  stored ASCII back as full-width cells and stores full-width letters, digits and common symbols as ASCII, packed into
+  the 16 bytes (kana and kanji 2 bytes each; what doesn't fit is dropped). Controls: A types, B goes to the button bar
+  (Hiragana / Katakana / ABC/123 / Kanji / OK), L/R move the name cursor. A third user (vtable `0x8C0EFB18`, cells
+  from its caller) is unchanged.
+
 ## Images
 - Textures (*verified*): PAC entries with a 16-byte header `u32 id, u8 pixel format, u8 layout, u16 0, u32 w, u32 h`
   then PVR data (formats of `tools/pvr.py`: ARGB1555 / RGB565 / ARGB4444; twiddled, rectangle, VQ, VQ + mipmaps).
