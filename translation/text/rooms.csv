@@ -1,0 +1,8 @@
+id,count,px,screen,measured
+text/exe.txt|0BF6CC,4,,Survival Match team heading (A組; a 5th byte wraps over the first),2026-11-07 emulator
+text/exe.txt|0BF6D4,4,,Survival Match team heading (B組),2026-11-07 emulator
+text/exe.txt|0BF6DC,4,,team heading (C組),2026-11-07 emulator
+text/exe.txt|0BF6E4,4,,team heading (D組),2026-11-07 emulator
+text/exe.txt|0BF974,9,,Options CPU Level label,2026-11-07 emulator
+text/exe.txt|0BF4F8,16,,HUD name plate / character select (Jushin T. Liger),2026-11-07 emulator
+text/exe.txt|0BF710,2,,League Progress tag rows (組 after the leader name; a 3rd letter wraps over the 1st),2026-11-07 emulator

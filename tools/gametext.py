@@ -153,7 +153,8 @@ def strings_step_for(which):
 EXE = '/1ST_READ.BIN'
 EXE_BASE = 0x8C010000
 EXE_REGION = (0xB9700, 0xCF000)       # the read-only text: error messages, move names, rosters, labels
-RECORD_REGION = (0xCDC00, 0xCEA40)    # fixed-width records (series opponents) inside it
+# 0xCDC34-0xCEA2F inside it: the champion and tournament histories, fixed records without pointers -
+# translation/text/champions.csv (tools/records.py TABLES), not exe.txt
 JP = re.compile(r'[ぁ-んァ-ヶー一-龥Ａ-Ｚａ-ｚ０-９ｦ-ﾟ]')
 # rows whose Japanese is a character grid or a key of the name-entry keyboards: they stay as they are
 KEEP_KEYBOARD = re.compile(r'^[　ぁ-んァ-ヶー、。ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａ-ｚ特]*$')
@@ -196,7 +197,7 @@ def exe_strings(d, ptrs=None):
         if any(ord(c) < 0x20 and c != '\n' for c in t) or not JP.search(t):
             continue
         refs = len(ptrs.get(EXE_BASE + i0, []))
-        if refs == 0 and (len(raw) < 6 or not (RECORD_REGION[0] <= i0 < RECORD_REGION[1])):
+        if refs == 0:                 # not pointed to: record data (champions.csv) or not text
             continue
         k = e
         while k < len(d) and d[k] == 0:

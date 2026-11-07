@@ -56,3 +56,6 @@ established community names (existing English guides) over new coinages.
   (everywhere); camera 特リン = Ring; BGM values Venue Std, Tokyo A/B/C, Yokohama, Osaka A/B, Fukuoka, Sapporo; menu
   labels Burning Spirit, Edit Wrestler, Elimination, Go Back, banner Exhibition; button 変更 = Edit; HUD / character
   select short name 獣神Ｔ・ライガー = Jushin T. Liger.
+- Owner, round 3 (2026-11-07): 結果 button = Skip (the game picks the winner); banners IWGP Heavyweight / IWGP Jr.
+  Heavyweight on one line. Approved after play-test: Points/Survival team positions 先鋒..大将 = 1st..5th; team heading A組 = "A"
+  (the field holds 4 bytes); league tag suffix 組 left blank (2-letter field); 初代 = "No. 1" like the other reigns; team names use "&".

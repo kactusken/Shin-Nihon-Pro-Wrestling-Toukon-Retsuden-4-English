@@ -1,0 +1,57 @@
+# Champion and tournament histories in 1ST_READ.BIN (tools/records.py TABLES: IWGP Heavyweight, Tag, Jr.,
+# Jr. Tag, their current champions' title records, G1 Climax, Super Juniors, Super Jr. tag, SG Tag League).
+# One row per name, shared by every table. Real wrestlers: their names as known in English (glossary);
+# teams "Surname & Surname". room = 28 letters: the Past Champions list, name from x=132 to the V column at x=482
+# at 12 px a letter (seen headless 2026-11-07; the field itself holds 34, Title Records ~42).
+field,japanese,english,room,notes
+name,藤波辰爾,Tatsumi Fujinami,28,
+name,Ｂ・Ｖ・ベイダー,Big Van Vader,28,
+name,長州力,Riki Choshu,28,
+name,愚零闘武多,The Great Muta,28,
+name,橋本真也,Shinya Hashimoto,28,
+name,武藤敬司,Keiji Muto,28,
+name,高田延彦,Nobuhiko Takada,28,
+name,佐々木健介,Kensuke Sasaki,28,
+name,蝶野正洋,Masahiro Chono,28,
+name,Ｓ・ノートン,Scott Norton,28,
+name,スコットノートン,Scott Norton,28,
+name,ドン・フライ,Don Frye,28,
+name,天龍源一郎,Genichiro Tenryu,28,
+name,小島聡,Satoshi Kojima,28,
+name,ホーク＆パワー,Hawk & Power Warrior,28,team: surnames [glossary-ok]
+name,武藤敬司＆馳浩,Muto & Hase,28,team: surnames [glossary-ok]
+name,蝶野正洋＆天山広吉,Chono & Tenzan,28,team: surnames [glossary-ok]
+name,橋本真也＆平田淳嗣,Hashimoto & Hirata,28,team: surnames [glossary-ok]
+name,山崎一夫＆飯塚高史,Yamazaki & Iizuka,28,team: surnames [glossary-ok]
+name,藤波辰爾＆木村健悟,Fujinami & Kimura,28,team: surnames [glossary-ok]
+name,長州力＆佐々木健介,Choshu & Sasaki,28,team: surnames [glossary-ok]
+name,小島聡＆中西学,Kojima & Nakanishi,28,team: surnames [glossary-ok]
+name,佐々木健介＆山崎一夫,Sasaki & Yamazaki,28,team: surnames [glossary-ok]
+name,蝶野正洋＆武藤敬司,Chono & Muto,28,team: surnames [glossary-ok]
+name,天龍源一郎＆越中詩郎,Tenryu & Koshinaka,28,team: surnames [glossary-ok]
+name,天山広吉＆小島聡,Tenzan & Kojima,28,team: surnames [glossary-ok]
+name,佐々木健介＆越中詩郎,Sasaki & Koshinaka,28,team: surnames [glossary-ok]
+name,後藤達俊＆小原道由,Goto & Ohara,28,team: surnames [glossary-ok]
+name,越中詩郎＆木村健悟,Koshinaka & Kimura,28,team: surnames [glossary-ok]
+name,獣神Ｔ・ライガー,Jushin T. Liger,28,
+name,エル・サムライ,El Samurai,28,
+name,Ｕ・ドラゴン,Ultimo Dragon,28,
+name,保永昇男,Norio Honaga,28,
+name,金本浩二,Koji Kanemoto,28,
+name,サブゥー,Sabu,28,
+name,Ｔ・Ｇ・サスケ,The Great Sasuke,28,
+name,大谷晋二郎,Shinjiro Otani,28,
+name,高岩竜一,Ryuichi Takaiwa,28,
+name,田中稔,Minoru Tanaka,28,
+name,大谷晋二郎＆高岩竜一,Otani & Takaiwa,28,team: surnames [glossary-ok]
+name,ワグナー＆カシン,Wagner & Kashin,28,team: surnames [glossary-ok]
+name,ライガー＆サスケ,Liger & Sasuke,28,team: surnames [glossary-ok]
+name,獣神サンダー・ライガー,Jushin Thunder Liger,28,
+name,ワイルド・ペガサス,Wild Pegasus,28,
+name,ブラック・タイガー,Black Tiger,28,
+name,ケンドー・カシン,Kendo Kashin,28,
+name,Ｗペガサス＆大谷晋二郎,Pegasus & Otani,28,team: surnames [glossary-ok]
+name,藤波辰爾＆ＢＶベイダー,Fujinami & Vader,28,team: surnames [glossary-ok]
+name,長州力＆橋本真也,Choshu & Hashimoto,28,team: surnames [glossary-ok]
+name,橋本真也＆Ｓノートン,Hashimoto & Norton,28,team: surnames [glossary-ok]
+name,武藤敬司＆小島聡,Muto & Kojima,28,team: surnames [glossary-ok]

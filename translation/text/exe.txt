@@ -4338,24 +4338,24 @@ JP ＳＡＳＫＥ
 EN SASUKE
 
 @ 0BF6CC refs=1 slot=8
-# fit 16 letters x 1 line(s)
+# fit 4 letters x 1 line(s)
 JP Ａ組
-EN Block A
+EN A
 
 @ 0BF6D4 refs=1 slot=8
-# fit 16 letters x 1 line(s)
+# fit 4 letters x 1 line(s)
 JP Ｂ組
-EN Block B
+EN B
 
 @ 0BF6DC refs=1 slot=8
-# fit 16 letters x 1 line(s)
+# fit 4 letters x 1 line(s)
 JP Ｃ組
-EN Block C
+EN C
 
 @ 0BF6E4 refs=1 slot=8
-# fit 16 letters x 1 line(s)
+# fit 4 letters x 1 line(s)
 JP Ｄ組
-EN Block D
+EN D
 
 @ 0BF6EC refs=1 slot=8
 # fit 16 letters x 1 line(s)
@@ -4373,9 +4373,9 @@ JP 準決勝
 EN Semifinals
 
 @ 0BF710 refs=1 slot=4
-# fit 16 letters x 1 line(s)
+# fit 2 letters x 1 line(s)
 JP 組
-EN Team
+EN   
 
 @ 0BF72C refs=4 slot=32
 # fit 40 letters x 2 line(s)
@@ -4399,7 +4399,7 @@ EN %02d min %02d sec %s
 @ 0BF784 refs=3 slot=8
 # fit 16 letters x 1 line(s)
 JP   初代
-EN   1st
+EN No. 1
 
 @ 0BF78C refs=2 slot=8
 # fit 16 letters x 1 line(s)
@@ -4711,181 +4711,6 @@ JP ﾉ
 @ 0CD5B4 refs=1 slot=2
 # fit 16 letters x 1 line(s)
 JP ｸ
-
-@ 0CDC36 refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 藤波辰爾
-EN Tatsumi Fujinami
-
-@ 0CDC5F refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP Ｂ・Ｖ・ベイダー
-EN Big Van Vader
-
-@ 0CDD2C refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 藤波辰爾
-EN Tatsumi Fujinami
-
-@ 0CDE4B refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 蝶野正洋
-EN Masahiro Chono
-
-@ 0CDFEA refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 蝶野正洋＆天山広吉
-EN Chono & Tenzan
-
-@ 0CE03C refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 山崎一夫＆飯塚高史
-EN Yamazaki & Iizuka
-
-@ 0CE0B7 refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 長州力＆佐々木健介
-EN Choshu & Sasaki
-
-@ 0CE109 refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 佐々木健介＆山崎一夫
-EN Sasaki & Yamazaki
-
-@ 0CE15B refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 蝶野正洋＆天山広吉
-EN Chono & Tenzan
-
-@ 0CE468 refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP エル・サムライ
-EN El Samurai
-
-@ 0CE606 refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP ライガー＆サスケ
-EN Liger & Sasuke
-
-@ 0CE62F refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP #%大谷晋二郎＆高岩竜一
-EN #%Otani & Takaiwa
-
-@ 0CE682 refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 蝶野正洋
-EN Masahiro Chono
-
-@ 0CE6AB refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 蝶野正洋
-EN Masahiro Chono
-
-@ 0CE6D4 refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 藤波辰爾
-EN Tatsumi Fujinami
-
-@ 0CE6FD refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 蝶野正洋
-EN Masahiro Chono
-
-@ 0CE726 refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 武藤敬司
-EN Keiji Muto
-
-@ 0CE74F refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 長州力
-EN Riki Choshu
-
-@ 0CE778 refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 佐々木健介
-EN Kensuke Sasaki
-
-@ 0CE7A1 refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 橋本真也
-EN Shinya Hashimoto
-
-@ 0CE7CA refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 獣神サンダー・ライガー
-EN Jushin Thunder Liger
-
-@ 0CE7F3 refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP ワイルド・ペガサス
-EN Wild Pegasus
-
-@ 0CE81C refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP ブラック・タイガー
-EN Black Tiger
-
-@ 0CE845 refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP エル・サムライ
-EN El Samurai
-
-@ 0CE86E refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 金本浩二
-EN Koji Kanemoto
-
-@ 0CE897 refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP ケンドー・カシン
-EN Kendo Kashin
-
-@ 0CE8C0 refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP Ｗペガサス＆大谷晋二郎
-EN Pegasus & Otani
-
-@ 0CE8E9 refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 藤波辰爾＆ＢＶベイダー
-EN Fujinami & Vader
-
-@ 0CE912 refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 長州力＆橋本真也
-EN Choshu & Hashimoto
-
-@ 0CE93B refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 武藤敬司＆馳浩
-EN Muto & Hase
-
-@ 0CE964 refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 武藤敬司＆馳浩
-EN Muto & Hase
-
-@ 0CE98D refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 蝶野正洋＆天山広吉
-EN Chono & Tenzan
-
-@ 0CE9B6 refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 橋本真也＆Ｓノートン
-EN Hashimoto & Norton
-
-@ 0CE9DF refs=0 slot=39
-# fit 38 letters x 1 line(s)
-JP 蝶野正洋＆武藤敬司
-EN Chono & Muto
-
-@ 0CEA08 refs=0 slot=40
-# fit 39 letters x 1 line(s)
-JP 武藤敬司＆小島聡
-EN Muto & Kojima
 
 @ 0CEF7C refs=1 slot=4
 # fit 16 letters x 1 line(s)

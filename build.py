@@ -70,11 +70,13 @@ NAME_SETS = ()
 NAMES = NAME_SETS[0] if NAME_SETS else None
 
 import gametext  # noqa: E402
+import records  # noqa: E402
 
 TEXT_STEPS = [
     ('text/strings.txt', gametext.strings_step_for('menu')),
     ('text/edit_strings.txt', gametext.strings_step_for('edit')),
     ('text/exe.txt', gametext.exe_step),
+    ('text/champions.csv', records.step),         # champion histories in 1ST_READ.BIN (fixed records)
 ]
 
 

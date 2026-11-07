@@ -69,33 +69,35 @@ def label_fit(text, aspect=CANVAS_ASPECT, stroke=6):
 
 # Beveled buttons (owner, round 1 2026-11-07: a flat plate, the frame, then the text, one text size).
 # The 32x32 texture is shown about 2 x 1.45 times; its inside (30x28 texels) is a 1.5:1 box on screen.
-BUTTON_PLATE = (58, 60, 66, 255)
-BUTTON_FRAME = {'top': (189, 190, 189, 255), 'bottom': (189, 190, 189, 255), 'left': (98, 101, 98, 255),
-                'right': (139, 137, 139, 255), 'shadow': (12, 14, 12, 255)}
-BUTTON_TEXT = (240, 240, 240, 255)
-BUTTON_SHADOW = (8, 8, 12, 255)
-BUTTON_ASPECT = 1.5
-BUTTON_FS = 430   # canvas font size for every button (fits 5 letters: "Match"); longer labels shrink to fit
+BUTTON = dict(plate=(58, 60, 66, 255), text=(240, 240, 240, 255), shadow=(8, 8, 12, 255), aspect=1.5,
+              fs=430,  # canvas font size for every button (fits 5 letters: "Match"); longer labels shrink to fit
+              frame={'top': (189, 190, 189, 255), 'bottom': (189, 190, 189, 255), 'left': (98, 101, 98, 255),
+                     'right': (139, 137, 139, 255), 'shadow': (12, 14, 12, 255)})
+# Team-position plates of the Points Match setup (先鋒..大将, round 2 2026-11-07): gold on a dark teal plate,
+# shown about 44x18 pixels (a 2.5:1 box).
+TEAL_PLATE = dict(plate=(14, 34, 38, 255), text=(255, 184, 32, 255), shadow=(0, 0, 0, 255), aspect=2.5, fs=640,
+                  frame={'top': (164, 186, 189, 255), 'bottom': (164, 186, 189, 255), 'left': (82, 97, 98, 255),
+                         'right': (106, 129, 131, 255), 'shadow': (0, 6, 8, 255)})
 
 
-def render_button(text, size=(32, 32), fs=BUTTON_FS):
-    """A beveled button: flat plate, the original frame, `text` centred at one size for all buttons."""
+def render_button(text, size=(32, 32), style=BUTTON):
+    """A beveled button or plate: flat plate, the original frame, `text` centred at one size for all of a style."""
     w, h = size
-    im = Image.new('RGBA', (w, h), BUTTON_PLATE)
+    im = Image.new('RGBA', (w, h), style['plate'])
     px = im.load()
     for x in range(w):
-        px[x, 0] = BUTTON_FRAME['top']
-        px[x, h - 1] = BUTTON_FRAME['bottom']
+        px[x, 0] = style['frame']['top']
+        px[x, h - 1] = style['frame']['bottom']
         if 0 < x < w - 1:
-            px[x, 1] = BUTTON_FRAME['shadow']
+            px[x, 1] = style['frame']['shadow']
     for y in range(1, h - 1):
-        px[0, y] = BUTTON_FRAME['left']
-        px[w - 1, y] = BUTTON_FRAME['right']
+        px[0, y] = style['frame']['left']
+        px[w - 1, y] = style['frame']['right']
     iw, ih = w - 2, h - 4                       # inside: below the shadow line, above the bottom edge
     cw = 1024
-    ch = int(cw / BUTTON_ASPECT)
+    ch = int(cw / style['aspect'])
     pad = 60
-    for size_ in range(fs, 8, -4):
+    for size_ in range(style['fs'], 8, -4):
         font = ImageFont.truetype(str(FONT), size_)
         b = font.getbbox(text)
         if b[2] - b[0] <= cw - 2 * pad and b[3] - b[1] <= ch - 2 * pad:
@@ -109,8 +111,8 @@ def render_button(text, size=(32, 32), fs=BUTTON_FS):
     layer = Image.new('RGBA', (iw, ih), (0, 0, 0, 0))
     shadow_mask = Image.new('L', (iw, ih), 0)
     shadow_mask.paste(mask, (1, 1))
-    layer.paste(Image.new('RGBA', (iw, ih), BUTTON_SHADOW), (0, 0), shadow_mask)
-    layer.paste(Image.new('RGBA', (iw, ih), BUTTON_TEXT), (0, 0), mask)
+    layer.paste(Image.new('RGBA', (iw, ih), style['shadow']), (0, 0), shadow_mask)
+    layer.paste(Image.new('RGBA', (iw, ih), style['text']), (0, 0), mask)
     im.alpha_composite(layer, (1, 2))
     return im
 
@@ -310,8 +312,8 @@ def main(argv=None):
                 rh = h // len(parts)
                 for k, t in enumerate(parts):
                     render_row(img, (0, k * rh, w, (k + 1) * rh), t, fg, w / rh if fg != 'white' or w > 128 else CANVAS_ASPECT)
-            elif 'beveled' in (r.get('notes') or ''):
-                img = render_button(parts[0], (w, h))
+            elif 'beveled' in (r.get('notes') or '') or 'teal plate' in (r.get('notes') or ''):
+                img = render_button(parts[0], (w, h), BUTTON if 'beveled' in r['notes'] else TEAL_PLATE)
                 if 'keep alpha' in r['notes']:       # alpha is data of its own (MENU_MENU.0.113: a セーブ mask)
                     img.putalpha(orig.getchannel('A'))
             else:

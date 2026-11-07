@@ -48,7 +48,28 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import paths  # noqa: E402
 
 CODEC = 'cp932'
-TABLES = {}                  # see the docstring; e.g. {'items': {'source': ('file', '/DATA/ITEMS.BIN'), ...}}
+# The champion and tournament histories in 1ST_READ.BIN (docs/TECHNICAL.md "Champion histories"): no
+# pointers to the records, the code copies each table whole (memcpy) into its data when a save is made.
+# A champion / winner record is 41 bytes: u8 number (No.), u8 defences (V), 4 wrestler ids of the current
+# holder (FF = a past one), the name (35 bytes). A title-defence record is 42 bytes: u16 finishing move,
+# u8 index, u8 minutes, u8 seconds, 2 bytes FF, the name. One CSV, translations shared by every table.
+_HIST = {'source': ('file', '/1ST_READ.BIN'), 'csv': 'champions.csv', 'encoding': 'ascii'}
+_CHAMPS = dict(_HIST, stride=41, fields=[('name', 6, 35)])
+_DEFENCES = dict(_HIST, stride=42, fields=[('name', 7, 35)])
+TABLES = {
+    'iwgp_heavy': dict(_CHAMPS, first=0xCDC34, count=16),         # IWGP Heavyweight, No.9-24
+    'iwgp_heavy_def': dict(_DEFENCES, first=0xCDEC4, count=5),    # its current champion's title record
+    'iwgp_tag': dict(_CHAMPS, first=0xCDF96, count=16),           # IWGP Tag
+    'iwgp_tag_def': dict(_DEFENCES, first=0xCE226, count=2),
+    'iwgp_jr': dict(_CHAMPS, first=0xCE27A, count=16),            # IWGP Jr. Heavyweight
+    'iwgp_jr_def': dict(_DEFENCES, first=0xCE50A, count=4),
+    'iwgp_jr_tag': dict(_CHAMPS, first=0xCE5B2, count=4),         # IWGP Jr. Tag
+    'iwgp_jr_tag_def': dict(_DEFENCES, first=0xCE656, count=1),
+    'g1_climax': dict(_CHAMPS, first=0xCE680, count=8),           # G1 Climax winners
+    'super_jr': dict(_CHAMPS, first=0xCE7C8, count=6),            # Best of the Super Juniors winners
+    'super_jr_tag': dict(_CHAMPS, first=0xCE8BE, count=1),        # Super Jr. tag tournament
+    'sg_tag': dict(_CHAMPS, first=0xCE8E7, count=8),              # SG Tag League winners
+}
 ENCODE = None                # project encoder: f(text, mode, files, where) -> bytes; None = encode() below
 WIDTH = None                 # project text width: f(encoded bytes) -> pixels; None = no width check
 LOOKUPS = []                 # project checks after the step: f(files) -> [problem, ...]

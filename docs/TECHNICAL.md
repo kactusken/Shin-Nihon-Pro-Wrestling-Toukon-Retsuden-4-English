@@ -1657,7 +1657,7 @@ Dreamcast GD-ROM, Tomy, product T-28202M, V1.006, released 1999-09-02 in Japan o
   tables at `0xCF87C...`), edit-menu labels, printf formats, and the name-entry keyboards (strings pointed to from
   `0xD6940-0xD69C0` and `0xD73F0-0xD7430`: they stay). Strings are NUL-terminated Shift-JIS padded to 4 bytes and
   pointed to by aligned 32-bit words (literal pools and tables): `tools/gametext.py` finds the pointers by value.
-  Series-match opponents are fixed 41-byte records (`0xCDC34-0xCEA35`: id, flag, `FF FF FF FF`, name) with no pointers.
+  `0xCDC34-0xCEA2F` holds the champion histories (fixed records, below), not pointed-to strings.
 - The main menu's STRINGS.PAC loads at `0x8C6EDBA0` (seen headless).
 
 ## Archives and compression
@@ -1699,6 +1699,26 @@ Dreamcast GD-ROM, Tomy, product T-28202M, V1.006, released 1999-09-02 in Japan o
   (`BUTTON_FS`; longer words shrink to fit). The button is shown about 2 x 1.45 times its texel size.
 - The 1ST_READ.BIN short wrestler names (character select, match HUD) must stay within 16 letters: a 20-letter name
   garbled the HUD name plate (*verified in game*, 2026-11-07).
+
+## Champion histories
+*From the code*, screens *seen headless* (2026-11-07, original and build). Twelve tables of fixed records in
+`1ST_READ.BIN`, each copied whole (memcpy, e.g. 0x8C071C20: 0x290 bytes from `0xCDC34` to `obj+0x338`, 0xD2 bytes
+from `0xCDEC4` to `obj+0x5C8`) - no pointers to single records. Text: `translation/text/champions.csv`
+(`tools/records.py` TABLES, one row per name shared by every table).
+- Champion / winner record, 41 bytes: `u8` number (No.), `u8` defences (V), 4 wrestler ids of the current holder
+  (`FF` = a past holder; the current one has its ids, e.g. `15 FF FF FF` Muto, `0C 0D FF FF` Goto & Ohara), name
+  (35 bytes, Shift-JIS or ASCII, NUL-padded).
+- Title-defence record of the current holder, 42 bytes: `u16` finishing move, `u8` index, `u8` minutes, `u8`
+  seconds, `FF FF`, name (35 bytes). Shown as "Won <name>" / "V1 <name>" and "31 min 38 sec <move>".
+- Tables (file offset, records): IWGP Heavyweight `0xCDC34` 16 (No.9-24) + defences `0xCDEC4` 5; IWGP Tag
+  `0xCDF96` 16 + `0xCE226` 2; IWGP Jr. Heavyweight `0xCE27A` 16 + `0xCE50A` 4; IWGP Jr. Tag `0xCE5B2` 4 + `0xCE656` 1;
+  G1 Climax `0xCE680` 8; Best of the Super Juniors `0xCE7C8` 6; Super Jr. Tag League `0xCE8BE` 1; SG Tag League
+  `0xCE8E7` 8. Screens: IWGP Title Match > belt > Singles/Tag > Past Champions (A: Title Records); Series Match >
+  tournament > Past Champions.
+- Room: Past Champions draws "No.18 <name>" with the name at x=132 and the V column at a fixed x=482, 12 px a
+  letter: 28 letters (the build checks it). Title Records and the tournament lists have more.
+- The old exe.txt dump took these names as strings starting at the `FF` bytes, so the English overwrote the 4 id
+  bytes and the game, reading the name 4 bytes later, showed "hiro Chono" (round 2). Fixed by the records table.
 
 ## Open questions
 - The title logo; text areas not measured in game (see private/work/sweep.md).
