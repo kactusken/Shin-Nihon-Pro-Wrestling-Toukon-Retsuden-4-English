@@ -1,7 +1,7 @@
 # Shin Nihon Pro Wrestling - Toukon Retsuden 4 — English Translation
 
-An English translation patch for **Shin Nihon Pro Wrestling - Toukon Retsuden 4**, Tomy's 1999
-New Japan Pro-Wrestling game for the Dreamcast, released only in Japan.
+An English translation patch for **Shin Nihon Pro Wrestling - Toukon Retsuden 4**, Yuke's 1999
+New Japan Pro-Wrestling game for the Dreamcast, published by Tomy and released only in Japan.
 
 Everything the player reads is in English: every menu and mode (Exhibition, IWGP Title Match,
 Series Match with the G1 Climax and the other leagues, Challenge the Burning Spirit, Edit Wrestler,
