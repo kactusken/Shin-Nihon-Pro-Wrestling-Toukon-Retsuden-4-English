@@ -1213,7 +1213,7 @@ EN Dread Fighter
 @ 0238
 # fit 40 letters x 2 line(s)
 JP 魅惑のハードパンチャー
-EN The Alluring Hard Puncher
+EN Alluring Hard Puncher
 
 @ 0239
 # fit 16 letters x 1 line(s)
@@ -1763,7 +1763,7 @@ EN Power Hall at the End of Summer
 @ 0348
 # fit 40 letters x 2 line(s)
 JP おのれの右腕に全てを掛ける
-EN I stake it all on my own right arm
+EN Staking all on my right arm
 
 @ 0349
 # fit 16 letters x 1 line(s)
@@ -1773,7 +1773,7 @@ EN Fiery Dragon
 @ 0350
 # fit 40 letters x 2 line(s)
 JP 昭和と藤波プロレスの証明
-EN Proof of Showa and Fujinami Wrestling
+EN Proof of Showa & Fujinami Style
 
 @ 0351
 # fit 40 letters x 2 line(s)
@@ -1783,7 +1783,7 @@ EN Showa's Last Challenger
 @ 0352
 # fit 40 letters x 2 line(s)
 JP 新たな時代に破壊王
-EN The King of Destruction in a new era
+EN Destruction King of a new era
 
 @ 0353
 # fit 16 letters x 1 line(s)
@@ -1793,12 +1793,12 @@ EN Destruction King
 @ 0354
 # fit 40 letters x 2 line(s)
 JP 叩き潰すのが俺のプロレス
-EN Crushing them is my pro wrestling
+EN Crushing them: my pro wrestling
 
 @ 0355
 # fit 40 letters x 2 line(s)
 JP プライドを胸に、おのれの道を突き
-EN With pride in my heart, I forge ahead
+EN Charging his own path with pride
 
 @ 0356
 # fit 40 letters x 2 line(s)
@@ -1818,7 +1818,7 @@ EN Spectacular Power Fight
 @ 0359
 # fit 40 letters x 2 line(s)
 JP 新日本プロレスのいぶし銀と言えば
-EN When it comes to NJPW's silver veteran,
+EN NJPW's silver veteran: this man
 
 @ 0360
 # fit 40 letters x 2 line(s)
@@ -1828,7 +1828,7 @@ EN Heir to Gotch-style submission
 @ 0361
 # fit 40 letters x 2 line(s)
 JP いざ、戦いの最前線へ
-EN Now, to the front lines of battle!
+EN Now, to the front lines!
 
 @ 0362
 # fit 40 letters x 2 line(s)
@@ -1848,12 +1848,12 @@ EN My time has come!
 @ 0365
 # fit 40 letters x 2 line(s)
 JP 今年の俺は違うぞ、アテンション！
-EN This year I'm different, attention!
+EN New me this year. Attention!
 
 @ 0366
 # fit 40 letters x 2 line(s)
 JP チャンスは今、ベルトは実力、さぁ
-EN Chance is now, the belt is skill. Come
+EN Chance now, belt by skill. Go!!
 
 @ 0367
 # fit 16 letters x 1 line(s)
@@ -1873,7 +1873,7 @@ EN Explosion!
 @ 0370
 # fit 40 letters x 2 line(s)
 JP つかんだチャンスは逃さない！
-EN I won't let this chance slip away!
+EN I won't let this chance go!
 
 @ 0371
 # fit 40 letters x 2 line(s)
@@ -1883,7 +1883,7 @@ EN Over the Top
 @ 0372
 # fit 40 letters x 2 line(s)
 JP 力こそすべて、叩き潰すのみ！
-EN Power is everything. Just crush them!
+EN Power is all. Just crush them!
 
 @ 0373
 # fit 40 letters x 2 line(s)
@@ -1898,7 +1898,7 @@ EN Recognized by all, The Top of
 @ 0375
 # fit 40 letters x 2 line(s)
 JP 新日ジュニア、世界最強の証明
-EN Proof NJPW Juniors are the world's best
+EN Proving NJPW Juniors the best
 
 @ 0376
 # fit 16 letters x 1 line(s)
@@ -1953,7 +1953,7 @@ EN Something begins here
 @ 0386
 # fit 40 letters x 2 line(s)
 JP 侍魂を胸に、いざ出陣
-EN With the samurai spirit, off to battle!
+EN With samurai spirit, to battle!
 
 @ 0387
 # fit 40 letters x 2 line(s)
@@ -1968,7 +1968,7 @@ EN Pure Enka Fighter
 @ 0389
 # fit 40 letters x 2 line(s)
 JP リングにきらめき、稲妻一閃！
-EN Glittering in the ring, lightning flash!
+EN A lightning flash in the ring!
 
 @ 0390
 # fit 40 letters x 2 line(s)
@@ -1993,12 +1993,12 @@ EN Break the chains, now!
 @ 0394
 # fit 40 letters x 2 line(s)
 JP 破壊と創造…これが俺のニューワー
-EN Destruction and creation... my New World
+EN Destroy and create... my nWo!
 
 @ 0395
 # fit 40 letters x 2 line(s)
 JP 夏はまかせろ、俺がＧ１男だ
-EN Leave summer to me, I'm the G1 man!
+EN Leave summer to me, the G1 man!
 
 @ 0396
 # fit 40 letters x 2 line(s)
@@ -2058,7 +2058,7 @@ EN I'm the top! Any complaints?!
 @ 0407
 # fit 40 letters x 2 line(s)
 JP 暴れ牛は手がつけられない！
-EN The raging bull can't be stopped!
+EN No stopping the raging bull!
 
 @ 0408
 # fit 40 letters x 2 line(s)
@@ -2073,7 +2073,7 @@ EN Crushing you with MAX power
 @ 0410
 # fit 40 letters x 2 line(s)
 JP プロレスラー生活３４年の集大成、
-EN The summit of 34 years as a wrestler,
+EN 34 years as a pro: a wild ride
 
 @ 0411
 # fit 40 letters x 2 line(s)
@@ -2103,7 +2103,7 @@ EN Until the spirit burns out
 @ 0416
 # fit 40 letters x 2 line(s)
 JP 胴着を脱いだ格闘家、ＵＦＯをせお
-EN The fighter without a gi, carrying UFO
+EN His gi shed, he carries UFO...
 
 @ 0417
 # fit 16 letters x 1 line(s)
@@ -2113,7 +2113,7 @@ EN Pro Fighter
 @ 0418
 # fit 40 letters x 2 line(s)
 JP 金メダルからチャンピオンベルトへ
-EN From gold medal to championship belt
+EN Gold medal to belt: new history?
 
 @ 0419
 # fit 40 letters x 2 line(s)
@@ -2143,12 +2143,12 @@ EN Wrestle & Romance. Our time
 @ 0424
 # fit 40 letters x 2 line(s)
 JP 熱き戦いを求めて、新日マットヘい
-EN Seeking fierce fights, to the NJPW mat
+EN Seeking hot battles: to NJPW!
 
 @ 0425
 # fit 40 letters x 2 line(s)
 JP 豪腕ファイトに熱き心
-EN Mighty arm fighting, burning heart
+EN Mighty arm, burning heart
 
 @ 0426
 # fit 40 letters x 2 line(s)
@@ -2163,7 +2163,7 @@ EN Is the main dish sweet or spicy?
 @ 0428
 # fit 40 letters x 2 line(s)
 JP メキシコより、殺人医師２世参上
-EN From Mexico, Killer Doctor II arrives!
+EN Killer Doctor II, from Mexico!
 
 @ 0429
 # fit 40 letters x 2 line(s)
@@ -2173,7 +2173,7 @@ EN Gracias, amigo!
 @ 0430
 # fit 40 letters x 2 line(s)
 JP 海をこえて、この男がやってきた
-EN Across the sea, this man has come
+EN Across the sea, this man came
 
 @ 0431
 # fit 40 letters x 2 line(s)
@@ -2188,7 +2188,7 @@ EN Michinoku Pro Wrestling
 @ 0433
 # fit 40 letters x 2 line(s)
 JP みちのくから、世界へはばたけ！
-EN From Michinoku, fly out to the world!
+EN From Michinoku, to the world!
 
 @ 0434
 # fit 40 letters x 2 line(s)
@@ -2203,12 +2203,12 @@ EN How about an evil SASUKE?
 @ 0436
 # fit 40 letters x 2 line(s)
 JP みちのくの心、どこへ行く…
-EN Where does the Michinoku heart go...
+EN Michinoku heart, where to now...
 
 @ 0437
 # fit 40 letters x 2 line(s)
 JP 皆様の熱い御要望に応え、ここに参
-EN Answering your demands, he arrives
+EN By popular demand, he's here!
 
 @ 0438
 # fit 40 letters x 2 line(s)
@@ -2218,12 +2218,12 @@ EN Rise again from beyond legend!
 @ 0439
 # fit 40 letters x 2 line(s)
 JP 華麗なフットワーク…ここに復活！
-EN Graceful footwork... revived here!
+EN Graceful footwork... reborn!
 
 @ 0440
 # fit 40 letters x 2 line(s)
 JP 新たな戦場をもとめてやってきた
-EN He came seeking a new battlefield
+EN Here seeking a new battlefield
 
 @ 0441
 # fit 40 letters x 2 line(s)
@@ -2233,22 +2233,22 @@ EN The Eagle of the World Strikes!!
 @ 0442
 # fit 40 letters x 2 line(s)
 JP その気持ちとやら…しっかりと見せ
-EN Show me those feelings of yours...
+EN Your feelings? Show me, then!
 
 @ 0443
 # fit 40 letters x 2 line(s)
 JP 俺には、負けられないわけがある…
-EN I have my reasons for not losing...
+EN I have reasons not to lose...
 
 @ 0444
 # fit 40 letters x 2 line(s)
 JP その気持ちとやら…しっかりと見せ
-EN Show me those feelings of yours...
+EN Your feelings? Show me, then!
 
 @ 0445
 # fit 40 letters x 2 line(s)
 JP 世紀末の邪道…邪道魂を胸に！
-EN Jado of the Century's End! Jado spirit!
+EN Century's-end Jado! Jado spirit!
 
 @ 0446
 # fit 16 letters x 1 line(s)
@@ -2263,7 +2263,7 @@ EN Heir to the Dragon name... NJ Ju
 @ 0448
 # fit 40 letters x 2 line(s)
 JP さあ、とくとご覧あれ！超四次元殺
-EN Behold! Super Fourth-Dimension Kill
+EN Behold the Super 4D Attack!
 
 @ 0449
 # fit 40 letters x 2 line(s)
@@ -2273,7 +2273,7 @@ EN Bull Power explodes!
 @ 0450
 # fit 40 letters x 2 line(s)
 JP オリジナルレスラー、新日本プロレ
-EN Original wrestler, New Japan Pro-Wrest
+EN An original wrestler joins NJPW!
 
 @ 0451
 # fit 16 letters x 1 line(s)
@@ -2293,22 +2293,22 @@ EN Voice of the NJPW Juniors
 @ 0454
 # fit 40 letters x 2 line(s)
 JP おのれの心、無我なり
-EN One's heart is Muga - selflessness
+EN My heart is Muga: selflessness
 
 @ 0455
 # fit 40 letters x 2 line(s)
 JP 新日本プロレス、最強外国人選手
-EN New Japan Pro-Wrestling Top Foreigner
+EN New Japan's Top Foreigner
 
 @ 0456
 # fit 40 letters x 2 line(s)
 JP 伝説の虎ふたたび…虎の王になって
-EN The legendary tiger returns... as King
+EN Legend returns as Tiger King!
 
 @ 0457
 # fit 40 letters x 2 line(s)
 JP 覇王の力が、罪を断つ！
-EN The Emperor's power cuts down sin!
+EN The Emperor's power cuts sin!
 
 @ 0458
 # fit 40 letters x 2 line(s)
@@ -2929,12 +2929,12 @@ EN Trunks
 @ 0581
 # fit 16 letters x 1 line(s)
 JP 左  肘
-EN Left Elbow
+EN L. Elbow
 
 @ 0582
 # fit 16 letters x 1 line(s)
 JP 右  肘
-EN Right Elbow
+EN R. Elbow
 
 @ 0583
 # fit 16 letters x 1 line(s)
@@ -3048,7 +3048,7 @@ EN Both in Ring
 @ 0605
 # fit 40 letters x 2 line(s)
 JP 相手が近い時・相手と向き合って
-EN Opponent Near, Facing Each Other
+EN Opp. Near, Facing Each Other
 
 @ 0606
 # fit 16 letters x 1 line(s)
@@ -3123,7 +3123,7 @@ EN Circle Around
 @ 0620
 # fit 40 letters x 2 line(s)
 JP 相手が近い時・相手の背後
-EN Opponent Near, Behind Opponent
+EN Opp. Near, Behind Opponent
 
 @ 0621
 # fit 16 letters x 1 line(s)
@@ -3593,22 +3593,22 @@ EN Victory Performance
 @ 0714
 # fit 40 letters x 2 line(s)
 JP 引起し投・前（仰向け下半身）
-EN Lift Throw - Front (Face Up, Lower)
+EN Front Lift (Face Up, Lower)
 
 @ 0715
 # fit 40 letters x 2 line(s)
 JP 引起し投・後（仰向け上半身）
-EN Lift Throw - Back (Face Up, Upper)
+EN Back Lift (Face Up, Upper)
 
 @ 0716
 # fit 40 letters x 2 line(s)
 JP 引起し投・前（うつ伏せ上半身）
-EN Lift Throw - Front (Face Down, Upper)
+EN Front Lift (Face Down, Upper)
 
 @ 0717
 # fit 40 letters x 2 line(s)
 JP 引起し投・後（うつ伏せ下半身）
-EN Lift Throw - Back (Face Down, Lower)
+EN Back Lift (Face Down, Lower)
 
 @ 0718
 # fit 16 letters x 1 line(s)

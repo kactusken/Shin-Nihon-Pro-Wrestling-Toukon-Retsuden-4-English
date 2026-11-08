@@ -206,6 +206,16 @@ def check_entry(e, terms):
 
 MOVE_NAMES_FROM = {'strings.txt': 1398, 'edit_strings.txt': 907}   # first block of the move/action names
 
+# Edit-mode lists drawn in fixed widths (seen headless on test8, play-test round 12): (first, last, letters, what)
+EDIT_LISTS = {
+    'strings.txt': [(203, 356, 24, 'a ring-call name (Alias list)'), (357, 468, 32, 'an entrance speech (Intro list)'),
+                    (596, 612, 10, 'a body part (Body Setup)'), (626, 674, 30, 'a Logic situation (before [Detail])'),
+                    (675, 747, 32, 'a Move Setup category')],
+    'edit_strings.txt': [(192, 345, 24, 'a ring-call name (Alias list)'), (346, 457, 32, 'an entrance speech (Intro list)'),
+                         (576, 592, 10, 'a body part (Body Setup)'), (604, 652, 30, 'a Logic situation (before [Detail])'),
+                         (653, 725, 32, 'a Move Setup category')],
+}
+
 
 def game_check(e):
     """This game's own checks on an entry (hook): a list of (severity, kind, message). When the
@@ -231,6 +241,10 @@ def game_check(e):
     first = MOVE_NAMES_FROM.get(Path(str(e.file)).name)
     if first is not None and str(e.key).isdigit() and int(e.key) >= first and '\n' not in e.english and len(e.english) > 32:
         out.append(('error', 'room', f'{len(e.english)} letters, a move name holds 32 (Edit move picker): {e.english!r}'))
+    if str(e.key).isdigit() and '\n' not in e.english:
+        for lo, hi, w, what in EDIT_LISTS.get(Path(str(e.file)).name, ()):
+            if lo <= int(e.key) <= hi and len(e.english) > w:
+                out.append(('error', 'room', f'{len(e.english)} letters, {what} holds {w}: {e.english!r}'))
     m = re.search(r'# field (\d+)', e.notes or '')
     if m and len(e.english) > int(m.group(1)):
         out.append(('error', 'room', f'{len(e.english)} letters, the fixed-width field holds {m.group(1)}: {e.english!r}'))

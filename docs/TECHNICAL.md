@@ -1733,6 +1733,11 @@ Japanese character = 2), and the cursor box is placed and sized for the Japanese
   0x8C0E2A28) minus 1, drawn at the name's x minus xoff. The original xoffs are 0, -20 ... -240, so each category
   sits 20 px further right than the one before (*from the code*, read at 0x8C09018A; one reference). Kept as in
   the original (owner, 2026-11-07); setting all xoffs to 0 would put every plate over the start of the name.
+- List widths (*seen headless*, test10, 2026-11-07, original and build compared,
+  `private/work/sweep/50-edit-lists.steps`): Profile > Intro speeches 32 letters (the original's longer Japanese
+  speeches are cut there too, and EDIT STRINGS holds them already cut to 16 characters); Alias names 24; Body Setup
+  part names 10; Move Setup categories 32 (the closing bracket moves right past that); Logic situations 30 (a space
+  before `[Detail]`). Lint checks each list by block range (`EDIT_LISTS` in tools/lint.py).
 
 ## Champion histories
 *From the code*, screens *seen headless* (2026-11-07, original and build). Twelve tables of fixed records in

@@ -219,16 +219,37 @@ def gradient_fill(w, h, stops):
 TELOP_STYLES = {
     'big': dict(stops=[(0, (255, 236, 200)), (0.45, (255, 160, 50)), (1, (190, 45, 10))], outline=(90, 15, 0, 255), stroke=7),
     'small': dict(stops=[(0, (255, 255, 255)), (1, (225, 225, 255))], outline=(10, 10, 210, 255), stroke=5),
+    # a heading over the top edge of a plaque (SPRITE_GAMEN.0.005): pink-grey metal, dark outline
+    'plaque': dict(stops=[(0, (240, 220, 220)), (0.5, (205, 170, 170)), (1, (150, 115, 135))], outline=(30, 12, 12, 255), stroke=5),
 }
 
 
-def render_box(img, box, text, style):
-    """Clear `box` of the atlas and draw `text` in a telop style (gradient fill, coloured outline) fitted to it."""
+def clear_over_plate(img, box):
+    """Clear a heading that overlaps the edge of a plate: each row of `box` takes what lies just outside it -
+    transparent where the row is empty there, else a blend of the pixels left and right of the box."""
     x0, y0, w, h = box
     px = img.load()
-    for y in range(y0, min(img.height, y0 + h + 2)):
-        for x in range(x0, min(img.width, x0 + w + 2)):
-            px[x, y] = (0, 0, 0, 0)
+    for y in range(y0, min(img.height, y0 + h)):
+        l, r = px[max(0, x0 - 1), y], px[min(img.width - 1, x0 + w), y]
+        for x in range(x0, min(img.width, x0 + w)):
+            if l[3] <= 40 or r[3] <= 40:
+                px[x, y] = (0, 0, 0, 0)
+            else:
+                f = (x - x0 + 1) / (w + 1)
+                px[x, y] = tuple(int(l[i] + (r[i] - l[i]) * f) for i in range(4))
+
+
+def render_box(img, box, text, style):
+    """Clear `box` of the atlas and draw `text` in a telop style (gradient fill, coloured outline) fitted to it.
+    Style 'plaque' keeps the plate under the box (clear_over_plate) instead of clearing it to transparency."""
+    x0, y0, w, h = box
+    px = img.load()
+    if style == 'plaque':
+        clear_over_plate(img, box)
+    else:
+        for y in range(y0, min(img.height, y0 + h + 2)):
+            for x in range(x0, min(img.width, x0 + w + 2)):
+                px[x, y] = (0, 0, 0, 0)
     st = TELOP_STYLES[style]
     cw, ch = w * 8, h * 8
     lines = text.split(' / ')
