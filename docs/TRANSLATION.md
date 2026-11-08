@@ -4,8 +4,9 @@
 
 | File | Holds | Checked by |
 |---|---|---|
-| `translation/script/*.txt` | *(story/dialogue)* | `tools/lint.py` |
-| `translation/text/*.txt`, `*.csv` | *(menus, names, ...)* | `tools/lint.py` |
+| `translation/text/*.txt` | `strings.txt`: MENU/STRINGS.PAC (menus, help lines, profiles, move names); `exe.txt`: strings in 1ST_READ.BIN; `edit_strings.txt`: EDIT/STRINGS.PAC (never loaded by the game) | `tools/lint.py` |
+| `translation/text/champions.csv` | names in the champion and tournament histories (tools/records.py) | `tools/lint.py` |
+| `translation/text/rooms.csv` | measured room for exe strings whose limit isn't their slot | `tools/lint.py` |
 | `translation/graphics.csv` | images with text | `tools/check.py` |
 
 ## File formats
@@ -15,14 +16,14 @@ kept. A file's header says what it holds and its limits (`# limit lines=3 chars=
 lint). Tables: original columns beside English ones (`japanese`/`english`, or `X`/`en_X`). See
 `tools/blocks.py` and `tools/textdb.py`.
 
-Control codes: *(list them here as they're found, e.g. `{name}` = player name)*.
+Control codes: none; printf codes (`%d`, `%s`) in the exe strings are kept in order.
 
 ## Style guide
 
-- Name order, romanization: *(decide)*
-- Quotes, ellipses, speaker labels, continuation-line indent: *(decide)*
-- Voice and register per character type: *(decide)*
-- Line and box limits: *(pixels / letters per screen)*
+- Name order, romanization: given name first, Hepburn without macrons (see Style decisions below).
+- The game has no story dialogue: help lines are imperative sentences in sentence case; labels in Title Case.
+- Line and box limits: a letter takes half a Japanese character cell, so a 20-character line holds
+  40 letters; each block's `# fit` line gives its limit, checked by lint. Move names: 32 letters at most.
 
 ## Glossary
 
@@ -32,13 +33,12 @@ established community names (existing English guides) over new coinages.
 
 ## Decisions
 
-| Decision | Who / why |
-|---|---|
-| | |
+See *Scope* and *Style decisions* below (owner decisions with their dates).
 
 ## What stays untranslated
 
-*(logos, stylized art, ... and why)*
+The title logo (owner's choice), the movies and staff credits (scope), and the arena signs and
+wrestler gear textures (owner, play-test round 9).
 
 ## Scope (decided 2026-11-06)
 - Translated: all text and menus, including text drawn as images.
