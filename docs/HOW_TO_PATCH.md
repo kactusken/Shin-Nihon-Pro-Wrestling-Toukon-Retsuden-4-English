@@ -39,9 +39,9 @@ patches as `.dcp` files for
 (UDP). UDP takes a GDI, a CUE/BIN or a CHD of the Japanese disc, so it also works if your disc is
 not the 3-file BIN/CUE. Unzip it; the patches are named like the xdelta ones:
 
-- `Shin Nihon Pro Wrestling - Toukon Retsuden 4 - English v1.0.dcp`
-- `Shin Nihon Pro Wrestling - Toukon Retsuden 4 - English v1.0 (All Unlocked).dcp`
-- `Shin Nihon Pro Wrestling - Toukon Retsuden 4 - Japanese v1.0 (All Unlocked).dcp`, the Japanese game with the extras
+- `Shin Nihon Pro Wrestling - Toukon Retsuden 4 (English).dcp`
+- `Shin Nihon Pro Wrestling - Toukon Retsuden 4 (English) (All Unlocked).dcp`
+- `Shin Nihon Pro Wrestling - Toukon Retsuden 4 (Japan) (All Unlocked).dcp`, the Japanese game with the extras
 
 1. Open Universal Dreamcast Patcher and go to the patching tab.
 2. **Source disc image:** your Japanese disc's `.cue` (or `.gdi`, `.chd`). UDP leaves the original alone.
