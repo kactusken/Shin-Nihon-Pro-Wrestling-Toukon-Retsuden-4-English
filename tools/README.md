@@ -65,6 +65,7 @@ Set up from the translation kit (version 33f4cf3). Tools marked *game* are stubs
 | [parts.py](parts.py) | bulk translation: `split` the untranslated text into part files for parallel translators, `check` a part (lint against the real limits), `status`, `merge` back (duplicates filled, blocks with errors skipped) |
 | [asciiscan.py](asciiscan.py) | finds names the game keeps as plain ASCII (a HUD table) and spells differently from the names CSV (`LYGER` for Liger); run it on the original and on every build |
 | [pagecheck.py](pagecheck.py) | reads guide pages as a player does: hedging ("not tested"), fact markers, author notes, template placeholders, empty brackets, bad `alt`, doubled headings; runs in `check.py` (`--allow-markers` or `private/guide.json` `{"fact_markers": true}` for an owner who wants markings) |
+| [guidedata.py](guidedata.py) | the guide's data block (docs/guide): roster, Wrestler Directory profiles, HP, Attack/Defense, critical combos and every move set, from the original's tables with the translation's English (`--check` runs in `check.py`) |
 | [pagedata.py](pagedata.py) | fills the JSON data block of a reference page in `docs/` (`--check`); a game's data tool calls `pagedata.write()` |
 | [vmu.py](vmu.py) | memory card images: list, extract and add files, set a VMS file's CRC |
 | [emu.py](emu.py) | headless Dreamcast (Flycast libretro core, off-screen OpenGL; the owner's BIOS optional - HLE without it): steps, screenshots, savestates, memory cards, live main RAM; the kit's `testing/drive.py` runs sweeps on it |

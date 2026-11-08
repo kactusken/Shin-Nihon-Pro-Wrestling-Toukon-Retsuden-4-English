@@ -30,7 +30,7 @@ CHECKS = [
     ('guide text', [PY, 'tools/pagecheck.py'], True),   # hedging, markers, author notes, placeholders in docs/**/index.html
     # ('layout', [PY, 'tools/storycheck.py'], False),
     # ('vwf hook', [PY, 'tools/test_vwf.py'], False),
-    # ('guide data', [PY, 'tools/guidedata.py', '--check'], False),   # a reference page's data block (pagedata.py)
+    ('guide data', [PY, 'tools/guidedata.py', '--check'], True),   # docs/guide's data block: roster, profiles, move sets
 ]
 
 
