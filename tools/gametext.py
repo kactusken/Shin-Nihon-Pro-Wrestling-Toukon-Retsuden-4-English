@@ -40,7 +40,7 @@ TABLES = {
     'menu': Table('/MENU/STRINGS.PAC', 'MENU/STRINGS.PAC', 'strings.txt', 3200, b'\n',
                   'menus, option names and descriptions, titles, wrestler profiles, move names'),
     'edit': Table('/EDIT/STRINGS.PAC', 'EDIT/STRINGS.PAC', 'edit_strings.txt', 2700, b'\\n',
-                  'the same menus as loaded in Edit mode, plus move and entrance names'),
+                  'an older copy of the menu table the game never loads (docs/HIDDEN_CONTENT.md)'),
 }
 
 

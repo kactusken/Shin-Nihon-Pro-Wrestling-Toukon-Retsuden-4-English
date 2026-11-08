@@ -48,11 +48,50 @@ CODE_PATCHES = [
     # ones half-width - one space inside the brackets keeps both columns under their headings and the cursor
     ('layout', '/1ST_READ.BIN', 0x8C0CFA48, b'%s   [%s]   [%s]\0\0\0\0', b'%s   [ %s]   [ %s]\0\0',
      'Edit parameter rows: values under Attack/Defense'),
+    # The lock test 0x8C06C9D2 (wrestler id in r5) returns 1 for the seven hidden wrestlers (ids 15-19,
+    # 31, 41) while their bit in the system save's unlock word is clear: return 0 at once. The save
+    # is not written (docs/HIDDEN_CONTENT.md, docs/PATCHES.md)
+    ('unlock-wrestlers', '/1ST_READ.BIN', 0x8C06C9D2, bytes.fromhex('2dd700e6'), bytes.fromhex('0b0000e0'),
+     'Hidden wrestlers: every wrestler selectable (rts; mov #0,r0)'),
+    # The Sapporo venue (arena BGM index 7) plays BGM entry 69, whose files are yokohamal/r.p04 (played nowhere
+    # else); the disc's own SAPPOROL/R.P04 are unused. Point entry 69's names at them and set its length field
+    # (samples = 2 x one file's bytes, as the other arena entries)
+    ('sapporo-music', '/1ST_READ.BIN', 0x8C0CDE18, b'yokohamal.p04\0\0\0', b'sapporol.p04\0\0\0\0',
+     'Sapporo venue music: BGM entry 69 left file'),
+    ('sapporo-music', '/1ST_READ.BIN', 0x8C0CDE28, b'yokohamar.p04\0\0\0', b'sapporor.p04\0\0\0\0',
+     'Sapporo venue music: BGM entry 69 right file'),
+    ('sapporo-music', '/1ST_READ.BIN', 0x8C0DB248, bytes.fromhex('804a6400'), bytes.fromhex('c09d5f00'),
+     'Sapporo venue music: length 6266304 samples'),
+    # Edit Theme 8: BGM entry 49 (edit8nl/r.p04, not on the disc) plays the unused EDIT7NL/R.P04; the Edit
+    # entrance-theme list offers 8 edit themes instead of 7 (0x8C08B894 add #7,r7); the list callbacks at
+    # 0x8C08B92E-0x8C08B965 are repacked to make room for theme_label (0x8C08B950: theme 49 -> MENU STRINGS
+    # 3141, which EDIT_THEME8_LABEL adds; others 469 + theme), also called by the settings row (0x8C08AC02).
+    # Source (tools/sh4.py asm at 0x8C08B92E, pool words of the original):
+    #   select:  sts.l pr,@-r15; mov.l @(P_SAVE),r3; mov.l @(P_C312),r2; mov.l @(48,r4),r5; jsr @r2; mov.l @r3,r4
+    #            mov.l @(P_THEME),r1; mov.w r0,@r1; lds.l @r15+,pr; rts; mov #0,r0
+    #   label:   sts.l pr,@-r15; mov.l @(P_C312),r2; mov.l @(P_SAVE),r3; jsr @r2; mov.l @r3,r4; lds.l @r15+,pr
+    #   theme_label: mov.l @(P_GETSTR),r3; mov.w @(P_1D5),r4; cmp/eq #49,r0; bf normal; mov.w @(x8),r4
+    #   normal:  jmp @r3; add r0,r4
+    #   x8: .word 3092; nop; nop; nop
+    #   P_SAVE 0x8C08B994, P_C312 0x8C08B9B4, P_THEME 0x8C08B9B8, P_GETSTR 0x8C08B9BC, P_1D5 0x8C08B990 (= 469)
+    ('edit-theme8', '/1ST_READ.BIN', 0x8C0CDB9C, b'8', b'7', 'Edit Theme 8: BGM entry 49 left = edit7nl.p04'),
+    ('edit-theme8', '/1ST_READ.BIN', 0x8C0CDBA8, b'8', b'7', 'Edit Theme 8: BGM entry 49 right = edit7nr.p04'),
+    ('edit-theme8', '/1ST_READ.BIN', 0x8C08B894, bytes.fromhex('0777'), bytes.fromhex('0877'),
+     'Edit Theme 8: theme list count +8 edit themes'),
+    ('edit-theme8', '/1ST_READ.BIN', 0x8C08B92E,
+     bytes.fromhex('224ffc7f436517d31fd2422f5c550b4232641dd10121047f264f0b0000e0224ffc7f18d210d3522f0b42326419940c34047f16d32b43264f'),
+     bytes.fromhex('224f18d320d24c550b4232641fd10121264f0b0000e0224f1bd212d30b423264264f1ad31d943188008b01942b430c34140c090009000900'),
+     'Edit Theme 8: theme list callbacks and theme_label'),
+    ('edit-theme8', '/1ST_READ.BIN', 0x8C0EF3E8, bytes.fromhex('4cb9088c'), bytes.fromhex('44b9088c'),
+     'Edit Theme 8: list vtable label callback'),
+    ('edit-theme8', '/1ST_READ.BIN', 0x8C08AC02, bytes.fromhex('5c93ed040b4c3c34'), bytes.fromhex('ed00a4b609000900'),
+     'Edit Theme 8: settings row label via theme_label'),
 ]
+EDIT_THEME8_LABEL = (3141, 'Edit Theme 8', 'エディットのテーマ８')  # MENU STRINGS entry (unused in the original), English, Japanese
 ALWAYS_GROUPS = {'layout'}              # in every translated build, not a choice (--unlocks ignores them): the English's own fixes
 UNLOCK_GROUPS = sorted({p[0] for p in CODE_PATCHES} - ALWAYS_GROUPS)
 PLAYER_GROUPS = [g for g in UNLOCK_GROUPS if not g.startswith('debug-')]
-DEFAULT_GROUPS = set(PLAYER_GROUPS)  # without --unlocks; set() when the extras ship as separate "(All Unlocked)" patches
+DEFAULT_GROUPS = set()  # without --unlocks; the extras are opt-in (owner decides how they ship)
 
 # --boot: (part, file, address, original, new) - patches that start the game in a given part.
 BOOT_PATCHES = {
@@ -198,6 +237,15 @@ def main(argv=None):
             codepatch.apply(files, nameentry.patches(lambda a, n: bytes(exe[to_offset(nameentry.FILE, a):][:n])),
                             {nameentry.GROUP}, to_offset)
         codepatch.apply(files, CODE_PATCHES, set(args.unlocks) | (set() if args.no_translation else ALWAYS_GROUPS), to_offset)
+        if 'edit-theme8' in args.unlocks:  # its label: a new MENU/STRINGS.PAC entry
+            i, en, jp = EDIT_THEME8_LABEL
+            t = gametext.TABLES['menu']
+            entries = gametext.read_strings(files.get(t.disc_path), t.size)
+            if entries[i] is not None:
+                sys.exit(f'edit-theme8: MENU/STRINGS.PAC entry {i} is in use - pick a free one (and the x8 word in CODE_PATCHES)')
+            entries[i] = jp.encode('cp932') if args.no_translation else en.encode('ascii')
+            files.put(t.disc_path, gametext.build_strings(entries))
+            print(f'edit-theme8: MENU/STRINGS.PAC entry {i} = {en if not args.no_translation else jp}')
 
         if not args.no_translation:
             images_step(files)

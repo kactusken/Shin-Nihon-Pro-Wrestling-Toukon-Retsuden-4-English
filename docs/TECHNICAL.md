@@ -1673,7 +1673,8 @@ Dreamcast GD-ROM, Tomy, product T-28202M, V1.006, released 1999-09-02 in Japan o
 - `MENU/STRINGS.PAC` and `EDIT/STRINGS.PAC` (*verified*): `1`, `8`, then a plain table (3200 / 2700 entries) and the
   string pool; entries are Shift-JIS, NUL-terminated, read by index. Menu table: a real `0x0A` between lines; Edit
   table: the two characters `\n`. 3141 / 2559 used entries. `tools/gametext.py` reads, dumps and rebuilds them (byte
-  identical round trip). The Edit table is the same menus as loaded in Edit mode plus ~540 further names.
+  identical round trip). The game loads only `MENU/STRINGS.PAC`, also in Edit mode (*seen headless*, 2026-11-07);
+  `EDIT/STRINGS.PAC` is an older, unused version of it (translated anyway; [HIDDEN_CONTENT.md](HIDDEN_CONTENT.md)).
 - Executable strings: `translation/text/exe.txt`, written in place; a string that outgrows its slot makes the run of
   neighbouring pointed-to strings repack (pointers rewritten); a fixed record string must fit. `gametext.py exe_step`.
 - Not text: `IDSTR_*` ids and a few garbage hits (`0C38A4`, `0C4928`, ...) stay without English.

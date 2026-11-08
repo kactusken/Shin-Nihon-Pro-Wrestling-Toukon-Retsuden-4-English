@@ -34,7 +34,9 @@ import paths  # noqa: E402
 # (output name, build.py options, description for the README)
 VARIANTS = [
     (f'{paths.GAME_FILE} (English)', ['--unlocks', 'none'], 'The English translation.'),
-    # (f'{paths.GAME_FILE} (English) (All Unlocked)', ['--unlocks', 'all'], 'The English translation with every unlock.'),
+    (f'{paths.GAME_FILE} (English) (All Unlocked)', ['--unlocks', 'unlock-wrestlers,sapporo-music,edit-theme8'],
+     'The English translation with the seven hidden wrestlers selectable from the start (nothing is saved to the memory card), '
+     'the Sapporo venue\'s own unused music and an eighth Edit entrance theme from an unused tune.'),
     # (f'{paths.GAME_FILE} (Japan) (All Unlocked)', ['--no-translation', '--unlocks', 'all'], 'The original game with every unlock.'),
     # An extra released as its own patch (its group isn't debug-*, which is refused below):
     # (f'{paths.GAME_FILE} (English) (Debug Menu)', ['--unlocks', 'dev-menu'], 'The English translation with the developers\' debug menu restored.'),

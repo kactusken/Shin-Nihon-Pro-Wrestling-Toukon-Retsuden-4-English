@@ -59,3 +59,6 @@ established community names (existing English guides) over new coinages.
 - Owner, round 3 (2026-11-07): 結果 button = Skip (the game picks the winner); banners IWGP Heavyweight / IWGP Jr.
   Heavyweight on one line. Approved after play-test: Points/Survival team positions 先鋒..大将 = 1st..5th; team heading A組 = "A"
   (the field holds 4 bytes); league tag suffix 組 left blank (2-letter field); 初代 = "No. 1" like the other reigns; team names use "&".
+- Owner (2026-11-07): the hidden wrestlers stay locked in the main patch; a separate "(English) (All Unlocked)" patch
+  (`unlock-wrestlers`, docs/PATCHES.md) makes them selectable from the start, with the two music restores
+  (`sapporo-music`, `edit-theme8`). Making the preset-only moves pickable in Edit: not done (owner, 2026-11-07).
